@@ -1,11 +1,22 @@
 import React from 'react';
+import { useEffect, useState } from 'react';
 import styles from './ListMap.module.css';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import ResCard from '../ResCard/ResCard';
+import axios from 'axios';
 
 const ListMap = () => {
   // including mapRef codes to avoid Uncaught Error: Map container is already initialized;  using a ref to store the map instance to ensure that the map is only initialized once and properly cleaned up if the component is unmounted
+  const [restaurantLists, setRestaurantLists] = useState('');
+
+  useEffect(() => {
+    axios
+      .get('/api/restaurants')
+      .then((res) => setRestaurantLists(res.data))
+      .catch((err) => console.log(err));
+  }, []);
+
   const mapRef = React.useRef(null);
 
   React.useEffect(() => {

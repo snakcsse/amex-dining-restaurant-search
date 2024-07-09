@@ -11,6 +11,19 @@ process.on('uncaughtException', (err) => {
 
 dotenv.config({ path: './config.env' });
 
+//Connect to MongoDB using mongoose (need to run npm i mongoose)
+const DB = process.env.DATABASE.replace('<password>', process.env.DATABASE_PASSWORD);
+
+mongoose
+  .connect(DB, {
+    useNewUrlParser: true,
+    // useCreateIndex: true,
+    // useFindAndModify: false,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log('Connected to MongoDB'))
+  .catch((err) => console.log(err));
+
 // START SERVER
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {

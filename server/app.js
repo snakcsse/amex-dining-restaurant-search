@@ -5,6 +5,8 @@ const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const cookieParser = require('cookie-parser');
 
+const viewRouter = require('./routes/viewRoutes');
+
 const app = express();
 
 // app.enable('trust proxy')
@@ -52,5 +54,7 @@ app.use((req, res, next) => {
 
 // ------------------ 2) API ROUTES ------------------
 // app.use('/api/v1/restaurants', restaurantRouter);
+
+app.use('/', viewRouter);
 
 module.exports = app;

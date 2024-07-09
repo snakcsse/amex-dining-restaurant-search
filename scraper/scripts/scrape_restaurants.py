@@ -52,8 +52,8 @@ def scrape_restaurants_links_name_type_area(page_link):
         attribute_mapping = {
             "name": ("a", lambda x: x.text.strip() if x else None), #.strip remove leadning and trailing whitespaces
             "area": ("div.restaurantlist-area", lambda x: remove_bracket(x.text.strip()) if x else None ), 
-            "cuisine-type": ("span", lambda x: remove_bracket(x.text.strip()) if x else None),
-            "restaurant_detail_page": ("a", lambda x: (HOST_URL + x.get('href')) if x else None) #the extracted url only contains the relative url without the host, so here concatenate the host
+            "cusineType": ("span", lambda x: remove_bracket(x.text.strip()) if x else None),
+            "resPage": ("a", lambda x: (HOST_URL + x.get('href')) if x else None) #the extracted url only contains the relative url without the host, so here concatenate the host
         }
 
         #loop through extracted section of each restaurant in the specific page and 
@@ -82,7 +82,7 @@ def scrape_restaurants_details():
 
         attribute_mapping = {
             "address": ('div.restaurant-detailtable-data', lambda x: re.sub(r'\r[\s\S]*', '', x.text.strip()) if x else None), #use Regex to replace address content since the address is like '北海道札幌市中央区南2条西1 アスカビル2F\r\n\r\n\r\n\nGoogle Mapsで開く »' #\S matches any non-whitespace character (everything except spaces, tabs, newlines, etc.), \s matches any whitespaces (if use . in [], it will literally match a dot)
-            "google-map-link": ('div.restaurant-detailtable-maplink a', lambda x: x.get('href') if x else None)
+            "googleMapPage": ('div.restaurant-detailtable-maplink a', lambda x: x.get('href') if x else None)
         }
 
         if soup:
