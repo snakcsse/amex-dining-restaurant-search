@@ -10,7 +10,7 @@ const restaurantSchema = new mongoose.Schema({
     trim: true,
   },
   area: String,
-  cusineType: String,
+  cuisineType: String,
   resPage: String,
   address: String,
   googleMapPage: String,

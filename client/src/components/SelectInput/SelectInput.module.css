@@ -1,0 +1,9 @@
+.dropDownOptions {
+  max-height: 100px;
+  overflow-y: auto;
+  font-size: 0.875rem;
+}
+
+.dropdownLabel {
+  cursor: pointer;
+}

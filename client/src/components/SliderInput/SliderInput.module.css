@@ -1,0 +1,39 @@
+.dropdownLabel {
+  cursor: pointer;
+}
+
+.slider {
+  width: 80%;
+  height: 5px;
+  margin-top: 5px;
+}
+
+.track {
+  top: 0;
+  bottom: 0;
+  height: 5px;
+  background: #cdd3ed;
+}
+
+.thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #275efe;
+  top: -5px;
+}
+
+.thumb:active,
+.thumb:focus {
+  outline: none;
+}
+
+.rangeValues {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  font-size: 0.7rem;
+}

@@ -1,6 +1,16 @@
 .container {
   max-width: 900px;
   margin: 50px auto 20px auto;
+  /* display: flex;
+  justify-content: space-around; */
+  box-shadow: 0 2px 4px rgba(222, 221, 221, 0.943);
+  border: 1px solid rgb(246, 246, 246);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* overflow: hidden; */
+  /* height: 50px; */
+  /* gap: 20px; */
+  /* padding: 0 0.5rem 0 0.5rem; */
 }
 
 .searchBar {

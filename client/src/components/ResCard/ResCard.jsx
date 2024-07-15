@@ -1,16 +1,25 @@
 import React from 'react';
 import styles from './ResCard.module.css';
 
-const ResCard = () => {
+const ResCard = (props) => {
   return (
-    <div className={styles.card}>
-      <img src="../../public/img/yakiniku-test.jpg" className={styles.image}></img>
+    <div className={styles.card} id={`resCard-${props.restaurant._id}`}>
+      <img
+        src={`http://localhost:3000/${props.restaurant.googlePhoto}`}
+        className={styles.image}
+        alt={props.restaurant.name}
+      ></img>
       <div className={styles.description}>
-        <h2>Yakiniku-ten</h2>
-        <div>Google rating: ★★★★</div>
-        <div>Google comments: 400</div>
-        <div>Yelp rating: ★★★★</div>
-        <div>Yelp rating: 30</div>
+        <h3>
+          <a href={props.restaurant.resPage} target="_blank">
+            {/* {props.restaurant.name} {props.restaurant.cuisineType} */}
+            {props.restaurant.name}{' '}
+            <span className={styles.smallText}>[{props.restaurant.cuisineType}]</span>
+          </a>
+        </h3>
+        <div>Area: {props.restaurant.area}</div>
+        <div>Google rating: {props.restaurant.googleRating}</div>
+        <div>Google comments: {props.restaurant.googleUserRatingCount}</div>
       </div>
     </div>
   );

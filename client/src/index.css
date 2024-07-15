@@ -29,3 +29,13 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

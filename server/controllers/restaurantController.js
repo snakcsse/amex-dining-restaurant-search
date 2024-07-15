@@ -6,7 +6,7 @@ exports.getAllRestaurants = async (req, res, next) => {
     res.status(200).json({
       status: 'success',
       data: {
-        restaurants,
+        restaurants, // here means restaurants: restaurants
       },
     });
   } catch (err) {

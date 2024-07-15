@@ -1,3 +1,7 @@
+:root {
+  --font-size-small: 0.875rem;
+}
+
 .card {
   background-color: white;
   display: flex;
@@ -17,4 +21,12 @@
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+}
+
+.smallText {
+  font-size: var(--font-size-small);
+}
+
+a {
+  text-decoration: none;
 }

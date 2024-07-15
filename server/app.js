@@ -1,25 +1,29 @@
 const express = require('express');
+const cors = require('cors');
 const morgan = require('morgan');
+const path = require('path');
 const rateLimit = require('express-rate-limit');
 const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const cookieParser = require('cookie-parser');
 
-const viewRouter = require('./routes/viewRoutes');
+const restaurantRouter = require('./routes/restaurantRoutes');
 
 const app = express();
 
 // app.enable('trust proxy')
 
 // --------- 1) GLOBAL MIDDLEWARES -----------
+app.use(cors());
 // app.use(cors(), {
 //   origin: 'https://www.xxx.com',
 // });
 
-// app.options('*',cors())
+app.options('*', cors());
 // need express.static?
 // need to define view if using React?
 // helmet
+app.use(express.static(path.join(__dirname, 'dev-data/img')));
 
 // Development logging
 if (process.env.NODE_ENV === 'development') {
@@ -28,7 +32,8 @@ if (process.env.NODE_ENV === 'development') {
 
 // Limit #requests from a single IP address
 const limiter = rateLimit({
-  max: 100,
+  // max: 100, //TODO revert back to this
+  max: 10000,
   windowMs: 60 * 60 * 1000,
   message: 'Too many requests from this IP, please try again in an hour',
 });
@@ -53,8 +58,8 @@ app.use((req, res, next) => {
 });
 
 // ------------------ 2) API ROUTES ------------------
-// app.use('/api/v1/restaurants', restaurantRouter);
+app.use('/api/v1/restaurants', restaurantRouter);
 
-app.use('/', viewRouter);
+// app.use('/', viewRouter);
 
 module.exports = app;
