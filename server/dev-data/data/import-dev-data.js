@@ -21,7 +21,7 @@ mongoose
 // READ FILE
 // this script is run separately so use synchronous code
 // data should be structured as an array of objects (dictionaries in Python terms), and each obj represents a doc that aligns with the Mongoose schema (Each object's keys should match the fields defined in your Mongoose schema)
-const restaurants = JSON.parse(fs.readFileSync('./restaurants-with-google-results.json', 'utf8'));
+const restaurants = JSON.parse(fs.readFileSync('./final_restaurants.json', 'utf8'));
 // const restaurants = JSON.parse(fs.readFileSync('../scraper/data/restaurants.json', 'utf8'));
 
 // IMPORT DATA into DB

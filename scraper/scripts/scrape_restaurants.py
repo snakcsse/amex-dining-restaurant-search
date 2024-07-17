@@ -63,7 +63,7 @@ def scrape_restaurants_links_name_type_area(page_link):
         attribute_mapping = {
             "name": ("a", lambda x: x.text.strip() if x else None), #.strip remove leadning and trailing whitespaces
             "area": ("div.restaurantlist-area", lambda x: remove_bracket(x.text.strip()) if x else None ), 
-            "cusineType": ("span", lambda x: remove_bracket(x.text.strip()) if x else None),
+            "cuisineType": ("span", lambda x: remove_bracket(x.text.strip()) if x else None),
             "resPage": ("a", lambda x: (HOST_URL + x.get('href')) if x else None) #the extracted url only contains the relative url without the host, so here concatenate the host
         }
 

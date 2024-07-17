@@ -1,25 +1,28 @@
 import React from 'react';
 import styles from './ResCard.module.css';
 
-const ResCard = (props) => {
+const ResCard = ({ restaurant }) => {
   return (
-    <div className={styles.card} id={`resCard-${props.restaurant._id}`}>
+    <div className={styles.card} id={`resCard-${restaurant._id}`}>
       <img
-        src={`http://localhost:3000/${props.restaurant.googlePhoto}`}
+        src={`http://localhost:3000/${restaurant.googlePhoto}`}
         className={styles.image}
-        alt={props.restaurant.name}
+        alt={restaurant.name}
       ></img>
       <div className={styles.description}>
         <h3>
-          <a href={props.restaurant.resPage} target="_blank">
-            {/* {props.restaurant.name} {props.restaurant.cuisineType} */}
-            {props.restaurant.name}{' '}
-            <span className={styles.smallText}>[{props.restaurant.cuisineType}]</span>
+          <a href={restaurant.resPage} target="_blank">
+            {/* {restaurant.name} {restaurant.cuisineType} */}
+            {restaurant.name} <span className={styles.smallText}>[{restaurant.cuisineType}]</span>
           </a>
         </h3>
-        <div>Area: {props.restaurant.area}</div>
-        <div>Google rating: {props.restaurant.googleRating}</div>
-        <div>Google comments: {props.restaurant.googleUserRatingCount}</div>
+        <h6>{restaurant.access}</h6>
+        <br></br>
+        <h6>{restaurant.catchCopy}</h6>
+        <h6>Area: {restaurant.area}</h6>
+        <div>
+          Google review: {restaurant.googleRating} || 💬 {restaurant.googleUserRatingCount}人
+        </div>
       </div>
     </div>
   );

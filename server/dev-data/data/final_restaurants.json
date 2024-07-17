@@ -2,7 +2,7 @@
   {
     "name": "RISTORANTE CANOFILO（カノフィーロ）",
     "area": "札幌",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1",
     "address": "北海道札幌市中央区南2条西1 アスカビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=43.058264000000,141.356890000000",
@@ -14,10 +14,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.058264,
-        141.35689
-      ]
+      "coordinates": [43.058264, 141.35689]
     },
     "googlePhoto": "photo-0.jpg",
     "googleRating": 4.6,
@@ -28,7 +25,7 @@
   {
     "name": "アンティカ・オステリア・デル・ポンテ",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/12",
     "address": "東京都千代田区丸の内2-4-1 丸の内ビルディング 36F",
     "googleMapPage": "https://maps.google.com/maps?q=35.681106000000,139.764109000000",
@@ -40,10 +37,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.681106,
-        139.764109
-      ]
+      "coordinates": [35.681106, 139.764109]
     },
     "googlePhoto": "photo-1.jpg",
     "googleRating": 4.3,
@@ -54,7 +48,7 @@
   {
     "name": "重慶飯店 麻布賓館（ジュウケイハンテン アザブヒンカン）",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/32",
     "address": "東京都港区西麻布3-2-34 西麻布ヒルズ1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.659466510000,139.726759420000",
@@ -66,10 +60,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.65946651,
-        139.72675942
-      ]
+      "coordinates": [35.65946651, 139.72675942]
     },
     "googlePhoto": "photo-2.jpg",
     "googleRating": 4.2,
@@ -80,7 +71,7 @@
   {
     "name": "ラ・ロシェル福岡",
     "area": "赤坂",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/56",
     "address": "福岡県福岡市中央区大手門1-1-5",
     "googleMapPage": "https://maps.google.com/maps?q=33.588871090000,130.386541330000",
@@ -92,10 +83,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.58887109,
-        130.38654133
-      ]
+      "coordinates": [33.58887109, 130.38654133]
     },
     "googlePhoto": "photo-3.jpg",
     "googleRating": 4.4,
@@ -106,7 +94,7 @@
   {
     "name": "桜坂 観山荘（さくらざか かんざんそう）",
     "area": "桜坂",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/57",
     "address": "福岡県福岡市中央区谷1-3-20",
     "googleMapPage": "https://maps.google.com/maps?q=33.574872620000,130.385183360000",
@@ -118,10 +106,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.57487262,
-        130.38518336
-      ]
+      "coordinates": [33.57487262, 130.38518336]
     },
     "googlePhoto": "photo-4.jpg",
     "googleRating": 4.3,
@@ -132,7 +117,7 @@
   {
     "name": "鉄板焼 蘭麻（らんま）",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/69",
     "address": "東京都港区東麻布1-18-5",
     "googleMapPage": "https://maps.google.com/maps?q=35.655889510000,139.742833120000",
@@ -144,10 +129,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.65588951,
-        139.74283312
-      ]
+      "coordinates": [35.65588951, 139.74283312]
     },
     "googlePhoto": "photo-5.jpg",
     "googleRating": 4.3,
@@ -158,7 +140,7 @@
   {
     "name": "青山エリュシオンハウス",
     "area": "表参道・渋谷周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/70",
     "address": "東京都港区赤坂8-2-10",
     "googleMapPage": "https://maps.google.com/maps?q=35.672188000000,139.728251000000",
@@ -170,10 +152,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.672188,
-        139.728251
-      ]
+      "coordinates": [35.672188, 139.728251]
     },
     "googlePhoto": "photo-6.jpg",
     "googleRating": 4.2,
@@ -184,7 +163,7 @@
   {
     "name": "美麗華（ミラマー）",
     "area": "北浜",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/84",
     "address": "大阪府大阪市中央区高麗橋1-7-3 The Kitahama PLAZA 2F",
     "googleMapPage": "https://maps.google.com/maps?q=34.689246230000,135.506856610000",
@@ -196,10 +175,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.68924623,
-        135.50685661
-      ]
+      "coordinates": [34.68924623, 135.50685661]
     },
     "googlePhoto": "photo-7.jpg",
     "googleRating": 3.8,
@@ -210,7 +186,7 @@
   {
     "name": "游來（ユキ）",
     "area": "西中洲",
-    "cusineType": "ワイン＆肉料理",
+    "cuisineType": "ワイン＆肉料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/86",
     "address": "福岡県福岡市中央区西中洲5-6",
     "googleMapPage": "https://maps.google.com/maps?q=33.591063000000,130.405348000000",
@@ -222,10 +198,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.591063,
-        130.405348
-      ]
+      "coordinates": [33.591063, 130.405348]
     },
     "googlePhoto": "photo-8.jpg",
     "googleRating": 4.1,
@@ -236,7 +209,7 @@
   {
     "name": "エグリーズ ドゥ 葉山庵",
     "area": "埼玉",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/103",
     "address": "埼玉県さいたま市大宮区堀の内町3-262 \nセントパルク教会",
     "googleMapPage": "https://maps.google.com/maps?q=35.914975000000,139.636270000000",
@@ -248,10 +221,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.914975,
-        139.63627
-      ]
+      "coordinates": [35.914975, 139.63627]
     },
     "googlePhoto": "photo-9.jpg",
     "googleRating": 4.3,
@@ -262,7 +232,7 @@
   {
     "name": "あわびの源太",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "あわび専門店",
+    "cuisineType": "あわび専門店",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/114",
     "address": "東京都港区西麻布4-11-28 麻布エンパイアマンション1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.659342000000,139.722484000000",
@@ -274,10 +244,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.659342,
-        139.722484
-      ]
+      "coordinates": [35.659342, 139.722484]
     },
     "googlePhoto": "photo-10.jpg",
     "googleRating": 4,
@@ -288,7 +255,7 @@
   {
     "name": "廣東飯店（カントンハンテン）",
     "area": "横浜中華街",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/133",
     "address": "神奈川県横浜市中区山下町144",
     "googleMapPage": "https://maps.google.com/maps?q=35.443013060000,139.644694410000",
@@ -300,10 +267,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.44301306,
-        139.64469441
-      ]
+      "coordinates": [35.44301306, 139.64469441]
     },
     "googlePhoto": "photo-11.jpg",
     "googleRating": 3.7,
@@ -314,7 +278,7 @@
   {
     "name": "レストラン ロワール",
     "area": "栄・錦・矢場町・新栄周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/136",
     "address": "愛知県名古屋市中区栄4-6-8 名古屋東急ホテル2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.168572860000,136.913647450000",
@@ -326,10 +290,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.16857286,
-        136.91364745
-      ]
+      "coordinates": [35.16857286, 136.91364745]
     },
     "googlePhoto": "photo-12.jpg",
     "googleRating": 3.8,
@@ -340,7 +301,7 @@
   {
     "name": "リストランテ カーサビアンカ",
     "area": "今出川",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/148",
     "address": "京都府京都市上京区今出川通寺町西入大原口町214",
     "googleMapPage": "https://maps.google.com/maps?q=35.028863000000,135.767216000000",
@@ -352,10 +313,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.028863,
-        135.767216
-      ]
+      "coordinates": [35.028863, 135.767216]
     },
     "googlePhoto": "photo-13.jpg",
     "googleRating": 4.3,
@@ -366,7 +324,7 @@
   {
     "name": "網焼ビフテキ 小松屋",
     "area": "北新地",
-    "cusineType": "ステーキビフテキ)",
+    "cuisineType": "ステーキビフテキ)",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/151",
     "address": "大阪府大阪市北区曽根崎新地1-11-20 \n北新地ハットボーイビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.697975520000,135.499084770000",
@@ -378,10 +336,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.69797552,
-        135.49908477
-      ]
+      "coordinates": [34.69797552, 135.49908477]
     },
     "googlePhoto": "photo-14.jpg",
     "googleRating": 3.8,
@@ -392,7 +347,7 @@
   {
     "name": "鉄板焼き＆Restaurant Bar caro",
     "area": "北新地",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/152",
     "address": "大阪府大阪市北区曽根崎新地1-3-32",
     "googleMapPage": "https://maps.google.com/maps?q=34.697572000000,135.497173000000",
@@ -404,10 +359,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.697572,
-        135.497173
-      ]
+      "coordinates": [34.697572, 135.497173]
     },
     "googlePhoto": "photo-15.jpg",
     "googleRating": 3.9,
@@ -418,7 +370,7 @@
   {
     "name": "Steak house Medium Rare（ウィズ・ザ・スタイル・フクオカ内）",
     "area": "博多",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/167",
     "address": "福岡県福岡市博多区博多駅南1-9-18 \nWITH THE STYLE FUKUOKA内",
     "googleMapPage": "https://maps.google.com/maps?q=33.585127000000,130.421825000000",
@@ -430,10 +382,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.585127,
-        130.421825
-      ]
+      "coordinates": [33.585127, 130.421825]
     },
     "googlePhoto": "photo-16.jpg",
     "googleRating": 4.5,
@@ -444,7 +393,7 @@
   {
     "name": "酒肴菜友 じょっぱり",
     "area": "函館",
-    "cusineType": "郷土料理",
+    "cuisineType": "郷土料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/185",
     "address": "北海道函館市杉並町20-1",
     "googleMapPage": "https://maps.google.com/maps?q=41.789085000000,140.757293000000",
@@ -456,10 +405,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        41.789085,
-        140.757293
-      ]
+      "coordinates": [41.789085, 140.757293]
     },
     "googlePhoto": "photo-17.jpg",
     "googleRating": 4.4,
@@ -470,7 +416,7 @@
   {
     "name": "広東名菜・香港飲茶 菜香樓（カントンメイサイ・ホンコンヤムチャ サイコウロウ）新館",
     "area": "金沢",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/223",
     "address": "石川県金沢市駅西新町2-8-15",
     "googleMapPage": "https://maps.google.com/maps?q=36.593914540000,136.640748870000",
@@ -482,10 +428,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        36.59391454,
-        136.64074887
-      ]
+      "coordinates": [36.59391454, 136.64074887]
     },
     "googlePhoto": "photo-18.jpg",
     "googleRating": 4.3,
@@ -496,7 +439,7 @@
   {
     "name": "暖心（だんしん）",
     "area": "北新地",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/240",
     "address": "大阪府大阪市北区堂島1-4-26 玉家ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696147950000,135.498059900000",
@@ -508,10 +451,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.69614795,
-        135.4980599
-      ]
+      "coordinates": [34.69614795, 135.4980599]
     },
     "googlePhoto": "photo-19.jpg",
     "googleRating": 4.1,
@@ -522,7 +462,7 @@
   {
     "name": "鮨 美寿思（みすじ）",
     "area": "新橋・赤坂周辺",
-    "cusineType": "寿司",
+    "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/242",
     "address": "東京都港区東新橋1-8-1 カレッタ汐留46F",
     "googleMapPage": "https://maps.google.com/maps?q=35.664358530000,139.762117290000",
@@ -534,10 +474,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.66435853,
-        139.76211729
-      ]
+      "coordinates": [35.66435853, 139.76211729]
     },
     "googlePhoto": "photo-20.jpg",
     "googleRating": 4,
@@ -548,7 +485,7 @@
   {
     "name": "BAR CAVALLO（バーカヴァロ）",
     "area": "薬院",
-    "cusineType": "オーセンティックバー",
+    "cuisineType": "オーセンティックバー",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/244",
     "address": "福岡県福岡市中央区薬院2-1-8 リアン薬院ビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=33.580906000000,130.396852000000",
@@ -560,10 +497,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.580906,
-        130.396852
-      ]
+      "coordinates": [33.580906, 130.396852]
     },
     "googlePhoto": "photo-21.jpg",
     "googleRating": 4.1,
@@ -574,7 +508,7 @@
   {
     "name": "ル・ジャンティオム",
     "area": "札幌",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/245",
     "address": "北海道札幌市中央区南4条西8-2-1-3",
     "googleMapPage": "https://maps.google.com/maps?q=43.054374000000,141.346516000000",
@@ -586,10 +520,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.054374,
-        141.346516
-      ]
+      "coordinates": [43.054374, 141.346516]
     },
     "googlePhoto": "photo-22.jpg",
     "googleRating": 4.5,
@@ -600,7 +531,7 @@
   {
     "name": "アルモニーアンブラッセ大阪RAYON（レヨン）",
     "area": "梅田",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/247",
     "address": "大阪府大阪市北区茶屋町7-20",
     "googleMapPage": "https://maps.google.com/maps?q=34.707426040000,135.500146910000",
@@ -612,10 +543,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.70742604,
-        135.50014691
-      ]
+      "coordinates": [34.70742604, 135.50014691]
     },
     "googlePhoto": "photo-23.jpg",
     "googleRating": 4.1,
@@ -626,7 +554,7 @@
   {
     "name": "てんぷら 膳",
     "area": "札幌",
-    "cusineType": "天ぷら",
+    "cuisineType": "天ぷら",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/257",
     "address": "北海道札幌市中央区南4条西3 第32桂和ビル4F",
     "googleMapPage": "https://maps.google.com/maps?q=43.055148000000,141.354310000000",
@@ -638,10 +566,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.055148,
-        141.35431
-      ]
+      "coordinates": [43.055148, 141.35431]
     },
     "googlePhoto": "photo-24.jpg",
     "googleRating": 4.3,
@@ -652,7 +577,7 @@
   {
     "name": "aki nagao",
     "area": "札幌",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/258",
     "address": "北海道札幌市中央区南3条西3-3 \nG DINING SAPPORO 1F",
     "googleMapPage": "https://maps.google.com/maps?q=43.056377000000,141.354367000000",
@@ -664,10 +589,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.056377,
-        141.354367
-      ]
+      "coordinates": [43.056377, 141.354367]
     },
     "googlePhoto": "photo-25.jpg",
     "googleRating": 4.5,
@@ -678,7 +600,7 @@
   {
     "name": "きょうど料理亭 杉ノ目",
     "area": "札幌",
-    "cusineType": "郷土料理",
+    "cuisineType": "郷土料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/263",
     "address": "北海道札幌市中央区南5条西5",
     "googleMapPage": "https://maps.google.com/maps?q=43.054000000000,141.351768000000",
@@ -690,10 +612,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.054,
-        141.351768
-      ]
+      "coordinates": [43.054, 141.351768]
     },
     "googlePhoto": "photo-26.jpg",
     "googleRating": 4.3,
@@ -704,7 +623,7 @@
   {
     "name": "味処 まつ田",
     "area": "札幌",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/273",
     "address": "北海道札幌市中央区南5条西5 モモヤビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=43.054321000000,141.351803000000",
@@ -716,10 +635,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.054321,
-        141.351803
-      ]
+      "coordinates": [43.054321, 141.351803]
     },
     "googlePhoto": "photo-27.jpg",
     "googleRating": 4.5,
@@ -730,7 +646,7 @@
   {
     "name": "花郷（はなさと） 六本木店",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "京料理・鉄板焼",
+    "cuisineType": "京料理・鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/282",
     "address": "東京都港区六本木4-2-35 VORT六本木 Dual's 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.664721000000,139.733555000000",
@@ -742,10 +658,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.664721,
-        139.733555
-      ]
+      "coordinates": [35.664721, 139.733555]
     },
     "googlePhoto": "photo-28.jpg",
     "googleRating": 4.2,
@@ -756,7 +669,7 @@
   {
     "name": "ラ・ロシェル南青山",
     "area": "表参道・渋谷周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/283",
     "address": "東京都港区南青山3-14-23",
     "googleMapPage": "https://maps.google.com/maps?q=35.665215640000,139.714510290000",
@@ -768,10 +681,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.66521564,
-        139.71451029
-      ]
+      "coordinates": [35.66521564, 139.71451029]
     },
     "googlePhoto": "photo-29.jpg",
     "googleRating": 4.5,
@@ -782,7 +692,7 @@
   {
     "name": "和田",
     "area": "札幌",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/290",
     "address": "北海道札幌市中央区北1条西27-1-7",
     "googleMapPage": "https://maps.google.com/maps?q=43.056798000000,141.316402000000",
@@ -794,10 +704,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.056798,
-        141.316402
-      ]
+      "coordinates": [43.056798, 141.316402]
     },
     "googlePhoto": "photo-30.jpg",
     "googleRating": 4.5,
@@ -808,7 +715,7 @@
   {
     "name": "vrai de vrai CHEZ HIRO（ヴレ ド ヴレ シェ ヒロ）",
     "area": "四ツ橋",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/297",
     "address": "大阪府大阪市西区新町1-24-8 \nマッセノース四ツ橋ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.676115000000,135.495438000000",
@@ -820,10 +727,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.676115,
-        135.495438
-      ]
+      "coordinates": [34.676115, 135.495438]
     },
     "googlePhoto": "photo-31.jpg",
     "googleRating": 4,
@@ -834,7 +738,7 @@
   {
     "name": "レストラン花の館パラディ北野",
     "area": "北野",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/298",
     "address": "兵庫県神戸市中央区北野町2-16-8",
     "googleMapPage": "https://maps.google.com/maps?q=34.701628390000,135.191283270000",
@@ -846,10 +750,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.70162839,
-        135.19128327
-      ]
+      "coordinates": [34.70162839, 135.19128327]
     },
     "googlePhoto": "photo-32.jpg",
     "googleRating": 4.1,
@@ -860,7 +761,7 @@
   {
     "name": "l'Odorante par MinoruNakijin（ロドラント・ミノルナキジン）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/301",
     "address": "東京都中央区銀座7-7-19 ニューセンタービルB1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.669663000000,139.762296000000",
@@ -872,10 +773,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.669663,
-        139.762296
-      ]
+      "coordinates": [35.669663, 139.762296]
     },
     "googlePhoto": "photo-33.jpg",
     "googleRating": 4.1,
@@ -886,7 +784,7 @@
   {
     "name": "リストランテ オステリア",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/322",
     "address": "東京都港区六本木6-6-9 ピラミデビル3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.661750000000,139.731281000000",
@@ -898,10 +796,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.66175,
-        139.731281
-      ]
+      "coordinates": [35.66175, 139.731281]
     },
     "googlePhoto": "photo-34.jpg",
     "googleRating": 4.3,
@@ -912,7 +807,7 @@
   {
     "name": "赤坂 うさぎや",
     "area": "新橋・赤坂周辺",
-    "cusineType": "フレンチ・マジックバー",
+    "cuisineType": "フレンチ・マジックバー",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/329",
     "address": "東京都港区赤坂4-3-5 浄土寺内",
     "googleMapPage": "https://maps.google.com/maps?q=35.674492860000,139.735691370000",
@@ -924,10 +819,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.67449286,
-        139.73569137
-      ]
+      "coordinates": [35.67449286, 139.73569137]
     },
     "googlePhoto": "photo-35.jpg",
     "googleRating": 4.5,
@@ -938,7 +830,7 @@
   {
     "name": "サブゼロ",
     "area": "横浜",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/330",
     "address": "神奈川県横浜市中区海岸通1-1 大桟橋客船ターミナル2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.448515150000,139.644813610000",
@@ -950,10 +842,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.44851515,
-        139.64481361
-      ]
+      "coordinates": [35.44851515, 139.64481361]
     },
     "googlePhoto": "photo-36.jpg",
     "googleRating": 4.4,
@@ -964,7 +853,7 @@
   {
     "name": "みつ芳",
     "area": "表参道・渋谷周辺",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/336",
     "address": "東京都港区南青山3丁目\n（住所詳細はご予約受付時にお伝えします）",
     "googleMapPage": null,
@@ -976,10 +865,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.6679637,
-        139.71725060000003
-      ]
+      "coordinates": [35.6679637, 139.71725060000003]
     },
     "googlePhoto": "photo-37.jpg",
     "googleRating": 4.8,
@@ -990,7 +876,7 @@
   {
     "name": "TERRES DE TRUFFES' TOKYO（テール・ド・トリュフ トウキョウ）",
     "area": "表参道・渋谷周辺",
-    "cusineType": "トリュフ料理",
+    "cuisineType": "トリュフ料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/344",
     "address": "東京都港区南青山2-27-6 Rave南青山ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.669221000000,139.717064000000",
@@ -1002,10 +888,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.669221,
-        139.717064
-      ]
+      "coordinates": [35.669221, 139.717064]
     },
     "googlePhoto": "photo-38.jpg",
     "googleRating": 4.5,
@@ -1016,7 +899,7 @@
   {
     "name": "根岸 鮨創作料理 奄美（あまみ）",
     "area": "根津・千駄木周辺",
-    "cusineType": "寿司",
+    "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/345",
     "address": "東京都台東区根岸4-1-29 アルカ2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.723903000000,139.784297000000",
@@ -1028,10 +911,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.723903,
-        139.784297
-      ]
+      "coordinates": [35.723903, 139.784297]
     },
     "googlePhoto": "photo-39.jpg",
     "googleRating": 4.4,
@@ -1042,7 +922,7 @@
   {
     "name": "ジャッジョーロ銀座",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/348",
     "address": "東京都中央区銀座7-10-5 ジ オーブ ルミナス B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.668575000000,139.763458000000",
@@ -1054,10 +934,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.668575,
-        139.763458
-      ]
+      "coordinates": [35.668575, 139.763458]
     },
     "googlePhoto": "photo-40.jpg",
     "googleRating": 4.1,
@@ -1068,7 +945,7 @@
   {
     "name": "レストラン マーヴェラス パラディ白金",
     "area": "白金・成城ほか",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/349",
     "address": "東京都港区白金6-4-3 マーヴェラスガーデンコートB1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.644343140000,139.723943580000",
@@ -1080,10 +957,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.64434314,
-        139.72394358
-      ]
+      "coordinates": [35.64434314, 139.72394358]
     },
     "googlePhoto": "photo-41.jpg",
     "googleRating": 3.9,
@@ -1094,7 +968,7 @@
   {
     "name": "活 伊勢海老料理 中納言 大阪駅前第3ビル店",
     "area": "梅田",
-    "cusineType": "伊勢海老料理",
+    "cuisineType": "伊勢海老料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/350",
     "address": "大阪府大阪市北区梅田1-1-3-3200\n大阪駅前第3ビル32F",
     "googleMapPage": "https://maps.google.com/maps?q=34.698828800000,135.499248500000",
@@ -1106,10 +980,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.6988288,
-        135.4992485
-      ]
+      "coordinates": [34.6988288, 135.4992485]
     },
     "googlePhoto": "photo-42.jpg",
     "googleRating": 4.2,
@@ -1120,7 +991,7 @@
   {
     "name": "活 伊勢海老料理 中納言 千日前味楽館",
     "area": "なんば",
-    "cusineType": "伊勢海老料理",
+    "cuisineType": "伊勢海老料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/351",
     "address": "大阪府大阪市中央区難波1-4-4",
     "googleMapPage": "https://maps.google.com/maps?q=34.667390000000,135.501970000000",
@@ -1132,10 +1003,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.66739,
-        135.50197
-      ]
+      "coordinates": [34.66739, 135.50197]
     },
     "googlePhoto": "photo-43.jpg",
     "googleRating": 4.2,
@@ -1146,7 +1014,7 @@
   {
     "name": "活 伊勢海老料理 中納言 神戸ハーバーランド店",
     "area": "みなと元町",
-    "cusineType": "伊勢海老料理",
+    "cuisineType": "伊勢海老料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/352",
     "address": "兵庫県神戸市中央区東川崎町1-6-1 モザイク3F",
     "googleMapPage": "https://maps.google.com/maps?q=34.680045000000,135.184365000000",
@@ -1158,10 +1026,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.680045,
-        135.184365
-      ]
+      "coordinates": [34.680045, 135.184365]
     },
     "googlePhoto": "photo-44.jpg",
     "googleRating": 4.1,
@@ -1172,7 +1037,7 @@
   {
     "name": "Restaurant REIMS YANAGIDATE（レストラン ランス ヤナギダテ）",
     "area": "表参道・渋谷周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/361",
     "address": "東京都港区北青山3-10-13",
     "googleMapPage": "https://maps.google.com/maps?q=35.664341000000,139.710618000000",
@@ -1184,10 +1049,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.664341,
-        139.710618
-      ]
+      "coordinates": [35.664341, 139.710618]
     },
     "googlePhoto": "photo-45.jpg",
     "googleRating": 4.3,
@@ -1198,7 +1060,7 @@
   {
     "name": "Restaurant Re:（レストラン アールイー）",
     "area": "恵比寿・中目黒・代官山周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/366",
     "address": "東京都目黒区中目黒1-10-23 リバーサイドテラス103",
     "googleMapPage": "https://maps.google.com/maps?q=35.643101000000,139.701408000000",
@@ -1210,10 +1072,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.643101,
-        139.701408
-      ]
+      "coordinates": [35.643101, 139.701408]
     },
     "googlePhoto": "photo-46.jpg",
     "googleRating": 4.4,
@@ -1224,7 +1083,7 @@
   {
     "name": "鉄板焼 いちか",
     "area": "恵比寿・中目黒・代官山周辺",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/368",
     "address": "東京都渋谷区東2-14-13 leaf east 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.651744000000,139.709964000000",
@@ -1236,10 +1095,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.651744,
-        139.709964
-      ]
+      "coordinates": [35.651744, 139.709964]
     },
     "googlePhoto": "photo-47.jpg",
     "googleRating": 4.5,
@@ -1250,7 +1106,7 @@
   {
     "name": "日本料理 銀座いしづか",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/377",
     "address": "東京都中央区銀座1-13-8 ハビウル銀座5F",
     "googleMapPage": "https://maps.google.com/maps?q=35.673362000000,139.769438000000",
@@ -1262,10 +1118,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.673362,
-        139.769438
-      ]
+      "coordinates": [35.673362, 139.769438]
     },
     "googlePhoto": "photo-48.jpg",
     "googleRating": 4.3,
@@ -1276,7 +1129,7 @@
   {
     "name": "青山 牛彩（ぎゅうさい）",
     "area": "表参道・渋谷周辺",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/379",
     "address": "東京都港区南青山2-11-11",
     "googleMapPage": "https://maps.google.com/maps?q=35.671242890000,139.720962250000",
@@ -1288,10 +1141,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.67124289,
-        139.72096225
-      ]
+      "coordinates": [35.67124289, 139.72096225]
     },
     "googlePhoto": "photo-49.jpg",
     "googleRating": 4.2,
@@ -1302,7 +1152,7 @@
   {
     "name": "La Scogliera（ラ・スコリエーラ）",
     "area": "新橋・赤坂周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/382",
     "address": "東京都港区赤坂4-15-1 赤坂ガーデンシティ",
     "googleMapPage": "https://maps.google.com/maps?q=35.674166000000,139.731434000000",
@@ -1314,10 +1164,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.674166,
-        139.731434
-      ]
+      "coordinates": [35.674166, 139.731434]
     },
     "googlePhoto": "photo-50.jpg",
     "googleRating": 3.9,
@@ -1328,7 +1175,7 @@
   {
     "name": "AL KENTRE（アルケントーレ）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/384",
     "address": "東京都中央区銀座8-2-1 ニッタビル10F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670077000000,139.759798000000",
@@ -1340,10 +1187,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.670077,
-        139.759798
-      ]
+      "coordinates": [35.670077, 139.759798]
     },
     "googlePhoto": "photo-51.jpg",
     "googleRating": 4.2,
@@ -1354,7 +1198,7 @@
   {
     "name": "黒毛和牛専門店 神戸味鉄（あじてつ）",
     "area": "新橋・赤坂周辺",
-    "cusineType": "鉄板焼・しゃぶしゃぶ",
+    "cuisineType": "鉄板焼・しゃぶしゃぶ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/385",
     "address": "東京都港区赤坂3-14-9 清水ビルB1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.674005000000,139.737036000000",
@@ -1366,10 +1210,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.674005,
-        139.737036
-      ]
+      "coordinates": [35.674005, 139.737036]
     },
     "googlePhoto": "photo-52.jpg",
     "googleRating": 4.3,
@@ -1380,7 +1221,7 @@
   {
     "name": "Restaurant Perfumes（レストラン パフューム）",
     "area": "白金・成城ほか",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/386",
     "address": "東京都品川区東五反田4-7-29 NKビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.630043000000,139.727136000000",
@@ -1392,10 +1233,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.630043,
-        139.727136
-      ]
+      "coordinates": [35.630043, 139.727136]
     },
     "googlePhoto": "photo-53.jpg",
     "googleRating": 4,
@@ -1406,7 +1244,7 @@
   {
     "name": "RISTORANTE UMIRIA（リストランテ ウミリア）",
     "area": "横浜",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/392",
     "address": "神奈川県横浜市西区みなとみらい4-6-2 グランドセントラルタワー2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.458719000000,139.629429000000",
@@ -1418,10 +1256,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.458719,
-        139.629429
-      ]
+      "coordinates": [35.458719, 139.629429]
     },
     "googlePhoto": "photo-54.jpg",
     "googleRating": 4.2,
@@ -1432,7 +1267,7 @@
   {
     "name": "創意和食 野むら",
     "area": "覚王山・本山・八事周辺",
-    "cusineType": "和食会席",
+    "cuisineType": "和食会席",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/395",
     "address": "愛知県名古屋市千種区四谷通3-23-3",
     "googleMapPage": "https://maps.google.com/maps?q=35.159469600000,136.965462300000",
@@ -1444,10 +1279,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.1594696,
-        136.9654623
-      ]
+      "coordinates": [35.1594696, 136.9654623]
     },
     "googlePhoto": "photo-55.jpg",
     "googleRating": 4.1,
@@ -1458,7 +1290,7 @@
   {
     "name": "龍太楼（りょうたろう）",
     "area": "金山・東別院・鶴舞周辺",
-    "cusineType": "寿司・割烹",
+    "cuisineType": "寿司・割烹",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/396",
     "address": "愛知県名古屋市中区千代田5-17-19",
     "googleMapPage": "https://maps.google.com/maps?q=35.158555000000,136.916847000000",
@@ -1470,10 +1302,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.158555,
-        136.916847
-      ]
+      "coordinates": [35.158555, 136.916847]
     },
     "googlePhoto": "photo-56.jpg",
     "googleRating": 3.9,
@@ -1484,7 +1313,7 @@
   {
     "name": "バリラックス ザ ガーデン 梅田",
     "area": "梅田",
-    "cusineType": "アジアン・フレンチ",
+    "cuisineType": "アジアン・フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/397",
     "address": "大阪府大阪市北区大深町4-20 グランフロント大阪 8F",
     "googleMapPage": "https://maps.google.com/maps?q=34.700007000000,135.496871000000",
@@ -1496,10 +1325,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.700007,
-        135.496871
-      ]
+      "coordinates": [34.700007, 135.496871]
     },
     "googlePhoto": "photo-57.jpg",
     "googleRating": 4,
@@ -1510,7 +1336,7 @@
   {
     "name": "鮨 天川（てんかわ）",
     "area": "恵比寿・中目黒・代官山周辺",
-    "cusineType": "寿司",
+    "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/402",
     "address": "東京都渋谷区恵比寿1-25-7 サングラータ恵比寿1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.646808000000,139.716318000000",
@@ -1522,10 +1348,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.646808,
-        139.716318
-      ]
+      "coordinates": [35.646808, 139.716318]
     },
     "googlePhoto": "photo-58.jpg",
     "googleRating": 4,
@@ -1536,7 +1359,7 @@
   {
     "name": "ルコネッサンス",
     "area": "金山・東別院・鶴舞周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/405",
     "address": "愛知県名古屋市中区大井町1-24 ヴィークタワー名古屋東別院1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.150371000000,136.904314000000",
@@ -1548,10 +1371,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.150371,
-        136.904314
-      ]
+      "coordinates": [35.150371, 136.904314]
     },
     "googlePhoto": "photo-59.jpg",
     "googleRating": 4.5,
@@ -1562,7 +1382,7 @@
   {
     "name": "久兵衛 LA CUCINA QBE（キュウベエ ラ クッチーナ キュウベエ）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/414",
     "address": "東京都中央区銀座6-12-14 銀緑館ビル5F",
     "googleMapPage": "https://maps.google.com/maps?q=35.669153000000,139.764551000000",
@@ -1574,10 +1394,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.669153,
-        139.764551
-      ]
+      "coordinates": [35.669153, 139.764551]
     },
     "googlePhoto": "photo-60.jpg",
     "googleRating": 3.9,
@@ -1588,7 +1405,7 @@
   {
     "name": "結華楼（ユイカロウ）",
     "area": "新宿・市ヶ谷・飯田橋周辺",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/421",
     "address": "東京都新宿区神楽坂3-2 木村屋ビル5F",
     "googleMapPage": "https://maps.google.com/maps?q=35.701424000000,139.740737000000",
@@ -1600,10 +1417,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.701424,
-        139.740737
-      ]
+      "coordinates": [35.701424, 139.740737]
     },
     "googlePhoto": "photo-61.jpg",
     "googleRating": 4.1,
@@ -1614,7 +1428,7 @@
   {
     "name": "ガス燈（ガストウ）",
     "area": "今池・千種・池下周辺",
-    "cusineType": "和洋創作",
+    "cuisineType": "和洋創作",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/438",
     "address": "愛知県名古屋市千種区今池1-8-8今池ガスビル8F",
     "googleMapPage": "https://maps.google.com/maps?q=35.168936000000,136.936459000000",
@@ -1626,10 +1440,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.168936,
-        136.936459
-      ]
+      "coordinates": [35.168936, 136.936459]
     },
     "googlePhoto": "photo-62.jpg",
     "googleRating": 4,
@@ -1640,7 +1451,7 @@
   {
     "name": "割烹 三州家（さんしゅうや）",
     "area": "北千住・墨田周辺",
-    "cusineType": "懐石料理・鍋料理",
+    "cuisineType": "懐石料理・鍋料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/439",
     "address": "東京都墨田区本所4-17-3",
     "googleMapPage": "https://maps.google.com/maps?q=35.703408000000,139.805187000000",
@@ -1652,10 +1463,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.703408,
-        139.805187
-      ]
+      "coordinates": [35.703408, 139.805187]
     },
     "googlePhoto": "photo-63.jpg",
     "googleRating": 3.6,
@@ -1666,7 +1474,7 @@
   {
     "name": "日本料理 杜若（かきつばた）",
     "area": "恵比寿・中目黒・代官山周辺",
-    "cusineType": "和食",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/445",
     "address": "東京都世田谷区奥沢5-20-11 自由が丘TSビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.605826000000,139.668710000000",
@@ -1678,10 +1486,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.605826,
-        139.66871
-      ]
+      "coordinates": [35.605826, 139.66871]
     },
     "googlePhoto": "photo-64.jpg",
     "googleRating": 4,
@@ -1692,7 +1497,7 @@
   {
     "name": "IL PINOLO（イル ピノーロ） 梅田",
     "area": "梅田",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/447",
     "address": "大阪府大阪市北区梅田2-2-2　ヒルトンプラザウエスト5F",
     "googleMapPage": "https://maps.google.com/maps?q=34.699850000000,135.494514000000",
@@ -1704,10 +1509,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.69985,
-        135.494514
-      ]
+      "coordinates": [34.69985, 135.494514]
     },
     "googlePhoto": "photo-65.jpg",
     "googleRating": 3.8,
@@ -1718,7 +1520,7 @@
   {
     "name": "醍醐味（だいごみ）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "和食・炉端・会席料理",
+    "cuisineType": "和食・炉端・会席料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/449",
     "address": "東京都千代田区丸の内2-4-1 丸の内ビルディング5F",
     "googleMapPage": "https://maps.google.com/maps?q=35.681064000000,139.763770000000",
@@ -1730,10 +1532,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.681064,
-        139.76377
-      ]
+      "coordinates": [35.681064, 139.76377]
     },
     "googlePhoto": "photo-66.jpg",
     "googleRating": 4,
@@ -1744,7 +1543,7 @@
   {
     "name": "中国料理 頤和園（イワエン） 霞が関店",
     "area": "新橋・赤坂周辺",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/451",
     "address": "東京都千代田区霞が関3-2-6 東京倶楽部ビルディング3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670545000000,139.746780000000",
@@ -1756,10 +1555,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.670545,
-        139.74678
-      ]
+      "coordinates": [35.670545, 139.74678]
     },
     "googlePhoto": "photo-67.jpg",
     "googleRating": 4.1,
@@ -1770,7 +1566,7 @@
   {
     "name": "中華料理 頤和園（イワエン） 博多駅前店",
     "area": "博多",
-    "cusineType": "中華料理",
+    "cuisineType": "中華料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/452",
     "address": "福岡県福岡市博多区博多駅前2-20-1 大博多ビル12F",
     "googleMapPage": "https://maps.google.com/maps?q=33.592572000000,130.415675000000",
@@ -1782,10 +1578,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.592572,
-        130.415675
-      ]
+      "coordinates": [33.592572, 130.415675]
     },
     "googlePhoto": "photo-68.jpg",
     "googleRating": 4,
@@ -1796,7 +1589,7 @@
   {
     "name": "Restaurant VERT FONCÉ（レストラン ヴェル フォンセ）",
     "area": "平尾浄水",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/453",
     "address": "福岡県福岡市中央区平尾浄水町5-1",
     "googleMapPage": "https://maps.google.com/maps?q=33.573374000000,130.392976000000",
@@ -1808,10 +1601,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.573374,
-        130.392976
-      ]
+      "coordinates": [33.573374, 130.392976]
     },
     "googlePhoto": "photo-69.jpg",
     "googleRating": 3.7,
@@ -1822,7 +1612,7 @@
   {
     "name": "日本の料理屋 IMURI",
     "area": "桜坂",
-    "cusineType": "和食・洋食",
+    "cuisineType": "和食・洋食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/455",
     "address": "福岡県福岡市中央区谷1-3-15",
     "googleMapPage": "https://maps.google.com/maps?q=33.575241000000,130.385487000000",
@@ -1834,10 +1624,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.575241,
-        130.385487
-      ]
+      "coordinates": [33.575241, 130.385487]
     },
     "googlePhoto": "photo-70.jpg",
     "googleRating": 4.3,
@@ -1848,7 +1635,7 @@
   {
     "name": "日本料理 石田",
     "area": "中洲川端",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/456",
     "address": "福岡県福岡市博多区中洲4-1-8 \nヤマシタビル1F・2F・3F",
     "googleMapPage": "https://maps.google.com/maps?q=33.591812000000,130.406782000000",
@@ -1860,10 +1647,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.591812,
-        130.406782
-      ]
+      "coordinates": [33.591812, 130.406782]
     },
     "googlePhoto": "photo-71.jpg",
     "googleRating": 4.5,
@@ -1874,7 +1658,7 @@
   {
     "name": "焼肉 みやなか",
     "area": "中洲川端",
-    "cusineType": "焼肉",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/460",
     "address": "福岡県福岡市博多区中洲2-4-20 \n第21ポールスタービル1F",
     "googleMapPage": "https://maps.google.com/maps?q=33.591535000000,130.407778000000",
@@ -1886,10 +1670,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.591535,
-        130.407778
-      ]
+      "coordinates": [33.591535, 130.407778]
     },
     "googlePhoto": "photo-72.jpg",
     "googleRating": 4,
@@ -1900,7 +1681,7 @@
   {
     "name": "Restaurant Au Bon Coin（レストラン オーボン コワン）",
     "area": "池袋周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/464",
     "address": "東京都豊島区雑司が谷2-3-17 ビューロ目白台1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.719184000000,139.715304000000",
@@ -1912,10 +1693,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.719184,
-        139.715304
-      ]
+      "coordinates": [35.719184, 139.715304]
     },
     "googlePhoto": "photo-73.jpg",
     "googleRating": 4.1,
@@ -1926,7 +1704,7 @@
   {
     "name": "IL PINOLO（イル ピノーロ） 銀座本店",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/472",
     "address": "東京都中央区銀座7-8-7 GINZA GREEN9F",
     "googleMapPage": "https://maps.google.com/maps?q=35.669058000000,139.762379000000",
@@ -1938,10 +1716,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.669058,
-        139.762379
-      ]
+      "coordinates": [35.669058, 139.762379]
     },
     "googlePhoto": "photo-74.jpg",
     "googleRating": 3.8,
@@ -1952,7 +1727,7 @@
   {
     "name": "今彩（こんさい）",
     "area": "新宿・市ヶ谷・飯田橋周辺",
-    "cusineType": "和装フレンチ",
+    "cuisineType": "和装フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/479",
     "address": "東京都新宿区神楽坂6-26-8",
     "googleMapPage": "https://maps.google.com/maps?q=35.703823010000,139.736490150000",
@@ -1964,10 +1739,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.70382301,
-        139.73649015
-      ]
+      "coordinates": [35.70382301, 139.73649015]
     },
     "googlePhoto": "photo-75.jpg",
     "googleRating": 4.1,
@@ -1978,7 +1750,7 @@
   {
     "name": "鮨 てとて",
     "area": "西中洲",
-    "cusineType": "寿司",
+    "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/485",
     "address": "福岡県福岡市中央区西中洲5-6 1F",
     "googleMapPage": "https://maps.google.com/maps?q=33.591110000000,130.404980000000",
@@ -1990,10 +1762,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.59111,
-        130.40498
-      ]
+      "coordinates": [33.59111, 130.40498]
     },
     "googlePhoto": "photo-76.jpg",
     "googleRating": 4.7,
@@ -2004,7 +1773,7 @@
   {
     "name": "フレンチレストラン 九段 プレジール",
     "area": "新宿・市ヶ谷・飯田橋周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/493",
     "address": "東京都千代田区九段南3-6-9",
     "googleMapPage": "https://maps.google.com/maps?q=35.692654000000,139.743602000000",
@@ -2016,10 +1785,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.692654,
-        139.743602
-      ]
+      "coordinates": [35.692654, 139.743602]
     },
     "googlePhoto": "photo-77.jpg",
     "googleRating": 4.5,
@@ -2030,7 +1796,7 @@
   {
     "name": "料理処 希満里（けまり）",
     "area": "高知",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/501",
     "address": "高知県高知市追手筋1-6-21（割烹旅館おおりや内）",
     "googleMapPage": "https://maps.google.com/maps?q=33.562624000000,133.541132000000",
@@ -2042,10 +1808,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.562624,
-        133.541132
-      ]
+      "coordinates": [33.562624, 133.541132]
     },
     "googlePhoto": "photo-78.jpg",
     "googleRating": 3.1,
@@ -2056,7 +1819,7 @@
   {
     "name": "鮨処 剛（ごう）",
     "area": "西中洲",
-    "cusineType": "寿司",
+    "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/513",
     "address": "福岡県福岡市中央区春吉3-13-1",
     "googleMapPage": "https://maps.google.com/maps?q=33.589802000000,130.407252000000",
@@ -2068,10 +1831,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.589802,
-        130.407252
-      ]
+      "coordinates": [33.589802, 130.407252]
     },
     "googlePhoto": "photo-79.jpg",
     "googleRating": 4.1,
@@ -2082,7 +1842,7 @@
   {
     "name": "イタリア料理 タベルナ・アイ",
     "area": "池袋周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/520",
     "address": "東京都文京区関口3-18-4 フェリーチェ目白台1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.715214000000,139.724872000000",
@@ -2094,10 +1854,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.715214,
-        139.724872
-      ]
+      "coordinates": [35.715214, 139.724872]
     },
     "googlePhoto": "photo-80.jpg",
     "googleRating": 3.9,
@@ -2108,7 +1865,7 @@
   {
     "name": "粋京（いっきょう）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "和食",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/521",
     "address": "東京都中央区銀座8-3-12 Ginza須賀ビル5F",
     "googleMapPage": "https://maps.google.com/maps?q=35.669137000000,139.759148000000",
@@ -2120,10 +1877,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.669137,
-        139.759148
-      ]
+      "coordinates": [35.669137, 139.759148]
     },
     "googlePhoto": "photo-81.jpg",
     "googleRating": 4.7,
@@ -2134,7 +1888,7 @@
   {
     "name": "割烹・鮨 ます水（ますみず）",
     "area": "中洲川端",
-    "cusineType": "日本料理・和食・寿司",
+    "cuisineType": "日本料理・和食・寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/523",
     "address": "福岡県福岡市博多区店屋町3-1",
     "googleMapPage": "https://maps.google.com/maps?q=33.595225000000,130.410528000000",
@@ -2146,10 +1900,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.595225,
-        130.410528
-      ]
+      "coordinates": [33.595225, 130.410528]
     },
     "googlePhoto": "photo-82.jpg",
     "googleRating": 4.7,
@@ -2160,7 +1911,7 @@
   {
     "name": "イタリア料理 IL.SOGNO（イル ソーニョ）",
     "area": "西中洲",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/525",
     "address": "福岡県福岡市中央区西中洲1-35 寺埜ビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=33.590558000000,130.406157000000",
@@ -2172,10 +1923,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.590558,
-        130.406157
-      ]
+      "coordinates": [33.590558, 130.406157]
     },
     "googlePhoto": "photo-83.jpg",
     "googleRating": 4.1,
@@ -2186,7 +1934,7 @@
   {
     "name": "鉄板焼 曉（あかつき）",
     "area": "薬院",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/528",
     "address": "福岡県福岡市中央区薬院3-12-22 美山ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=33.579456000000,130.398472000000",
@@ -2198,10 +1946,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.579456,
-        130.398472
-      ]
+      "coordinates": [33.579456, 130.398472]
     },
     "googlePhoto": "photo-84.jpg",
     "googleRating": 4.3,
@@ -2212,7 +1957,7 @@
   {
     "name": "DOMINANT（ドミナント）",
     "area": "表参道・渋谷周辺",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/529",
     "address": "東京都港区南青山6-7-2 テラアシオス南青山B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.659913000000,139.717196000000",
@@ -2224,10 +1969,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.659913,
-        139.717196
-      ]
+      "coordinates": [35.659913, 139.717196]
     },
     "googlePhoto": "photo-85.jpg",
     "googleRating": 4,
@@ -2238,7 +1980,7 @@
   {
     "name": "Cot（コット）",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/531",
     "address": "東京都港区西麻布4-2-6 Ryowa Palace 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.658093000000,139.724740000000",
@@ -2250,10 +1992,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.658093,
-        139.72474
-      ]
+      "coordinates": [35.658093, 139.72474]
     },
     "googlePhoto": "photo-86.jpg",
     "googleRating": 4.6,
@@ -2264,7 +2003,7 @@
   {
     "name": "プランチャー健",
     "area": "祇園",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/533",
     "address": "京都府京都市東山区衹園町北側282-3 太田ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.004297000000,135.776472000000",
@@ -2276,10 +2015,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.004297,
-        135.776472
-      ]
+      "coordinates": [35.004297, 135.776472]
     },
     "googlePhoto": "photo-87.jpg",
     "googleRating": 4.4,
@@ -2290,7 +2026,7 @@
   {
     "name": "和食とくなが",
     "area": "赤坂",
-    "cusineType": "和食",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/538",
     "address": "福岡県福岡市中央区大手門1-3-17 エステートモア大手門1F",
     "googleMapPage": "https://maps.google.com/maps?q=33.589546000000,130.384414000000",
@@ -2302,10 +2038,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.589546,
-        130.384414
-      ]
+      "coordinates": [33.589546, 130.384414]
     },
     "googlePhoto": "photo-88.jpg",
     "googleRating": 4.8,
@@ -2316,7 +2049,7 @@
   {
     "name": "L'enfant coeur et coeur（ランファン クー エ クー）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/546",
     "address": "東京都中央区銀座7-2-8 高谷銀座ビル6F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670617000000,139.760290000000",
@@ -2328,10 +2061,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.670617,
-        139.76029
-      ]
+      "coordinates": [35.670617, 139.76029]
     },
     "googlePhoto": "photo-89.jpg",
     "googleRating": 4.1,
@@ -2342,7 +2072,7 @@
   {
     "name": "銀座 芳園（ホウエン）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/554",
     "address": "東京都中央区銀座7-8-15 第二新橋会館6F",
     "googleMapPage": "https://maps.google.com/maps?q=35.669072000000,139.762194000000",
@@ -2354,10 +2084,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.669072,
-        139.762194
-      ]
+      "coordinates": [35.669072, 139.762194]
     },
     "googlePhoto": "photo-90.jpg",
     "googleRating": 3.7,
@@ -2368,7 +2095,7 @@
   {
     "name": "葛（かずら）",
     "area": "広島",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/557",
     "address": "広島県広島市中区胡町3-28",
     "googleMapPage": "https://maps.google.com/maps?q=34.392618000000,132.465649000000",
@@ -2380,10 +2107,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.392618,
-        132.465649
-      ]
+      "coordinates": [34.392618, 132.465649]
     },
     "googlePhoto": "photo-91.jpg",
     "googleRating": 4.4,
@@ -2394,7 +2118,7 @@
   {
     "name": "Ringraziamento（リングラツィアメント）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/561",
     "address": "東京都中央区日本橋小網町9-6 NSTビルB1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.682980000000,139.780261000000",
@@ -2406,10 +2130,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.68298,
-        139.780261
-      ]
+      "coordinates": [35.68298, 139.780261]
     },
     "googlePhoto": "photo-92.jpg",
     "googleRating": 4.2,
@@ -2420,7 +2141,7 @@
   {
     "name": "オーシャンディッシュ Q'on クオン",
     "area": "新橋・赤坂周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/566",
     "address": "東京都港区海岸3-26-1 バーク芝浦ビル 14F",
     "googleMapPage": "https://maps.google.com/maps?q=35.645342000000,139.758507000000",
@@ -2432,10 +2153,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.645342,
-        139.758507
-      ]
+      "coordinates": [35.645342, 139.758507]
     },
     "googlePhoto": "photo-93.jpg",
     "googleRating": 4.1,
@@ -2446,7 +2164,7 @@
   {
     "name": "teatro di massa（テアトロ ディ マッサ）",
     "area": "札幌",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/569",
     "address": "北海道札幌市中央区南3条西8-7 大洋ビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=43.056090000000,141.346329000000",
@@ -2458,10 +2176,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.05609,
-        141.346329
-      ]
+      "coordinates": [43.05609, 141.346329]
     },
     "googlePhoto": "photo-94.jpg",
     "googleRating": 4.6,
@@ -2472,7 +2187,7 @@
   {
     "name": "Vingt-cinq BLANCHE（ヴァンサンク・ブランシュ）",
     "area": "心斎橋",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/576",
     "address": "大阪府大阪市中央区西心斎橋1-9-31",
     "googleMapPage": "https://maps.google.com/maps?q=34.673351000000,135.499052000000",
@@ -2484,10 +2199,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.673351,
-        135.499052
-      ]
+      "coordinates": [34.673351, 135.499052]
     },
     "googlePhoto": "photo-95.jpg",
     "googleRating": 4.5,
@@ -2498,7 +2210,7 @@
   {
     "name": "中国料理 青冥（チンミン） 阪急池田店",
     "area": "大阪府その他",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/583",
     "address": "大阪府池田市栄町1-1\nマルシェ池田3番館 1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.822231000000,135.424746000000",
@@ -2510,10 +2222,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.822231,
-        135.424746
-      ]
+      "coordinates": [34.822231, 135.424746]
     },
     "googlePhoto": "photo-96.jpg",
     "googleRating": 3.8,
@@ -2524,7 +2233,7 @@
   {
     "name": "中国料理 青冥（チンミン） 祇園店",
     "area": "祇園",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/590",
     "address": "京都府京都市東山区衹園町北側268 ヤサカ衹園ビル5F",
     "googleMapPage": "https://maps.google.com/maps?q=35.004181000000,135.775024000000",
@@ -2536,10 +2245,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.004181,
-        135.775024
-      ]
+      "coordinates": [35.004181, 135.775024]
     },
     "googlePhoto": "photo-97.jpg",
     "googleRating": 4.1,
@@ -2550,7 +2256,7 @@
   {
     "name": "A le Soleil（アクサングラーブ・ル・ソレイユ）",
     "area": "北新地",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/591",
     "address": "大阪府大阪市北区曾根崎新地1-10-16 \n永楽ビル10F",
     "googleMapPage": "https://maps.google.com/maps?q=34.698082000000,135.497589000000",
@@ -2562,10 +2268,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.698082,
-        135.497589
-      ]
+      "coordinates": [34.698082, 135.497589]
     },
     "googlePhoto": "photo-98.jpg",
     "googleRating": 4.5,
@@ -2576,7 +2279,7 @@
   {
     "name": "神楽坂 たんたか",
     "area": "新宿・市ヶ谷・飯田橋周辺",
-    "cusineType": "割烹・会席料理",
+    "cuisineType": "割烹・会席料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/594",
     "address": "東京都新宿区天神町63-13 神楽坂メゾン1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.705314000000,139.730733000000",
@@ -2588,10 +2291,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.705314,
-        139.730733
-      ]
+      "coordinates": [35.705314, 139.730733]
     },
     "googlePhoto": "photo-99.jpg",
     "googleRating": 3.7,
@@ -2602,7 +2302,7 @@
   {
     "name": "IL PINOLO SKYTERRACE（イル ピノーロ スカイテラス）",
     "area": "横浜",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/597",
     "address": "神奈川県横浜市西区高島2-18-1 そごう横浜 10F",
     "googleMapPage": "https://maps.google.com/maps?q=35.465542000000,139.625656000000",
@@ -2614,10 +2314,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.465542,
-        139.625656
-      ]
+      "coordinates": [35.465542, 139.625656]
     },
     "googlePhoto": "photo-100.jpg",
     "googleRating": 3.9,
@@ -2628,7 +2325,7 @@
   {
     "name": "ふぐ・はも割烹 由兵衛（よしべい）",
     "area": "河原町",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/600",
     "address": "京都府京都市下京区西石垣通四条下ル斎藤町118",
     "googleMapPage": "https://maps.google.com/maps?q=35.003440000000,135.770798000000",
@@ -2640,10 +2337,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.00344,
-        135.770798
-      ]
+      "coordinates": [35.00344, 135.770798]
     },
     "googlePhoto": "photo-101.jpg",
     "googleRating": 4.4,
@@ -2654,7 +2348,7 @@
   {
     "name": "お茶屋BAR 六馬（りくば）",
     "area": "西中洲",
-    "cusineType": "京料理",
+    "cuisineType": "京料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/613",
     "address": "福岡県福岡市中央区西中洲3-17 ユイビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=33.590868000000,130.405283000000",
@@ -2666,10 +2360,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.590868,
-        130.405283
-      ]
+      "coordinates": [33.590868, 130.405283]
     },
     "googlePhoto": "photo-102.jpg",
     "googleRating": 4,
@@ -2680,7 +2371,7 @@
   {
     "name": "鉄板料理 花六（はなろく）",
     "area": "京都駅周辺",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/621",
     "address": "京都府京都市下京区烏丸通六条下る北町190\nホテルカンラ京都本館B1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.993566000000,135.759435000000",
@@ -2692,10 +2383,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.993566,
-        135.759435
-      ]
+      "coordinates": [34.993566, 135.759435]
     },
     "googlePhoto": "photo-103.jpg",
     "googleRating": 4.8,
@@ -2706,7 +2394,7 @@
   {
     "name": "銀座 すゞ木",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "フレンチ割烹・バー",
+    "cuisineType": "フレンチ割烹・バー",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/622",
     "address": "東京都中央区銀座7-3-16 東五ビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670551000000,139.760626000000",
@@ -2718,10 +2406,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.670551,
-        139.760626
-      ]
+      "coordinates": [35.670551, 139.760626]
     },
     "googlePhoto": "photo-104.jpg",
     "googleRating": 4.3,
@@ -2732,7 +2417,7 @@
   {
     "name": "KOBE STEAK Tsubasa 北新地",
     "area": "北新地",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/628",
     "address": "大阪府大阪市北区曽根崎新地1-7-3 北新地プラザビル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696949000000,135.500686000000",
@@ -2744,10 +2429,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.696949,
-        135.500686
-      ]
+      "coordinates": [34.696949, 135.500686]
     },
     "googlePhoto": "photo-105.jpg",
     "googleRating": 3.3,
@@ -2758,7 +2440,7 @@
   {
     "name": "頤和園（イワエン）京橋エドグラン店",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/637",
     "address": "東京都中央区京橋2-2-1 京橋エドグランサウス6F",
     "googleMapPage": "https://maps.google.com/maps?q=35.677094000000,139.769732000000",
@@ -2770,10 +2452,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.677094,
-        139.769732
-      ]
+      "coordinates": [35.677094, 139.769732]
     },
     "googlePhoto": "photo-106.jpg",
     "googleRating": 4.1,
@@ -2784,7 +2463,7 @@
   {
     "name": "GINZA kansei",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/639",
     "address": "東京都中央区銀座7-12-1 藤高ビル2F・3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.668464000000,139.764280000000",
@@ -2796,10 +2475,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.668464,
-        139.76428
-      ]
+      "coordinates": [35.668464, 139.76428]
     },
     "googlePhoto": "photo-107.jpg",
     "googleRating": 4.3,
@@ -2810,7 +2486,7 @@
   {
     "name": "ルルソンキボア",
     "area": "北山",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/641",
     "address": "京都府京都市北区上賀茂豊田町52",
     "googleMapPage": "https://maps.google.com/maps?q=35.056823000000,135.765974000000",
@@ -2822,10 +2498,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.056823,
-        135.765974
-      ]
+      "coordinates": [35.056823, 135.765974]
     },
     "googlePhoto": "photo-108.jpg",
     "googleRating": 4.4,
@@ -2836,7 +2509,7 @@
   {
     "name": "ILBEIGE（イルベイジュ）",
     "area": "名古屋駅周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/646",
     "address": "愛知県名古屋市西区牛島町6-24 アクロスキューブ名古屋8F",
     "googleMapPage": "https://maps.google.com/maps?q=35.174004000000,136.881908000000",
@@ -2848,10 +2521,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.174004,
-        136.881908
-      ]
+      "coordinates": [35.174004, 136.881908]
     },
     "googlePhoto": "photo-109.jpg",
     "googleRating": 4.2,
@@ -2862,7 +2532,7 @@
   {
     "name": "創作フレンチ ショウズ鉄板ダイニング",
     "area": "横浜",
-    "cusineType": "ステーキ・鉄板焼",
+    "cuisineType": "ステーキ・鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/647",
     "address": "神奈川県横浜市中区尾上町3-45-2 ヴァルス尾上町B-102",
     "googleMapPage": "https://maps.google.com/maps?q=35.445379000000,139.636043000000",
@@ -2874,10 +2544,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.445379,
-        139.636043
-      ]
+      "coordinates": [35.445379, 139.636043]
     },
     "googlePhoto": "photo-110.jpg",
     "googleRating": 4.6,
@@ -2888,7 +2555,7 @@
   {
     "name": "恵比寿 京しずく",
     "area": "恵比寿・中目黒・代官山周辺",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/648",
     "address": "東京都目黒区三田1-12-25",
     "googleMapPage": "https://maps.google.com/maps?q=35.641994000000,139.712073000000",
@@ -2900,10 +2567,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.641994,
-        139.712073
-      ]
+      "coordinates": [35.641994, 139.712073]
     },
     "googlePhoto": "photo-111.jpg",
     "googleRating": 4.4,
@@ -2914,7 +2578,7 @@
   {
     "name": "La TRILOGIE～ラ・トリロジー～",
     "area": "金山・東別院・鶴舞周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/654",
     "address": "愛知県名古屋市中区千代田5-11-33 ST PLAZA TSURUMAI B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.160067000000,136.920135000000",
@@ -2926,10 +2590,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.160067,
-        136.920135
-      ]
+      "coordinates": [35.160067, 136.920135]
     },
     "googlePhoto": "photo-112.jpg",
     "googleRating": 4.3,
@@ -2940,7 +2601,7 @@
   {
     "name": "CUCINA KURAMOCHI（クッチーナ クラモチ）",
     "area": "丸太町",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/657",
     "address": "京都府京都市中京区釜座通丸太町下ル桝屋町149 サンモリタ1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.016954000000,135.755855000000",
@@ -2952,10 +2613,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.016954,
-        135.755855
-      ]
+      "coordinates": [35.016954, 135.755855]
     },
     "googlePhoto": "photo-113.jpg",
     "googleRating": 4.2,
@@ -2966,7 +2624,7 @@
   {
     "name": "ふぐ料理専門店 ふく処 信剣（しんけん）",
     "area": "札幌",
-    "cusineType": "ふぐ料理",
+    "cuisineType": "ふぐ料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/659",
     "address": "北海道札幌市中央区南6条西3 秋水ビル3F",
     "googleMapPage": "https://maps.google.com/maps?q=43.053575000000,141.354759000000",
@@ -2978,10 +2636,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.053575,
-        141.354759
-      ]
+      "coordinates": [43.053575, 141.354759]
     },
     "googlePhoto": "photo-114.jpg",
     "googleRating": 4.7,
@@ -2992,7 +2647,7 @@
   {
     "name": "マグロ料理専門店 鮪や にばんめ",
     "area": "札幌",
-    "cusineType": "海鮮料理",
+    "cuisineType": "海鮮料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/660",
     "address": "北海道札幌市中央区南3条西5-14 三条美松ビル3F",
     "googleMapPage": "https://maps.google.com/maps?q=43.056607000000,141.350773000000",
@@ -3004,10 +2659,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.056607,
-        141.350773
-      ]
+      "coordinates": [43.056607, 141.350773]
     },
     "googlePhoto": "photo-115.jpg",
     "googleRating": 4.4,
@@ -3018,7 +2670,7 @@
   {
     "name": "すし さか井",
     "area": "札幌",
-    "cusineType": "寿司",
+    "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/662",
     "address": "北海道札幌市中央区南2条西3-13 パレードビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=43.058362000000,141.353421000000",
@@ -3030,10 +2682,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.058362,
-        141.353421
-      ]
+      "coordinates": [43.058362, 141.353421]
     },
     "googlePhoto": "photo-116.jpg",
     "googleRating": 4.8,
@@ -3044,7 +2693,7 @@
   {
     "name": "ビストロ 『ラ・マンドリン』",
     "area": "祇園",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/672",
     "address": "京都府京都市東山区衹園切通し清本町364-5 切通しビル 4F",
     "googleMapPage": "https://maps.google.com/maps?q=35.004976000000,135.774526000000",
@@ -3056,10 +2705,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.004976,
-        135.774526
-      ]
+      "coordinates": [35.004976, 135.774526]
     },
     "googlePhoto": "photo-117.jpg",
     "googleRating": 4.5,
@@ -3070,7 +2716,7 @@
   {
     "name": "Le Cinque Kitahama （ル サンク キタハマ）",
     "area": "北浜",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/674",
     "address": "大阪府大阪市中央区高麗橋1-7-3 The Kitahama PLAZA 2F",
     "googleMapPage": "https://maps.google.com/maps?q=34.689177000000,135.506806000000",
@@ -3082,10 +2728,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.689177,
-        135.506806
-      ]
+      "coordinates": [34.689177, 135.506806]
     },
     "googlePhoto": "photo-118.jpg",
     "googleRating": 3.5,
@@ -3096,7 +2739,7 @@
   {
     "name": "大町 二代目 幸五郎（こうごろう）",
     "area": "仙台",
-    "cusineType": "焼肉・鍋",
+    "cuisineType": "焼肉・鍋",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/681",
     "address": "宮城県仙台市青葉区大町2-8-1",
     "googleMapPage": "https://maps.google.com/maps?q=38.259985000000,140.866102000000",
@@ -3108,10 +2751,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        38.259985,
-        140.866102
-      ]
+      "coordinates": [38.259985, 140.866102]
     },
     "googlePhoto": "photo-119.jpg",
     "googleRating": 4.4,
@@ -3122,7 +2762,7 @@
   {
     "name": "鉄板ダイニング譽（TAKA） 定禅寺通り店",
     "area": "仙台",
-    "cusineType": "ステーキ・鉄板焼",
+    "cuisineType": "ステーキ・鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/684",
     "address": "宮城県仙台市青葉区春日町1-5 SKビル4F",
     "googleMapPage": "https://maps.google.com/maps?q=38.265455000000,140.866077000000",
@@ -3134,10 +2774,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        38.265455,
-        140.866077
-      ]
+      "coordinates": [38.265455, 140.866077]
     },
     "googlePhoto": "photo-120.jpg",
     "googleRating": 4.2,
@@ -3148,7 +2785,7 @@
   {
     "name": "Bel Cielo（ベル チエロ）",
     "area": "栄・錦・矢場町・新栄周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/685",
     "address": "愛知県名古屋市中区東桜2-22-18 日興ビルヂングB1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.169769000000,136.916794000000",
@@ -3160,10 +2797,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.169769,
-        136.916794
-      ]
+      "coordinates": [35.169769, 136.916794]
     },
     "googlePhoto": "photo-121.jpg",
     "googleRating": 4.3,
@@ -3174,7 +2808,7 @@
   {
     "name": "焼肉ますお 新宿本店",
     "area": "新宿・市ヶ谷・飯田橋周辺",
-    "cusineType": "焼肉",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/692",
     "address": "東京都新宿区歌舞伎町2-19-12 B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.698102000000,139.704535000000",
@@ -3186,10 +2820,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.698102,
-        139.704535
-      ]
+      "coordinates": [35.698102, 139.704535]
     },
     "googlePhoto": "photo-122.jpg",
     "googleRating": 4,
@@ -3200,7 +2831,7 @@
   {
     "name": "SAKE SAKANA SHUNSAI 今澤 SHINJUKU",
     "area": "新宿・市ヶ谷・飯田橋周辺",
-    "cusineType": "和食",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/697",
     "address": "東京都新宿区新宿3-32-10 T&Tビル7F",
     "googleMapPage": "https://maps.google.com/maps?q=35.690143000000,139.704138000000",
@@ -3212,10 +2843,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.690143,
-        139.704138
-      ]
+      "coordinates": [35.690143, 139.704138]
     },
     "googlePhoto": "photo-123.jpg",
     "googleRating": 3.8,
@@ -3226,7 +2854,7 @@
   {
     "name": "リストランテ イル ミラマーレ",
     "area": "仙台",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/699",
     "address": "宮城県仙台市青葉区一番町3-1-16 PARM-CITY131ビル3F",
     "googleMapPage": "https://maps.google.com/maps?q=38.260638000000,140.873414000000",
@@ -3238,10 +2866,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        38.260638,
-        140.873414
-      ]
+      "coordinates": [38.260638, 140.873414]
     },
     "googlePhoto": "photo-124.jpg",
     "googleRating": 3.2,
@@ -3252,7 +2877,7 @@
   {
     "name": "松竹膳處（しょうちくぜんどころ）",
     "area": "仙台",
-    "cusineType": "和食・懐石・会席料理",
+    "cuisineType": "和食・懐石・会席料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/705",
     "address": "宮城県仙台市青葉区大町2-10-23 グランビュー大町1F",
     "googleMapPage": "https://maps.google.com/maps?q=38.260375000000,140.863964000000",
@@ -3264,10 +2889,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        38.260375,
-        140.863964
-      ]
+      "coordinates": [38.260375, 140.863964]
     },
     "googlePhoto": "photo-125.jpg",
     "googleRating": 3.9,
@@ -3278,7 +2900,7 @@
   {
     "name": "INOLTRE（イノルトレ）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/715",
     "address": "東京都中央区銀座5-4-15 西五ビル5F",
     "googleMapPage": "https://maps.google.com/maps?q=35.671611000000,139.762990000000",
@@ -3290,10 +2912,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.671611,
-        139.76299
-      ]
+      "coordinates": [35.671611, 139.76299]
     },
     "googlePhoto": "photo-126.jpg",
     "googleRating": 4.4,
@@ -3304,7 +2923,7 @@
   {
     "name": "お肉のおいしいレストラン 夢浪漫（ユメロマン）",
     "area": "茨城",
-    "cusineType": "ハンバーグ・ステーキ・グリル",
+    "cuisineType": "ハンバーグ・ステーキ・グリル",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/722",
     "address": "茨城県水戸市姫子2-767-2",
     "googleMapPage": "https://maps.google.com/maps?q=36.379876000000,140.425951000000",
@@ -3316,10 +2935,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        36.379876,
-        140.425951
-      ]
+      "coordinates": [36.379876, 140.425951]
     },
     "googlePhoto": "photo-127.jpg",
     "googleRating": 4,
@@ -3330,7 +2946,7 @@
   {
     "name": "里山イタリアンAJIKURA",
     "area": "島根",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/731",
     "address": "島根県邑智郡邑南町矢上3123-4",
     "googleMapPage": "https://maps.google.com/maps?q=34.875343000000,132.424650000000",
@@ -3342,10 +2958,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.875343,
-        132.42465
-      ]
+      "coordinates": [34.875343, 132.42465]
     },
     "googlePhoto": "photo-128.jpg",
     "googleRating": 4.4,
@@ -3356,7 +2969,7 @@
   {
     "name": "和膳 いい田",
     "area": "人形町・小伝馬町周辺",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/739",
     "address": "東京都中央区日本橋人形町2-19-7",
     "googleMapPage": "https://maps.google.com/maps?q=35.685335000000,139.784919000000",
@@ -3368,10 +2981,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.685335,
-        139.784919
-      ]
+      "coordinates": [35.685335, 139.784919]
     },
     "googlePhoto": "photo-129.jpg",
     "googleRating": 4.1,
@@ -3382,7 +2992,7 @@
   {
     "name": "銀座 黒尊（くろそん）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/759",
     "address": "東京都中央区銀座7-3-15 ぜん屋ビル B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670445000000,139.760406000000",
@@ -3394,10 +3004,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.670445,
-        139.760406
-      ]
+      "coordinates": [35.670445, 139.760406]
     },
     "googlePhoto": "photo-130.jpg",
     "googleRating": 3.9,
@@ -3408,7 +3015,7 @@
   {
     "name": "restaurante del mar（リストランテ デル マール）",
     "area": "中洲川端",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/763",
     "address": "福岡県福岡市博多区中洲2-6-7 ジョイフルヤマモトビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=33.591862000000,130.408348000000",
@@ -3420,10 +3027,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.591862,
-        130.408348
-      ]
+      "coordinates": [33.591862, 130.408348]
     },
     "googlePhoto": "photo-131.jpg",
     "googleRating": 4.4,
@@ -3434,7 +3038,7 @@
   {
     "name": "Georges un cinq（ジョルジュ アン サンク）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/764",
     "address": "東京都中央区銀座2-8-17 ハビウル銀座Ⅱ 3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.673002000000,139.767868000000",
@@ -3446,10 +3050,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.673002,
-        139.767868
-      ]
+      "coordinates": [35.673002, 139.767868]
     },
     "googlePhoto": "photo-132.jpg",
     "googleRating": 4.4,
@@ -3460,7 +3061,7 @@
   {
     "name": "Vin de Reve（ヴァン・ド・レーヴ）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "フレンチ・ワインバー",
+    "cuisineType": "フレンチ・ワインバー",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/774",
     "address": "東京都中央区銀座1-20-1 オーキッド銀座1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.673006000000,139.770625000000",
@@ -3472,10 +3073,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.673006,
-        139.770625
-      ]
+      "coordinates": [35.673006, 139.770625]
     },
     "googlePhoto": "photo-133.jpg",
     "googleRating": 4.2,
@@ -3486,7 +3084,7 @@
   {
     "name": "BISTRO Bonne Femme（ボンファム）",
     "area": "新橋・赤坂周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/786",
     "address": "東京都港区赤坂1-3-13",
     "googleMapPage": "https://maps.google.com/maps?q=35.670336000000,139.744477000000",
@@ -3498,10 +3096,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.670336,
-        139.744477
-      ]
+      "coordinates": [35.670336, 139.744477]
     },
     "googlePhoto": "photo-134.jpg",
     "googleRating": 4.3,
@@ -3512,7 +3107,7 @@
   {
     "name": "Clima di Toscana（クリマ ディ トスカーナ）",
     "area": "神田・御茶ノ水周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/788",
     "address": "東京都文京区本郷1-28-32-101",
     "googleMapPage": "https://maps.google.com/maps?q=35.706347000000,139.757177000000",
@@ -3524,10 +3119,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.706347,
-        139.757177
-      ]
+      "coordinates": [35.706347, 139.757177]
     },
     "googlePhoto": "photo-135.jpg",
     "googleRating": 4.5,
@@ -3538,7 +3130,7 @@
   {
     "name": "Restaurant&Bar 銀座SAKURA（さくら）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/789",
     "address": "東京都中央区銀座7-6-11 ミクニ銀座7ビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.669288000000,139.761434000000",
@@ -3550,10 +3142,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.669288,
-        139.761434
-      ]
+      "coordinates": [35.669288, 139.761434]
     },
     "googlePhoto": "photo-136.jpg",
     "googleRating": 4.1,
@@ -3564,7 +3153,7 @@
   {
     "name": "中国薬膳料理 星福（シンフウ）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/802",
     "address": "東京都中央区銀座6-9-9 かねまつビル6F",
     "googleMapPage": "https://maps.google.com/maps?q=35.669725000000,139.763148000000",
@@ -3576,10 +3165,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.669725,
-        139.763148
-      ]
+      "coordinates": [35.669725, 139.763148]
     },
     "googlePhoto": "photo-137.jpg",
     "googleRating": 3.9,
@@ -3590,7 +3176,7 @@
   {
     "name": "レストラン ル・クール神戸",
     "area": "みなと元町",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/804",
     "address": "兵庫県神戸市中央区波止場町7-2 ホテル ラ・スイート神戸ハーバーランド2F",
     "googleMapPage": "https://maps.google.com/maps?q=34.682625000000,135.184096000000",
@@ -3602,10 +3188,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.682625,
-        135.184096
-      ]
+      "coordinates": [34.682625, 135.184096]
     },
     "googlePhoto": "photo-138.jpg",
     "googleRating": 4.2,
@@ -3616,7 +3199,7 @@
   {
     "name": "銀座 極-KIWAMI-",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/825",
     "address": "東京都中央区銀座6-10-1 GINZA SIX 13F（THE GRAND GINZA内）",
     "googleMapPage": "https://maps.google.com/maps?q=35.669531000000,139.763616000000",
@@ -3628,10 +3211,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.669531,
-        139.763616
-      ]
+      "coordinates": [35.669531, 139.763616]
     },
     "googlePhoto": "photo-139.jpg",
     "googleRating": 4.5,
@@ -3642,7 +3222,7 @@
   {
     "name": "焼肉 強小亭 GINZA",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "焼肉",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/829",
     "address": "東京都中央区銀座7-12-4 友野本社ビル 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.668352000000,139.764253000000",
@@ -3654,10 +3234,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.668352,
-        139.764253
-      ]
+      "coordinates": [35.668352, 139.764253]
     },
     "googlePhoto": "photo-140.jpg",
     "googleRating": 4.1,
@@ -3668,7 +3245,7 @@
   {
     "name": "Gentillesse KOMACHI（ジャンティエス コマチ）",
     "area": "横浜",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/839",
     "address": "神奈川県横浜市保土ケ谷区神戸町3-7 内田ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.453361000000,139.601487000000",
@@ -3680,10 +3257,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.453361,
-        139.601487
-      ]
+      "coordinates": [35.453361, 139.601487]
     },
     "googlePhoto": "photo-141.jpg",
     "googleRating": 4.4,
@@ -3694,7 +3268,7 @@
   {
     "name": "銀座つる",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/843",
     "address": "東京都中央区銀座7-10-5 The ORB Luminous 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.668552000000,139.763475000000",
@@ -3706,10 +3280,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.668552,
-        139.763475
-      ]
+      "coordinates": [35.668552, 139.763475]
     },
     "googlePhoto": "photo-142.jpg",
     "googleRating": 4.5,
@@ -3720,7 +3291,7 @@
   {
     "name": "はかたの桜華 本店",
     "area": "中洲川端",
-    "cusineType": "鉄板焼ステーキ",
+    "cuisineType": "鉄板焼ステーキ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/846",
     "address": "福岡県福岡市博多区上川端町10-255 ロイズ博多1F・2F",
     "googleMapPage": "https://maps.google.com/maps?q=33.593701000000,130.407811000000",
@@ -3732,10 +3303,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.593701,
-        130.407811
-      ]
+      "coordinates": [33.593701, 130.407811]
     },
     "googlePhoto": "photo-143.jpg",
     "googleRating": 4,
@@ -3746,7 +3314,7 @@
   {
     "name": "銀座 ます田",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/852",
     "address": "東京都中央区銀座7-13-22 友野ビルB1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.668288000000,139.764453000000",
@@ -3758,10 +3326,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.668288,
-        139.764453
-      ]
+      "coordinates": [35.668288, 139.764453]
     },
     "googlePhoto": "photo-144.jpg",
     "googleRating": 4.4,
@@ -3772,7 +3337,7 @@
   {
     "name": "GINZA KUKI（くき）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/853",
     "address": "東京都中央区銀座5-9-16 GINZA-A5 4F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670178000000,139.765020000000",
@@ -3784,10 +3349,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.670178,
-        139.76502
-      ]
+      "coordinates": [35.670178, 139.76502]
     },
     "googlePhoto": "photo-145.jpg",
     "googleRating": 4.7,
@@ -3798,7 +3360,7 @@
   {
     "name": "和酒膳 寛（わしゅぜん かん）",
     "area": "三宮",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/855",
     "address": "兵庫県神戸市中央区中山手通1-16-15 古林ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.695487000000,135.191526000000",
@@ -3810,10 +3372,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.695487,
-        135.191526
-      ]
+      "coordinates": [34.695487, 135.191526]
     },
     "googlePhoto": "photo-146.jpg",
     "googleRating": 4.3,
@@ -3824,7 +3383,7 @@
   {
     "name": "和心洋才（わしんようさい） こころ",
     "area": "伏見・丸の内・久屋大通周辺",
-    "cusineType": "すっぽん料理・会席料理",
+    "cuisineType": "すっぽん料理・会席料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/857",
     "address": "愛知県名古屋市中区丸の内1-4-29 愛協ビル 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.176670000000,136.895628000000",
@@ -3836,10 +3395,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.17667,
-        136.895628
-      ]
+      "coordinates": [35.17667, 136.895628]
     },
     "googlePhoto": "photo-147.jpg",
     "googleRating": 4.2,
@@ -3850,7 +3406,7 @@
   {
     "name": "chez MACIO（シェ マシオ） 新宿曙橋店",
     "area": "新宿・市ヶ谷・飯田橋周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/866",
     "address": "東京都新宿区住吉町9-5 パールホテル 新宿曙橋1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.694252000000,139.720853000000",
@@ -3862,10 +3418,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.694252,
-        139.720853
-      ]
+      "coordinates": [35.694252, 139.720853]
     },
     "googlePhoto": "photo-148.jpg",
     "googleRating": 3.9,
@@ -3876,7 +3429,7 @@
   {
     "name": "にしむらや",
     "area": "京都府その他",
-    "cusineType": "京料理",
+    "cuisineType": "京料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/873",
     "address": "京都府京都市北区大宮北椿原町45 高山ビルB1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.056841000000,135.748992000000",
@@ -3888,10 +3441,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.056841,
-        135.748992
-      ]
+      "coordinates": [35.056841, 135.748992]
     },
     "googlePhoto": "photo-149.jpg",
     "googleRating": 4.3,
@@ -3902,7 +3452,7 @@
   {
     "name": "サバティーニ・ディ・フィレンツェ東京店",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/876",
     "address": "東京都千代田区有楽町2-2-3　ヒューリックスクエア東京3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.672853000000,139.761557000000",
@@ -3914,10 +3464,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.672853,
-        139.761557
-      ]
+      "coordinates": [35.672853, 139.761557]
     },
     "googlePhoto": "photo-150.jpg",
     "googleRating": 4.4,
@@ -3928,7 +3475,7 @@
   {
     "name": "chez MACIO（シェ マシオ） 上尾店",
     "area": "埼玉",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/888",
     "address": "埼玉県上尾市小敷谷291-5",
     "googleMapPage": "https://maps.google.com/maps?q=35.957917000000,139.557407000000",
@@ -3940,10 +3487,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.957917,
-        139.557407
-      ]
+      "coordinates": [35.957917, 139.557407]
     },
     "googlePhoto": "photo-151.jpg",
     "googleRating": 4.1,
@@ -3954,7 +3498,7 @@
   {
     "name": "LEBLON AZUL/OSEIRYU（レブロン アズゥ オセイリュウ）",
     "area": "心斎橋",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/897",
     "address": "大阪府大阪市中央区東心斎橋1-7-12",
     "googleMapPage": "https://maps.google.com/maps?q=34.673026000000,135.504918000000",
@@ -3966,10 +3510,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.673026,
-        135.504918
-      ]
+      "coordinates": [34.673026, 135.504918]
     },
     "googlePhoto": "photo-152.jpg",
     "googleRating": 4.4,
@@ -3980,7 +3521,7 @@
   {
     "name": "Wine Bar Bonne Place（ワインバーボンヌ・プラス）",
     "area": "仙台",
-    "cusineType": "ワインバー",
+    "cuisineType": "ワインバー",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/898",
     "address": "宮城県仙台市青葉区一番町4-3-11 2M4・3ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=38.263946000000,140.870743000000",
@@ -3992,10 +3533,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        38.263946,
-        140.870743
-      ]
+      "coordinates": [38.263946, 140.870743]
     },
     "googlePhoto": "photo-153.jpg",
     "googleRating": 4.4,
@@ -4006,7 +3544,7 @@
   {
     "name": "焼肉しゃぶしゃぶシャンボール",
     "area": "新橋・赤坂周辺",
-    "cusineType": "焼肉・しゃぶしゃぶ",
+    "cuisineType": "焼肉・しゃぶしゃぶ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/901",
     "address": "東京都港区赤坂3-15-12 フォーラム赤坂ビルB1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.674511000000,139.736612000000",
@@ -4018,10 +3556,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.674511,
-        139.736612
-      ]
+      "coordinates": [35.674511, 139.736612]
     },
     "googlePhoto": "photo-154.jpg",
     "googleRating": 4.3,
@@ -4032,7 +3567,7 @@
   {
     "name": "四季喰（しっくい）のむら",
     "area": "天満",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/903",
     "address": "大阪府大阪市北区野崎町1-22 日宝扇町ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.701613000000,135.508110000000",
@@ -4044,10 +3579,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.701613,
-        135.50811
-      ]
+      "coordinates": [34.701613, 135.50811]
     },
     "googlePhoto": "photo-155.jpg",
     "googleRating": 4.9,
@@ -4058,7 +3590,7 @@
   {
     "name": "NonTitle/NARITAYUTAKA",
     "area": "新橋・赤坂周辺",
-    "cusineType": "創作料理",
+    "cuisineType": "創作料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/904",
     "address": "東京都港区赤坂4丁目\n（住所詳細はご予約受付時にお伝えします）",
     "googleMapPage": null,
@@ -4070,10 +3602,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.6758838,
-        139.7356245
-      ]
+      "coordinates": [35.6758838, 139.7356245]
     },
     "googlePhoto": "photo-156.jpg",
     "googleRating": 4.2,
@@ -4084,7 +3613,7 @@
   {
     "name": "神戸牛すてーき Ishida. 銀座本店",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/911",
     "address": "東京都中央区銀座7-3-8 HULIC&New GINZA7 7F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670265000000,139.760413000000",
@@ -4096,10 +3625,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.670265,
-        139.760413
-      ]
+      "coordinates": [35.670265, 139.760413]
     },
     "googlePhoto": "photo-157.jpg",
     "googleRating": 4.5,
@@ -4110,7 +3636,7 @@
   {
     "name": "IL PINOLO（イル ピノーロ） 青山",
     "area": "表参道・渋谷周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/917",
     "address": "東京都港区北青山2-7-13 ホテルアラマンダ青山1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670956000000,139.717878000000",
@@ -4122,10 +3648,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.670956,
-        139.717878
-      ]
+      "coordinates": [35.670956, 139.717878]
     },
     "googlePhoto": "photo-158.jpg",
     "googleRating": 3.7,
@@ -4136,7 +3659,7 @@
   {
     "name": "KOBE STEAK Tsubasa 本店",
     "area": "三宮",
-    "cusineType": "鉄板焼・肉料理",
+    "cuisineType": "鉄板焼・肉料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/919",
     "address": "兵庫県神戸市中央区北長狭通1-7-6 ホワイトローズビル10F",
     "googleMapPage": "https://maps.google.com/maps?q=34.693437000000,135.191828000000",
@@ -4148,10 +3671,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.693437,
-        135.191828
-      ]
+      "coordinates": [34.693437, 135.191828]
     },
     "googlePhoto": "photo-159.jpg",
     "googleRating": 3.7,
@@ -4162,7 +3682,7 @@
   {
     "name": "中国料理 月下翁（ゲッカオウ）",
     "area": "札幌",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/936",
     "address": "北海道札幌市中央区南3条西3-3 GダイニングビルB1F",
     "googleMapPage": "https://maps.google.com/maps?q=43.056607000000,141.354319000000",
@@ -4174,10 +3694,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.056607,
-        141.354319
-      ]
+      "coordinates": [43.056607, 141.354319]
     },
     "googlePhoto": "photo-160.jpg",
     "googleRating": 4.2,
@@ -4188,7 +3705,7 @@
   {
     "name": "鮨・日本料理 Serge源's（セルジュゲンズ） 錦店5階",
     "area": "栄・錦・矢場町・新栄周辺",
-    "cusineType": "寿司・日本料理",
+    "cuisineType": "寿司・日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/937",
     "address": "愛知県名古屋市中区錦3-11-26",
     "googleMapPage": "https://maps.google.com/maps?q=35.170567000000,136.902204000000",
@@ -4200,10 +3717,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.170567,
-        136.902204
-      ]
+      "coordinates": [35.170567, 136.902204]
     },
     "googlePhoto": "photo-161.jpg",
     "googleRating": 4.2,
@@ -4214,7 +3728,7 @@
   {
     "name": "てんぷら 天翔",
     "area": "表参道・渋谷周辺",
-    "cusineType": "天ぷら",
+    "cuisineType": "天ぷら",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/945",
     "address": "東京都港区北青山2-7-13 ホテルアラマンダ青山 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.671046000000,139.717860000000",
@@ -4226,10 +3740,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.671046,
-        139.71786
-      ]
+      "coordinates": [35.671046, 139.71786]
     },
     "googlePhoto": "photo-162.jpg",
     "googleRating": 4.3,
@@ -4240,7 +3751,7 @@
   {
     "name": "C'EST CHOUETTE（セ シュエット）",
     "area": "半蔵門・麹町周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/949",
     "address": "東京都千代田区平河町1-5-13 平河町UTビルB1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.682473000000,139.738661000000",
@@ -4252,10 +3763,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.682473,
-        139.738661
-      ]
+      "coordinates": [35.682473, 139.738661]
     },
     "googlePhoto": "photo-163.jpg",
     "googleRating": 4.2,
@@ -4266,7 +3774,7 @@
   {
     "name": "TATEOKA TAKESHI（タテオカ タケシ）",
     "area": "札幌",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/951",
     "address": "北海道札幌市中央区南3条西2 KT3条ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=43.056744000000,141.355414000000",
@@ -4278,10 +3786,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.056744,
-        141.355414
-      ]
+      "coordinates": [43.056744, 141.355414]
     },
     "googlePhoto": "photo-164.jpg",
     "googleRating": 4.3,
@@ -4292,7 +3797,7 @@
   {
     "name": "おもてなし茶屋 咲扇（しょうせん）",
     "area": "北新地",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/958",
     "address": "大阪府大阪市北区曽根崎新地1-1-9",
     "googleMapPage": "https://maps.google.com/maps?q=34.696618000000,135.500215000000",
@@ -4304,10 +3809,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.696618,
-        135.500215
-      ]
+      "coordinates": [34.696618, 135.500215]
     },
     "googlePhoto": "photo-165.jpg",
     "googleRating": 4.1,
@@ -4318,7 +3820,7 @@
   {
     "name": "新町 和けい",
     "area": "四ツ橋",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/964",
     "address": "大阪府大阪市西区新町2-3-13 ライオンズマンション四ツ橋1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.677853000000,135.492605000000",
@@ -4330,10 +3832,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.677853,
-        135.492605
-      ]
+      "coordinates": [34.677853, 135.492605]
     },
     "googlePhoto": "photo-166.jpg",
     "googleRating": 4.2,
@@ -4344,7 +3843,7 @@
   {
     "name": "中国料理 燦宮（サングウ）",
     "area": "梅田",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/969",
     "address": "大阪府大阪市北区大淀中1-1-88 梅田スカイビルタワーイースト39F",
     "googleMapPage": "https://maps.google.com/maps?q=34.705265000000,135.490596000000",
@@ -4356,10 +3855,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.705265,
-        135.490596
-      ]
+      "coordinates": [34.705265, 135.490596]
     },
     "googlePhoto": "photo-167.jpg",
     "googleRating": 4.2,
@@ -4370,7 +3866,7 @@
   {
     "name": "料理屋 botan（ボタン）",
     "area": "札幌",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/978",
     "address": "北海道札幌市中央区南7条西3-7-29 APOLLO BLD 2F",
     "googleMapPage": "https://maps.google.com/maps?q=43.051976000000,141.354640000000",
@@ -4382,10 +3878,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.051976,
-        141.35464
-      ]
+      "coordinates": [43.051976, 141.35464]
     },
     "googlePhoto": "photo-168.jpg",
     "googleRating": 3.4,
@@ -4396,7 +3889,7 @@
   {
     "name": "ちり禅（ぜん）",
     "area": "四ツ橋",
-    "cusineType": "しゃぶしゃぶ・和食",
+    "cuisineType": "しゃぶしゃぶ・和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/998",
     "address": "大阪府大阪市西区新町1-6-8 ソラル清賀 1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.675968000000,135.496555000000",
@@ -4408,10 +3901,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.675968,
-        135.496555
-      ]
+      "coordinates": [34.675968, 135.496555]
     },
     "googlePhoto": "photo-169.jpg",
     "googleRating": 4,
@@ -4422,7 +3912,7 @@
   {
     "name": "LEONE MARCIANO（レオーネ マルチアーノ）",
     "area": "横浜",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1000",
     "address": "神奈川県横浜市西区みなとみらい4-6-2 みなとみらいグランドセントラルテラス1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.458493000000,139.629717000000",
@@ -4434,10 +3924,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.458493,
-        139.629717
-      ]
+      "coordinates": [35.458493, 139.629717]
     },
     "googlePhoto": "photo-170.jpg",
     "googleRating": 4.1,
@@ -4448,7 +3935,7 @@
   {
     "name": "LEONE9（レオーネノーヴェ）",
     "area": "静岡",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1002",
     "address": "静岡県熱海市田原本町2-11 マリーンライフ201",
     "googleMapPage": "https://maps.google.com/maps?q=35.101782000000,139.077411000000",
@@ -4460,10 +3947,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.101782,
-        139.077411
-      ]
+      "coordinates": [35.101782, 139.077411]
     },
     "googlePhoto": "photo-171.jpg",
     "googleRating": 4,
@@ -4474,7 +3958,7 @@
   {
     "name": "神戸牛ステーキ鉄板焼 雪月花（せつげっか）本店",
     "area": "三宮",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1004",
     "address": "兵庫県神戸市中央区北長狭通1-9-3 レインボープラザ8F",
     "googleMapPage": "https://maps.google.com/maps?q=34.692744000000,135.191681000000",
@@ -4486,10 +3970,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.692744,
-        135.191681
-      ]
+      "coordinates": [34.692744, 135.191681]
     },
     "googlePhoto": "photo-172.jpg",
     "googleRating": 4.3,
@@ -4500,7 +3981,7 @@
   {
     "name": "寿司 しくら",
     "area": "札幌",
-    "cusineType": "寿司",
+    "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1005",
     "address": "北海道札幌市中央区南4条西4-7 松岡ビル B1F",
     "googleMapPage": "https://maps.google.com/maps?q=43.055899000000,141.352566000000",
@@ -4512,10 +3993,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.055899,
-        141.352566
-      ]
+      "coordinates": [43.055899, 141.352566]
     },
     "googlePhoto": "photo-173.jpg",
     "googleRating": 4.3,
@@ -4526,7 +4004,7 @@
   {
     "name": "和牛すき焼き 伊勢重（いせじゅう）",
     "area": "人形町・小伝馬町周辺",
-    "cusineType": "すき焼き・しゃぶしゃぶ・ステーキ",
+    "cuisineType": "すき焼き・しゃぶしゃぶ・ステーキ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1007",
     "address": "東京都中央区日本橋小伝馬町14-9",
     "googleMapPage": "https://maps.google.com/maps?q=35.691762000000,139.780643000000",
@@ -4538,10 +4016,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.691762,
-        139.780643
-      ]
+      "coordinates": [35.691762, 139.780643]
     },
     "googlePhoto": "photo-174.jpg",
     "googleRating": 4.4,
@@ -4552,7 +4027,7 @@
   {
     "name": "料理 樹（たつき）",
     "area": "静岡",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1011",
     "address": "静岡県静岡市葵区紺屋町13-6",
     "googleMapPage": "https://maps.google.com/maps?q=34.972143000000,138.384502000000",
@@ -4564,10 +4039,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.972143,
-        138.384502
-      ]
+      "coordinates": [34.972143, 138.384502]
     },
     "googlePhoto": "photo-175.jpg",
     "googleRating": 4.7,
@@ -4578,7 +4050,7 @@
   {
     "name": "神戸アントレコット",
     "area": "三宮",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1016",
     "address": "兵庫県神戸市中央区中山手通1-10-10 天成ビル4F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696080000000,135.192253000000",
@@ -4590,10 +4062,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.69608,
-        135.192253
-      ]
+      "coordinates": [34.69608, 135.192253]
     },
     "googlePhoto": "photo-176.jpg",
     "googleRating": 3.9,
@@ -4604,7 +4073,7 @@
   {
     "name": "KOBE-BEEF やまと",
     "area": "みなと元町",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1018",
     "address": "兵庫県神戸市中央区北長狭通3-3-5 泰隆ビル7F",
     "googleMapPage": "https://maps.google.com/maps?q=34.690743000000,135.188627000000",
@@ -4616,10 +4085,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.690743,
-        135.188627
-      ]
+      "coordinates": [34.690743, 135.188627]
     },
     "googlePhoto": "photo-177.jpg",
     "googleRating": 4.1,
@@ -4630,7 +4096,7 @@
   {
     "name": "沼津甲羅本店八宏園（ぬまづこうらほんてんはっこうえん）",
     "area": "静岡",
-    "cusineType": "かに・日本料理",
+    "cuisineType": "かに・日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1025",
     "address": "静岡県沼津市上香貫東本郷町1838",
     "googleMapPage": "https://maps.google.com/maps?q=35.097389000000,138.872725000000",
@@ -4642,10 +4108,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.097389,
-        138.872725
-      ]
+      "coordinates": [35.097389, 138.872725]
     },
     "googlePhoto": "photo-178.jpg",
     "googleRating": 4,
@@ -4656,7 +4119,7 @@
   {
     "name": "富士甲羅本店八宏園（ふじこうらほんてんはっこうえん）",
     "area": "静岡",
-    "cusineType": "かに・日本料理",
+    "cuisineType": "かに・日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1026",
     "address": "静岡県富士市青葉町530",
     "googleMapPage": "https://maps.google.com/maps?q=35.163669000000,138.661580000000",
@@ -4668,10 +4131,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.163669,
-        138.66158
-      ]
+      "coordinates": [35.163669, 138.66158]
     },
     "googlePhoto": "photo-179.jpg",
     "googleRating": 3.9,
@@ -4682,7 +4142,7 @@
   {
     "name": "THE GRAND 47（ザ グラン フォーティーセブン）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1028",
     "address": "東京都中央区銀座6-10-1 GINZA SIX 13F（THE GRAND GINZA内）",
     "googleMapPage": "https://maps.google.com/maps?q=35.669634000000,139.763950000000",
@@ -4694,10 +4154,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.669634,
-        139.76395
-      ]
+      "coordinates": [35.669634, 139.76395]
     },
     "googlePhoto": "photo-180.jpg",
     "googleRating": 4.1,
@@ -4708,7 +4165,7 @@
   {
     "name": "豚捨（ぶたすて） KITTE丸の内店",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "すき焼き・しゃぶしゃぶ・ステーキ",
+    "cuisineType": "すき焼き・しゃぶしゃぶ・ステーキ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1037",
     "address": "東京都千代田区丸の内2-7-2 KITTEビル 5F",
     "googleMapPage": "https://maps.google.com/maps?q=35.680160000000,139.764697000000",
@@ -4720,10 +4177,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.68016,
-        139.764697
-      ]
+      "coordinates": [35.68016, 139.764697]
     },
     "googlePhoto": "photo-181.jpg",
     "googleRating": 3.9,
@@ -4734,7 +4188,7 @@
   {
     "name": "割烹 辻",
     "area": "静岡",
-    "cusineType": "懐石料理・和食",
+    "cuisineType": "懐石料理・和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1038",
     "address": "静岡県静岡市葵区呉服町2-7-10",
     "googleMapPage": "https://maps.google.com/maps?q=34.974120000000,138.384758000000",
@@ -4746,10 +4200,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.97412,
-        138.384758
-      ]
+      "coordinates": [34.97412, 138.384758]
     },
     "googlePhoto": "photo-182.jpg",
     "googleRating": 3.9,
@@ -4760,7 +4211,7 @@
   {
     "name": "いちぼ 成城学園前店",
     "area": "白金・成城ほか",
-    "cusineType": "和食",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1061",
     "address": "東京都世田谷区成城6-15-21 三幸ビル B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.641363000000,139.598723000000",
@@ -4772,10 +4223,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.641363,
-        139.598723
-      ]
+      "coordinates": [35.641363, 139.598723]
     },
     "googlePhoto": "photo-183.jpg",
     "googleRating": 4.1,
@@ -4786,7 +4234,7 @@
   {
     "name": "麻布Lasen（ラセン）",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "フレンチイタリアン",
+    "cuisineType": "フレンチイタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1063",
     "address": "東京都港区元麻布3-10-2 VENT VERT 5F・6F",
     "googleMapPage": "https://maps.google.com/maps?q=35.657300000000,139.732282000000",
@@ -4798,10 +4246,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.6573,
-        139.732282
-      ]
+      "coordinates": [35.6573, 139.732282]
     },
     "googlePhoto": "photo-184.jpg",
     "googleRating": 4.3,
@@ -4812,7 +4257,7 @@
   {
     "name": "銀座 穂の河（ほのかわ）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1064",
     "address": "東京都中央区銀座6-3-11 西銀座ビル 6F",
     "googleMapPage": "https://maps.google.com/maps?q=35.671180000000,139.760875000000",
@@ -4824,10 +4269,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.67118,
-        139.760875
-      ]
+      "coordinates": [35.67118, 139.760875]
     },
     "googlePhoto": "photo-185.jpg",
     "googleRating": 4.5,
@@ -4838,7 +4280,7 @@
   {
     "name": "和食 あかざわ",
     "area": "山梨",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1066",
     "address": "山梨県甲府市宝2-19-4",
     "googleMapPage": "https://maps.google.com/maps?q=35.660748000000,138.562650000000",
@@ -4850,10 +4292,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.660748,
-        138.56265
-      ]
+      "coordinates": [35.660748, 138.56265]
     },
     "googlePhoto": "photo-186.jpg",
     "googleRating": 4.4,
@@ -4864,7 +4303,7 @@
   {
     "name": "北新地 穂の河（ほのかわ）",
     "area": "北新地",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1067",
     "address": "大阪府大阪市北区堂島1-4-2 ビールディング北新地 4F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696101000000,135.498201000000",
@@ -4876,10 +4315,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.696101,
-        135.498201
-      ]
+      "coordinates": [34.696101, 135.498201]
     },
     "googlePhoto": "photo-187.jpg",
     "googleRating": 4.4,
@@ -4890,7 +4326,7 @@
   {
     "name": "Restaurant Hiromichi（レストラン ヒロミチ）",
     "area": "恵比寿・中目黒・代官山周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1068",
     "address": "東京都目黒区三田1-12-24 MTビル 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.641817000000,139.711856000000",
@@ -4902,10 +4338,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.641817,
-        139.711856
-      ]
+      "coordinates": [35.641817, 139.711856]
     },
     "googlePhoto": "photo-188.jpg",
     "googleRating": 4.4,
@@ -4916,7 +4349,7 @@
   {
     "name": "日本料理 珀也（びゃくや）",
     "area": "新宿・市ヶ谷・飯田橋周辺",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1069",
     "address": "東京都新宿区神楽坂3-6-22 the room 神楽坂 B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.701086000000,139.740775000000",
@@ -4928,10 +4361,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.701086,
-        139.740775
-      ]
+      "coordinates": [35.701086, 139.740775]
     },
     "googlePhoto": "photo-189.jpg",
     "googleRating": 4.7,
@@ -4942,7 +4372,7 @@
   {
     "name": "ちはら寿し（ちはらすし）",
     "area": "栄・錦・矢場町・新栄周辺",
-    "cusineType": "寿司",
+    "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1070",
     "address": "愛知県名古屋市中区栄3-13-31 プリンセスタウン14号",
     "googleMapPage": "https://maps.google.com/maps?q=35.166517000000,136.905188000000",
@@ -4954,10 +4384,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.166517,
-        136.905188
-      ]
+      "coordinates": [35.166517, 136.905188]
     },
     "googlePhoto": "photo-190.jpg",
     "googleRating": 5,
@@ -4968,7 +4395,7 @@
   {
     "name": "活 伊勢海老料理 中納言 東京大森ベルポート店",
     "area": "品川・大井町・大森・蒲田周辺",
-    "cusineType": "伊勢海老料理",
+    "cuisineType": "伊勢海老料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1072",
     "address": "東京都品川区南大井6-26-2 大森ベルポートB館 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.588164000000,139.731514000000",
@@ -4980,10 +4407,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.588164,
-        139.731514
-      ]
+      "coordinates": [35.588164, 139.731514]
     },
     "googlePhoto": "photo-191.jpg",
     "googleRating": 4.1,
@@ -4994,7 +4418,7 @@
   {
     "name": "四季の味 ちひろ",
     "area": "和歌山",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1073",
     "address": "和歌山県和歌山市吉田801",
     "googleMapPage": "https://maps.google.com/maps?q=34.234115000000,135.185836000000",
@@ -5006,10 +4430,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.234115,
-        135.185836
-      ]
+      "coordinates": [34.234115, 135.185836]
     },
     "googlePhoto": "photo-192.jpg",
     "googleRating": 4.1,
@@ -5020,7 +4441,7 @@
   {
     "name": "ほてるISAGO神戸 料亭胡蝶（こちょう）",
     "area": "新神戸",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1076",
     "address": "兵庫県神戸市中央区熊内町4-3-7",
     "googleMapPage": "https://maps.google.com/maps?q=34.706526000000,135.198810000000",
@@ -5032,10 +4453,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.706526,
-        135.19881
-      ]
+      "coordinates": [34.706526, 135.19881]
     },
     "googlePhoto": "photo-193.jpg",
     "googleRating": 3.8,
@@ -5046,7 +4464,7 @@
   {
     "name": "La Avenir（ラ アヴェニール）",
     "area": "静岡",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1077",
     "address": "静岡県静岡市駿河区登呂5-19-38",
     "googleMapPage": "https://maps.google.com/maps?q=34.954198000000,138.409138000000",
@@ -5058,10 +4476,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.954198,
-        138.409138
-      ]
+      "coordinates": [34.954198, 138.409138]
     },
     "googlePhoto": "photo-194.jpg",
     "googleRating": 4.8,
@@ -5072,7 +4487,7 @@
   {
     "name": "江戸前肉割烹 宮下",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "すき焼き・しゃぶしゃぶ",
+    "cuisineType": "すき焼き・しゃぶしゃぶ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1078",
     "address": "東京都中央区銀座2-2-14 マロニエゲート12F",
     "googleMapPage": "https://maps.google.com/maps?q=35.674158000000,139.765394000000",
@@ -5084,10 +4499,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.674158,
-        139.765394
-      ]
+      "coordinates": [35.674158, 139.765394]
     },
     "googlePhoto": "photo-195.jpg",
     "googleRating": 3.9,
@@ -5098,7 +4510,7 @@
   {
     "name": "和房鉄板 榛（はしばみ）",
     "area": "小田原",
-    "cusineType": "日本料理・鉄板焼",
+    "cuisineType": "日本料理・鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1079",
     "address": "神奈川県小田原市栄町2-1-20 プラザリズ B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.255714000000,139.157509000000",
@@ -5110,10 +4522,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.255714,
-        139.157509
-      ]
+      "coordinates": [35.255714, 139.157509]
     },
     "googlePhoto": "photo-196.jpg",
     "googleRating": 4.4,
@@ -5124,7 +4533,7 @@
   {
     "name": "焼鳥 銀座 井（い）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "和食・焼鳥",
+    "cuisineType": "和食・焼鳥",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1082",
     "address": "東京都中央区銀座8-7-20 belle銀座IIIビル B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.668636000000,139.761025000000",
@@ -5136,10 +4545,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.668636,
-        139.761025
-      ]
+      "coordinates": [35.668636, 139.761025]
     },
     "googlePhoto": "photo-197.jpg",
     "googleRating": 4.2,
@@ -5150,7 +4556,7 @@
   {
     "name": "肉処 りゅう庵",
     "area": "祇園",
-    "cusineType": "肉料理",
+    "cuisineType": "肉料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1083",
     "address": "京都府京都市東山区川端四条上ル常盤町169",
     "googleMapPage": "https://maps.google.com/maps?q=35.004939000000,135.772427000000",
@@ -5162,10 +4568,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.004939,
-        135.772427
-      ]
+      "coordinates": [35.004939, 135.772427]
     },
     "googlePhoto": "photo-198.jpg",
     "googleRating": 4.5,
@@ -5176,7 +4579,7 @@
   {
     "name": "フレンチレストラン LA・PAIX（ラ・ペ）",
     "area": "仙台",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1084",
     "address": "宮城県仙台市青葉区一番町3-7-1 電力ビルB1F",
     "googleMapPage": "https://maps.google.com/maps?q=38.261491000000,140.872997000000",
@@ -5188,10 +4591,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        38.261491,
-        140.872997
-      ]
+      "coordinates": [38.261491, 140.872997]
     },
     "googlePhoto": "photo-199.jpg",
     "googleRating": 4.5,
@@ -5202,7 +4602,7 @@
   {
     "name": "銀座エスコフィエ",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1086",
     "address": "東京都中央区銀座5-4-15 西五ビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.671555000000,139.762847000000",
@@ -5214,10 +4614,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.671555,
-        139.762847
-      ]
+      "coordinates": [35.671555, 139.762847]
     },
     "googlePhoto": "photo-200.jpg",
     "googleRating": 4.3,
@@ -5228,7 +4625,7 @@
   {
     "name": "銀座 聖藍（せいらん）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1088",
     "address": "東京都中央区銀座6-9-14 方圓ビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.669860000000,139.763006000000",
@@ -5240,10 +4637,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.66986,
-        139.763006
-      ]
+      "coordinates": [35.66986, 139.763006]
     },
     "googlePhoto": "photo-201.jpg",
     "googleRating": 4.3,
@@ -5254,7 +4648,7 @@
   {
     "name": "演出鉄板ステーキ＆BAR ココットアルファ",
     "area": "河原町",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1089",
     "address": "京都府京都市中京区材木町175 京都ゴールデンビル3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.008231000000,135.770667000000",
@@ -5266,10 +4660,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.008231,
-        135.770667
-      ]
+      "coordinates": [35.008231, 135.770667]
     },
     "googlePhoto": "photo-202.jpg",
     "googleRating": 4.6,
@@ -5280,7 +4671,7 @@
   {
     "name": "鮪達人（まぐろのたつじん） 天神店",
     "area": "天満",
-    "cusineType": "フュージョン料理",
+    "cuisineType": "フュージョン料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1090",
     "address": "大阪府大阪市北区東天満1-11-1 東天神ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696705000000,135.514267000000",
@@ -5292,10 +4683,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.696705,
-        135.514267
-      ]
+      "coordinates": [34.696705, 135.514267]
     },
     "googlePhoto": "photo-203.jpg",
     "googleRating": 5,
@@ -5306,7 +4694,7 @@
   {
     "name": "ふく料理しのだ",
     "area": "山口",
-    "cusineType": "ふぐ料理",
+    "cuisineType": "ふぐ料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1091",
     "address": "山口県下関市今浦町7-9",
     "googleMapPage": "https://maps.google.com/maps?q=33.953594000000,130.920771000000",
@@ -5318,10 +4706,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.953594,
-        130.920771
-      ]
+      "coordinates": [33.953594, 130.920771]
     },
     "googlePhoto": "photo-204.jpg",
     "googleRating": 4.3,
@@ -5332,7 +4717,7 @@
   {
     "name": "リストランテ シンティッラ",
     "area": "恵比寿・中目黒・代官山周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1093",
     "address": "東京都目黒区上目黒2-44-9 クレストモア B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.641391000000,139.696066000000",
@@ -5344,10 +4729,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.641391,
-        139.696066
-      ]
+      "coordinates": [35.641391, 139.696066]
     },
     "googlePhoto": "photo-205.jpg",
     "googleRating": 4.8,
@@ -5358,7 +4740,7 @@
   {
     "name": "cucina IL PONTE Kaji（クッチーナ イル ポンテ カジ）",
     "area": "静岡",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1099",
     "address": "静岡県静岡市葵区常盤町1-8-2 アスビスⅡ 2F",
     "googleMapPage": "https://maps.google.com/maps?q=34.972054000000,138.381530000000",
@@ -5370,10 +4752,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.972054,
-        138.38153
-      ]
+      "coordinates": [34.972054, 138.38153]
     },
     "googlePhoto": "photo-206.jpg",
     "googleRating": 4.4,
@@ -5384,7 +4763,7 @@
   {
     "name": "かさね",
     "area": "新橋・赤坂周辺",
-    "cusineType": "和食",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1101",
     "address": "東京都港区赤坂6-16-11 浜ビル B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.668534000000,139.732836000000",
@@ -5396,10 +4775,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.668534,
-        139.732836
-      ]
+      "coordinates": [35.668534, 139.732836]
     },
     "googlePhoto": "photo-207.jpg",
     "googleRating": 1.5,
@@ -5410,7 +4786,7 @@
   {
     "name": "HEI FUNG TERRACE（ヘイフンテラス）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1114",
     "address": "東京都千代田区有楽町1-8-1 ザ・ペニンシュラ東京 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.674697000000,139.760656000000",
@@ -5422,10 +4798,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.674697,
-        139.760656
-      ]
+      "coordinates": [35.674697, 139.760656]
     },
     "googlePhoto": "photo-208.jpg",
     "googleRating": 4.1,
@@ -5436,7 +4809,7 @@
   {
     "name": "Peter（ピーター）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "ステーキ＆グリル",
+    "cuisineType": "ステーキ＆グリル",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1115",
     "address": "東京都千代田区有楽町1-8-1 ザ・ペニンシュラ東京 24F",
     "googleMapPage": "https://maps.google.com/maps?q=35.674697000000,139.760656000000",
@@ -5448,10 +4821,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.674697,
-        139.760656
-      ]
+      "coordinates": [35.674697, 139.760656]
     },
     "googlePhoto": "photo-209.jpg",
     "googleRating": 4.3,
@@ -5462,7 +4832,7 @@
   {
     "name": "あみ焼き みよし",
     "area": "堂島",
-    "cusineType": "日本料理あみ焼き",
+    "cuisineType": "日本料理あみ焼き",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1118",
     "address": "大阪府大阪市北区堂島1-2-13 翁ビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696320000000,135.498730000000",
@@ -5474,10 +4844,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.69632,
-        135.49873
-      ]
+      "coordinates": [34.69632, 135.49873]
     },
     "googlePhoto": "photo-210.jpg",
     "googleRating": 4.5,
@@ -5488,7 +4855,7 @@
   {
     "name": "大阪 牛しゃぶの会",
     "area": "北新地",
-    "cusineType": "しゃぶしゃぶ",
+    "cuisineType": "しゃぶしゃぶ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1119",
     "address": "大阪府大阪市北区堂島1-3-4 谷安ビル B1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696356000000,135.498191000000",
@@ -5500,10 +4867,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.696356,
-        135.498191
-      ]
+      "coordinates": [34.696356, 135.498191]
     },
     "googlePhoto": "photo-211.jpg",
     "googleRating": 4.7,
@@ -5514,7 +4878,7 @@
   {
     "name": "鮨 四（よん）",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "寿司・和食",
+    "cuisineType": "寿司・和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1122",
     "address": "東京都港区六本木3-13-14 ゴトウビルディング3rd 3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.663111000000,139.734012000000",
@@ -5526,10 +4890,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.663111,
-        139.734012
-      ]
+      "coordinates": [35.663111, 139.734012]
     },
     "googlePhoto": "photo-212.jpg",
     "googleRating": 4.2,
@@ -5540,7 +4901,7 @@
   {
     "name": "赤坂 ゆうが",
     "area": "新橋・赤坂周辺",
-    "cusineType": "和食・日本料理",
+    "cuisineType": "和食・日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1123",
     "address": "東京都港区赤坂2-14-8 山口建設ビル 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.672093000000,139.738199000000",
@@ -5552,10 +4913,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.672093,
-        139.738199
-      ]
+      "coordinates": [35.672093, 139.738199]
     },
     "googlePhoto": "photo-213.jpg",
     "googleRating": 4.6,
@@ -5566,7 +4924,7 @@
   {
     "name": "肉割烹 喰心（くうしん）",
     "area": "埼玉",
-    "cusineType": "和食・肉料理",
+    "cuisineType": "和食・肉料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1125",
     "address": "埼玉県さいたま市大宮区仲町2-43-1 COMO大宮ビル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.904903000000,139.627056000000",
@@ -5578,10 +4936,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.904903,
-        139.627056
-      ]
+      "coordinates": [35.904903, 139.627056]
     },
     "googlePhoto": "photo-214.jpg",
     "googleRating": 4.1,
@@ -5592,7 +4947,7 @@
   {
     "name": "焼肉 喰心（くうしん）",
     "area": "埼玉",
-    "cusineType": "焼肉・肉料理",
+    "cuisineType": "焼肉・肉料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1126",
     "address": "埼玉県さいたま市大宮区宮町2-17 パインズビル 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.908625000000,139.627537000000",
@@ -5604,10 +4959,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.908625,
-        139.627537
-      ]
+      "coordinates": [35.908625, 139.627537]
     },
     "googlePhoto": "photo-215.jpg",
     "googleRating": 4.2,
@@ -5618,7 +4970,7 @@
   {
     "name": "Angepatio（アンジェパティオ）",
     "area": "表参道・渋谷周辺",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1127",
     "address": "東京都渋谷区南平台町12-11 アンジェパティオ1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.654430000000,139.695935000000",
@@ -5630,10 +4982,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.65443,
-        139.695935
-      ]
+      "coordinates": [35.65443, 139.695935]
     },
     "googlePhoto": "photo-216.jpg",
     "googleRating": 4,
@@ -5644,7 +4993,7 @@
   {
     "name": "活 伊勢海老料理 中納言 神戸三宮本店",
     "area": "三宮",
-    "cusineType": "伊勢海老料理",
+    "cuisineType": "伊勢海老料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1128",
     "address": "兵庫県神戸市中央区三宮町1-10-1 神戸交通センタービル 9F",
     "googleMapPage": "https://maps.google.com/maps?q=34.693295000000,135.193985000000",
@@ -5656,10 +5005,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.693295,
-        135.193985
-      ]
+      "coordinates": [34.693295, 135.193985]
     },
     "googlePhoto": "photo-217.jpg",
     "googleRating": 4.3,
@@ -5670,7 +5016,7 @@
   {
     "name": "gristro chamaru（グリストロ チャマル）",
     "area": "天神",
-    "cusineType": "フレンチダイニング",
+    "cuisineType": "フレンチダイニング",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1129",
     "address": "福岡県福岡市中央区春吉3-11-19 パノラマスクエア 2F",
     "googleMapPage": "https://maps.google.com/maps?q=33.589672000000,130.406139000000",
@@ -5682,10 +5028,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.589672,
-        130.406139
-      ]
+      "coordinates": [33.589672, 130.406139]
     },
     "googlePhoto": "photo-218.jpg",
     "googleRating": 4.6,
@@ -5696,7 +5039,7 @@
   {
     "name": "Veggie by Y（ベジバイワイ）",
     "area": "仙台",
-    "cusineType": "創作イタリアン",
+    "cuisineType": "創作イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1130",
     "address": "宮城県仙台市青葉区中央4-9-7 井上ビル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=38.257150000000,140.880562000000",
@@ -5708,10 +5051,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        38.25715,
-        140.880562
-      ]
+      "coordinates": [38.25715, 140.880562]
     },
     "googlePhoto": "photo-219.jpg",
     "googleRating": 4.7,
@@ -5722,7 +5062,7 @@
   {
     "name": "牛-GYU- FUNABASHI",
     "area": "千葉",
-    "cusineType": "焼肉",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1132",
     "address": "千葉県船橋市本町1-11-25 LEO伍拾四番館 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.699572000000,139.984102000000",
@@ -5734,10 +5074,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.699572,
-        139.984102
-      ]
+      "coordinates": [35.699572, 139.984102]
     },
     "googlePhoto": "photo-220.jpg",
     "googleRating": 4.2,
@@ -5748,7 +5085,7 @@
   {
     "name": "レストラン ペリニィヨン",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1133",
     "address": "東京都中央区銀座1-10-19 銀座一ビルヂング 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.674048000000,139.769391000000",
@@ -5760,10 +5097,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.674048,
-        139.769391
-      ]
+      "coordinates": [35.674048, 139.769391]
     },
     "googlePhoto": "photo-221.jpg",
     "googleRating": 4.8,
@@ -5774,7 +5108,7 @@
   {
     "name": "tcc GINZAの洋食",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "フレンチ・イタリアン",
+    "cuisineType": "フレンチ・イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1134",
     "address": "東京都中央区銀座5-9-1 銀座幸ビル 3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670572000000,139.765488000000",
@@ -5786,10 +5120,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.670572,
-        139.765488
-      ]
+      "coordinates": [35.670572, 139.765488]
     },
     "googlePhoto": "photo-222.jpg",
     "googleRating": 3.8,
@@ -5800,7 +5131,7 @@
   {
     "name": "tcc 炉窯（ろがま）炭火焼 Steak",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "肉料理・ステーキ",
+    "cuisineType": "肉料理・ステーキ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1135",
     "address": "東京都中央区銀座5-9-1 銀座幸ビル 4F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670572000000,139.765488000000",
@@ -5812,10 +5143,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.670572,
-        139.765488
-      ]
+      "coordinates": [35.670572, 139.765488]
     },
     "googlePhoto": "photo-223.jpg",
     "googleRating": 3.8,
@@ -5826,7 +5154,7 @@
   {
     "name": "日本料理 銀扇（ぎんせん）",
     "area": "小岩・葛西周辺",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1137",
     "address": "東京都江戸川区南篠崎町3-2-11",
     "googleMapPage": "https://maps.google.com/maps?q=35.693909000000,139.899837000000",
@@ -5838,10 +5166,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.693909,
-        139.899837
-      ]
+      "coordinates": [35.693909, 139.899837]
     },
     "googlePhoto": "photo-224.jpg",
     "googleRating": 4.1,
@@ -5852,7 +5177,7 @@
   {
     "name": "黒毛和牛焼肉 Serge源's（セルジュゲンズ） 錦店4階",
     "area": "栄・錦・矢場町・新栄周辺",
-    "cusineType": "焼肉",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1138",
     "address": "愛知県名古屋市中区錦3-11-26",
     "googleMapPage": "https://maps.google.com/maps?q=35.170598000000,136.902230000000",
@@ -5864,10 +5189,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.170598,
-        136.90223
-      ]
+      "coordinates": [35.170598, 136.90223]
     },
     "googlePhoto": "photo-225.jpg",
     "googleRating": 4.2,
@@ -5878,7 +5200,7 @@
   {
     "name": "鮨 川澄",
     "area": "静岡",
-    "cusineType": "寿司",
+    "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1139",
     "address": "静岡県静岡市清水区入船町13-15 エスパルスドリームプラザ 清水すし横丁内",
     "googleMapPage": "https://maps.google.com/maps?q=35.010231000000,138.493078000000",
@@ -5890,10 +5212,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.010231,
-        138.493078
-      ]
+      "coordinates": [35.010231, 138.493078]
     },
     "googlePhoto": "photo-226.jpg",
     "googleRating": 4.1,
@@ -5904,7 +5223,7 @@
   {
     "name": "入船鮨 両替町店",
     "area": "静岡",
-    "cusineType": "寿司",
+    "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1140",
     "address": "静岡県静岡市葵区両替町2-7-10",
     "googleMapPage": "https://maps.google.com/maps?q=34.972870000000,138.383946000000",
@@ -5916,10 +5235,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.97287,
-        138.383946
-      ]
+      "coordinates": [34.97287, 138.383946]
     },
     "googlePhoto": "photo-227.jpg",
     "googleRating": 3.7,
@@ -5930,7 +5246,7 @@
   {
     "name": "スペイン料理と鉄板焼 BOQUERIA（ボケリア）",
     "area": "札幌",
-    "cusineType": "スペイン料理",
+    "cuisineType": "スペイン料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1141",
     "address": "北海道札幌市中央区南3条西7-7-4 しゃみ靴店 2F",
     "googleMapPage": "https://maps.google.com/maps?q=43.056041000000,141.346929000000",
@@ -5942,10 +5258,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.056041,
-        141.346929
-      ]
+      "coordinates": [43.056041, 141.346929]
     },
     "googlePhoto": "photo-228.jpg",
     "googleRating": 3.9,
@@ -5956,7 +5269,7 @@
   {
     "name": "トリュフ匠（ショウ） 熾火（オキビ）",
     "area": "北新地",
-    "cusineType": "創作料理・洋食",
+    "cuisineType": "創作料理・洋食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1142",
     "address": "大阪府大阪市北区堂島1-4-10 岩伸ガリーナビル 3F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696080000000,135.497527000000",
@@ -5968,10 +5281,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.69608,
-        135.497527
-      ]
+      "coordinates": [34.69608, 135.497527]
     },
     "googlePhoto": "photo-229.jpg",
     "googleRating": 3.9,
@@ -5982,7 +5292,7 @@
   {
     "name": "Pizzeria347（ピッツェリアサンヨンナナ） 船橋 by il pinolo（イル ピノーロ）",
     "area": "千葉",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1162",
     "address": "千葉県船橋市本町7-10-2 ユニマットガーデンスクエア 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.703950000000,139.983445000000",
@@ -5994,10 +5304,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.70395,
-        139.983445
-      ]
+      "coordinates": [35.70395, 139.983445]
     },
     "googlePhoto": "photo-230.jpg",
     "googleRating": 3.6,
@@ -6008,7 +5315,7 @@
   {
     "name": "Jean-Georges Tokyo（ジャン ジョルジュ トウキョウ）",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1163",
     "address": "東京都港区六本木6-12-4 六本木ヒルズ けやき坂通り 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.659026000000,139.730712000000",
@@ -6020,10 +5327,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.659026,
-        139.730712
-      ]
+      "coordinates": [35.659026, 139.730712]
     },
     "googlePhoto": "photo-231.jpg",
     "googleRating": 4.4,
@@ -6034,7 +5338,7 @@
   {
     "name": "焼肉牛王 鳥取本店",
     "area": "鳥取",
-    "cusineType": "焼肉",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1164",
     "address": "鳥取県鳥取市今町1-180",
     "googleMapPage": "https://maps.google.com/maps?q=35.497334000000,134.226229000000",
@@ -6046,10 +5350,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.497334,
-        134.226229
-      ]
+      "coordinates": [35.497334, 134.226229]
     },
     "googlePhoto": "photo-232.jpg",
     "googleRating": 4.3,
@@ -6060,7 +5361,7 @@
   {
     "name": "レストラン 桂姫（ケイキ）",
     "area": "長野",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1166",
     "address": "長野県北佐久郡軽井沢町1323-980 旧軽井沢ホテル音羽ノ森本館 1F",
     "googleMapPage": "https://maps.google.com/maps?q=36.351738000000,138.636122000000",
@@ -6072,10 +5373,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        36.351738,
-        138.636122
-      ]
+      "coordinates": [36.351738, 138.636122]
     },
     "googlePhoto": "photo-233.jpg",
     "googleRating": 4.3,
@@ -6086,7 +5384,7 @@
   {
     "name": "émuN（エミュ）",
     "area": "表参道・渋谷周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1170",
     "address": "東京都渋谷区西原3-11-9 蜂章ビル3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.669400000000,139.679865000000",
@@ -6098,10 +5396,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.6694,
-        139.679865
-      ]
+      "coordinates": [35.6694, 139.679865]
     },
     "googlePhoto": "photo-234.jpg",
     "googleRating": 4.5,
@@ -6112,7 +5407,7 @@
   {
     "name": "ホテルオークラ 中国料理 桃花林（トウカリン） 日本橋室町賓館",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1175",
     "address": "東京都中央区日本橋室町2-4-3 日本橋室町野村ビルYUITO 3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.687203000000,139.774044000000",
@@ -6124,10 +5419,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.687203,
-        139.774044
-      ]
+      "coordinates": [35.687203, 139.774044]
     },
     "googlePhoto": "photo-235.jpg",
     "googleRating": 4.2,
@@ -6138,7 +5430,7 @@
   {
     "name": "風香（ふうか）",
     "area": "札幌",
-    "cusineType": "和食",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1178",
     "address": "北海道札幌市中央区大通西16-2-4 メゾンエクレーレ近代美術館 2F",
     "googleMapPage": "https://maps.google.com/maps?q=43.058657000000,141.331852000000",
@@ -6150,10 +5442,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        43.058657,
-        141.331852
-      ]
+      "coordinates": [43.058657, 141.331852]
     },
     "googlePhoto": "photo-236.jpg",
     "googleRating": 3.7,
@@ -6164,7 +5453,7 @@
   {
     "name": "Concept 1/f（コンセプト エフブンノイチ）",
     "area": "伏見・丸の内・久屋大通周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1180",
     "address": "愛知県名古屋市中区丸の内3-20-22",
     "googleMapPage": "https://maps.google.com/maps?q=35.173847000000,136.905318000000",
@@ -6176,10 +5465,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.173847,
-        136.905318
-      ]
+      "coordinates": [35.173847, 136.905318]
     },
     "googlePhoto": "photo-237.jpg",
     "googleRating": 4.3,
@@ -6190,7 +5476,7 @@
   {
     "name": "REIKASAI GINZA（レイカサイ ギンザ）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "中国料理中国宮廷料理",
+    "cuisineType": "中国料理中国宮廷料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1192",
     "address": "東京都中央区銀座1-7-7 ポーラ銀座ビル 9F",
     "googleMapPage": "https://maps.google.com/maps?q=35.674304000000,139.767864000000",
@@ -6202,10 +5488,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.674304,
-        139.767864
-      ]
+      "coordinates": [35.674304, 139.767864]
     },
     "googlePhoto": "photo-238.jpg",
     "googleRating": 4.2,
@@ -6216,7 +5499,7 @@
   {
     "name": "RISPETTO（リスペット）",
     "area": "横浜",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1199",
     "address": "神奈川県横浜市西区戸部本町39-8 ストークビル高島1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.457721000000,139.621521000000",
@@ -6228,10 +5511,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.457721,
-        139.621521
-      ]
+      "coordinates": [35.457721, 139.621521]
     },
     "googlePhoto": "photo-239.jpg",
     "googleRating": 4.8,
@@ -6242,7 +5522,7 @@
   {
     "name": "おか村",
     "area": "白金・成城ほか",
-    "cusineType": "懐石料理・会席料理",
+    "cuisineType": "懐石料理・会席料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1203",
     "address": "東京都港区白金6-2-1",
     "googleMapPage": "https://maps.google.com/maps?q=35.644544000000,139.723575000000",
@@ -6254,10 +5534,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.644544,
-        139.723575
-      ]
+      "coordinates": [35.644544, 139.723575]
     },
     "googlePhoto": "photo-240.jpg",
     "googleRating": 4.5,
@@ -6268,7 +5545,7 @@
   {
     "name": "南風楼（ナンプウロウ）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1206",
     "address": "東京都中央区銀座5-4-8 カリオカビル 3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.671435000000,139.763032000000",
@@ -6280,10 +5557,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.671435,
-        139.763032
-      ]
+      "coordinates": [35.671435, 139.763032]
     },
     "googlePhoto": "photo-241.jpg",
     "googleRating": 4.3,
@@ -6294,7 +5568,7 @@
   {
     "name": "日本料理 梟（ふくろう）",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1211",
     "address": "東京都港区麻布十番1-6-7 FIプラザビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.656490000000,139.734145000000",
@@ -6306,10 +5580,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.65649,
-        139.734145
-      ]
+      "coordinates": [35.65649, 139.734145]
     },
     "googlePhoto": "photo-242.jpg",
     "googleRating": 4.3,
@@ -6320,7 +5591,7 @@
   {
     "name": "銀座 泉（いずみ）",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "和食",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1213",
     "address": "東京都中央区銀座7-5-4 ラヴィアーレ銀座ビル B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670130000000,139.761591000000",
@@ -6332,10 +5603,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.67013,
-        139.761591
-      ]
+      "coordinates": [35.67013, 139.761591]
     },
     "googlePhoto": "photo-243.jpg",
     "googleRating": 4.5,
@@ -6346,7 +5614,7 @@
   {
     "name": "中国飯店 市ヶ谷店",
     "area": "新宿・市ヶ谷・飯田橋周辺",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1214",
     "address": "東京都千代田区九段北4-1-7九段センタービル B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.693007000000,139.739459000000",
@@ -6358,10 +5626,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.693007,
-        139.739459
-      ]
+      "coordinates": [35.693007, 139.739459]
     },
     "googlePhoto": "photo-244.jpg",
     "googleRating": 4.3,
@@ -6372,7 +5637,7 @@
   {
     "name": "香港料理 盛記（セイキ） 銀座店",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "中国料理・香港料理",
+    "cuisineType": "中国料理・香港料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1216",
     "address": "東京都中央区銀座7-8-1 銀座梅林ビル6F・7F",
     "googleMapPage": "https://maps.google.com/maps?q=35.669547000000,139.762731000000",
@@ -6384,10 +5649,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.669547,
-        139.762731
-      ]
+      "coordinates": [35.669547, 139.762731]
     },
     "googlePhoto": "photo-245.jpg",
     "googleRating": 4.2,
@@ -6398,7 +5660,7 @@
   {
     "name": "銀座しゃぶ通 好の笹（よしのささ） 銀座店",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "しゃぶしゃぶ・せいろ蒸し",
+    "cuisineType": "しゃぶしゃぶ・せいろ蒸し",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1219",
     "address": "東京都中央区銀座2-2-14 マロニエゲート1 12F",
     "googleMapPage": "https://maps.google.com/maps?q=35.671120000000,139.770659000000",
@@ -6410,10 +5672,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.67112,
-        139.770659
-      ]
+      "coordinates": [35.67112, 139.770659]
     },
     "googlePhoto": "photo-246.jpg",
     "googleRating": 4.3,
@@ -6424,7 +5683,7 @@
   {
     "name": "味樹園（ミキエン） 名駅三丁目店",
     "area": "名古屋駅周辺",
-    "cusineType": "焼肉",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1222",
     "address": "愛知県名古屋市中村区名駅3-17-33",
     "googleMapPage": "https://maps.google.com/maps?q=35.173294000000,136.886639000000",
@@ -6436,10 +5695,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.173294,
-        136.886639
-      ]
+      "coordinates": [35.173294, 136.886639]
     },
     "googlePhoto": "photo-247.jpg",
     "googleRating": 3.7,
@@ -6450,7 +5706,7 @@
   {
     "name": "宮川町 水簾（すいれん） 東京ミッドタウン店",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "和食・懐石・会席料理",
+    "cuisineType": "和食・懐石・会席料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1224",
     "address": "東京都港区赤坂9-7-1 東京ミッドタウン ガレリア内ガーデンテラス 3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.666791000000,139.730777000000",
@@ -6462,10 +5718,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.666791,
-        139.730777
-      ]
+      "coordinates": [35.666791, 139.730777]
     },
     "googlePhoto": "photo-248.jpg",
     "googleRating": 4.3,
@@ -6476,7 +5729,7 @@
   {
     "name": "Quatre-vingt-douze（キャトルヴァンドゥーズ）",
     "area": "白金・成城ほか",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1226",
     "address": "東京都世田谷区船橋1-9-5 ラ・レジオン千歳船橋 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.647825000000,139.636205000000",
@@ -6488,10 +5741,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.647825,
-        139.636205
-      ]
+      "coordinates": [35.647825, 139.636205]
     },
     "googlePhoto": "photo-249.jpg",
     "googleRating": 4.7,
@@ -6502,7 +5752,7 @@
   {
     "name": "かなやま",
     "area": "今池・千種・池下周辺",
-    "cusineType": "和食",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1227",
     "address": "愛知県名古屋市千種区池下1-8-14 加賀ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.167914000000,136.943123000000",
@@ -6514,10 +5764,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.167914,
-        136.943123
-      ]
+      "coordinates": [35.167914, 136.943123]
     },
     "googlePhoto": "photo-250.jpg",
     "googleRating": 4.8,
@@ -6528,7 +5775,7 @@
   {
     "name": "くずし割烹 CHRONOS（クロノス）",
     "area": "伏見・丸の内・久屋大通周辺",
-    "cusineType": "和食",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1228",
     "address": "愛知県名古屋市中区丸の内3-15-5 RS丸の内三丁目ビル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.175250000000,136.903304000000",
@@ -6540,10 +5787,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.17525,
-        136.903304
-      ]
+      "coordinates": [35.17525, 136.903304]
     },
     "googlePhoto": "photo-251.jpg",
     "googleRating": 4.6,
@@ -6554,7 +5798,7 @@
   {
     "name": "西麻布 香宮（シャングウ）",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1229",
     "address": "東京都港区西麻布3-13-10 パークサイド セピア 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.656888000000,139.724257000000",
@@ -6566,10 +5810,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.656888,
-        139.724257
-      ]
+      "coordinates": [35.656888, 139.724257]
     },
     "googlePhoto": "photo-252.jpg",
     "googleRating": 4.2,
@@ -6580,7 +5821,7 @@
   {
     "name": "THE SUN & THE MOON Restaurant（ザ サン アンド ザ ムーン レストラン）",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1230",
     "address": "東京都港区六本木6-10-1 六本木ヒルズ森タワー52F",
     "googleMapPage": "https://maps.google.com/maps?q=35.660735000000,139.729207000000",
@@ -6592,10 +5833,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.660735,
-        139.729207
-      ]
+      "coordinates": [35.660735, 139.729207]
     },
     "googlePhoto": "photo-253.jpg",
     "googleRating": 4,
@@ -6606,7 +5844,7 @@
   {
     "name": "旬彩 希味（のぞみ）",
     "area": "広島",
-    "cusineType": "和食",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1265",
     "address": "広島県東広島市西条本町7-29 林ビル 1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.429907000000,132.747088000000",
@@ -6618,10 +5856,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.429907,
-        132.747088
-      ]
+      "coordinates": [34.429907, 132.747088]
     },
     "googlePhoto": "photo-254.jpg",
     "googleRating": 3.9,
@@ -6632,7 +5867,7 @@
   {
     "name": "酒と肴 盃（まるはい）",
     "area": "高知",
-    "cusineType": "和食",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1269",
     "address": "高知県高知市追手筋1-8-12",
     "googleMapPage": "https://maps.google.com/maps?q=33.561401000000,133.539206000000",
@@ -6644,10 +5879,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.561401,
-        133.539206
-      ]
+      "coordinates": [33.561401, 133.539206]
     },
     "googlePhoto": "photo-255.jpg",
     "googleRating": 4.4,
@@ -6658,7 +5890,7 @@
   {
     "name": "宮島鮨 まいもん",
     "area": "広島",
-    "cusineType": "寿司",
+    "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1271",
     "address": "広島県廿日市市宮島口1丁目8-14 レアルマーレ望厳荘1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.310119000000,132.304979000000",
@@ -6670,10 +5902,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.310119,
-        132.304979
-      ]
+      "coordinates": [34.310119, 132.304979]
     },
     "googlePhoto": "photo-256.jpg",
     "googleRating": 4.6,
@@ -6684,7 +5913,7 @@
   {
     "name": "CITTOCO（チットコ）",
     "area": "横浜",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1272",
     "address": "神奈川県横浜市中区石川町1-4-4 コンコルドTKビル 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.438884000000,139.644805000000",
@@ -6696,10 +5925,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.438884,
-        139.644805
-      ]
+      "coordinates": [35.438884, 139.644805]
     },
     "googlePhoto": "photo-257.jpg",
     "googleRating": 4.1,
@@ -6710,7 +5936,7 @@
   {
     "name": "RISTORANTE REGA（リストランテ レガ）",
     "area": "横浜",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1273",
     "address": "神奈川県横浜市中区石川町2-66-3  ル・フェニックス1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.437714000000,139.641988000000",
@@ -6722,10 +5948,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.437714,
-        139.641988
-      ]
+      "coordinates": [35.437714, 139.641988]
     },
     "googlePhoto": "photo-258.jpg",
     "googleRating": 3.8,
@@ -6736,7 +5959,7 @@
   {
     "name": "清流庭園 山菜料理 玉貴（たまき）",
     "area": "山形",
-    "cusineType": "和食・山菜料理",
+    "cuisineType": "和食・山菜料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1274",
     "address": "山形県西村山郡西川町大字間沢80-1",
     "googleMapPage": "https://maps.google.com/maps?q=38.430802000000,140.129180000000",
@@ -6748,10 +5971,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        38.430802,
-        140.12918
-      ]
+      "coordinates": [38.430802, 140.12918]
     },
     "googlePhoto": "photo-259.jpg",
     "googleRating": 4.4,
@@ -6762,7 +5982,7 @@
   {
     "name": "味樹園（ミキエン） 栄店",
     "area": "栄・錦・矢場町・新栄周辺",
-    "cusineType": "焼肉",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10004",
     "address": "愛知県名古屋市中区栄3-19-3",
     "googleMapPage": "https://maps.google.com/maps?q=35.165671000000,136.903913000000",
@@ -6774,10 +5994,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.165671,
-        136.903913
-      ]
+      "coordinates": [35.165671, 136.903913]
     },
     "googlePhoto": "photo-260.jpg",
     "googleRating": 3.8,
@@ -6788,7 +6005,7 @@
   {
     "name": "鉄板焼 ステーキ ぼんて",
     "area": "北千住・墨田周辺",
-    "cusineType": "鉄板焼・ステーキ",
+    "cuisineType": "鉄板焼・ステーキ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10007",
     "address": "東京都台東区浅草橋1-29-1 ソリューション浅草橋 3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.697904000000,139.785758000000",
@@ -6800,10 +6017,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.697904,
-        139.785758
-      ]
+      "coordinates": [35.697904, 139.785758]
     },
     "googlePhoto": "photo-261.jpg",
     "googleRating": 4.8,
@@ -6814,7 +6028,7 @@
   {
     "name": "MEAT & GRILL MARCO AKASAKA（ミート アンド グリル マルコ アカサカ）",
     "area": "新橋・赤坂周辺",
-    "cusineType": "ステーキ・イタリアン・バー",
+    "cuisineType": "ステーキ・イタリアン・バー",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10013",
     "address": "東京都港区赤坂3-21-8 高和赤坂ビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.676465000000,139.736141000000",
@@ -6826,10 +6040,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.676465,
-        139.736141
-      ]
+      "coordinates": [35.676465, 139.736141]
     },
     "googlePhoto": "photo-262.jpg",
     "googleRating": 4.7,
@@ -6840,7 +6051,7 @@
   {
     "name": "Romiele da REGA（ロミエーレ ダ レガ）",
     "area": "鎌倉",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10017",
     "address": "神奈川県鎌倉市小町1-5-13 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.319569000000,139.551809000000",
@@ -6852,10 +6063,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.319569,
-        139.551809
-      ]
+      "coordinates": [35.319569, 139.551809]
     },
     "googlePhoto": "photo-263.jpg",
     "googleRating": 4.4,
@@ -6866,7 +6074,7 @@
   {
     "name": "KAI（カイ）",
     "area": "鹿児島",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10022",
     "address": "鹿児島県出水市昭和町50-19",
     "googleMapPage": "https://maps.google.com/maps?q=32.087022000000,130.357282000000",
@@ -6878,10 +6086,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        32.087022,
-        130.357282
-      ]
+      "coordinates": [32.087022, 130.357282]
     },
     "googlePhoto": "photo-264.jpg",
     "googleRating": 3.9,
@@ -6892,7 +6097,7 @@
   {
     "name": "和食杜 侑（ゆき）",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "和食・会席料理",
+    "cuisineType": "和食・会席料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10023",
     "address": "東京都港区西麻布1-4-22 ヴェッセル西麻布 101",
     "googleMapPage": "https://maps.google.com/maps?q=35.661654000000,139.724071000000",
@@ -6904,10 +6109,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.661654,
-        139.724071
-      ]
+      "coordinates": [35.661654, 139.724071]
     },
     "googlePhoto": "photo-265.jpg",
     "googleRating": 4.8,
@@ -6918,7 +6120,7 @@
   {
     "name": "鮨 昇（すし しょう）",
     "area": "広島",
-    "cusineType": "寿司",
+    "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10025",
     "address": "広島県広島市中区流川町8-20 エイトビル 1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.389478000000,132.463730000000",
@@ -6930,10 +6132,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.389478,
-        132.46373
-      ]
+      "coordinates": [34.389478, 132.46373]
     },
     "googlePhoto": "photo-266.jpg",
     "googleRating": 3.8,
@@ -6944,7 +6143,7 @@
   {
     "name": "焼肉牛王 倉吉店",
     "area": "鳥取",
-    "cusineType": "焼肉",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10027",
     "address": "鳥取県倉吉市上井195-10",
     "googleMapPage": "https://maps.google.com/maps?q=35.455180000000,133.848877000000",
@@ -6956,10 +6155,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.45518,
-        133.848877
-      ]
+      "coordinates": [35.45518, 133.848877]
     },
     "googlePhoto": "photo-267.jpg",
     "googleRating": 4.4,
@@ -6970,7 +6166,7 @@
   {
     "name": "極上松阪牛 樹一（じゅいち）",
     "area": "栄・錦・矢場町・新栄周辺",
-    "cusineType": "焼肉",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10053",
     "address": "愛知県名古屋市中区錦3-19-24 サンステンドビル 7F",
     "googleMapPage": "https://maps.google.com/maps?q=35.169854000000,136.903470000000",
@@ -6982,10 +6178,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.169854,
-        136.90347
-      ]
+      "coordinates": [35.169854, 136.90347]
     },
     "googlePhoto": "photo-268.jpg",
     "googleRating": 4.7,
@@ -6996,7 +6189,7 @@
   {
     "name": "Aile Blanche（エル ブランシュ）",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10058",
     "address": "東京都港区麻布十番2-8-10 パティオ麻布十番 5F",
     "googleMapPage": "https://maps.google.com/maps?q=35.655395000000,139.734570000000",
@@ -7008,10 +6201,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.655395,
-        139.73457
-      ]
+      "coordinates": [35.655395, 139.73457]
     },
     "googlePhoto": "photo-269.jpg",
     "googleRating": 4.1,
@@ -7022,7 +6212,7 @@
   {
     "name": "しゃぶしゃぶ・和牛テールおでん 冨慈-北新地別邸",
     "area": "北新地",
-    "cusineType": "海鮮料理・鍋料理",
+    "cuisineType": "海鮮料理・鍋料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10060",
     "address": "大阪府大阪市北区堂島1-3-29 日宝新地レジャービル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696840000000,135.497888000000",
@@ -7034,10 +6224,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.69684,
-        135.497888
-      ]
+      "coordinates": [34.69684, 135.497888]
     },
     "googlePhoto": "photo-270.jpg",
     "googleRating": 4.4,
@@ -7048,7 +6235,7 @@
   {
     "name": "REGA BOSCO（レガ ボスコ）",
     "area": "鎌倉",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10064",
     "address": "神奈川県鎌倉市小町2-7-2 二楽荘ビル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.321211000000,139.551868000000",
@@ -7060,10 +6247,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.321211,
-        139.551868
-      ]
+      "coordinates": [35.321211, 139.551868]
     },
     "googlePhoto": "photo-271.jpg",
     "googleRating": 3.7,
@@ -7074,7 +6258,7 @@
   {
     "name": "シノワフジモリ",
     "area": "堂島",
-    "cusineType": "中国料理",
+    "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10066",
     "address": "大阪府大阪市北区堂島1-5-5 エスパス北新地25 4FB号",
     "googleMapPage": "https://maps.google.com/maps?q=34.695983000000,135.496667000000",
@@ -7086,10 +6270,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.695983,
-        135.496667
-      ]
+      "coordinates": [34.695983, 135.496667]
     },
     "googlePhoto": "photo-272.jpg",
     "googleRating": 4.5,
@@ -7100,7 +6281,7 @@
   {
     "name": "il corazziere（イル コラッツィエーレ）",
     "area": "愛知県その他",
-    "cusineType": "イタリアン",
+    "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10068",
     "address": "愛知県名古屋市東区泉2-28-24 東和高岳ビル B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.174594000000,136.915325000000",
@@ -7112,10 +6293,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.174594,
-        136.915325
-      ]
+      "coordinates": [35.174594, 136.915325]
     },
     "googlePhoto": "photo-273.jpg",
     "googleRating": 4.2,
@@ -7126,7 +6304,7 @@
   {
     "name": "活 かに市",
     "area": "栄・錦・矢場町・新栄周辺",
-    "cusineType": "かに・日本料理",
+    "cuisineType": "かに・日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10069",
     "address": "愛知県名古屋市中区錦3-19-5 第八錦ビル別館 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.170334000000,136.903741000000",
@@ -7138,10 +6316,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.170334,
-        136.903741
-      ]
+      "coordinates": [35.170334, 136.903741]
     },
     "googlePhoto": "photo-274.jpg",
     "googleRating": 4.7,
@@ -7152,7 +6327,7 @@
   {
     "name": "青山ブション・アミュゼ",
     "area": "表参道・渋谷周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10071",
     "address": "東京都港区南青山5-9-8 五番館ビル2Ｆ",
     "googleMapPage": "https://maps.google.com/maps?q=35.662830000000,139.712003000000",
@@ -7164,10 +6339,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.66283,
-        139.712003
-      ]
+      "coordinates": [35.66283, 139.712003]
     },
     "googlePhoto": "photo-275.jpg",
     "googleRating": 4,
@@ -7178,7 +6350,7 @@
   {
     "name": "～和流歳彩～日本料理 多を",
     "area": "本町",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10093",
     "address": "大阪府大阪市中央区南久宝寺町3-2-15 SANKYUBASHI GARDENSCAPE 1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.678837000000,135.503109000000",
@@ -7190,10 +6362,7 @@
     "lunchDiscount": "可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        34.678837,
-        135.503109
-      ]
+      "coordinates": [34.678837, 135.503109]
     },
     "googlePhoto": "photo-276.jpg",
     "googleRating": 4.6,
@@ -7204,7 +6373,7 @@
   {
     "name": "鮨楽座 八の樹（やのき）",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "寿司",
+    "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10098",
     "address": "東京都港区麻布十番1-5-6 Azabu Toriizaka Firstビル5F",
     "googleMapPage": "https://maps.google.com/maps?q=35.657226000000,139.733071000000",
@@ -7216,10 +6385,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.657226,
-        139.733071
-      ]
+      "coordinates": [35.657226, 139.733071]
     },
     "googlePhoto": "photo-277.jpg",
     "googleRating": 4.8,
@@ -7230,7 +6396,7 @@
   {
     "name": "牛-GYU- CHIBA",
     "area": "千葉",
-    "cusineType": "焼肉",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10105",
     "address": "千葉県千葉市中央区富士見1-10-3 SC若松ビル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.612494000000,140.117520000000",
@@ -7242,10 +6408,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.612494,
-        140.11752
-      ]
+      "coordinates": [35.612494, 140.11752]
     },
     "googlePhoto": "photo-278.jpg",
     "googleRating": 4.7,
@@ -7256,7 +6419,7 @@
   {
     "name": "日本料理 玄海（ザ・ルイガンズ.内）",
     "area": "海の中道",
-    "cusineType": "日本料理",
+    "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10107",
     "address": "福岡県福岡市東区西戸崎18-25 THE LUIGANS Spa & Resort内",
     "googleMapPage": "https://maps.google.com/maps?q=33.663256000000,130.364753000000",
@@ -7268,10 +6431,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        33.663256,
-        130.364753
-      ]
+      "coordinates": [33.663256, 130.364753]
     },
     "googlePhoto": "photo-279.jpg",
     "googleRating": 4.3,
@@ -7282,7 +6442,7 @@
   {
     "name": "レストラン西洋銀座",
     "area": "銀座・東京・日本橋周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10110",
     "address": "東京都中央区銀座6-8-3 銀座尾張町TOWER 9F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670583000000,139.763413000000",
@@ -7294,10 +6454,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.670583,
-        139.763413
-      ]
+      "coordinates": [35.670583, 139.763413]
     },
     "googlePhoto": "photo-280.jpg",
     "googleRating": 4.9,
@@ -7308,7 +6465,7 @@
   {
     "name": "Chareir Rendez-vous（シャレル ランデヴー）",
     "area": "新潟",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10125",
     "address": "新潟県新潟市中央区東大通1-4-1 マルタケビル 8F",
     "googleMapPage": "https://maps.google.com/maps?q=37.913678000000,139.061168000000",
@@ -7320,10 +6477,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        37.913678,
-        139.061168
-      ]
+      "coordinates": [37.913678, 139.061168]
     },
     "googlePhoto": "photo-281.jpg",
     "googleRating": 4.6,
@@ -7334,7 +6488,7 @@
   {
     "name": "西麻布しるく屋",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "鉄板焼",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10132",
     "address": "東京都港区西麻布2-13-15 大山ビル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.660432000000,139.723089000000",
@@ -7346,10 +6500,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.660432,
-        139.723089
-      ]
+      "coordinates": [35.660432, 139.723089]
     },
     "googlePhoto": "photo-282.jpg",
     "googleRating": 4.5,
@@ -7360,7 +6511,7 @@
   {
     "name": "LORE（ローレ）",
     "area": "六本木・麻布・広尾周辺",
-    "cusineType": "フレンチ",
+    "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10196",
     "address": "東京都港区六本木7-19-1",
     "googleMapPage": "https://maps.google.com/maps?q=35.662641000000,139.727782000000",
@@ -7372,10 +6523,7 @@
     "lunchDiscount": "不可",
     "location": {
       "type": "Point",
-      "coordinates": [
-        35.662641,
-        139.727782
-      ]
+      "coordinates": [35.662641, 139.727782]
     },
     "googlePhoto": "photo-283.jpg",
     "googleRating": 4.5,
