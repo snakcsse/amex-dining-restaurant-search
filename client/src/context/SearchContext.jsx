@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useState } from 'react';
+import React, { createContext, useEffect, useState, useRef } from 'react';
 
 export const SearchContext = createContext();
 
@@ -13,7 +13,7 @@ export const SearchProvider = ({ children, restaurantLists }) => {
 
   const [selectedArea, setSelectedArea] = useState([]);
   const [selectedCuisineType, setSelectedCuisineType] = useState([]);
-  const [selectedRestaurantName, setSelectedRestaurantName] = useState(extractAllOptions([]));
+  const [selectedRestaurantName, setSelectedRestaurantName] = useState([]);
   const [ratingRange, setRatingRange] = useState([0, 5]);
   const [ratingCountRange, setRatingCountRange] = useState([0, 3000]);
   const [filteredRestaurants, setFilteredRestaurants] = useState(restaurantLists);
@@ -72,6 +72,12 @@ export const SearchProvider = ({ children, restaurantLists }) => {
     console.log('4SliderInput function run: ', filteredRestaurants);
   };
 
+  // ---------- useRef ------------
+  // to store previous values for states of SelectInput such that the below useEffect for SelectSlider is only executed when other SelectInput don't change
+  // const prevSelectedAreaRef = useRef(selectedArea);
+  // const prevSelectedCusineTypeRef = useRef(selectedCuisineType);
+  // const prevSelectedRestaurantNameRef = useRef(selectedRestaurantName);
+
   // ---------- useEffect ------------
   useEffect(() => {
     setFilteredRestaurants(restaurantLists);
@@ -96,56 +102,7 @@ export const SearchProvider = ({ children, restaurantLists }) => {
   useEffect(() => {
     updateRangeFilter(ratingCountRange, 'googleUserRatingCount');
   }, [ratingCountRange]);
-  // applyRangeFilter(ratingRange, 'googleRating');  //TODO
-  // applyRangeFilter(ratingCountRange, 'googleUserRatingCount');
 
-  // ---------------NOT USING THE BELOW coz all selectedOptions put into a single dependency -> then selectedArea will always update first which makes cuisineType and restaruant name checkbox can be updated)
-  // useEffect(() => {
-  //   if (!effectRun && restaurantLists.length > 0) {
-  //     setSelectedArea(extractAllOptions('area'));
-  //     setSelectedCuisineType(extractAllOptions('cuisineType'));
-  //     setSelectedRestaurantName(extractAllOptions('name'));
-  //     // setFilteredRestaurants(restaurantLists);
-  //     setEffectRun(true);
-  //   }
-  // }, [restaurantLists, effectRun]);
-
-  // useEffect(() => {
-  //   let filtered = restaurantLists;
-
-  //   // use [] instead of dot notation when referring to label
-  //   const applyFilter = (selectedOptions, label) => {
-  //     if (selectedOptions.length > 0) {
-  //       filtered = filtered.filter((restaurant) => selectedOptions.includes(restaurant[label]));
-  //     }
-  //     return filtered;
-  //   };
-
-  //   const applyRangeFilter = ([min, max], label) => {
-  //     filtered = filtered.filter((restaurant) => {
-  //       restaurant.label >= min && restaurant[label] <= max;
-  //     });
-  //     return filtered;
-  //   };
-
-  //   applyFilter(selectedArea, 'area');
-  //   applyFilter(selectedCuisineType, 'cuisineType');
-  //   applyFilter(selectedRestaurantName, 'name');
-
-  //   // applyRangeFilter(ratingRange, 'googleRating');  //TODO
-  //   // applyRangeFilter(ratingCountRange, 'googleUserRatingCount');
-
-  //   setFilteredRestaurants(filtered);
-  // }, [
-  //   selectedArea,
-  //   selectedCuisineType,
-  //   selectedRestaurantName,
-  //   ratingRange,
-  //   ratingCountRange,
-  //   restaurantLists,
-  // ]);
-
-  // console.log(filteredRestaurants);
   return (
     <SearchContext.Provider //.Provider is a component provided when we create a context using .createContext(). The value will be available to all nested components inside this .Provider component
       value={{
@@ -166,3 +123,23 @@ export const SearchProvider = ({ children, restaurantLists }) => {
     </SearchContext.Provider>
   );
 };
+
+// useEffect(() => {
+//   console.log(selectedArea);
+//   console.log(prevSelectedAreaRef.current);
+//   if (
+//     filteredRestaurants.length > 0 &&
+//     prevSelectedAreaRef.current === selectedArea &&
+//     prevSelectedCusineTypeRef.current === selectedCuisineType &&
+//     prevSelectedRestaurantNameRef.current === selectedRestaurantName
+//   ) {
+//     console.log('rangeFilter useEffect executed if statement');
+//     updateRangeFilter(ratingRange, 'googleRating');
+//   }
+
+//   console.log(prevSelectedAreaRef);
+//   console.log('rangeFilter useEffect skipped if statement');
+//   prevSelectedAreaRef.current = selectedArea;
+//   prevSelectedCusineTypeRef.current = selectedCuisineType;
+//   prevSelectedRestaurantNameRef.current = selectedRestaurantName;
+// }, [ratingRange, selectedArea, selectedCuisineType, selectedRestaurantName]);

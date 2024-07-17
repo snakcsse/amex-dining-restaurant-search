@@ -8,10 +8,10 @@ dotenv.config({ path: '../../config.env' });
 
 const API_KEY = process.env.GOOGLE_PLACES_API_KEY_DEV;
 const RATE_LIMIT = 5; // number of requests per batch
-const DELAY_BETWEEN_BATCHES = 1000; //delay in milliseconds
+const DELAY_BETWEEN_BATCHES = 2000; //delay in milliseconds
 
 const restaurantData = JSON.parse(
-  fs.readFileSync('../../../scraper/data/restaurants-simple.json', 'utf-8') //TODO: change file name
+  fs.readFileSync('../../../scraper/data/processed_restaurants.json', 'utf-8') //TODO: change file name if necessary
 );
 
 const getRestaurantsDetails = async (searchText, lat, lng, originalObj) => {
@@ -50,9 +50,8 @@ const getRestaurantsDetails = async (searchText, lat, lng, originalObj) => {
 };
 
 const getFirstPhoto = async (photo_id, heightPx, widthPx, num) => {
-  const url = `https://places.googleapis.com/v1/${photo_id}/media?key=${API_KEY}&maxHeightPx=${heightPx}&maxWidthPx=${widthPx}`;
-
   try {
+    const url = `https://places.googleapis.com/v1/${photo_id}/media?key=${API_KEY}&maxHeightPx=${heightPx}&maxWidthPx=${widthPx}`;
     const response = await axios.get(url, { responseType: 'arraybuffer' });
     const pathName = path.join(__dirname, '..', '/img', `photo-${num}.jpg`);
     fs.writeFile(pathName, response.data, (err) => {
@@ -76,7 +75,7 @@ const getFirstPhoto = async (photo_id, heightPx, widthPx, num) => {
 const processBatch = async () => {
   let resDetails = [];
   let batch;
-  for (let i = 0; i < restaurantData.length; i += RATE_LIMIT) {
+  for (let i = 0; i <= restaurantData.length; i += RATE_LIMIT) {
     console.log('processing...');
     batch = restaurantData.slice(i, i + RATE_LIMIT);
     resDetails.push(
@@ -118,7 +117,7 @@ let resDetailsResults;
 (async () => {
   try {
     resDetailsResults = await processBatch();
-    console.log(resDetailsResults);
+    // console.log(resDetailsResults);
     fs.writeFile(
       path.join(__dirname, 'restaurants-with-google-results.json'),
       JSON.stringify(resDetailsResults, null, 2), // 2nd params: specifies an array of properties to include in the JSON string or a function that alters the serialization process, null means to include all properties // 3rd param: number of spaces to use for indentation when formatting the JSON string

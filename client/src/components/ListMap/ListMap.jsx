@@ -1,18 +1,47 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import styles from './ListMap.module.css';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import ResCard from '../ResCard/ResCard';
-import axios from 'axios';
+import { SearchContext } from '../../context/SearchContext';
 
-const ListMap = (props) => {
+const ListMap = () => {
   // including mapRef codes to avoid Uncaught Error: Map container is already initialized;  using a ref to store the map instance to ensure that the map is only initialized once and properly cleaned up if the component is unmounted
   // useEffect(() => {
-  //   if (props.restaurant.length > 0 && props.restaurant[0].location) {
-  //     console.log(props.restaurant[0].location);
+  //   if (filteredRestaurants.length > 0 && filteredRestaurants[0].location) {
+  //     console.log(filteredRestaurants[0].location);
   //   }
-  // }, [props.restaurant]);
+  // }, [filteredRestaurants]);
+
+  const { filteredRestaurants } = useContext(SearchContext);
+  const [sortOption, setSortOption] = useState('');
+  const [sortedRestaurants, setSortedRestaurants] = useState(filteredRestaurants);
+
+  const handleSortChange = (e) => {
+    setSortOption(e.target.value);
+  };
+
+  useEffect(() => {
+    if (sortOption !== '') {
+      setSortedRestaurants(
+        filteredRestaurants.slice().sort((a, b) => b[sortOption] - a[sortOption])
+      );
+    } else {
+      setSortedRestaurants(filteredRestaurants);
+    }
+  }, [sortOption, filteredRestaurants]);
+
+  const resCards = sortedRestaurants.map((restaurant) => {
+    return <ResCard key={restaurant._id} restaurant={restaurant} />;
+  });
+
+  const scrollToRestaurant = (restaurantId) => {
+    const selectedRestaurant = document.getElementById(`resCard-${restaurantId}`);
+    if (selectedRestaurant) {
+      selectedRestaurant.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
 
   const mapRef = React.useRef(null);
 
@@ -27,7 +56,7 @@ const ListMap = (props) => {
     }
   }
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (mapRef.current === null) {
       mapRef.current = L.map('map').setView([35.6812, 139.7671], 6); // set default view location as Tokyo station
 
@@ -36,23 +65,27 @@ const ListMap = (props) => {
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       }).addTo(mapRef.current);
 
-      for (let i = 0; i < props.restaurant.length; i++) {
+      for (let i = 0; i < filteredRestaurants.length; i++) {
         const marker = L.circleMarker(
           [
-            props.restaurant[i].location.coordinates[0],
-            props.restaurant[i].location.coordinates[1],
+            filteredRestaurants[i].location.coordinates[0],
+            filteredRestaurants[i].location.coordinates[1],
           ],
           {
-            radius: getScaledValue(props.restaurant[i].googleUserRatingCount, [0, 1000], [2, 20]),
+            radius: getScaledValue(
+              filteredRestaurants[i].googleUserRatingCount,
+              [0, 1000],
+              [2, 20]
+            ),
             weight: 1,
-            fillOpacity: getScaledValue(props.restaurant[i].googleRating, [0, 5], [0.2, 0.7]),
+            fillOpacity: getScaledValue(filteredRestaurants[i].googleRating, [0, 5], [0.2, 0.7]),
           }
         ).addTo(mapRef.current);
         marker.bindPopup(
-          `<b>${props.restaurant[i].name}</b><br>Google rating: ${props.restaurant[i].googleRating}`
+          `<b>${filteredRestaurants[i].name}</b><br>Google rating: ${filteredRestaurants[i].googleRating}`
         );
         marker.on('click', () => {
-          props.scrollToRestaurant(props.restaurant[i]._id);
+          scrollToRestaurant(filteredRestaurants[i]._id);
         });
       }
     }
@@ -64,19 +97,29 @@ const ListMap = (props) => {
         mapRef.current = null;
       }
     };
-  }, [props.restaurant]);
+  }, [filteredRestaurants]);
 
   // const resCard = Array.from({ length: 10 }).map((_, i) => {
   //   return <ResCard key={i} />;
   // });
-  // const resCard = props.restaurantLists.map((restaurant, index) => {
+  // const resCard = filteredRestaurantsLists.map((restaurant, index) => {
   //   return <ResCard key={index} restaurant={restaurant} />;
   // });
 
   return (
     <div className={styles.container}>
       <div className={styles.leftSide}>
-        <section className={styles.resCardList}>{props.resCards}</section>
+        <div className={styles.dropdown}>
+          <label htmlFor="dropdown">Sort by</label>
+          <select id="dropdwon" value={sortOption} onChange={handleSortChange}>
+            <option value="" disabled>
+              Select ...
+            </option>
+            <option value="googleRating">Rating</option>
+            <option value="googleUserRatingCount">Rating Count</option>
+          </select>
+        </div>
+        <section className={styles.resCardList}>{resCards}</section>
       </div>
       <div className={styles.rightSide}>
         <div id="map" className={styles.map}></div>

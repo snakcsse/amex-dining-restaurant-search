@@ -25,3 +25,7 @@
   flex-direction: column;
   row-gap: 1rem;
 }
+
+.dropdown {
+  margin-bottom: 0.5rem;
+}

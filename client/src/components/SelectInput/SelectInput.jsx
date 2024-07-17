@@ -26,9 +26,6 @@ const SelectInput = ({
   }, [selectedOptions, effectRun]);
 
   console.log('Rendering component');
-  console.log(optionsCheckStatus);
-  console.log('---------------');
-  console.log('---------------');
   console.log(filteredRestaurants);
 
   // after selecting options, turn options in other SelectInput to unchecked based on filtered restuarnat results
@@ -62,10 +59,8 @@ const SelectInput = ({
       }
       return option;
     });
-    // setOptionsCheckStatus(updatedOptions);
     setSelectedOptions(() => {
       let result = [];
-      console.log('___________', updatedOptions);
       updatedOptions.forEach((option) => {
         if (option.isSelected) {
           result.push(option.label);
@@ -103,15 +98,6 @@ const SelectInput = ({
       : optionsCheckStatus.filter((option) => {
           return option.label.includes(filterText);
         });
-
-  // console.log('xxxxxxxxxxxxxxx', optionsCheckStatus);
-  // console.log('---------------------');
-  // console.log(filteredRestaurants);
-  // console.log('---------------------');
-  // console.log(selectedOptions);
-  // console.log('---------------------');
-  // console.log(optionsCheckStatus);
-  // console.log('---------------------');
 
   return (
     <div className={styles.dropdownFilter}>

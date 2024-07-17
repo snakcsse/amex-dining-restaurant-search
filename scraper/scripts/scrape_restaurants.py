@@ -4,6 +4,7 @@ import time
 import re
 import json
 import os
+import math
 
 #TODO remove ########remove###### and revive the code in the next line, check data, 
 
@@ -14,7 +15,7 @@ HEADERS = {
 } # for setting the HTTP headers for the requests - makes your requests like from a real web browser -> can avoid being blocked and can bypass some anti-scraping measures
 
 all_restaurants = [] #for storing info (name, area, cuisine type, etc.) for each restaurant as an object
-
+numResPerPage = 20
 def remove_bracket(string):
     return string.replace('（', '').replace('）', '').replace('(', '')
 
@@ -34,14 +35,24 @@ def get_soup(url):
 def get_page_links(base_url):
     soup = get_soup(base_url)
     if soup:
-        links = soup.select('ul.pager-link li a[href]') #returns a list of the <a href='xx'> #selecting all <a> with href attribute -> child of li -> child of ul with class pager-link #.select allows extracting using CSS syntax 
+        # CANNOT extract all pages (only page 1-5) so didn't use the below codes
+        # links = soup.select('ul.pager-link li a[href]') #returns a list of the <a href='xx'> #selecting all <a> with href attribute -> child of li -> child of ul with class pager-link #.select allows extracting using CSS syntax 
+        # page_links = []
+        # page_links.append(BASE_URL)
+        # for link in links:
+        #     page_links.append(HOST_URL + link['href'])
+        # print(page_links)
+        # return page_links
+        totalRestaurant = int(re.sub(r'\D', '',soup.select_one('span.pager-text-total').text)) #extracting total #Restaurants, removing "全" and "件"; \D means non-numeric characters
+        totalPages = math.floor(totalRestaurant/numResPerPage) + (1 if totalRestaurant % numResPerPage > 0 else 0) - 1 # -1 to exclue the first page
         page_links = []
         page_links.append(BASE_URL)
-        for link in links:
-            page_links.append(HOST_URL + link['href'])
-        # return page_links[:2] #######################################remove############
+        i = 2
+        while totalPages > 0:
+            page_links.append(BASE_URL + '?I=' + str(i) + '1' + '&O=SA')  #all pages have the same format
+            i = i + 2
+            totalPages -= 1
         return page_links
-    return []
 
 def scrape_restaurants_links_name_type_area(page_link):
     soup = get_soup(page_link)
@@ -74,25 +85,35 @@ def scrape_restaurants_details():
         print(len(all_restaurants))        #TODO#################remove##############
         time.sleep(1) #to avoid overwhelming the server with requests - delay of 1 second between each page scrape
     print('Scraping detailed information of each restaurant from the restaurant page...')
-    # for restaurant in all_restaurants[0:2]: ##################remove#############
+    # for restaurant in all_restaurants[0:1]: ##################remove#############
     for restaurant in all_restaurants:  #scrape detailed restaurant inforamtion 
         time.sleep(1)
-        print(restaurant['restaurant_detail_page'])  #TODO##############remove###############
-        soup = get_soup(restaurant['restaurant_detail_page'])
+        # print(restaurant['restaurant_detail_page'])  #TODO##############remove###############
+        soup = get_soup(restaurant['resPage'])
 
         attribute_mapping = {
             "address": ('div.restaurant-detailtable-data', lambda x: re.sub(r'\r[\s\S]*', '', x.text.strip()) if x else None), #use Regex to replace address content since the address is like '北海道札幌市中央区南2条西1 アスカビル2F\r\n\r\n\r\n\nGoogle Mapsで開く »' #\S matches any non-whitespace character (everything except spaces, tabs, newlines, etc.), \s matches any whitespaces (if use . in [], it will literally match a dot)
-            "googleMapPage": ('div.restaurant-detailtable-maplink a', lambda x: x.get('href') if x else None)
+            "googleMapPage": ('div.restaurant-detailtable-maplink a', lambda x: x.get('href') if x else None),
+            "catchCopy":('div.restaurant-lead-catchcopy', lambda x: x.text.strip() if x else None),
+            "access": ('div.restaurant-detailtable-data', lambda x: re.sub(r'\n', '', x[1].text.strip()) if x else None),
+            "discountTimePeriod": ('div.restaurant-detailtable-data', lambda x: x[2].text.strip() if x else None),
+            "discountExcludeDay": ('div.restaurant-detailtable-data', lambda x: x[3].text.strip() if x else None),
+            "closeDay": ('div.restaurant-detailtable-data', lambda x: x[5].text.strip() if x else None),
+            "lunchDiscount": ('div.restaurant-detailtable-data', lambda x: x[6].text.strip() if x else None)
         }
 
         if soup:
             for key, (selector, extractor) in attribute_mapping.items():
-                element = soup.select_one(selector)
-                restaurant[key] = extractor(element)
+                if key == 'address' or key == 'googleMapPage' or key == 'catchCopy':
+                    element = soup.select_one(selector)
+                    restaurant[key] = extractor(element) 
+                else:
+                    element = soup.find_all(selector.split('.')[0], class_=selector.split('.')[1])
+                    restaurant[key] = extractor(element)
     return all_restaurants
 
 all_restaurants = scrape_restaurants_details()
-print(all_restaurants)
+# print(all_restaurants)
 
 #Define the path where JSON file will be saved
 file_path = os.path.join("..", "data", "restaurants.json")

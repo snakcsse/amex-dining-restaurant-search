@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import styles from './SliderInput.module.css';
 import ReactSlider from 'react-slider';
 
-const SliderInput = ({ label, max, min, selectedRange, setSelectedRange }) => {
+const SliderInput = ({ label, max, min, step, selectedRange, setSelectedRange }) => {
   const [showSlider, setShowSlider] = useState(false);
 
   const handleSliderChange = ([min, max]) => {
@@ -13,6 +13,27 @@ const SliderInput = ({ label, max, min, selectedRange, setSelectedRange }) => {
   const toggle = () => {
     setShowSlider(!showSlider);
   };
+
+  // useEffect(() => {
+  //   if (!effectRun && filteredRestaurants.length > 0) {
+  //     console.log('First rangeFilter useEffect runs');
+  //     setEffectRun(true);
+  //     console.log('this has ended');
+  //   }
+  // }, [filteredRestaurants]);
+
+  // useEffect(() => {
+  //   if (filteredRestaurants.length > 0) {
+  //     const otherOptionsChangeRange = filteredRestaurants.map(
+  //       (restaurant) => restaurant[fieldName]
+  //     );
+  //     const otherOptionsChangeMax = Math.max(...otherOptionsChangeRange);
+  //     const otherOptionsChangeMin = Math.min(...otherOptionsChangeRange);
+  //     setSelectedRange([otherOptionsChangeMin, otherOptionsChangeMax]);
+  //   } else if (selectedArea.length === 0) {
+  //     setSelectedRange([0, 0]);
+  //   }
+  // }, [selectedArea, selectedCuisineType, selectedRestaurantName]);
 
   return (
     <div className={styles.container}>
@@ -25,9 +46,9 @@ const SliderInput = ({ label, max, min, selectedRange, setSelectedRange }) => {
             className={styles.slider}
             thumbClassName={styles.thumb}
             trackClassName={styles.track}
-            max={parseInt(max)}
-            min={parseInt(min)}
-            step={0.1}
+            max={max}
+            min={min}
+            step={step}
             defaultValue={[selectedRange[0], selectedRange[1]]}
             onChange={handleSliderChange} // ReactSlider will automatically pass in [min,max] of the slider value to the function
           />
