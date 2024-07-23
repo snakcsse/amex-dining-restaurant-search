@@ -6,12 +6,15 @@ const rateLimit = require('express-rate-limit');
 const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const cookieParser = require('cookie-parser');
+const helmet = require('helmet');
 
+const globalErrorHandler = require('./utils/appError');
 const restaurantRouter = require('./routes/restaurantRoutes');
+const userRouter = require('./routes/userRoutes');
 
 const app = express();
 
-// app.enable('trust proxy')
+// app.enable('trust proxy') //TODO: update if needed
 
 // --------- 1) GLOBAL MIDDLEWARES -----------
 app.use(cors());
@@ -22,8 +25,9 @@ app.use(cors());
 app.options('*', cors());
 // need express.static?
 // need to define view if using React?
-// helmet
 app.use(express.static(path.join(__dirname, 'dev-data/img')));
+
+app.use(helmet());
 
 // Development logging
 if (process.env.NODE_ENV === 'development') {
@@ -57,9 +61,18 @@ app.use((req, res, next) => {
   next();
 });
 
+//TODO: add hpp, compression if needed
+
 // ------------------ 2) API ROUTES ------------------
 app.use('/api/v1/restaurants', restaurantRouter);
-
+app.use('/api/v1/users', userRouter);
 // app.use('/', viewRouter);
+
+//implementing a route handler for a route that was not catched by any of our other route handlers
+app.all('*', (req, res, next) => {
+  next(new Error(`Can't find ${req.originalUrl} on this server`, 404));
+});
+
+app.use(globalErrorHandler);
 
 module.exports = app;

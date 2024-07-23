@@ -1,0 +1,19 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif"></mj-all>
+    </mj-attributes>
+    <mj-title>{{subject}}</mj-title>
+    <mj-style inline="inline"> /* Add your custom styles here */ </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text> Hi {{firstName}}, </mj-text>
+        <mj-text> Welcome to Amex Dining Search, we're glad to have you 🎉🙏 </mj-text>
+        <mj-text> Access your page and save your favorite restaurants! </mj-text>
+        <mj-button href="{{url}}" target="_blank"> Go to my page </mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

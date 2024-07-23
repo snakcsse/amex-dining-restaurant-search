@@ -29,3 +29,14 @@ const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
   console.log(`App running on port ${port}...`);
 });
+
+// for handling all errors that occurs in asynchronous code
+process.on('unhandledRejection', (err) => {
+  console.log('UNHANDLER REJECTION! 💥 Shutting down...');
+  console.log(err.name, err.message);
+  server.close(() => {
+    process.exit(1);
+  });
+});
+
+// TODO: SIGTERM
