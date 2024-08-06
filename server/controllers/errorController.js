@@ -7,7 +7,7 @@ const handleCastErrorDB = (err) => {
 
 const handleDuplicateFieldsDB = (err) => {
   const value = err.errmsg.match(/(["'])(?:(?=(\\?))\2.)*?\1/)[0]; // matching strings that are enclosed in quotes (either single or double)
-  const message = `Duplicate field value: ${value}. Please use another value`;
+  const message = `${value} already exists. Please use another value`;
   return new AppError(message, 400);
 };
 
@@ -23,8 +23,8 @@ const handleJWTExpiredError = () => new AppError('Token is expired! Please log i
 const sendErrorDev = (err, req, res) => {
   console.log('ERROR 💥', err);
 
-  if (req.originalUrl.startsWith('api')) {
-    return res.status(erro.statusCode).json({
+  if (req.originalUrl.startsWith('/api')) {
+    return res.status(err.statusCode).json({
       status: err.status,
       error: err,
       message: err.message,

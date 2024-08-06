@@ -57,19 +57,19 @@ export const SearchProvider = ({ children, restaurantLists }) => {
   const updateRangeFilter = ([min, max], label) => {
     let filtered = restaurantLists;
 
-    console.log('1SliderInput function run: ', filtered);
+    // console.log('1SliderInput function run: ', filtered);
     // console.log('SliderInput function run: ', typeof min);
     const applyRangeFilter = ([min, max], label) => {
       filtered = filtered.filter((restaurant) => {
         return restaurant[label] >= min && restaurant[label] <= max;
       });
-      console.log('3SliderInput function run: ', filtered);
+      // console.log('3SliderInput function run: ', filtered);
       return filtered;
     };
 
     applyRangeFilter([min, max], label);
     setFilteredRestaurants(filtered);
-    console.log('4SliderInput function run: ', filteredRestaurants);
+    // console.log('4SliderInput function run: ', filteredRestaurants);
   };
 
   // ---------- useRef ------------

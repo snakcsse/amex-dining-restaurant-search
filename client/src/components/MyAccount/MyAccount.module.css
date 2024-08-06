@@ -1,0 +1,11 @@
+.userInfoSetting,
+.userPasswordUpdate {
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfoBtns,
+.passwordUpdateBtn {
+  display: flex;
+  gap: 40px;
+}

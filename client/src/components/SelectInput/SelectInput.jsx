@@ -18,15 +18,15 @@ const SelectInput = ({
   // to ensure the below useEffect once run once after we fetch the restaurant data, we include the state effectRun. Otherwise, since when we check/uncheck checkboxes, selectedOptions will change, which will trigger the below again if we don't include effectRun
   useEffect(() => {
     if (!effectRun && selectedOptions.length > 0) {
-      console.log('First useEffect runs with:', selectedOptions, effectRun);
+      // console.log('First useEffect runs with:', selectedOptions, effectRun);
       setOptionsCheckStatus(selectedOptions.map((option) => ({ label: option, isSelected: true }))); // after this has happen -> state changes -> leads to re-render of this SelectInput component
       setEffectRun(true);
-      console.log('this has ended');
+      // console.log('this has ended');
     }
   }, [selectedOptions, effectRun]);
 
-  console.log('Rendering component');
-  console.log(filteredRestaurants);
+  // console.log('Rendering component');
+  // console.log(filteredRestaurants);
 
   // after selecting options, turn options in other SelectInput to unchecked based on filtered restuarnat results
   useEffect(() => {

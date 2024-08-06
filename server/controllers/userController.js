@@ -32,9 +32,6 @@ exports.getUser = catchAsync(async (req, res, next) => {
 exports.updateMe = catchAsync(async (req, res, next) => {
   const filterBody = filterObj(req.body, 'name', 'email');
 
-  console.log('Request body:', req.body);
-  console.log(req.user.id);
-  console.log('Filtered body:', filterBody);
   // Using findByIdAndUpdate here. We don't use .save() here coz here it is not related to password. Also, password is a required field to fill in when we use .save(), otherwise error will be resulted.
   const updateUser = await User.findByIdAndUpdate(req.user.id, filterBody, {
     new: true,
@@ -52,4 +49,31 @@ exports.updateMe = catchAsync(async (req, res, next) => {
 exports.deleteMe = catchAsync(async (req, res, next) => {
   await User.findByIdAndDelete(req.user.id, { active: false });
   res.status(204).json({ status: 'success', data: null });
+});
+
+exports.addFavourite = catchAsync(async (req, res, next) => {
+  const user = await User.findByIdAndUpdate(
+    req.user.id,
+    {
+      $addToSet: { favourites: req.body.restaurantId }, //ensure restaurantId is only added if it doesn't already exists in the favourites field
+    },
+    { new: true, runValidators: true }
+  );
+
+  res.status(200).json({ status: 'success', data: { favourites: user.favourites } });
+});
+
+exports.removeFavourite = catchAsync(async (req, res, next) => {
+  const user = await User.findByIdAndUpdate(
+    req.user.id,
+    { $pull: { favourites: req.body.restaurantId } }, // pull only when there is a match
+    { new: true, select: 'favourites' }
+  );
+  res.status(200).json({ status: 'success', data: { favourites: user.favourites } });
+});
+
+exports.getFavourites = catchAsync(async (req, res, next) => {
+  const user = await User.findById(req.user.id).populate('favourites');
+
+  res.status(200).json({ status: 'success', data: { favourites: user.favourites } });
 });

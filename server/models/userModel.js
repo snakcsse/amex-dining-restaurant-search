@@ -7,7 +7,6 @@ const userSchema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, 'name is required'],
-    unique: true,
   },
   email: {
     type: String,
@@ -35,6 +34,12 @@ const userSchema = new mongoose.Schema({
   passwordChangedAt: Date,
   passwordResetToken: String,
   passwordResetExpires: Date,
+  favourites: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Restaurant',
+    },
+  ],
   active: {
     type: Boolean,
     default: true,

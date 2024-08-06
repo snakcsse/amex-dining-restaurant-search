@@ -33,13 +33,17 @@ const createSendToken = (user, statusCode, res) => {
 };
 
 exports.signup = catchAsync(async (req, res, next) => {
-  const newUser = await User.create({
-    name: req.body.name,
-    email: req.body.email,
-    password: req.body.password,
-    passwordConfirm: req.body.passwordConfirm,
-    passwordChangedAt: req.body.passwordChangedAt,
-  });
+  let newUser;
+  try {
+    newUser = await User.create({
+      name: req.body.name,
+      email: req.body.email,
+      password: req.body.password,
+      passwordConfirm: req.body.passwordConfirm,
+    });
+  } catch (err) {
+    return next(new AppError(err, 400));
+  }
 
   const url = `${req.protocol}://${req.get('host')}/me`;
   await new Email(newUser, url).sendWelcome();
@@ -52,14 +56,14 @@ exports.login = catchAsync(async (req, res, next) => {
 
   // Check if email and password exist
   if (!email || !password) {
-    return next(new AppError('Please provide email and password'), 400);
+    return next(new AppError('Please provide email and password', 400));
   }
 
   // Check if user exists and password is correct
-  const user = await User.findOne({ email }).select('password');
+  const user = await User.findOne({ email }).select('+password');
 
   if (!user || !(await user.correctPassword(password, user.password))) {
-    return next(new AppError('Incorrect email or password'), 401);
+    return next(new AppError('Incorrect email or password', 401));
   }
 
   createSendToken(user, 200, res);
@@ -83,7 +87,7 @@ exports.protect = catchAsync(async (req, res, next) => {
   }
 
   if (!token) {
-    return next(new AppError('You are not logged in! Please log in to get access'), 401);
+    return next(new AppError('You are not logged in! Please log in to get access', 401));
   }
 
   //2) Verify the token
@@ -92,12 +96,12 @@ exports.protect = catchAsync(async (req, res, next) => {
   // 3)Check if user still exists
   const currentUser = await User.findById(decoded.id);
   if (!currentUser) {
-    return next(new AppError('User no longer exists'), 401);
+    return next(new AppError('User no longer exists', 401));
   }
 
   // 4) Check if user changed pw after token is issued
   if (currentUser.changedPasswordAfter(decoded.iat)) {
-    return next(new AppError('User changed the password! Please login again'), 401);
+    return next(new AppError('User changed the password! Please login again', 401));
   }
 
   // Grant access to protected route
@@ -135,7 +139,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
   const user = await User.findOne({ email: req.body.email });
 
   if (!user) {
-    return next(new AppError('No user found with that email'), 404);
+    return next(new AppError('No user found with that email', 404));
   }
 
   // 2) generate reset token
@@ -188,11 +192,11 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
   const user = await User.findOne({ email: req.user.email }).select('+password');
 
   if (!user) {
-    next(new AppError('Password is incorrect. Please try again.'), 400);
+    next(new AppError('Password is incorrect. Please try again.', 400));
   }
 
   if (!(await user.correctPassword(req.body.passwordCurrent, user.password))) {
-    return next(new AppError('Current password is incorrect. Please try again.'), 400);
+    return next(new AppError('Current password is incorrect. Please try again.', 400));
   }
 
   user.password = req.body.password;

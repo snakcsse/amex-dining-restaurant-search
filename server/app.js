@@ -8,7 +8,8 @@ const xss = require('xss-clean');
 const cookieParser = require('cookie-parser');
 const helmet = require('helmet');
 
-const globalErrorHandler = require('./utils/appError');
+const AppError = require('./utils/appError');
+const globalErrorHandler = require('./controllers/errorController');
 const restaurantRouter = require('./routes/restaurantRoutes');
 const userRouter = require('./routes/userRoutes');
 
@@ -17,7 +18,11 @@ const app = express();
 // app.enable('trust proxy') //TODO: update if needed
 
 // --------- 1) GLOBAL MIDDLEWARES -----------
-app.use(cors());
+const corsOptions = {
+  origin: 'http://localhost:5173', //TODO: after deploying frontend, include frontend url ['http://localhost:3000', 'xxx']
+  credentials: true, // accept crendentials in CORS requests
+};
+app.use(cors(corsOptions));
 // app.use(cors(), {
 //   origin: 'https://www.xxx.com',
 // });
@@ -70,7 +75,7 @@ app.use('/api/v1/users', userRouter);
 
 //implementing a route handler for a route that was not catched by any of our other route handlers
 app.all('*', (req, res, next) => {
-  next(new Error(`Can't find ${req.originalUrl} on this server`, 404));
+  next(new AppError(`Can't find ${req.originalUrl} on this server`, 404));
 });
 
 app.use(globalErrorHandler);

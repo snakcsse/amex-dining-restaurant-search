@@ -30,3 +30,31 @@
 a {
   text-decoration: none;
 }
+
+.heartContainer {
+  position: relative;
+  display: inline-block; /* Ensure the heartContainer does not take up full width */
+}
+
+.alert {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+  top: 100%; /* Position the alert below the heart */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50; /* Green */
+  color: white;
+  padding: 15px;
+  border-radius: 4px;
+  z-index: 1000;
+  font-size: 0.8rem;
+}
+
+.show {
+  opacity: 1;
+}
+
+.alert.show {
+  opacity: 1;
+}

@@ -41,3 +41,11 @@ a:hover {
 .spacer {
   border: 1px solid rgb(213, 210, 210);
 }
+
+.dropdown {
+  position: absolute;
+  top: 50px;
+  border-color: gray;
+  background-color: rgb(212, 209, 209);
+  list-style: none;
+}
