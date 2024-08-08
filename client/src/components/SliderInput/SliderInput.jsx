@@ -3,11 +3,11 @@ import { useEffect, useState } from 'react';
 import styles from './SliderInput.module.css';
 import ReactSlider from 'react-slider';
 
-const SliderInput = ({ label, max, min, step, selectedRange, setSelectedRange }) => {
+const SliderInput = ({ label, max, min, step, fieldName, filters, setFilters }) => {
   const [showSlider, setShowSlider] = useState(false);
 
   const handleSliderChange = ([min, max]) => {
-    setSelectedRange([min, max]);
+    setFilters((prevFilters) => ({ ...prevFilters, [fieldName]: [min, max] }));
   };
 
   const toggle = () => {
@@ -49,12 +49,12 @@ const SliderInput = ({ label, max, min, step, selectedRange, setSelectedRange })
             max={max}
             min={min}
             step={step}
-            defaultValue={[selectedRange[0], selectedRange[1]]}
+            defaultValue={[filters[fieldName][0], filters[fieldName][1]]}
             onChange={handleSliderChange} // ReactSlider will automatically pass in [min,max] of the slider value to the function
           />
           <div className={styles.rangeValues}>
-            <span>{selectedRange[0]}</span>
-            <span>{selectedRange[1]}</span>
+            <span>{filters[fieldName][0]}</span>
+            <span>{filters[fieldName][1]}</span>
           </div>
         </>
       )}

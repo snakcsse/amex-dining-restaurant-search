@@ -5,19 +5,8 @@ import SliderInput from '../SliderInput/SliderInput';
 import { SearchContext } from '../../context/SearchContext';
 
 const Searchbar = () => {
-  const {
-    selectedArea,
-    setSelectedArea,
-    selectedCuisineType,
-    setSelectedCuisineType,
-    selectedRestaurantName,
-    setSelectedRestaurantName,
-    ratingRange,
-    setRatingRange,
-    ratingCountRange,
-    setRatingCountRange,
-    filteredRestaurants,
-  } = useContext(SearchContext);
+  const { filters, setFilters, filteredRestaurants, ratingRange, ratingCountRange } =
+    useContext(SearchContext);
 
   return (
     <div className={styles.container}>
@@ -25,39 +14,41 @@ const Searchbar = () => {
         label="Area"
         fieldName="area"
         filteredRestaurants={filteredRestaurants}
-        selectedOptions={selectedArea}
-        setSelectedOptions={setSelectedArea}
+        filters={filters}
+        setFilters={setFilters}
       />
       <SelectInput
         label="Cuisine"
         fieldName="cuisineType"
         filteredRestaurants={filteredRestaurants}
-        selectedOptions={selectedCuisineType}
-        setSelectedOptions={setSelectedCuisineType}
+        filters={filters}
+        setFilters={setFilters}
       />
       <SelectInput
         label="Restaurant Name"
         fieldName="name"
         filteredRestaurants={filteredRestaurants}
-        selectedOptions={selectedRestaurantName}
-        setSelectedOptions={setSelectedRestaurantName}
+        filters={filters}
+        setFilters={setFilters}
       />
-      {/* <SliderInput
+      <SliderInput
         label="Rating"
-        min={0}
-        max={5}
+        fieldName="rating"
+        min={ratingRange[0]}
+        max={ratingRange[1]}
         step={0.1}
-        selectedRange={ratingRange}
-        setSelectedRange={setRatingRange}
+        filters={filters}
+        setFilters={setFilters}
       />
       <SliderInput
         label="Rating Count"
-        min={0}
-        max={3000}
+        fieldName="ratingCount"
+        min={ratingCountRange[0]}
+        max={ratingCountRange[1]}
         step={1}
-        selectedRange={ratingCountRange}
-        setSelectedRange={setRatingCountRange}
-      /> */}
+        filters={filters}
+        setFilters={setFilters}
+      />
     </div>
   );
 };
