@@ -15,7 +15,7 @@ data.forEach((res) => {
 });
 
 console.log(res_without_photo_index);
-// console.log(res_without_photo_index.length);
+console.log(res_without_photo_index.length);
 
 const res_without_rating = data.filter((res) => res.googleRating === '' || !res.googleRating);
 const res_without_rating_count = data.filter(
@@ -61,4 +61,4 @@ data.forEach((res) => {
   });
 });
 
-console.log(i); //the 2 restaurants without googleMapPage, which has been tackled.
+console.log(i); //the 2 restaurants without googleMapPage. The one named 'NonTitle/NARITAYUTAKA is the name shown in the official page so did not adjust

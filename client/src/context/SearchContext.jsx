@@ -19,7 +19,11 @@ export const SearchProvider = ({ children, restaurantLists }) => {
 
   const extractAllOptions = (key) => {
     let options = [];
-    restaurantLists.forEach((restaurant) => {
+    const sortedRestaurantLists =
+      key === 'area'
+        ? [...restaurantLists].sort((a, b) => a.prefCode - b.prefCode)
+        : restaurantLists; // for area, sort the selection options based on pref
+    sortedRestaurantLists.forEach((restaurant) => {
       options.push(restaurant[key]);
     });
     return [...new Set(options)]; // new Set(array) creates a Set object, [...] converts the Set back to an array

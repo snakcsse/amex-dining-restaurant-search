@@ -1,4 +1,3 @@
-//TODO: change restaurants-simple.json to correct file
 const fs = require('fs');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');

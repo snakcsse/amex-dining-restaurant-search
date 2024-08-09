@@ -1,7 +1,7 @@
 [
   {
     "name": "RISTORANTE CANOFILO（カノフィーロ）",
-    "area": "北海道 札幌",
+    "area": "札幌",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1",
     "address": "北海道札幌市中央区南2条西1 アスカビル2F",
@@ -20,14 +20,11 @@
     "googleRating": 4.6,
     "googleUserRatingCount": 166,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "アンティカ・オステリア・デル・ポンテ",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/12",
     "address": "東京都千代田区丸の内2-4-1 丸の内ビルディング 36F",
@@ -46,14 +43,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 384,
     "pref": "東京都",
-    "city": "千代田区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "千代田区"
   },
   {
     "name": "重慶飯店 麻布賓館（ジュウケイハンテン アザブヒンカン）",
-    "area": "東京都 六本木・麻布・広尾周辺",
+    "area": "六本木・麻布・広尾周辺",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/32",
     "address": "東京都港区西麻布3-2-34 西麻布ヒルズ1F",
@@ -72,14 +66,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 178,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "中国料理",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "ラ・ロシェル福岡",
-    "area": "福岡県 赤坂",
+    "area": "赤坂",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/56",
     "address": "福岡県福岡市中央区大手門1-1-5",
@@ -98,14 +89,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 213,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "赤坂",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "桜坂 観山荘（さくらざか かんざんそう）",
-    "area": "福岡県 桜坂",
+    "area": "桜坂",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/57",
     "address": "福岡県福岡市中央区谷1-3-20",
@@ -124,15 +112,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 376,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "桜坂",
-    "cuisineType_original": "日本料理",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "鉄板焼 蘭麻（らんま）",
-    "area": "東京都 六本木・麻布・広尾周辺",
-    "cuisineType": "肉料理",
+    "area": "六本木・麻布・広尾周辺",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/69",
     "address": "東京都港区東麻布1-18-5",
     "googleMapPage": "https://maps.google.com/maps?q=35.655889510000,139.742833120000",
@@ -150,14 +135,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 274,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "青山エリュシオンハウス",
-    "area": "東京都 表参道・渋谷周辺",
+    "area": "表参道・渋谷周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/70",
     "address": "東京都港区赤坂8-2-10",
@@ -176,14 +158,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 198,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "表参道・渋谷周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "美麗華（ミラマー）",
-    "area": "大阪府 北浜",
+    "area": "北浜",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/84",
     "address": "大阪府大阪市中央区高麗橋1-7-3 The Kitahama PLAZA 2F",
@@ -202,15 +181,12 @@
     "googleRating": 3.8,
     "googleUserRatingCount": 53,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "北浜",
-    "cuisineType_original": "中国料理",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "游來（ユキ）",
-    "area": "福岡県 西中洲",
-    "cuisineType": "肉料理",
+    "area": "西中洲",
+    "cuisineType": "ワイン＆肉料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/86",
     "address": "福岡県福岡市中央区西中洲5-6",
     "googleMapPage": "https://maps.google.com/maps?q=33.591063000000,130.405348000000",
@@ -228,14 +204,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 131,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "西中洲",
-    "cuisineType_original": "ワイン＆肉料理",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "エグリーズ ドゥ 葉山庵",
-    "area": "埼玉県 埼玉",
+    "area": "埼玉",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/103",
     "address": "埼玉県さいたま市大宮区堀の内町3-262 \nセントパルク教会",
@@ -254,15 +227,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 212,
     "pref": "埼玉県",
-    "city": "さいたま市",
-    "area_original": "埼玉",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 11
+    "city": "さいたま市"
   },
   {
     "name": "あわびの源太",
-    "area": "東京都 六本木・麻布・広尾周辺",
-    "cuisineType": "日本料理",
+    "area": "六本木・麻布・広尾周辺",
+    "cuisineType": "あわび専門店",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/114",
     "address": "東京都港区西麻布4-11-28 麻布エンパイアマンション1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.659342000000,139.722484000000",
@@ -280,14 +250,11 @@
     "googleRating": 4,
     "googleUserRatingCount": 49,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "あわび専門店",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "廣東飯店（カントンハンテン）",
-    "area": "神奈川県 横浜中華街",
+    "area": "横浜中華街",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/133",
     "address": "神奈川県横浜市中区山下町144",
@@ -306,14 +273,11 @@
     "googleRating": 3.7,
     "googleUserRatingCount": 412,
     "pref": "神奈川県",
-    "city": "横浜市",
-    "area_original": "横浜中華街",
-    "cuisineType_original": "中国料理",
-    "prefCode": 14
+    "city": "横浜市"
   },
   {
     "name": "レストラン ロワール",
-    "area": "愛知県 栄・錦・矢場町・新栄周辺",
+    "area": "栄・錦・矢場町・新栄周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/136",
     "address": "愛知県名古屋市中区栄4-6-8 名古屋東急ホテル2F",
@@ -332,14 +296,11 @@
     "googleRating": 3.8,
     "googleUserRatingCount": 10,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "栄・錦・矢場町・新栄周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "リストランテ カーサビアンカ",
-    "area": "京都府 今出川",
+    "area": "今出川",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/148",
     "address": "京都府京都市上京区今出川通寺町西入大原口町214",
@@ -358,15 +319,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 122,
     "pref": "京都府",
-    "city": "京都市",
-    "area_original": "今出川",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 26
+    "city": "京都市"
   },
   {
     "name": "網焼ビフテキ 小松屋",
-    "area": "大阪府 北新地",
-    "cuisineType": "肉料理",
+    "area": "北新地",
+    "cuisineType": "ステーキビフテキ)",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/151",
     "address": "大阪府大阪市北区曽根崎新地1-11-20 \n北新地ハットボーイビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.697975520000,135.499084770000",
@@ -384,15 +342,12 @@
     "googleRating": 3.8,
     "googleUserRatingCount": 64,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "北新地",
-    "cuisineType_original": "ステーキビフテキ",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "鉄板焼き＆Restaurant Bar caro",
-    "area": "大阪府 北新地",
-    "cuisineType": "肉料理",
+    "area": "北新地",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/152",
     "address": "大阪府大阪市北区曽根崎新地1-3-32",
     "googleMapPage": "https://maps.google.com/maps?q=34.697572000000,135.497173000000",
@@ -410,15 +365,12 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 64,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "北新地",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "Steak house Medium Rare（ウィズ・ザ・スタイル・フクオカ内）",
-    "area": "福岡県 博多",
-    "cuisineType": "肉料理",
+    "area": "博多",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/167",
     "address": "福岡県福岡市博多区博多駅南1-9-18 \nWITH THE STYLE FUKUOKA内",
     "googleMapPage": "https://maps.google.com/maps?q=33.585127000000,130.421825000000",
@@ -436,15 +388,12 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 425,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "博多",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "酒肴菜友 じょっぱり",
-    "area": "北海道 函館",
-    "cuisineType": "日本料理",
+    "area": "函館",
+    "cuisineType": "郷土料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/185",
     "address": "北海道函館市杉並町20-1",
     "googleMapPage": "https://maps.google.com/maps?q=41.789085000000,140.757293000000",
@@ -462,14 +411,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 135,
     "pref": "北海道",
-    "city": "函館市",
-    "area_original": "函館",
-    "cuisineType_original": "郷土料理",
-    "prefCode": 1
+    "city": "函館市"
   },
   {
     "name": "広東名菜・香港飲茶 菜香樓（カントンメイサイ・ホンコンヤムチャ サイコウロウ）新館",
-    "area": "石川県 金沢",
+    "area": "金沢",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/223",
     "address": "石川県金沢市駅西新町2-8-15",
@@ -488,14 +434,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 38,
     "pref": "石川県",
-    "city": "金沢市",
-    "area_original": "金沢",
-    "cuisineType_original": "中国料理",
-    "prefCode": 17
+    "city": "金沢市"
   },
   {
     "name": "暖心（だんしん）",
-    "area": "大阪府 北新地",
+    "area": "北新地",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/240",
     "address": "大阪府大阪市北区堂島1-4-26 玉家ビル1F",
@@ -514,14 +457,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 8,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "北新地",
-    "cuisineType_original": "日本料理",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "鮨 美寿思（みすじ）",
-    "area": "東京都 新橋・赤坂周辺",
+    "area": "新橋・赤坂周辺",
     "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/242",
     "address": "東京都港区東新橋1-8-1 カレッタ汐留46F",
@@ -540,15 +480,12 @@
     "googleRating": 4,
     "googleUserRatingCount": 256,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "新橋・赤坂周辺",
-    "cuisineType_original": "寿司",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "BAR CAVALLO（バーカヴァロ）",
-    "area": "福岡県 薬院",
-    "cuisineType": "バー",
+    "area": "薬院",
+    "cuisineType": "オーセンティックバー",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/244",
     "address": "福岡県福岡市中央区薬院2-1-8 リアン薬院ビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=33.580906000000,130.396852000000",
@@ -566,14 +503,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 78,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "薬院",
-    "cuisineType_original": "オーセンティックバー",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "ル・ジャンティオム",
-    "area": "北海道 札幌",
+    "area": "札幌",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/245",
     "address": "北海道札幌市中央区南4条西8-2-1-3",
@@ -592,14 +526,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 295,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "アルモニーアンブラッセ大阪RAYON（レヨン）",
-    "area": "大阪府 梅田",
+    "area": "梅田",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/247",
     "address": "大阪府大阪市北区茶屋町7-20",
@@ -618,15 +549,12 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 28,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "梅田",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "てんぷら 膳",
-    "area": "北海道 札幌",
-    "cuisineType": "日本料理",
+    "area": "札幌",
+    "cuisineType": "天ぷら",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/257",
     "address": "北海道札幌市中央区南4条西3 第32桂和ビル4F",
     "googleMapPage": "https://maps.google.com/maps?q=43.055148000000,141.354310000000",
@@ -644,14 +572,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 85,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "天ぷら",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "aki nagao",
-    "area": "北海道 札幌",
+    "area": "札幌",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/258",
     "address": "北海道札幌市中央区南3条西3-3 \nG DINING SAPPORO 1F",
@@ -670,15 +595,12 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 79,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "きょうど料理亭 杉ノ目",
-    "area": "北海道 札幌",
-    "cuisineType": "日本料理",
+    "area": "札幌",
+    "cuisineType": "郷土料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/263",
     "address": "北海道札幌市中央区南5条西5",
     "googleMapPage": "https://maps.google.com/maps?q=43.054000000000,141.351768000000",
@@ -696,14 +618,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 190,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "郷土料理",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "味処 まつ田",
-    "area": "北海道 札幌",
+    "area": "札幌",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/273",
     "address": "北海道札幌市中央区南5条西5 モモヤビル2F",
@@ -722,15 +641,12 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 135,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "日本料理",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "花郷（はなさと） 六本木店",
-    "area": "東京都 六本木・麻布・広尾周辺",
-    "cuisineType": "肉料理",
+    "area": "六本木・麻布・広尾周辺",
+    "cuisineType": "京料理・鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/282",
     "address": "東京都港区六本木4-2-35 VORT六本木 Dual's 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.664721000000,139.733555000000",
@@ -748,14 +664,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 134,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "京料理・鉄板焼",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "ラ・ロシェル南青山",
-    "area": "東京都 表参道・渋谷周辺",
+    "area": "表参道・渋谷周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/283",
     "address": "東京都港区南青山3-14-23",
@@ -774,14 +687,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 253,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "表参道・渋谷周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "和田",
-    "area": "北海道 札幌",
+    "area": "札幌",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/290",
     "address": "北海道札幌市中央区北1条西27-1-7",
@@ -800,14 +710,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 144,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "日本料理",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "vrai de vrai CHEZ HIRO（ヴレ ド ヴレ シェ ヒロ）",
-    "area": "大阪府 四ツ橋",
+    "area": "四ツ橋",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/297",
     "address": "大阪府大阪市西区新町1-24-8 \nマッセノース四ツ橋ビル1F",
@@ -826,14 +733,11 @@
     "googleRating": 4,
     "googleUserRatingCount": 55,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "四ツ橋",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "レストラン花の館パラディ北野",
-    "area": "兵庫県 北野",
+    "area": "北野",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/298",
     "address": "兵庫県神戸市中央区北野町2-16-8",
@@ -852,14 +756,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 222,
     "pref": "兵庫県",
-    "city": "神戸市",
-    "area_original": "北野",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 28
+    "city": "神戸市"
   },
   {
     "name": "l'Odorante par MinoruNakijin（ロドラント・ミノルナキジン）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/301",
     "address": "東京都中央区銀座7-7-19 ニューセンタービルB1F",
@@ -878,14 +779,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 162,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "リストランテ オステリア",
-    "area": "東京都 六本木・麻布・広尾周辺",
+    "area": "六本木・麻布・広尾周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/322",
     "address": "東京都港区六本木6-6-9 ピラミデビル3F",
@@ -904,15 +802,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 126,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "赤坂 うさぎや",
-    "area": "東京都 新橋・赤坂周辺",
-    "cuisineType": "フレンチ",
+    "area": "新橋・赤坂周辺",
+    "cuisineType": "フレンチ・マジックバー",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/329",
     "address": "東京都港区赤坂4-3-5 浄土寺内",
     "googleMapPage": "https://maps.google.com/maps?q=35.674492860000,139.735691370000",
@@ -930,14 +825,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 242,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "新橋・赤坂周辺",
-    "cuisineType_original": "フレンチ・マジックバー",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "サブゼロ",
-    "area": "神奈川県 横浜",
+    "area": "横浜",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/330",
     "address": "神奈川県横浜市中区海岸通1-1 大桟橋客船ターミナル2F",
@@ -956,14 +848,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 341,
     "pref": "神奈川県",
-    "city": "横浜市",
-    "area_original": "横浜",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 14
+    "city": "横浜市"
   },
   {
     "name": "みつ芳",
-    "area": "東京都 表参道・渋谷周辺",
+    "area": "表参道・渋谷周辺",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/336",
     "address": "東京都港区南青山3丁目\n（住所詳細はご予約受付時にお伝えします）",
@@ -982,15 +871,12 @@
     "googleRating": 4.8,
     "googleUserRatingCount": 21,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "表参道・渋谷周辺",
-    "cuisineType_original": "日本料理",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "TERRES DE TRUFFES' TOKYO（テール・ド・トリュフ トウキョウ）",
-    "area": "東京都 表参道・渋谷周辺",
-    "cuisineType": "フレンチ",
+    "area": "表参道・渋谷周辺",
+    "cuisineType": "トリュフ料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/344",
     "address": "東京都港区南青山2-27-6 Rave南青山ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.669221000000,139.717064000000",
@@ -1008,14 +894,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 272,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "表参道・渋谷周辺",
-    "cuisineType_original": "トリュフ料理",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "根岸 鮨創作料理 奄美（あまみ）",
-    "area": "東京都 根津・千駄木周辺",
+    "area": "根津・千駄木周辺",
     "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/345",
     "address": "東京都台東区根岸4-1-29 アルカ2F",
@@ -1034,14 +917,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 125,
     "pref": "東京都",
-    "city": "台東区",
-    "area_original": "根津・千駄木周辺",
-    "cuisineType_original": "寿司",
-    "prefCode": 13
+    "city": "台東区"
   },
   {
     "name": "ジャッジョーロ銀座",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/348",
     "address": "東京都中央区銀座7-10-5 ジ オーブ ルミナス B1F",
@@ -1060,14 +940,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 185,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "レストラン マーヴェラス パラディ白金",
-    "area": "東京都 白金・成城ほか",
+    "area": "白金・成城ほか",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/349",
     "address": "東京都港区白金6-4-3 マーヴェラスガーデンコートB1F",
@@ -1086,15 +963,12 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 158,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "白金・成城ほか",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "活 伊勢海老料理 中納言 大阪駅前第3ビル店",
-    "area": "大阪府 梅田",
-    "cuisineType": "日本料理",
+    "area": "梅田",
+    "cuisineType": "伊勢海老料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/350",
     "address": "大阪府大阪市北区梅田1-1-3-3200\n大阪駅前第3ビル32F",
     "googleMapPage": "https://maps.google.com/maps?q=34.698828800000,135.499248500000",
@@ -1112,15 +986,12 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 564,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "梅田",
-    "cuisineType_original": "伊勢海老料理",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "活 伊勢海老料理 中納言 千日前味楽館",
-    "area": "大阪府 なんば",
-    "cuisineType": "日本料理",
+    "area": "なんば",
+    "cuisineType": "伊勢海老料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/351",
     "address": "大阪府大阪市中央区難波1-4-4",
     "googleMapPage": "https://maps.google.com/maps?q=34.667390000000,135.501970000000",
@@ -1138,15 +1009,12 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 358,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "なんば",
-    "cuisineType_original": "伊勢海老料理",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "活 伊勢海老料理 中納言 神戸ハーバーランド店",
-    "area": "兵庫県 みなと元町",
-    "cuisineType": "日本料理",
+    "area": "みなと元町",
+    "cuisineType": "伊勢海老料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/352",
     "address": "兵庫県神戸市中央区東川崎町1-6-1 モザイク3F",
     "googleMapPage": "https://maps.google.com/maps?q=34.680045000000,135.184365000000",
@@ -1164,14 +1032,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 189,
     "pref": "兵庫県",
-    "city": "神戸市",
-    "area_original": "みなと元町",
-    "cuisineType_original": "伊勢海老料理",
-    "prefCode": 28
+    "city": "神戸市"
   },
   {
     "name": "Restaurant REIMS YANAGIDATE（レストラン ランス ヤナギダテ）",
-    "area": "東京都 表参道・渋谷周辺",
+    "area": "表参道・渋谷周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/361",
     "address": "東京都港区北青山3-10-13",
@@ -1190,14 +1055,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 274,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "表参道・渋谷周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "Restaurant Re:（レストラン アールイー）",
-    "area": "東京都 恵比寿・中目黒・代官山周辺",
+    "area": "恵比寿・中目黒・代官山周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/366",
     "address": "東京都目黒区中目黒1-10-23 リバーサイドテラス103",
@@ -1216,15 +1078,12 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 114,
     "pref": "東京都",
-    "city": "目黒区",
-    "area_original": "恵比寿・中目黒・代官山周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "目黒区"
   },
   {
     "name": "鉄板焼 いちか",
-    "area": "東京都 恵比寿・中目黒・代官山周辺",
-    "cuisineType": "肉料理",
+    "area": "恵比寿・中目黒・代官山周辺",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/368",
     "address": "東京都渋谷区東2-14-13 leaf east 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.651744000000,139.709964000000",
@@ -1242,14 +1101,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 169,
     "pref": "東京都",
-    "city": "渋谷区",
-    "area_original": "恵比寿・中目黒・代官山周辺",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 13
+    "city": "渋谷区"
   },
   {
     "name": "日本料理 銀座いしづか",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/377",
     "address": "東京都中央区銀座1-13-8 ハビウル銀座5F",
@@ -1268,15 +1124,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 84,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "日本料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "青山 牛彩（ぎゅうさい）",
-    "area": "東京都 表参道・渋谷周辺",
-    "cuisineType": "肉料理",
+    "area": "表参道・渋谷周辺",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/379",
     "address": "東京都港区南青山2-11-11",
     "googleMapPage": "https://maps.google.com/maps?q=35.671242890000,139.720962250000",
@@ -1294,14 +1147,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 204,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "表参道・渋谷周辺",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "La Scogliera（ラ・スコリエーラ）",
-    "area": "東京都 新橋・赤坂周辺",
+    "area": "新橋・赤坂周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/382",
     "address": "東京都港区赤坂4-15-1 赤坂ガーデンシティ",
@@ -1320,14 +1170,11 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 263,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "新橋・赤坂周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "AL KENTRE（アルケントーレ）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/384",
     "address": "東京都中央区銀座8-2-1 ニッタビル10F",
@@ -1346,15 +1193,12 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 164,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "黒毛和牛専門店 神戸味鉄（あじてつ）",
-    "area": "東京都 新橋・赤坂周辺",
-    "cuisineType": "肉料理",
+    "area": "新橋・赤坂周辺",
+    "cuisineType": "鉄板焼・しゃぶしゃぶ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/385",
     "address": "東京都港区赤坂3-14-9 清水ビルB1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.674005000000,139.737036000000",
@@ -1372,14 +1216,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 150,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "新橋・赤坂周辺",
-    "cuisineType_original": "鉄板焼・しゃぶしゃぶ",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "Restaurant Perfumes（レストラン パフューム）",
-    "area": "東京都 白金・成城ほか",
+    "area": "白金・成城ほか",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/386",
     "address": "東京都品川区東五反田4-7-29 NKビル1F",
@@ -1398,14 +1239,11 @@
     "googleRating": 4,
     "googleUserRatingCount": 173,
     "pref": "東京都",
-    "city": "品川区",
-    "area_original": "白金・成城ほか",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "品川区"
   },
   {
     "name": "RISTORANTE UMIRIA（リストランテ ウミリア）",
-    "area": "神奈川県 横浜",
+    "area": "横浜",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/392",
     "address": "神奈川県横浜市西区みなとみらい4-6-2 グランドセントラルタワー2F",
@@ -1424,15 +1262,12 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 268,
     "pref": "神奈川県",
-    "city": "横浜市",
-    "area_original": "横浜",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 14
+    "city": "横浜市"
   },
   {
     "name": "創意和食 野むら",
-    "area": "愛知県 覚王山・本山・八事周辺",
-    "cuisineType": "日本料理",
+    "area": "覚王山・本山・八事周辺",
+    "cuisineType": "和食会席",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/395",
     "address": "愛知県名古屋市千種区四谷通3-23-3",
     "googleMapPage": "https://maps.google.com/maps?q=35.159469600000,136.965462300000",
@@ -1450,15 +1285,12 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 136,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "覚王山・本山・八事周辺",
-    "cuisineType_original": "和食会席",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "龍太楼（りょうたろう）",
-    "area": "愛知県 金山・東別院・鶴舞周辺",
-    "cuisineType": "寿司",
+    "area": "金山・東別院・鶴舞周辺",
+    "cuisineType": "寿司・割烹",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/396",
     "address": "愛知県名古屋市中区千代田5-17-19",
     "googleMapPage": "https://maps.google.com/maps?q=35.158555000000,136.916847000000",
@@ -1476,15 +1308,12 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 63,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "金山・東別院・鶴舞周辺",
-    "cuisineType_original": "寿司・割烹",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "バリラックス ザ ガーデン 梅田",
-    "area": "大阪府 梅田",
-    "cuisineType": "フレンチ",
+    "area": "梅田",
+    "cuisineType": "アジアン・フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/397",
     "address": "大阪府大阪市北区大深町4-20 グランフロント大阪 8F",
     "googleMapPage": "https://maps.google.com/maps?q=34.700007000000,135.496871000000",
@@ -1502,14 +1331,11 @@
     "googleRating": 4,
     "googleUserRatingCount": 443,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "梅田",
-    "cuisineType_original": "アジアン・フレンチ",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "鮨 天川（てんかわ）",
-    "area": "東京都 恵比寿・中目黒・代官山周辺",
+    "area": "恵比寿・中目黒・代官山周辺",
     "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/402",
     "address": "東京都渋谷区恵比寿1-25-7 サングラータ恵比寿1F",
@@ -1528,14 +1354,11 @@
     "googleRating": 4,
     "googleUserRatingCount": 107,
     "pref": "東京都",
-    "city": "渋谷区",
-    "area_original": "恵比寿・中目黒・代官山周辺",
-    "cuisineType_original": "寿司",
-    "prefCode": 13
+    "city": "渋谷区"
   },
   {
     "name": "ルコネッサンス",
-    "area": "愛知県 金山・東別院・鶴舞周辺",
+    "area": "金山・東別院・鶴舞周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/405",
     "address": "愛知県名古屋市中区大井町1-24 ヴィークタワー名古屋東別院1F",
@@ -1554,14 +1377,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 46,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "金山・東別院・鶴舞周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "久兵衛 LA CUCINA QBE（キュウベエ ラ クッチーナ キュウベエ）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/414",
     "address": "東京都中央区銀座6-12-14 銀緑館ビル5F",
@@ -1580,14 +1400,11 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 27,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "結華楼（ユイカロウ）",
-    "area": "東京都 新宿・市ヶ谷・飯田橋周辺",
+    "area": "新宿・市ヶ谷・飯田橋周辺",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/421",
     "address": "東京都新宿区神楽坂3-2 木村屋ビル5F",
@@ -1606,15 +1423,12 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 280,
     "pref": "東京都",
-    "city": "新宿区",
-    "area_original": "新宿・市ヶ谷・飯田橋周辺",
-    "cuisineType_original": "中国料理",
-    "prefCode": 13
+    "city": "新宿区"
   },
   {
     "name": "ガス燈（ガストウ）",
-    "area": "愛知県 今池・千種・池下周辺",
-    "cuisineType": "日本料理",
+    "area": "今池・千種・池下周辺",
+    "cuisineType": "和洋創作",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/438",
     "address": "愛知県名古屋市千種区今池1-8-8今池ガスビル8F",
     "googleMapPage": "https://maps.google.com/maps?q=35.168936000000,136.936459000000",
@@ -1632,15 +1446,12 @@
     "googleRating": 4,
     "googleUserRatingCount": 261,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "今池・千種・池下周辺",
-    "cuisineType_original": "和洋創作",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "割烹 三州家（さんしゅうや）",
-    "area": "東京都 北千住・墨田周辺",
-    "cuisineType": "日本料理",
+    "area": "北千住・墨田周辺",
+    "cuisineType": "懐石料理・鍋料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/439",
     "address": "東京都墨田区本所4-17-3",
     "googleMapPage": "https://maps.google.com/maps?q=35.703408000000,139.805187000000",
@@ -1658,15 +1469,12 @@
     "googleRating": 3.6,
     "googleUserRatingCount": 162,
     "pref": "東京都",
-    "city": "墨田区",
-    "area_original": "北千住・墨田周辺",
-    "cuisineType_original": "懐石料理・鍋料理",
-    "prefCode": 13
+    "city": "墨田区"
   },
   {
     "name": "日本料理 杜若（かきつばた）",
-    "area": "東京都 恵比寿・中目黒・代官山周辺",
-    "cuisineType": "日本料理",
+    "area": "恵比寿・中目黒・代官山周辺",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/445",
     "address": "東京都世田谷区奥沢5-20-11 自由が丘TSビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.605826000000,139.668710000000",
@@ -1684,14 +1492,11 @@
     "googleRating": 4,
     "googleUserRatingCount": 55,
     "pref": "東京都",
-    "city": "世田谷区",
-    "area_original": "恵比寿・中目黒・代官山周辺",
-    "cuisineType_original": "和食",
-    "prefCode": 13
+    "city": "世田谷区"
   },
   {
     "name": "IL PINOLO（イル ピノーロ） 梅田",
-    "area": "大阪府 梅田",
+    "area": "梅田",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/447",
     "address": "大阪府大阪市北区梅田2-2-2　ヒルトンプラザウエスト5F",
@@ -1710,15 +1515,12 @@
     "googleRating": 3.8,
     "googleUserRatingCount": 322,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "梅田",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "醍醐味（だいごみ）",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "日本料理",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "和食・炉端・会席料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/449",
     "address": "東京都千代田区丸の内2-4-1 丸の内ビルディング5F",
     "googleMapPage": "https://maps.google.com/maps?q=35.681064000000,139.763770000000",
@@ -1736,14 +1538,11 @@
     "googleRating": 4,
     "googleUserRatingCount": 316,
     "pref": "東京都",
-    "city": "千代田区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "和食・炉端・会席料理",
-    "prefCode": 13
+    "city": "千代田区"
   },
   {
     "name": "中国料理 頤和園（イワエン） 霞が関店",
-    "area": "東京都 新橋・赤坂周辺",
+    "area": "新橋・赤坂周辺",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/451",
     "address": "東京都千代田区霞が関3-2-6 東京倶楽部ビルディング3F",
@@ -1762,15 +1561,12 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 555,
     "pref": "東京都",
-    "city": "千代田区",
-    "area_original": "新橋・赤坂周辺",
-    "cuisineType_original": "中国料理",
-    "prefCode": 13
+    "city": "千代田区"
   },
   {
     "name": "中華料理 頤和園（イワエン） 博多駅前店",
-    "area": "福岡県 博多",
-    "cuisineType": "中国料理",
+    "area": "博多",
+    "cuisineType": "中華料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/452",
     "address": "福岡県福岡市博多区博多駅前2-20-1 大博多ビル12F",
     "googleMapPage": "https://maps.google.com/maps?q=33.592572000000,130.415675000000",
@@ -1788,14 +1584,11 @@
     "googleRating": 4,
     "googleUserRatingCount": 901,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "博多",
-    "cuisineType_original": "中華料理",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "Restaurant VERT FONCÉ（レストラン ヴェル フォンセ）",
-    "area": "福岡県 平尾浄水",
+    "area": "平尾浄水",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/453",
     "address": "福岡県福岡市中央区平尾浄水町5-1",
@@ -1814,14 +1607,11 @@
     "googleRating": 3.7,
     "googleUserRatingCount": 157,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "平尾浄水",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "日本の料理屋 IMURI",
-    "area": "福岡県 桜坂",
+    "area": "桜坂",
     "cuisineType": "和食・洋食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/455",
     "address": "福岡県福岡市中央区谷1-3-15",
@@ -1840,14 +1630,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 461,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "桜坂",
-    "cuisineType_original": "和食・洋食",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "日本料理 石田",
-    "area": "福岡県 中洲川端",
+    "area": "中洲川端",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/456",
     "address": "福岡県福岡市博多区中洲4-1-8 \nヤマシタビル1F・2F・3F",
@@ -1866,15 +1653,12 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 144,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "中洲川端",
-    "cuisineType_original": "日本料理",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "焼肉 みやなか",
-    "area": "福岡県 中洲川端",
-    "cuisineType": "肉料理",
+    "area": "中洲川端",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/460",
     "address": "福岡県福岡市博多区中洲2-4-20 \n第21ポールスタービル1F",
     "googleMapPage": "https://maps.google.com/maps?q=33.591535000000,130.407778000000",
@@ -1892,14 +1676,11 @@
     "googleRating": 4,
     "googleUserRatingCount": 121,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "中洲川端",
-    "cuisineType_original": "焼肉",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "Restaurant Au Bon Coin（レストラン オーボン コワン）",
-    "area": "東京都 池袋周辺",
+    "area": "池袋周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/464",
     "address": "東京都豊島区雑司が谷2-3-17 ビューロ目白台1F",
@@ -1918,14 +1699,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 112,
     "pref": "東京都",
-    "city": "豊島区",
-    "area_original": "池袋周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "豊島区"
   },
   {
     "name": "IL PINOLO（イル ピノーロ） 銀座本店",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/472",
     "address": "東京都中央区銀座7-8-7 GINZA GREEN9F",
@@ -1944,15 +1722,12 @@
     "googleRating": 3.8,
     "googleUserRatingCount": 384,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "今彩（こんさい）",
-    "area": "東京都 新宿・市ヶ谷・飯田橋周辺",
-    "cuisineType": "フレンチ",
+    "area": "新宿・市ヶ谷・飯田橋周辺",
+    "cuisineType": "和装フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/479",
     "address": "東京都新宿区神楽坂6-26-8",
     "googleMapPage": "https://maps.google.com/maps?q=35.703823010000,139.736490150000",
@@ -1970,14 +1745,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 151,
     "pref": "東京都",
-    "city": "新宿区",
-    "area_original": "新宿・市ヶ谷・飯田橋周辺",
-    "cuisineType_original": "和装フレンチ",
-    "prefCode": 13
+    "city": "新宿区"
   },
   {
     "name": "鮨 てとて",
-    "area": "福岡県 西中洲",
+    "area": "西中洲",
     "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/485",
     "address": "福岡県福岡市中央区西中洲5-6 1F",
@@ -1996,14 +1768,11 @@
     "googleRating": 4.7,
     "googleUserRatingCount": 13,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "西中洲",
-    "cuisineType_original": "寿司",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "フレンチレストラン 九段 プレジール",
-    "area": "東京都 新宿・市ヶ谷・飯田橋周辺",
+    "area": "新宿・市ヶ谷・飯田橋周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/493",
     "address": "東京都千代田区九段南3-6-9",
@@ -2022,14 +1791,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 88,
     "pref": "東京都",
-    "city": "千代田区",
-    "area_original": "新宿・市ヶ谷・飯田橋周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "千代田区"
   },
   {
     "name": "料理処 希満里（けまり）",
-    "area": "高知県 高知",
+    "area": "高知",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/501",
     "address": "高知県高知市追手筋1-6-21（割烹旅館おおりや内）",
@@ -2048,14 +1814,11 @@
     "googleRating": 3.1,
     "googleUserRatingCount": 66,
     "pref": "高知県",
-    "city": "高知市",
-    "area_original": "高知",
-    "cuisineType_original": "日本料理",
-    "prefCode": 39
+    "city": "高知市"
   },
   {
     "name": "鮨処 剛（ごう）",
-    "area": "福岡県 西中洲",
+    "area": "西中洲",
     "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/513",
     "address": "福岡県福岡市中央区春吉3-13-1",
@@ -2074,14 +1837,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 71,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "西中洲",
-    "cuisineType_original": "寿司",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "イタリア料理 タベルナ・アイ",
-    "area": "東京都 池袋周辺",
+    "area": "池袋周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/520",
     "address": "東京都文京区関口3-18-4 フェリーチェ目白台1F",
@@ -2100,15 +1860,12 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 163,
     "pref": "東京都",
-    "city": "文京区",
-    "area_original": "池袋周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "文京区"
   },
   {
     "name": "粋京（いっきょう）",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "日本料理",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/521",
     "address": "東京都中央区銀座8-3-12 Ginza須賀ビル5F",
     "googleMapPage": "https://maps.google.com/maps?q=35.669137000000,139.759148000000",
@@ -2126,15 +1883,12 @@
     "googleRating": 4.7,
     "googleUserRatingCount": 36,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "和食",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "割烹・鮨 ます水（ますみず）",
-    "area": "福岡県 中洲川端",
-    "cuisineType": "日本料理",
+    "area": "中洲川端",
+    "cuisineType": "日本料理・和食・寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/523",
     "address": "福岡県福岡市博多区店屋町3-1",
     "googleMapPage": "https://maps.google.com/maps?q=33.595225000000,130.410528000000",
@@ -2152,14 +1906,11 @@
     "googleRating": 4.7,
     "googleUserRatingCount": 30,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "中洲川端",
-    "cuisineType_original": "日本料理・和食・寿司",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "イタリア料理 IL.SOGNO（イル ソーニョ）",
-    "area": "福岡県 西中洲",
+    "area": "西中洲",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/525",
     "address": "福岡県福岡市中央区西中洲1-35 寺埜ビル2F",
@@ -2178,15 +1929,12 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 602,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "西中洲",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "鉄板焼 曉（あかつき）",
-    "area": "福岡県 薬院",
-    "cuisineType": "肉料理",
+    "area": "薬院",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/528",
     "address": "福岡県福岡市中央区薬院3-12-22 美山ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=33.579456000000,130.398472000000",
@@ -2204,15 +1952,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 52,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "薬院",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "DOMINANT（ドミナント）",
-    "area": "東京都 表参道・渋谷周辺",
-    "cuisineType": "肉料理",
+    "area": "表参道・渋谷周辺",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/529",
     "address": "東京都港区南青山6-7-2 テラアシオス南青山B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.659913000000,139.717196000000",
@@ -2230,14 +1975,11 @@
     "googleRating": 4,
     "googleUserRatingCount": 63,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "表参道・渋谷周辺",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "Cot（コット）",
-    "area": "東京都 六本木・麻布・広尾周辺",
+    "area": "六本木・麻布・広尾周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/531",
     "address": "東京都港区西麻布4-2-6 Ryowa Palace 1F",
@@ -2256,15 +1998,12 @@
     "googleRating": 4.6,
     "googleUserRatingCount": 29,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "プランチャー健",
-    "area": "京都府 祇園",
-    "cuisineType": "肉料理",
+    "area": "祇園",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/533",
     "address": "京都府京都市東山区衹園町北側282-3 太田ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.004297000000,135.776472000000",
@@ -2282,15 +2021,12 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 93,
     "pref": "京都府",
-    "city": "京都市",
-    "area_original": "祇園",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 26
+    "city": "京都市"
   },
   {
     "name": "和食とくなが",
-    "area": "福岡県 赤坂",
-    "cuisineType": "日本料理",
+    "area": "赤坂",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/538",
     "address": "福岡県福岡市中央区大手門1-3-17 エステートモア大手門1F",
     "googleMapPage": "https://maps.google.com/maps?q=33.589546000000,130.384414000000",
@@ -2308,14 +2044,11 @@
     "googleRating": 4.8,
     "googleUserRatingCount": 21,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "赤坂",
-    "cuisineType_original": "和食",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "L'enfant coeur et coeur（ランファン クー エ クー）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/546",
     "address": "東京都中央区銀座7-2-8 高谷銀座ビル6F",
@@ -2334,14 +2067,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 81,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "銀座 芳園（ホウエン）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/554",
     "address": "東京都中央区銀座7-8-15 第二新橋会館6F",
@@ -2360,14 +2090,11 @@
     "googleRating": 3.7,
     "googleUserRatingCount": 210,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "中国料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "葛（かずら）",
-    "area": "広島県 広島",
+    "area": "広島",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/557",
     "address": "広島県広島市中区胡町3-28",
@@ -2386,14 +2113,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 207,
     "pref": "広島県",
-    "city": "広島市",
-    "area_original": "広島",
-    "cuisineType_original": "日本料理",
-    "prefCode": 34
+    "city": "広島市"
   },
   {
     "name": "Ringraziamento（リングラツィアメント）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/561",
     "address": "東京都中央区日本橋小網町9-6 NSTビルB1F",
@@ -2412,14 +2136,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 83,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "オーシャンディッシュ Q'on クオン",
-    "area": "東京都 新橋・赤坂周辺",
+    "area": "新橋・赤坂周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/566",
     "address": "東京都港区海岸3-26-1 バーク芝浦ビル 14F",
@@ -2438,14 +2159,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 426,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "新橋・赤坂周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "teatro di massa（テアトロ ディ マッサ）",
-    "area": "北海道 札幌",
+    "area": "札幌",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/569",
     "address": "北海道札幌市中央区南3条西8-7 大洋ビル2F",
@@ -2464,14 +2182,11 @@
     "googleRating": 4.6,
     "googleUserRatingCount": 117,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "Vingt-cinq BLANCHE（ヴァンサンク・ブランシュ）",
-    "area": "大阪府 心斎橋",
+    "area": "心斎橋",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/576",
     "address": "大阪府大阪市中央区西心斎橋1-9-31",
@@ -2490,14 +2205,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 152,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "心斎橋",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "中国料理 青冥（チンミン） 阪急池田店",
-    "area": "大阪府 大阪府その他",
+    "area": "大阪府その他",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/583",
     "address": "大阪府池田市栄町1-1\nマルシェ池田3番館 1F",
@@ -2516,14 +2228,11 @@
     "googleRating": 3.8,
     "googleUserRatingCount": 132,
     "pref": "大阪府",
-    "city": "池田市",
-    "area_original": "大阪府その他",
-    "cuisineType_original": "中国料理",
-    "prefCode": 27
+    "city": "池田市"
   },
   {
     "name": "中国料理 青冥（チンミン） 祇園店",
-    "area": "京都府 祇園",
+    "area": "祇園",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/590",
     "address": "京都府京都市東山区衹園町北側268 ヤサカ衹園ビル5F",
@@ -2542,14 +2251,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 437,
     "pref": "京都府",
-    "city": "京都市",
-    "area_original": "祇園",
-    "cuisineType_original": "中国料理",
-    "prefCode": 26
+    "city": "京都市"
   },
   {
     "name": "A le Soleil（アクサングラーブ・ル・ソレイユ）",
-    "area": "大阪府 北新地",
+    "area": "北新地",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/591",
     "address": "大阪府大阪市北区曾根崎新地1-10-16 \n永楽ビル10F",
@@ -2568,15 +2274,12 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 21,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "北新地",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "神楽坂 たんたか",
-    "area": "東京都 新宿・市ヶ谷・飯田橋周辺",
-    "cuisineType": "日本料理",
+    "area": "新宿・市ヶ谷・飯田橋周辺",
+    "cuisineType": "割烹・会席料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/594",
     "address": "東京都新宿区天神町63-13 神楽坂メゾン1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.705314000000,139.730733000000",
@@ -2594,14 +2297,11 @@
     "googleRating": 3.7,
     "googleUserRatingCount": 32,
     "pref": "東京都",
-    "city": "新宿区",
-    "area_original": "新宿・市ヶ谷・飯田橋周辺",
-    "cuisineType_original": "割烹・会席料理",
-    "prefCode": 13
+    "city": "新宿区"
   },
   {
     "name": "IL PINOLO SKYTERRACE（イル ピノーロ スカイテラス）",
-    "area": "神奈川県 横浜",
+    "area": "横浜",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/597",
     "address": "神奈川県横浜市西区高島2-18-1 そごう横浜 10F",
@@ -2620,14 +2320,11 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 646,
     "pref": "神奈川県",
-    "city": "横浜市",
-    "area_original": "横浜",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 14
+    "city": "横浜市"
   },
   {
     "name": "ふぐ・はも割烹 由兵衛（よしべい）",
-    "area": "京都府 河原町",
+    "area": "河原町",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/600",
     "address": "京都府京都市下京区西石垣通四条下ル斎藤町118",
@@ -2646,15 +2343,12 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 129,
     "pref": "京都府",
-    "city": "京都市",
-    "area_original": "河原町",
-    "cuisineType_original": "日本料理",
-    "prefCode": 26
+    "city": "京都市"
   },
   {
     "name": "お茶屋BAR 六馬（りくば）",
-    "area": "福岡県 西中洲",
-    "cuisineType": "日本料理",
+    "area": "西中洲",
+    "cuisineType": "京料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/613",
     "address": "福岡県福岡市中央区西中洲3-17 ユイビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=33.590868000000,130.405283000000",
@@ -2672,15 +2366,12 @@
     "googleRating": 4,
     "googleUserRatingCount": 44,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "西中洲",
-    "cuisineType_original": "京料理",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "鉄板料理 花六（はなろく）",
-    "area": "京都府 京都駅周辺",
-    "cuisineType": "肉料理",
+    "area": "京都駅周辺",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/621",
     "address": "京都府京都市下京区烏丸通六条下る北町190\nホテルカンラ京都本館B1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.993566000000,135.759435000000",
@@ -2698,15 +2389,12 @@
     "googleRating": 4.8,
     "googleUserRatingCount": 163,
     "pref": "京都府",
-    "city": "京都市",
-    "area_original": "京都駅周辺",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 26
+    "city": "京都市"
   },
   {
     "name": "銀座 すゞ木",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "フレンチ",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "フレンチ割烹・バー",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/622",
     "address": "東京都中央区銀座7-3-16 東五ビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670551000000,139.760626000000",
@@ -2724,15 +2412,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 22,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "フレンチ割烹・バー",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "KOBE STEAK Tsubasa 北新地",
-    "area": "大阪府 北新地",
-    "cuisineType": "肉料理",
+    "area": "北新地",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/628",
     "address": "大阪府大阪市北区曽根崎新地1-7-3 北新地プラザビル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696949000000,135.500686000000",
@@ -2750,14 +2435,11 @@
     "googleRating": 3.3,
     "googleUserRatingCount": 49,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "北新地",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "頤和園（イワエン）京橋エドグラン店",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/637",
     "address": "東京都中央区京橋2-2-1 京橋エドグランサウス6F",
@@ -2776,14 +2458,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 515,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "中国料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "GINZA kansei",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/639",
     "address": "東京都中央区銀座7-12-1 藤高ビル2F・3F",
@@ -2802,14 +2481,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 48,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "ルルソンキボア",
-    "area": "京都府 北山",
+    "area": "北山",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/641",
     "address": "京都府京都市北区上賀茂豊田町52",
@@ -2828,14 +2504,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 179,
     "pref": "京都府",
-    "city": "京都市",
-    "area_original": "北山",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 26
+    "city": "京都市"
   },
   {
     "name": "ILBEIGE（イルベイジュ）",
-    "area": "愛知県 名古屋駅周辺",
+    "area": "名古屋駅周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/646",
     "address": "愛知県名古屋市西区牛島町6-24 アクロスキューブ名古屋8F",
@@ -2854,15 +2527,12 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 92,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "名古屋駅周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "創作フレンチ ショウズ鉄板ダイニング",
-    "area": "神奈川県 横浜",
-    "cuisineType": "肉料理",
+    "area": "横浜",
+    "cuisineType": "ステーキ・鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/647",
     "address": "神奈川県横浜市中区尾上町3-45-2 ヴァルス尾上町B-102",
     "googleMapPage": "https://maps.google.com/maps?q=35.445379000000,139.636043000000",
@@ -2880,14 +2550,11 @@
     "googleRating": 4.6,
     "googleUserRatingCount": 52,
     "pref": "神奈川県",
-    "city": "横浜市",
-    "area_original": "横浜",
-    "cuisineType_original": "ステーキ・鉄板焼",
-    "prefCode": 14
+    "city": "横浜市"
   },
   {
     "name": "恵比寿 京しずく",
-    "area": "東京都 恵比寿・中目黒・代官山周辺",
+    "area": "恵比寿・中目黒・代官山周辺",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/648",
     "address": "東京都目黒区三田1-12-25",
@@ -2906,14 +2573,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 50,
     "pref": "東京都",
-    "city": "目黒区",
-    "area_original": "恵比寿・中目黒・代官山周辺",
-    "cuisineType_original": "日本料理",
-    "prefCode": 13
+    "city": "目黒区"
   },
   {
     "name": "La TRILOGIE～ラ・トリロジー～",
-    "area": "愛知県 金山・東別院・鶴舞周辺",
+    "area": "金山・東別院・鶴舞周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/654",
     "address": "愛知県名古屋市中区千代田5-11-33 ST PLAZA TSURUMAI B1F",
@@ -2932,14 +2596,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 84,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "金山・東別院・鶴舞周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "CUCINA KURAMOCHI（クッチーナ クラモチ）",
-    "area": "京都府 丸太町",
+    "area": "丸太町",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/657",
     "address": "京都府京都市中京区釜座通丸太町下ル桝屋町149 サンモリタ1F",
@@ -2958,15 +2619,12 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 105,
     "pref": "京都府",
-    "city": "京都市",
-    "area_original": "丸太町",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 26
+    "city": "京都市"
   },
   {
     "name": "ふぐ料理専門店 ふく処 信剣（しんけん）",
-    "area": "北海道 札幌",
-    "cuisineType": "日本料理",
+    "area": "札幌",
+    "cuisineType": "ふぐ料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/659",
     "address": "北海道札幌市中央区南6条西3 秋水ビル3F",
     "googleMapPage": "https://maps.google.com/maps?q=43.053575000000,141.354759000000",
@@ -2984,15 +2642,12 @@
     "googleRating": 4.7,
     "googleUserRatingCount": 54,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "ふぐ料理",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "マグロ料理専門店 鮪や にばんめ",
-    "area": "北海道 札幌",
-    "cuisineType": "日本料理",
+    "area": "札幌",
+    "cuisineType": "海鮮料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/660",
     "address": "北海道札幌市中央区南3条西5-14 三条美松ビル3F",
     "googleMapPage": "https://maps.google.com/maps?q=43.056607000000,141.350773000000",
@@ -3010,14 +2665,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 14,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "海鮮料理",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "すし さか井",
-    "area": "北海道 札幌",
+    "area": "札幌",
     "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/662",
     "address": "北海道札幌市中央区南2条西3-13 パレードビル1F",
@@ -3036,14 +2688,11 @@
     "googleRating": 4.8,
     "googleUserRatingCount": 45,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "寿司",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "ビストロ 『ラ・マンドリン』",
-    "area": "京都府 祇園",
+    "area": "祇園",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/672",
     "address": "京都府京都市東山区衹園切通し清本町364-5 切通しビル 4F",
@@ -3062,14 +2711,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 19,
     "pref": "京都府",
-    "city": "京都市",
-    "area_original": "祇園",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 26
+    "city": "京都市"
   },
   {
     "name": "Le Cinque Kitahama （ル サンク キタハマ）",
-    "area": "大阪府 北浜",
+    "area": "北浜",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/674",
     "address": "大阪府大阪市中央区高麗橋1-7-3 The Kitahama PLAZA 2F",
@@ -3088,15 +2734,12 @@
     "googleRating": 3.5,
     "googleUserRatingCount": 84,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "北浜",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "大町 二代目 幸五郎（こうごろう）",
-    "area": "宮城県 仙台",
-    "cuisineType": "肉料理",
+    "area": "仙台",
+    "cuisineType": "焼肉・鍋",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/681",
     "address": "宮城県仙台市青葉区大町2-8-1",
     "googleMapPage": "https://maps.google.com/maps?q=38.259985000000,140.866102000000",
@@ -3114,15 +2757,12 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 76,
     "pref": "宮城県",
-    "city": "仙台市",
-    "area_original": "仙台",
-    "cuisineType_original": "焼肉・鍋",
-    "prefCode": 4
+    "city": "仙台市"
   },
   {
     "name": "鉄板ダイニング譽（TAKA） 定禅寺通り店",
-    "area": "宮城県 仙台",
-    "cuisineType": "肉料理",
+    "area": "仙台",
+    "cuisineType": "ステーキ・鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/684",
     "address": "宮城県仙台市青葉区春日町1-5 SKビル4F",
     "googleMapPage": "https://maps.google.com/maps?q=38.265455000000,140.866077000000",
@@ -3140,14 +2780,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 209,
     "pref": "宮城県",
-    "city": "仙台市",
-    "area_original": "仙台",
-    "cuisineType_original": "ステーキ・鉄板焼",
-    "prefCode": 4
+    "city": "仙台市"
   },
   {
     "name": "Bel Cielo（ベル チエロ）",
-    "area": "愛知県 栄・錦・矢場町・新栄周辺",
+    "area": "栄・錦・矢場町・新栄周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/685",
     "address": "愛知県名古屋市中区東桜2-22-18 日興ビルヂングB1F",
@@ -3166,15 +2803,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 59,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "栄・錦・矢場町・新栄周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "焼肉ますお 新宿本店",
-    "area": "東京都 新宿・市ヶ谷・飯田橋周辺",
-    "cuisineType": "肉料理",
+    "area": "新宿・市ヶ谷・飯田橋周辺",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/692",
     "address": "東京都新宿区歌舞伎町2-19-12 B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.698102000000,139.704535000000",
@@ -3192,15 +2826,12 @@
     "googleRating": 4,
     "googleUserRatingCount": 284,
     "pref": "東京都",
-    "city": "新宿区",
-    "area_original": "新宿・市ヶ谷・飯田橋周辺",
-    "cuisineType_original": "焼肉",
-    "prefCode": 13
+    "city": "新宿区"
   },
   {
     "name": "SAKE SAKANA SHUNSAI 今澤 SHINJUKU",
-    "area": "東京都 新宿・市ヶ谷・飯田橋周辺",
-    "cuisineType": "日本料理",
+    "area": "新宿・市ヶ谷・飯田橋周辺",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/697",
     "address": "東京都新宿区新宿3-32-10 T&Tビル7F",
     "googleMapPage": "https://maps.google.com/maps?q=35.690143000000,139.704138000000",
@@ -3218,14 +2849,11 @@
     "googleRating": 3.8,
     "googleUserRatingCount": 42,
     "pref": "東京都",
-    "city": "新宿区",
-    "area_original": "新宿・市ヶ谷・飯田橋周辺",
-    "cuisineType_original": "和食",
-    "prefCode": 13
+    "city": "新宿区"
   },
   {
     "name": "リストランテ イル ミラマーレ",
-    "area": "宮城県 仙台",
+    "area": "仙台",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/699",
     "address": "宮城県仙台市青葉区一番町3-1-16 PARM-CITY131ビル3F",
@@ -3244,15 +2872,12 @@
     "googleRating": 3.2,
     "googleUserRatingCount": 61,
     "pref": "宮城県",
-    "city": "仙台市",
-    "area_original": "仙台",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 4
+    "city": "仙台市"
   },
   {
     "name": "松竹膳處（しょうちくぜんどころ）",
-    "area": "宮城県 仙台",
-    "cuisineType": "日本料理",
+    "area": "仙台",
+    "cuisineType": "和食・懐石・会席料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/705",
     "address": "宮城県仙台市青葉区大町2-10-23 グランビュー大町1F",
     "googleMapPage": "https://maps.google.com/maps?q=38.260375000000,140.863964000000",
@@ -3270,14 +2895,11 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 43,
     "pref": "宮城県",
-    "city": "仙台市",
-    "area_original": "仙台",
-    "cuisineType_original": "和食・懐石・会席料理",
-    "prefCode": 4
+    "city": "仙台市"
   },
   {
     "name": "INOLTRE（イノルトレ）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/715",
     "address": "東京都中央区銀座5-4-15 西五ビル5F",
@@ -3296,15 +2918,12 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 55,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "お肉のおいしいレストラン 夢浪漫（ユメロマン）",
-    "area": "茨城県 茨城",
-    "cuisineType": "肉料理",
+    "area": "茨城",
+    "cuisineType": "ハンバーグ・ステーキ・グリル",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/722",
     "address": "茨城県水戸市姫子2-767-2",
     "googleMapPage": "https://maps.google.com/maps?q=36.379876000000,140.425951000000",
@@ -3322,14 +2941,11 @@
     "googleRating": 4,
     "googleUserRatingCount": 444,
     "pref": "茨城県",
-    "city": "水戸市",
-    "area_original": "茨城",
-    "cuisineType_original": "ハンバーグ・ステーキ・グリル",
-    "prefCode": 8
+    "city": "水戸市"
   },
   {
     "name": "里山イタリアンAJIKURA",
-    "area": "島根県 島根",
+    "area": "島根",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/731",
     "address": "島根県邑智郡邑南町矢上3123-4",
@@ -3348,14 +2964,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 128,
     "pref": "島根県",
-    "city": "邑智郡",
-    "area_original": "島根",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 32
+    "city": "邑智郡"
   },
   {
     "name": "和膳 いい田",
-    "area": "東京都 人形町・小伝馬町周辺",
+    "area": "人形町・小伝馬町周辺",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/739",
     "address": "東京都中央区日本橋人形町2-19-7",
@@ -3374,14 +2987,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 79,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "人形町・小伝馬町周辺",
-    "cuisineType_original": "日本料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "銀座 黒尊（くろそん）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/759",
     "address": "東京都中央区銀座7-3-15 ぜん屋ビル B1F",
@@ -3400,14 +3010,11 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 106,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "日本料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "restaurante del mar（リストランテ デル マール）",
-    "area": "福岡県 中洲川端",
+    "area": "中洲川端",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/763",
     "address": "福岡県福岡市博多区中洲2-6-7 ジョイフルヤマモトビル1F",
@@ -3426,14 +3033,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 57,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "中洲川端",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "Georges un cinq（ジョルジュ アン サンク）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/764",
     "address": "東京都中央区銀座2-8-17 ハビウル銀座Ⅱ 3F",
@@ -3452,15 +3056,12 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 80,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "Vin de Reve（ヴァン・ド・レーヴ）",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "フレンチ",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "フレンチ・ワインバー",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/774",
     "address": "東京都中央区銀座1-20-1 オーキッド銀座1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.673006000000,139.770625000000",
@@ -3478,14 +3079,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 44,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "フレンチ・ワインバー",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "BISTRO Bonne Femme（ボンファム）",
-    "area": "東京都 新橋・赤坂周辺",
+    "area": "新橋・赤坂周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/786",
     "address": "東京都港区赤坂1-3-13",
@@ -3504,14 +3102,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 150,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "新橋・赤坂周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "Clima di Toscana（クリマ ディ トスカーナ）",
-    "area": "東京都 神田・御茶ノ水周辺",
+    "area": "神田・御茶ノ水周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/788",
     "address": "東京都文京区本郷1-28-32-101",
@@ -3530,14 +3125,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 137,
     "pref": "東京都",
-    "city": "文京区",
-    "area_original": "神田・御茶ノ水周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "文京区"
   },
   {
     "name": "Restaurant&Bar 銀座SAKURA（さくら）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/789",
     "address": "東京都中央区銀座7-6-11 ミクニ銀座7ビル2F",
@@ -3556,14 +3148,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 89,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "日本料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "中国薬膳料理 星福（シンフウ）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/802",
     "address": "東京都中央区銀座6-9-9 かねまつビル6F",
@@ -3582,14 +3171,11 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 243,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "中国料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "レストラン ル・クール神戸",
-    "area": "兵庫県 みなと元町",
+    "area": "みなと元町",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/804",
     "address": "兵庫県神戸市中央区波止場町7-2 ホテル ラ・スイート神戸ハーバーランド2F",
@@ -3608,14 +3194,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 84,
     "pref": "兵庫県",
-    "city": "神戸市",
-    "area_original": "みなと元町",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 28
+    "city": "神戸市"
   },
   {
     "name": "銀座 極-KIWAMI-",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/825",
     "address": "東京都中央区銀座6-10-1 GINZA SIX 13F（THE GRAND GINZA内）",
@@ -3634,15 +3217,12 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 13,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "焼肉 強小亭 GINZA",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "肉料理",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/829",
     "address": "東京都中央区銀座7-12-4 友野本社ビル 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.668352000000,139.764253000000",
@@ -3660,14 +3240,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 80,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "焼肉",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "Gentillesse KOMACHI（ジャンティエス コマチ）",
-    "area": "神奈川県 横浜",
+    "area": "横浜",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/839",
     "address": "神奈川県横浜市保土ケ谷区神戸町3-7 内田ビル1F",
@@ -3686,14 +3263,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 114,
     "pref": "神奈川県",
-    "city": "横浜市",
-    "area_original": "横浜",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 14
+    "city": "横浜市"
   },
   {
     "name": "銀座つる",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/843",
     "address": "東京都中央区銀座7-10-5 The ORB Luminous 2F",
@@ -3712,15 +3286,12 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 90,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "日本料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "はかたの桜華 本店",
-    "area": "福岡県 中洲川端",
-    "cuisineType": "肉料理",
+    "area": "中洲川端",
+    "cuisineType": "鉄板焼ステーキ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/846",
     "address": "福岡県福岡市博多区上川端町10-255 ロイズ博多1F・2F",
     "googleMapPage": "https://maps.google.com/maps?q=33.593701000000,130.407811000000",
@@ -3738,14 +3309,11 @@
     "googleRating": 4,
     "googleUserRatingCount": 210,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "中洲川端",
-    "cuisineType_original": "鉄板焼ステーキ",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "銀座 ます田",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/852",
     "address": "東京都中央区銀座7-13-22 友野ビルB1F",
@@ -3764,14 +3332,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 43,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "日本料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "GINZA KUKI（くき）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/853",
     "address": "東京都中央区銀座5-9-16 GINZA-A5 4F",
@@ -3790,14 +3355,11 @@
     "googleRating": 4.7,
     "googleUserRatingCount": 81,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "日本料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "和酒膳 寛（わしゅぜん かん）",
-    "area": "兵庫県 三宮",
+    "area": "三宮",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/855",
     "address": "兵庫県神戸市中央区中山手通1-16-15 古林ビル1F",
@@ -3816,15 +3378,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 40,
     "pref": "兵庫県",
-    "city": "神戸市",
-    "area_original": "三宮",
-    "cuisineType_original": "日本料理",
-    "prefCode": 28
+    "city": "神戸市"
   },
   {
     "name": "和心洋才（わしんようさい） こころ",
-    "area": "愛知県 伏見・丸の内・久屋大通周辺",
-    "cuisineType": "日本料理",
+    "area": "伏見・丸の内・久屋大通周辺",
+    "cuisineType": "すっぽん料理・会席料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/857",
     "address": "愛知県名古屋市中区丸の内1-4-29 愛協ビル 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.176670000000,136.895628000000",
@@ -3842,14 +3401,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 69,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "伏見・丸の内・久屋大通周辺",
-    "cuisineType_original": "すっぽん料理・会席料理",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "chez MACIO（シェ マシオ） 新宿曙橋店",
-    "area": "東京都 新宿・市ヶ谷・飯田橋周辺",
+    "area": "新宿・市ヶ谷・飯田橋周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/866",
     "address": "東京都新宿区住吉町9-5 パールホテル 新宿曙橋1F",
@@ -3868,15 +3424,12 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 48,
     "pref": "東京都",
-    "city": "新宿区",
-    "area_original": "新宿・市ヶ谷・飯田橋周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "新宿区"
   },
   {
     "name": "にしむらや",
-    "area": "京都府 京都府その他",
-    "cuisineType": "日本料理",
+    "area": "京都府その他",
+    "cuisineType": "京料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/873",
     "address": "京都府京都市北区大宮北椿原町45 高山ビルB1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.056841000000,135.748992000000",
@@ -3894,14 +3447,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 124,
     "pref": "京都府",
-    "city": "京都市",
-    "area_original": "京都府その他",
-    "cuisineType_original": "京料理",
-    "prefCode": 26
+    "city": "京都市"
   },
   {
     "name": "サバティーニ・ディ・フィレンツェ東京店",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/876",
     "address": "東京都千代田区有楽町2-2-3　ヒューリックスクエア東京3F",
@@ -3920,14 +3470,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 384,
     "pref": "東京都",
-    "city": "千代田区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "千代田区"
   },
   {
     "name": "chez MACIO（シェ マシオ） 上尾店",
-    "area": "埼玉県 埼玉",
+    "area": "埼玉",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/888",
     "address": "埼玉県上尾市小敷谷291-5",
@@ -3946,14 +3493,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 239,
     "pref": "埼玉県",
-    "city": "上尾市",
-    "area_original": "埼玉",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 11
+    "city": "上尾市"
   },
   {
     "name": "LEBLON AZUL/OSEIRYU（レブロン アズゥ オセイリュウ）",
-    "area": "大阪府 心斎橋",
+    "area": "心斎橋",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/897",
     "address": "大阪府大阪市中央区東心斎橋1-7-12",
@@ -3972,15 +3516,12 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 96,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "心斎橋",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "Wine Bar Bonne Place（ワインバーボンヌ・プラス）",
-    "area": "宮城県 仙台",
-    "cuisineType": "バー",
+    "area": "仙台",
+    "cuisineType": "ワインバー",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/898",
     "address": "宮城県仙台市青葉区一番町4-3-11 2M4・3ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=38.263946000000,140.870743000000",
@@ -3998,15 +3539,12 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 89,
     "pref": "宮城県",
-    "city": "仙台市",
-    "area_original": "仙台",
-    "cuisineType_original": "ワインバー",
-    "prefCode": 4
+    "city": "仙台市"
   },
   {
     "name": "焼肉しゃぶしゃぶシャンボール",
-    "area": "東京都 新橋・赤坂周辺",
-    "cuisineType": "肉料理",
+    "area": "新橋・赤坂周辺",
+    "cuisineType": "焼肉・しゃぶしゃぶ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/901",
     "address": "東京都港区赤坂3-15-12 フォーラム赤坂ビルB1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.674511000000,139.736612000000",
@@ -4024,14 +3562,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 91,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "新橋・赤坂周辺",
-    "cuisineType_original": "焼肉・しゃぶしゃぶ",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "四季喰（しっくい）のむら",
-    "area": "大阪府 天満",
+    "area": "天満",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/903",
     "address": "大阪府大阪市北区野崎町1-22 日宝扇町ビル1F",
@@ -4050,15 +3585,12 @@
     "googleRating": 4.9,
     "googleUserRatingCount": 23,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "天満",
-    "cuisineType_original": "日本料理",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "NonTitle/NARITAYUTAKA",
-    "area": "東京都 新橋・赤坂周辺",
-    "cuisineType": "日本料理",
+    "area": "新橋・赤坂周辺",
+    "cuisineType": "創作料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/904",
     "address": "東京都港区赤坂4丁目\n（住所詳細はご予約受付時にお伝えします）",
     "googleMapPage": null,
@@ -4076,15 +3608,12 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 16,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "新橋・赤坂周辺",
-    "cuisineType_original": "創作料理",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "神戸牛すてーき Ishida. 銀座本店",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "肉料理",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/911",
     "address": "東京都中央区銀座7-3-8 HULIC&New GINZA7 7F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670265000000,139.760413000000",
@@ -4102,14 +3631,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 161,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "IL PINOLO（イル ピノーロ） 青山",
-    "area": "東京都 表参道・渋谷周辺",
+    "area": "表参道・渋谷周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/917",
     "address": "東京都港区北青山2-7-13 ホテルアラマンダ青山1F",
@@ -4128,15 +3654,12 @@
     "googleRating": 3.7,
     "googleUserRatingCount": 114,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "表参道・渋谷周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "KOBE STEAK Tsubasa 本店",
-    "area": "兵庫県 三宮",
-    "cuisineType": "肉料理",
+    "area": "三宮",
+    "cuisineType": "鉄板焼・肉料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/919",
     "address": "兵庫県神戸市中央区北長狭通1-7-6 ホワイトローズビル10F",
     "googleMapPage": "https://maps.google.com/maps?q=34.693437000000,135.191828000000",
@@ -4154,14 +3677,11 @@
     "googleRating": 3.7,
     "googleUserRatingCount": 108,
     "pref": "兵庫県",
-    "city": "神戸市",
-    "area_original": "三宮",
-    "cuisineType_original": "鉄板焼・肉料理",
-    "prefCode": 28
+    "city": "神戸市"
   },
   {
     "name": "中国料理 月下翁（ゲッカオウ）",
-    "area": "北海道 札幌",
+    "area": "札幌",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/936",
     "address": "北海道札幌市中央区南3条西3-3 GダイニングビルB1F",
@@ -4180,15 +3700,12 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 63,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "中国料理",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "鮨・日本料理 Serge源's（セルジュゲンズ） 錦店5階",
-    "area": "愛知県 栄・錦・矢場町・新栄周辺",
-    "cuisineType": "寿司",
+    "area": "栄・錦・矢場町・新栄周辺",
+    "cuisineType": "寿司・日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/937",
     "address": "愛知県名古屋市中区錦3-11-26",
     "googleMapPage": "https://maps.google.com/maps?q=35.170567000000,136.902204000000",
@@ -4206,15 +3723,12 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 111,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "栄・錦・矢場町・新栄周辺",
-    "cuisineType_original": "寿司・日本料理",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "てんぷら 天翔",
-    "area": "東京都 表参道・渋谷周辺",
-    "cuisineType": "日本料理",
+    "area": "表参道・渋谷周辺",
+    "cuisineType": "天ぷら",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/945",
     "address": "東京都港区北青山2-7-13 ホテルアラマンダ青山 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.671046000000,139.717860000000",
@@ -4232,14 +3746,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 152,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "表参道・渋谷周辺",
-    "cuisineType_original": "天ぷら",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "C'EST CHOUETTE（セ シュエット）",
-    "area": "東京都 半蔵門・麹町周辺",
+    "area": "半蔵門・麹町周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/949",
     "address": "東京都千代田区平河町1-5-13 平河町UTビルB1F",
@@ -4258,14 +3769,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 132,
     "pref": "東京都",
-    "city": "千代田区",
-    "area_original": "半蔵門・麹町周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "千代田区"
   },
   {
     "name": "TATEOKA TAKESHI（タテオカ タケシ）",
-    "area": "北海道 札幌",
+    "area": "札幌",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/951",
     "address": "北海道札幌市中央区南3条西2 KT3条ビル1F",
@@ -4284,14 +3792,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 75,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "おもてなし茶屋 咲扇（しょうせん）",
-    "area": "大阪府 北新地",
+    "area": "北新地",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/958",
     "address": "大阪府大阪市北区曽根崎新地1-1-9",
@@ -4310,14 +3815,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 30,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "北新地",
-    "cuisineType_original": "日本料理",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "新町 和けい",
-    "area": "大阪府 四ツ橋",
+    "area": "四ツ橋",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/964",
     "address": "大阪府大阪市西区新町2-3-13 ライオンズマンション四ツ橋1F",
@@ -4336,14 +3838,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 53,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "四ツ橋",
-    "cuisineType_original": "日本料理",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "中国料理 燦宮（サングウ）",
-    "area": "大阪府 梅田",
+    "area": "梅田",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/969",
     "address": "大阪府大阪市北区大淀中1-1-88 梅田スカイビルタワーイースト39F",
@@ -4362,14 +3861,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 263,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "梅田",
-    "cuisineType_original": "中国料理",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "料理屋 botan（ボタン）",
-    "area": "北海道 札幌",
+    "area": "札幌",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/978",
     "address": "北海道札幌市中央区南7条西3-7-29 APOLLO BLD 2F",
@@ -4388,15 +3884,12 @@
     "googleRating": 3.4,
     "googleUserRatingCount": 114,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "ちり禅（ぜん）",
-    "area": "大阪府 四ツ橋",
-    "cuisineType": "日本料理",
+    "area": "四ツ橋",
+    "cuisineType": "しゃぶしゃぶ・和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/998",
     "address": "大阪府大阪市西区新町1-6-8 ソラル清賀 1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.675968000000,135.496555000000",
@@ -4414,14 +3907,11 @@
     "googleRating": 4,
     "googleUserRatingCount": 10,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "四ツ橋",
-    "cuisineType_original": "しゃぶしゃぶ・和食",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "LEONE MARCIANO（レオーネ マルチアーノ）",
-    "area": "神奈川県 横浜",
+    "area": "横浜",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1000",
     "address": "神奈川県横浜市西区みなとみらい4-6-2 みなとみらいグランドセントラルテラス1F",
@@ -4440,14 +3930,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 210,
     "pref": "神奈川県",
-    "city": "横浜市",
-    "area_original": "横浜",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 14
+    "city": "横浜市"
   },
   {
     "name": "LEONE9（レオーネノーヴェ）",
-    "area": "静岡県 静岡",
+    "area": "静岡",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1002",
     "address": "静岡県熱海市田原本町2-11 マリーンライフ201",
@@ -4466,15 +3953,12 @@
     "googleRating": 4,
     "googleUserRatingCount": 162,
     "pref": "静岡県",
-    "city": "熱海市",
-    "area_original": "静岡",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 22
+    "city": "熱海市"
   },
   {
     "name": "神戸牛ステーキ鉄板焼 雪月花（せつげっか）本店",
-    "area": "兵庫県 三宮",
-    "cuisineType": "肉料理",
+    "area": "三宮",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1004",
     "address": "兵庫県神戸市中央区北長狭通1-9-3 レインボープラザ8F",
     "googleMapPage": "https://maps.google.com/maps?q=34.692744000000,135.191681000000",
@@ -4492,14 +3976,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 232,
     "pref": "兵庫県",
-    "city": "神戸市",
-    "area_original": "三宮",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 28
+    "city": "神戸市"
   },
   {
     "name": "寿司 しくら",
-    "area": "北海道 札幌",
+    "area": "札幌",
     "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1005",
     "address": "北海道札幌市中央区南4条西4-7 松岡ビル B1F",
@@ -4518,15 +3999,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 30,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "寿司",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "和牛すき焼き 伊勢重（いせじゅう）",
-    "area": "東京都 人形町・小伝馬町周辺",
-    "cuisineType": "肉料理",
+    "area": "人形町・小伝馬町周辺",
+    "cuisineType": "すき焼き・しゃぶしゃぶ・ステーキ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1007",
     "address": "東京都中央区日本橋小伝馬町14-9",
     "googleMapPage": "https://maps.google.com/maps?q=35.691762000000,139.780643000000",
@@ -4544,14 +4022,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 358,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "人形町・小伝馬町周辺",
-    "cuisineType_original": "すき焼き・しゃぶしゃぶ・ステーキ",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "料理 樹（たつき）",
-    "area": "静岡県 静岡",
+    "area": "静岡",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1011",
     "address": "静岡県静岡市葵区紺屋町13-6",
@@ -4570,15 +4045,12 @@
     "googleRating": 4.7,
     "googleUserRatingCount": 29,
     "pref": "静岡県",
-    "city": "静岡市",
-    "area_original": "静岡",
-    "cuisineType_original": "日本料理",
-    "prefCode": 22
+    "city": "静岡市"
   },
   {
     "name": "神戸アントレコット",
-    "area": "兵庫県 三宮",
-    "cuisineType": "肉料理",
+    "area": "三宮",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1016",
     "address": "兵庫県神戸市中央区中山手通1-10-10 天成ビル4F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696080000000,135.192253000000",
@@ -4596,15 +4068,12 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 198,
     "pref": "兵庫県",
-    "city": "神戸市",
-    "area_original": "三宮",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 28
+    "city": "神戸市"
   },
   {
     "name": "KOBE-BEEF やまと",
-    "area": "兵庫県 みなと元町",
-    "cuisineType": "肉料理",
+    "area": "みなと元町",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1018",
     "address": "兵庫県神戸市中央区北長狭通3-3-5 泰隆ビル7F",
     "googleMapPage": "https://maps.google.com/maps?q=34.690743000000,135.188627000000",
@@ -4622,15 +4091,12 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 130,
     "pref": "兵庫県",
-    "city": "神戸市",
-    "area_original": "みなと元町",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 28
+    "city": "神戸市"
   },
   {
     "name": "沼津甲羅本店八宏園（ぬまづこうらほんてんはっこうえん）",
-    "area": "静岡県 静岡",
-    "cuisineType": "日本料理",
+    "area": "静岡",
+    "cuisineType": "かに・日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1025",
     "address": "静岡県沼津市上香貫東本郷町1838",
     "googleMapPage": "https://maps.google.com/maps?q=35.097389000000,138.872725000000",
@@ -4648,15 +4114,12 @@
     "googleRating": 4,
     "googleUserRatingCount": 650,
     "pref": "静岡県",
-    "city": "沼津市",
-    "area_original": "静岡",
-    "cuisineType_original": "かに・日本料理",
-    "prefCode": 22
+    "city": "沼津市"
   },
   {
     "name": "富士甲羅本店八宏園（ふじこうらほんてんはっこうえん）",
-    "area": "静岡県 静岡",
-    "cuisineType": "日本料理",
+    "area": "静岡",
+    "cuisineType": "かに・日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1026",
     "address": "静岡県富士市青葉町530",
     "googleMapPage": "https://maps.google.com/maps?q=35.163669000000,138.661580000000",
@@ -4674,14 +4137,11 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 380,
     "pref": "静岡県",
-    "city": "富士市",
-    "area_original": "静岡",
-    "cuisineType_original": "かに・日本料理",
-    "prefCode": 22
+    "city": "富士市"
   },
   {
     "name": "THE GRAND 47（ザ グラン フォーティーセブン）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1028",
     "address": "東京都中央区銀座6-10-1 GINZA SIX 13F（THE GRAND GINZA内）",
@@ -4700,15 +4160,12 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 1356,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "豚捨（ぶたすて） KITTE丸の内店",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "肉料理",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "すき焼き・しゃぶしゃぶ・ステーキ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1037",
     "address": "東京都千代田区丸の内2-7-2 KITTEビル 5F",
     "googleMapPage": "https://maps.google.com/maps?q=35.680160000000,139.764697000000",
@@ -4726,15 +4183,12 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 219,
     "pref": "東京都",
-    "city": "千代田区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "すき焼き・しゃぶしゃぶ・ステーキ",
-    "prefCode": 13
+    "city": "千代田区"
   },
   {
     "name": "割烹 辻",
-    "area": "静岡県 静岡",
-    "cuisineType": "日本料理",
+    "area": "静岡",
+    "cuisineType": "懐石料理・和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1038",
     "address": "静岡県静岡市葵区呉服町2-7-10",
     "googleMapPage": "https://maps.google.com/maps?q=34.974120000000,138.384758000000",
@@ -4752,15 +4206,12 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 45,
     "pref": "静岡県",
-    "city": "静岡市",
-    "area_original": "静岡",
-    "cuisineType_original": "懐石料理・和食",
-    "prefCode": 22
+    "city": "静岡市"
   },
   {
     "name": "いちぼ 成城学園前店",
-    "area": "東京都 白金・成城ほか",
-    "cuisineType": "日本料理",
+    "area": "白金・成城ほか",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1061",
     "address": "東京都世田谷区成城6-15-21 三幸ビル B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.641363000000,139.598723000000",
@@ -4778,15 +4229,12 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 68,
     "pref": "東京都",
-    "city": "世田谷区",
-    "area_original": "白金・成城ほか",
-    "cuisineType_original": "和食",
-    "prefCode": 13
+    "city": "世田谷区"
   },
   {
     "name": "麻布Lasen（ラセン）",
-    "area": "東京都 六本木・麻布・広尾周辺",
-    "cuisineType": "フレンチ",
+    "area": "六本木・麻布・広尾周辺",
+    "cuisineType": "フレンチイタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1063",
     "address": "東京都港区元麻布3-10-2 VENT VERT 5F・6F",
     "googleMapPage": "https://maps.google.com/maps?q=35.657300000000,139.732282000000",
@@ -4804,14 +4252,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 144,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "フレンチイタリアン",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "銀座 穂の河（ほのかわ）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1064",
     "address": "東京都中央区銀座6-3-11 西銀座ビル 6F",
@@ -4830,14 +4275,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 128,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "日本料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "和食 あかざわ",
-    "area": "山梨県 山梨",
+    "area": "山梨",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1066",
     "address": "山梨県甲府市宝2-19-4",
@@ -4856,14 +4298,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 107,
     "pref": "山梨県",
-    "city": "甲府市",
-    "area_original": "山梨",
-    "cuisineType_original": "日本料理",
-    "prefCode": 19
+    "city": "甲府市"
   },
   {
     "name": "北新地 穂の河（ほのかわ）",
-    "area": "大阪府 北新地",
+    "area": "北新地",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1067",
     "address": "大阪府大阪市北区堂島1-4-2 ビールディング北新地 4F",
@@ -4882,14 +4321,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 158,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "北新地",
-    "cuisineType_original": "日本料理",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "Restaurant Hiromichi（レストラン ヒロミチ）",
-    "area": "東京都 恵比寿・中目黒・代官山周辺",
+    "area": "恵比寿・中目黒・代官山周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1068",
     "address": "東京都目黒区三田1-12-24 MTビル 1F",
@@ -4908,14 +4344,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 159,
     "pref": "東京都",
-    "city": "目黒区",
-    "area_original": "恵比寿・中目黒・代官山周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "目黒区"
   },
   {
     "name": "日本料理 珀也（びゃくや）",
-    "area": "東京都 新宿・市ヶ谷・飯田橋周辺",
+    "area": "新宿・市ヶ谷・飯田橋周辺",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1069",
     "address": "東京都新宿区神楽坂3-6-22 the room 神楽坂 B1F",
@@ -4934,14 +4367,11 @@
     "googleRating": 4.7,
     "googleUserRatingCount": 59,
     "pref": "東京都",
-    "city": "新宿区",
-    "area_original": "新宿・市ヶ谷・飯田橋周辺",
-    "cuisineType_original": "日本料理",
-    "prefCode": 13
+    "city": "新宿区"
   },
   {
     "name": "ちはら寿し（ちはらすし）",
-    "area": "愛知県 栄・錦・矢場町・新栄周辺",
+    "area": "栄・錦・矢場町・新栄周辺",
     "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1070",
     "address": "愛知県名古屋市中区栄3-13-31 プリンセスタウン14号",
@@ -4960,15 +4390,12 @@
     "googleRating": 5,
     "googleUserRatingCount": 1,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "栄・錦・矢場町・新栄周辺",
-    "cuisineType_original": "寿司",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "活 伊勢海老料理 中納言 東京大森ベルポート店",
-    "area": "東京都 品川・大井町・大森・蒲田周辺",
-    "cuisineType": "日本料理",
+    "area": "品川・大井町・大森・蒲田周辺",
+    "cuisineType": "伊勢海老料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1072",
     "address": "東京都品川区南大井6-26-2 大森ベルポートB館 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.588164000000,139.731514000000",
@@ -4986,14 +4413,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 314,
     "pref": "東京都",
-    "city": "品川区",
-    "area_original": "品川・大井町・大森・蒲田周辺",
-    "cuisineType_original": "伊勢海老料理",
-    "prefCode": 13
+    "city": "品川区"
   },
   {
     "name": "四季の味 ちひろ",
-    "area": "和歌山県 和歌山",
+    "area": "和歌山",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1073",
     "address": "和歌山県和歌山市吉田801",
@@ -5012,14 +4436,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 314,
     "pref": "和歌山県",
-    "city": "和歌山市",
-    "area_original": "和歌山",
-    "cuisineType_original": "日本料理",
-    "prefCode": 30
+    "city": "和歌山市"
   },
   {
     "name": "ほてるISAGO神戸 料亭胡蝶（こちょう）",
-    "area": "兵庫県 新神戸",
+    "area": "新神戸",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1076",
     "address": "兵庫県神戸市中央区熊内町4-3-7",
@@ -5038,14 +4459,11 @@
     "googleRating": 3.8,
     "googleUserRatingCount": 261,
     "pref": "兵庫県",
-    "city": "神戸市",
-    "area_original": "新神戸",
-    "cuisineType_original": "日本料理",
-    "prefCode": 28
+    "city": "神戸市"
   },
   {
     "name": "La Avenir（ラ アヴェニール）",
-    "area": "静岡県 静岡",
+    "area": "静岡",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1077",
     "address": "静岡県静岡市駿河区登呂5-19-38",
@@ -5064,15 +4482,12 @@
     "googleRating": 4.8,
     "googleUserRatingCount": 18,
     "pref": "静岡県",
-    "city": "静岡市",
-    "area_original": "静岡",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 22
+    "city": "静岡市"
   },
   {
     "name": "江戸前肉割烹 宮下",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "肉料理",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "すき焼き・しゃぶしゃぶ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1078",
     "address": "東京都中央区銀座2-2-14 マロニエゲート12F",
     "googleMapPage": "https://maps.google.com/maps?q=35.674158000000,139.765394000000",
@@ -5090,15 +4505,12 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 269,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "すき焼き・しゃぶしゃぶ",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "和房鉄板 榛（はしばみ）",
-    "area": "神奈川県 小田原",
-    "cuisineType": "日本料理",
+    "area": "小田原",
+    "cuisineType": "日本料理・鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1079",
     "address": "神奈川県小田原市栄町2-1-20 プラザリズ B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.255714000000,139.157509000000",
@@ -5116,15 +4528,12 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 67,
     "pref": "神奈川県",
-    "city": "小田原市",
-    "area_original": "小田原",
-    "cuisineType_original": "日本料理・鉄板焼",
-    "prefCode": 14
+    "city": "小田原市"
   },
   {
     "name": "焼鳥 銀座 井（い）",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "肉料理",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "和食・焼鳥",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1082",
     "address": "東京都中央区銀座8-7-20 belle銀座IIIビル B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.668636000000,139.761025000000",
@@ -5142,14 +4551,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 47,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "和食・焼鳥",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "肉処 りゅう庵",
-    "area": "京都府 祇園",
+    "area": "祇園",
     "cuisineType": "肉料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1083",
     "address": "京都府京都市東山区川端四条上ル常盤町169",
@@ -5168,14 +4574,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 233,
     "pref": "京都府",
-    "city": "京都市",
-    "area_original": "祇園",
-    "cuisineType_original": "肉料理",
-    "prefCode": 26
+    "city": "京都市"
   },
   {
     "name": "フレンチレストラン LA・PAIX（ラ・ペ）",
-    "area": "宮城県 仙台",
+    "area": "仙台",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1084",
     "address": "宮城県仙台市青葉区一番町3-7-1 電力ビルB1F",
@@ -5194,14 +4597,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 260,
     "pref": "宮城県",
-    "city": "仙台市",
-    "area_original": "仙台",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 4
+    "city": "仙台市"
   },
   {
     "name": "銀座エスコフィエ",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1086",
     "address": "東京都中央区銀座5-4-15 西五ビル2F",
@@ -5220,14 +4620,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 131,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "銀座 聖藍（せいらん）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1088",
     "address": "東京都中央区銀座6-9-14 方圓ビル2F",
@@ -5246,15 +4643,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 33,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "日本料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "演出鉄板ステーキ＆BAR ココットアルファ",
-    "area": "京都府 河原町",
-    "cuisineType": "肉料理",
+    "area": "河原町",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1089",
     "address": "京都府京都市中京区材木町175 京都ゴールデンビル3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.008231000000,135.770667000000",
@@ -5272,15 +4666,12 @@
     "googleRating": 4.6,
     "googleUserRatingCount": 61,
     "pref": "京都府",
-    "city": "京都市",
-    "area_original": "河原町",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 26
+    "city": "京都市"
   },
   {
     "name": "鮪達人（まぐろのたつじん） 天神店",
-    "area": "大阪府 天満",
-    "cuisineType": "日本料理",
+    "area": "天満",
+    "cuisineType": "フュージョン料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1090",
     "address": "大阪府大阪市北区東天満1-11-1 東天神ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696705000000,135.514267000000",
@@ -5298,15 +4689,12 @@
     "googleRating": 5,
     "googleUserRatingCount": 34,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "天満",
-    "cuisineType_original": "フュージョン料理",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "ふく料理しのだ",
-    "area": "山口県 山口",
-    "cuisineType": "日本料理",
+    "area": "山口",
+    "cuisineType": "ふぐ料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1091",
     "address": "山口県下関市今浦町7-9",
     "googleMapPage": "https://maps.google.com/maps?q=33.953594000000,130.920771000000",
@@ -5324,14 +4712,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 124,
     "pref": "山口県",
-    "city": "下関市",
-    "area_original": "山口",
-    "cuisineType_original": "ふぐ料理",
-    "prefCode": 35
+    "city": "下関市"
   },
   {
     "name": "リストランテ シンティッラ",
-    "area": "東京都 恵比寿・中目黒・代官山周辺",
+    "area": "恵比寿・中目黒・代官山周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1093",
     "address": "東京都目黒区上目黒2-44-9 クレストモア B1F",
@@ -5350,14 +4735,11 @@
     "googleRating": 4.8,
     "googleUserRatingCount": 52,
     "pref": "東京都",
-    "city": "目黒区",
-    "area_original": "恵比寿・中目黒・代官山周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "目黒区"
   },
   {
     "name": "cucina IL PONTE Kaji（クッチーナ イル ポンテ カジ）",
-    "area": "静岡県 静岡",
+    "area": "静岡",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1099",
     "address": "静岡県静岡市葵区常盤町1-8-2 アスビスⅡ 2F",
@@ -5376,15 +4758,12 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 28,
     "pref": "静岡県",
-    "city": "静岡市",
-    "area_original": "静岡",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 22
+    "city": "静岡市"
   },
   {
     "name": "かさね",
-    "area": "東京都 新橋・赤坂周辺",
-    "cuisineType": "日本料理",
+    "area": "新橋・赤坂周辺",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1101",
     "address": "東京都港区赤坂6-16-11 浜ビル B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.668534000000,139.732836000000",
@@ -5402,14 +4781,11 @@
     "googleRating": 1.5,
     "googleUserRatingCount": 38,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "新橋・赤坂周辺",
-    "cuisineType_original": "和食",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "HEI FUNG TERRACE（ヘイフンテラス）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1114",
     "address": "東京都千代田区有楽町1-8-1 ザ・ペニンシュラ東京 2F",
@@ -5428,15 +4804,12 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 191,
     "pref": "東京都",
-    "city": "千代田区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "中国料理",
-    "prefCode": 13
+    "city": "千代田区"
   },
   {
     "name": "Peter（ピーター）",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "肉料理",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "ステーキ＆グリル",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1115",
     "address": "東京都千代田区有楽町1-8-1 ザ・ペニンシュラ東京 24F",
     "googleMapPage": "https://maps.google.com/maps?q=35.674697000000,139.760656000000",
@@ -5454,15 +4827,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 495,
     "pref": "東京都",
-    "city": "千代田区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "ステーキ＆グリル",
-    "prefCode": 13
+    "city": "千代田区"
   },
   {
     "name": "あみ焼き みよし",
-    "area": "大阪府 堂島",
-    "cuisineType": "日本料理",
+    "area": "堂島",
+    "cuisineType": "日本料理あみ焼き",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1118",
     "address": "大阪府大阪市北区堂島1-2-13 翁ビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696320000000,135.498730000000",
@@ -5480,15 +4850,12 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 15,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "堂島",
-    "cuisineType_original": "日本料理あみ焼き",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "大阪 牛しゃぶの会",
-    "area": "大阪府 北新地",
-    "cuisineType": "日本料理",
+    "area": "北新地",
+    "cuisineType": "しゃぶしゃぶ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1119",
     "address": "大阪府大阪市北区堂島1-3-4 谷安ビル B1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696356000000,135.498191000000",
@@ -5506,15 +4873,12 @@
     "googleRating": 4.7,
     "googleUserRatingCount": 10,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "北新地",
-    "cuisineType_original": "しゃぶしゃぶ",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "鮨 四（よん）",
-    "area": "東京都 六本木・麻布・広尾周辺",
-    "cuisineType": "寿司",
+    "area": "六本木・麻布・広尾周辺",
+    "cuisineType": "寿司・和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1122",
     "address": "東京都港区六本木3-13-14 ゴトウビルディング3rd 3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.663111000000,139.734012000000",
@@ -5532,15 +4896,12 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 178,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "寿司・和食",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "赤坂 ゆうが",
-    "area": "東京都 新橋・赤坂周辺",
-    "cuisineType": "日本料理",
+    "area": "新橋・赤坂周辺",
+    "cuisineType": "和食・日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1123",
     "address": "東京都港区赤坂2-14-8 山口建設ビル 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.672093000000,139.738199000000",
@@ -5558,15 +4919,12 @@
     "googleRating": 4.6,
     "googleUserRatingCount": 58,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "新橋・赤坂周辺",
-    "cuisineType_original": "和食・日本料理",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "肉割烹 喰心（くうしん）",
-    "area": "埼玉県 埼玉",
-    "cuisineType": "日本料理",
+    "area": "埼玉",
+    "cuisineType": "和食・肉料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1125",
     "address": "埼玉県さいたま市大宮区仲町2-43-1 COMO大宮ビル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.904903000000,139.627056000000",
@@ -5584,15 +4942,12 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 184,
     "pref": "埼玉県",
-    "city": "さいたま市",
-    "area_original": "埼玉",
-    "cuisineType_original": "和食・肉料理",
-    "prefCode": 11
+    "city": "さいたま市"
   },
   {
     "name": "焼肉 喰心（くうしん）",
-    "area": "埼玉県 埼玉",
-    "cuisineType": "肉料理",
+    "area": "埼玉",
+    "cuisineType": "焼肉・肉料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1126",
     "address": "埼玉県さいたま市大宮区宮町2-17 パインズビル 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.908625000000,139.627537000000",
@@ -5610,14 +4965,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 102,
     "pref": "埼玉県",
-    "city": "さいたま市",
-    "area_original": "埼玉",
-    "cuisineType_original": "焼肉・肉料理",
-    "prefCode": 11
+    "city": "さいたま市"
   },
   {
     "name": "Angepatio（アンジェパティオ）",
-    "area": "東京都 表参道・渋谷周辺",
+    "area": "表参道・渋谷周辺",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1127",
     "address": "東京都渋谷区南平台町12-11 アンジェパティオ1F",
@@ -5636,15 +4988,12 @@
     "googleRating": 4,
     "googleUserRatingCount": 329,
     "pref": "東京都",
-    "city": "渋谷区",
-    "area_original": "表参道・渋谷周辺",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 13
+    "city": "渋谷区"
   },
   {
     "name": "活 伊勢海老料理 中納言 神戸三宮本店",
-    "area": "兵庫県 三宮",
-    "cuisineType": "日本料理",
+    "area": "三宮",
+    "cuisineType": "伊勢海老料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1128",
     "address": "兵庫県神戸市中央区三宮町1-10-1 神戸交通センタービル 9F",
     "googleMapPage": "https://maps.google.com/maps?q=34.693295000000,135.193985000000",
@@ -5662,15 +5011,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 63,
     "pref": "兵庫県",
-    "city": "神戸市",
-    "area_original": "三宮",
-    "cuisineType_original": "伊勢海老料理",
-    "prefCode": 28
+    "city": "神戸市"
   },
   {
     "name": "gristro chamaru（グリストロ チャマル）",
-    "area": "福岡県 天神",
-    "cuisineType": "フレンチ",
+    "area": "天神",
+    "cuisineType": "フレンチダイニング",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1129",
     "address": "福岡県福岡市中央区春吉3-11-19 パノラマスクエア 2F",
     "googleMapPage": "https://maps.google.com/maps?q=33.589672000000,130.406139000000",
@@ -5688,15 +5034,12 @@
     "googleRating": 4.6,
     "googleUserRatingCount": 83,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "天神",
-    "cuisineType_original": "フレンチダイニング",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "Veggie by Y（ベジバイワイ）",
-    "area": "宮城県 仙台",
-    "cuisineType": "イタリアン",
+    "area": "仙台",
+    "cuisineType": "創作イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1130",
     "address": "宮城県仙台市青葉区中央4-9-7 井上ビル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=38.257150000000,140.880562000000",
@@ -5714,15 +5057,12 @@
     "googleRating": 4.7,
     "googleUserRatingCount": 41,
     "pref": "宮城県",
-    "city": "仙台市",
-    "area_original": "仙台",
-    "cuisineType_original": "創作イタリアン",
-    "prefCode": 4
+    "city": "仙台市"
   },
   {
     "name": "牛-GYU- FUNABASHI",
-    "area": "千葉県 千葉",
-    "cuisineType": "肉料理",
+    "area": "千葉",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1132",
     "address": "千葉県船橋市本町1-11-25 LEO伍拾四番館 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.699572000000,139.984102000000",
@@ -5740,14 +5080,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 68,
     "pref": "千葉県",
-    "city": "船橋市",
-    "area_original": "千葉",
-    "cuisineType_original": "焼肉",
-    "prefCode": 12
+    "city": "船橋市"
   },
   {
     "name": "レストラン ペリニィヨン",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1133",
     "address": "東京都中央区銀座1-10-19 銀座一ビルヂング 2F",
@@ -5766,15 +5103,12 @@
     "googleRating": 4.8,
     "googleUserRatingCount": 34,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "tcc GINZAの洋食",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "フレンチ",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "フレンチ・イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1134",
     "address": "東京都中央区銀座5-9-1 銀座幸ビル 3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670572000000,139.765488000000",
@@ -5792,15 +5126,12 @@
     "googleRating": 3.8,
     "googleUserRatingCount": 225,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "フレンチ・イタリアン",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "tcc 炉窯（ろがま）炭火焼 Steak",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "肉料理",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "肉料理・ステーキ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1135",
     "address": "東京都中央区銀座5-9-1 銀座幸ビル 4F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670572000000,139.765488000000",
@@ -5818,14 +5149,11 @@
     "googleRating": 3.8,
     "googleUserRatingCount": 190,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "肉料理・ステーキ",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "日本料理 銀扇（ぎんせん）",
-    "area": "東京都 小岩・葛西周辺",
+    "area": "小岩・葛西周辺",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1137",
     "address": "東京都江戸川区南篠崎町3-2-11",
@@ -5844,15 +5172,12 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 147,
     "pref": "東京都",
-    "city": "江戸川区",
-    "area_original": "小岩・葛西周辺",
-    "cuisineType_original": "日本料理",
-    "prefCode": 13
+    "city": "江戸川区"
   },
   {
     "name": "黒毛和牛焼肉 Serge源's（セルジュゲンズ） 錦店4階",
-    "area": "愛知県 栄・錦・矢場町・新栄周辺",
-    "cuisineType": "肉料理",
+    "area": "栄・錦・矢場町・新栄周辺",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1138",
     "address": "愛知県名古屋市中区錦3-11-26",
     "googleMapPage": "https://maps.google.com/maps?q=35.170598000000,136.902230000000",
@@ -5870,14 +5195,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 85,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "栄・錦・矢場町・新栄周辺",
-    "cuisineType_original": "焼肉",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "鮨 川澄",
-    "area": "静岡県 静岡",
+    "area": "静岡",
     "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1139",
     "address": "静岡県静岡市清水区入船町13-15 エスパルスドリームプラザ 清水すし横丁内",
@@ -5896,14 +5218,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 92,
     "pref": "静岡県",
-    "city": "静岡市",
-    "area_original": "静岡",
-    "cuisineType_original": "寿司",
-    "prefCode": 22
+    "city": "静岡市"
   },
   {
     "name": "入船鮨 両替町店",
-    "area": "静岡県 静岡",
+    "area": "静岡",
     "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1140",
     "address": "静岡県静岡市葵区両替町2-7-10",
@@ -5922,15 +5241,12 @@
     "googleRating": 3.7,
     "googleUserRatingCount": 194,
     "pref": "静岡県",
-    "city": "静岡市",
-    "area_original": "静岡",
-    "cuisineType_original": "寿司",
-    "prefCode": 22
+    "city": "静岡市"
   },
   {
     "name": "スペイン料理と鉄板焼 BOQUERIA（ボケリア）",
-    "area": "北海道 札幌",
-    "cuisineType": "洋食その他",
+    "area": "札幌",
+    "cuisineType": "スペイン料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1141",
     "address": "北海道札幌市中央区南3条西7-7-4 しゃみ靴店 2F",
     "googleMapPage": "https://maps.google.com/maps?q=43.056041000000,141.346929000000",
@@ -5948,15 +5264,12 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 200,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "スペイン料理",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "トリュフ匠（ショウ） 熾火（オキビ）",
-    "area": "大阪府 北新地",
-    "cuisineType": "洋食その他",
+    "area": "北新地",
+    "cuisineType": "創作料理・洋食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1142",
     "address": "大阪府大阪市北区堂島1-4-10 岩伸ガリーナビル 3F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696080000000,135.497527000000",
@@ -5974,14 +5287,11 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 23,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "北新地",
-    "cuisineType_original": "創作料理・洋食",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "Pizzeria347（ピッツェリアサンヨンナナ） 船橋 by il pinolo（イル ピノーロ）",
-    "area": "千葉県 千葉",
+    "area": "千葉",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1162",
     "address": "千葉県船橋市本町7-10-2 ユニマットガーデンスクエア 2F",
@@ -6000,14 +5310,11 @@
     "googleRating": 3.6,
     "googleUserRatingCount": 490,
     "pref": "千葉県",
-    "city": "船橋市",
-    "area_original": "千葉",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 12
+    "city": "船橋市"
   },
   {
     "name": "Jean-Georges Tokyo（ジャン ジョルジュ トウキョウ）",
-    "area": "東京都 六本木・麻布・広尾周辺",
+    "area": "六本木・麻布・広尾周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1163",
     "address": "東京都港区六本木6-12-4 六本木ヒルズ けやき坂通り 1F",
@@ -6026,15 +5333,12 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 267,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "焼肉牛王 鳥取本店",
-    "area": "鳥取県 鳥取",
-    "cuisineType": "肉料理",
+    "area": "鳥取",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1164",
     "address": "鳥取県鳥取市今町1-180",
     "googleMapPage": "https://maps.google.com/maps?q=35.497334000000,134.226229000000",
@@ -6052,14 +5356,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 400,
     "pref": "鳥取県",
-    "city": "鳥取市",
-    "area_original": "鳥取",
-    "cuisineType_original": "焼肉",
-    "prefCode": 31
+    "city": "鳥取市"
   },
   {
     "name": "レストラン 桂姫（ケイキ）",
-    "area": "長野県 長野",
+    "area": "長野",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1166",
     "address": "長野県北佐久郡軽井沢町1323-980 旧軽井沢ホテル音羽ノ森本館 1F",
@@ -6078,14 +5379,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 82,
     "pref": "長野県",
-    "city": "北佐久郡",
-    "area_original": "長野",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 20
+    "city": "北佐久郡"
   },
   {
     "name": "émuN（エミュ）",
-    "area": "東京都 表参道・渋谷周辺",
+    "area": "表参道・渋谷周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1170",
     "address": "東京都渋谷区西原3-11-9 蜂章ビル3F",
@@ -6104,14 +5402,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 130,
     "pref": "東京都",
-    "city": "渋谷区",
-    "area_original": "表参道・渋谷周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "渋谷区"
   },
   {
     "name": "ホテルオークラ 中国料理 桃花林（トウカリン） 日本橋室町賓館",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1175",
     "address": "東京都中央区日本橋室町2-4-3 日本橋室町野村ビルYUITO 3F",
@@ -6130,15 +5425,12 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 186,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "中国料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "風香（ふうか）",
-    "area": "北海道 札幌",
-    "cuisineType": "日本料理",
+    "area": "札幌",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1178",
     "address": "北海道札幌市中央区大通西16-2-4 メゾンエクレーレ近代美術館 2F",
     "googleMapPage": "https://maps.google.com/maps?q=43.058657000000,141.331852000000",
@@ -6156,14 +5448,11 @@
     "googleRating": 3.7,
     "googleUserRatingCount": 74,
     "pref": "北海道",
-    "city": "札幌市",
-    "area_original": "札幌",
-    "cuisineType_original": "和食",
-    "prefCode": 1
+    "city": "札幌市"
   },
   {
     "name": "Concept 1/f（コンセプト エフブンノイチ）",
-    "area": "愛知県 伏見・丸の内・久屋大通周辺",
+    "area": "伏見・丸の内・久屋大通周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1180",
     "address": "愛知県名古屋市中区丸の内3-20-22",
@@ -6182,15 +5471,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 79,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "伏見・丸の内・久屋大通周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "REIKASAI GINZA（レイカサイ ギンザ）",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "中国料理",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "中国料理中国宮廷料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1192",
     "address": "東京都中央区銀座1-7-7 ポーラ銀座ビル 9F",
     "googleMapPage": "https://maps.google.com/maps?q=35.674304000000,139.767864000000",
@@ -6208,14 +5494,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 120,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "中国料理中国宮廷料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "RISPETTO（リスペット）",
-    "area": "神奈川県 横浜",
+    "area": "横浜",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1199",
     "address": "神奈川県横浜市西区戸部本町39-8 ストークビル高島1F",
@@ -6234,15 +5517,12 @@
     "googleRating": 4.8,
     "googleUserRatingCount": 46,
     "pref": "神奈川県",
-    "city": "横浜市",
-    "area_original": "横浜",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 14
+    "city": "横浜市"
   },
   {
     "name": "おか村",
-    "area": "東京都 白金・成城ほか",
-    "cuisineType": "日本料理",
+    "area": "白金・成城ほか",
+    "cuisineType": "懐石料理・会席料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1203",
     "address": "東京都港区白金6-2-1",
     "googleMapPage": "https://maps.google.com/maps?q=35.644544000000,139.723575000000",
@@ -6260,14 +5540,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 32,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "白金・成城ほか",
-    "cuisineType_original": "懐石料理・会席料理",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "南風楼（ナンプウロウ）",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1206",
     "address": "東京都中央区銀座5-4-8 カリオカビル 3F",
@@ -6286,14 +5563,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 128,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "中国料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "日本料理 梟（ふくろう）",
-    "area": "東京都 六本木・麻布・広尾周辺",
+    "area": "六本木・麻布・広尾周辺",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1211",
     "address": "東京都港区麻布十番1-6-7 FIプラザビル1F",
@@ -6312,15 +5586,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 181,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "日本料理",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "銀座 泉（いずみ）",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "日本料理",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1213",
     "address": "東京都中央区銀座7-5-4 ラヴィアーレ銀座ビル B1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.670130000000,139.761591000000",
@@ -6338,14 +5609,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 30,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "和食",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "中国飯店 市ヶ谷店",
-    "area": "東京都 新宿・市ヶ谷・飯田橋周辺",
+    "area": "新宿・市ヶ谷・飯田橋周辺",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1214",
     "address": "東京都千代田区九段北4-1-7九段センタービル B1F",
@@ -6364,15 +5632,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 445,
     "pref": "東京都",
-    "city": "千代田区",
-    "area_original": "新宿・市ヶ谷・飯田橋周辺",
-    "cuisineType_original": "中国料理",
-    "prefCode": 13
+    "city": "千代田区"
   },
   {
     "name": "香港料理 盛記（セイキ） 銀座店",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "中国料理",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "中国料理・香港料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1216",
     "address": "東京都中央区銀座7-8-1 銀座梅林ビル6F・7F",
     "googleMapPage": "https://maps.google.com/maps?q=35.669547000000,139.762731000000",
@@ -6390,15 +5655,12 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 204,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "中国料理・香港料理",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "銀座しゃぶ通 好の笹（よしのささ） 銀座店",
-    "area": "東京都 銀座・東京・日本橋周辺",
-    "cuisineType": "日本料理",
+    "area": "銀座・東京・日本橋周辺",
+    "cuisineType": "しゃぶしゃぶ・せいろ蒸し",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1219",
     "address": "東京都中央区銀座2-2-14 マロニエゲート1 12F",
     "googleMapPage": "https://maps.google.com/maps?q=35.671120000000,139.770659000000",
@@ -6416,15 +5678,12 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 217,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "しゃぶしゃぶ・せいろ蒸し",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "味樹園（ミキエン） 名駅三丁目店",
-    "area": "愛知県 名古屋駅周辺",
-    "cuisineType": "肉料理",
+    "area": "名古屋駅周辺",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1222",
     "address": "愛知県名古屋市中村区名駅3-17-33",
     "googleMapPage": "https://maps.google.com/maps?q=35.173294000000,136.886639000000",
@@ -6442,15 +5701,12 @@
     "googleRating": 3.7,
     "googleUserRatingCount": 168,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "名古屋駅周辺",
-    "cuisineType_original": "焼肉",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "宮川町 水簾（すいれん） 東京ミッドタウン店",
-    "area": "東京都 六本木・麻布・広尾周辺",
-    "cuisineType": "日本料理",
+    "area": "六本木・麻布・広尾周辺",
+    "cuisineType": "和食・懐石・会席料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1224",
     "address": "東京都港区赤坂9-7-1 東京ミッドタウン ガレリア内ガーデンテラス 3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.666791000000,139.730777000000",
@@ -6468,14 +5724,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 127,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "和食・懐石・会席料理",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "Quatre-vingt-douze（キャトルヴァンドゥーズ）",
-    "area": "東京都 白金・成城ほか",
+    "area": "白金・成城ほか",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1226",
     "address": "東京都世田谷区船橋1-9-5 ラ・レジオン千歳船橋 2F",
@@ -6494,15 +5747,12 @@
     "googleRating": 4.7,
     "googleUserRatingCount": 23,
     "pref": "東京都",
-    "city": "世田谷区",
-    "area_original": "白金・成城ほか",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "世田谷区"
   },
   {
     "name": "かなやま",
-    "area": "愛知県 今池・千種・池下周辺",
-    "cuisineType": "日本料理",
+    "area": "今池・千種・池下周辺",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1227",
     "address": "愛知県名古屋市千種区池下1-8-14 加賀ビル1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.167914000000,136.943123000000",
@@ -6520,15 +5770,12 @@
     "googleRating": 4.8,
     "googleUserRatingCount": 52,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "今池・千種・池下周辺",
-    "cuisineType_original": "和食",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "くずし割烹 CHRONOS（クロノス）",
-    "area": "愛知県 伏見・丸の内・久屋大通周辺",
-    "cuisineType": "日本料理",
+    "area": "伏見・丸の内・久屋大通周辺",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1228",
     "address": "愛知県名古屋市中区丸の内3-15-5 RS丸の内三丁目ビル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.175250000000,136.903304000000",
@@ -6546,14 +5793,11 @@
     "googleRating": 4.6,
     "googleUserRatingCount": 27,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "伏見・丸の内・久屋大通周辺",
-    "cuisineType_original": "和食",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "西麻布 香宮（シャングウ）",
-    "area": "東京都 六本木・麻布・広尾周辺",
+    "area": "六本木・麻布・広尾周辺",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1229",
     "address": "東京都港区西麻布3-13-10 パークサイド セピア 2F",
@@ -6572,14 +5816,11 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 94,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "中国料理",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "THE SUN & THE MOON Restaurant（ザ サン アンド ザ ムーン レストラン）",
-    "area": "東京都 六本木・麻布・広尾周辺",
+    "area": "六本木・麻布・広尾周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1230",
     "address": "東京都港区六本木6-10-1 六本木ヒルズ森タワー52F",
@@ -6598,15 +5839,12 @@
     "googleRating": 4,
     "googleUserRatingCount": 451,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "旬彩 希味（のぞみ）",
-    "area": "広島県 広島",
-    "cuisineType": "日本料理",
+    "area": "広島",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1265",
     "address": "広島県東広島市西条本町7-29 林ビル 1F",
     "googleMapPage": "https://maps.google.com/maps?q=34.429907000000,132.747088000000",
@@ -6624,15 +5862,12 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 128,
     "pref": "広島県",
-    "city": "東広島市",
-    "area_original": "広島",
-    "cuisineType_original": "和食",
-    "prefCode": 34
+    "city": "東広島市"
   },
   {
     "name": "酒と肴 盃（まるはい）",
-    "area": "高知県 高知",
-    "cuisineType": "日本料理",
+    "area": "高知",
+    "cuisineType": "和食",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1269",
     "address": "高知県高知市追手筋1-8-12",
     "googleMapPage": "https://maps.google.com/maps?q=33.561401000000,133.539206000000",
@@ -6650,14 +5885,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 57,
     "pref": "高知県",
-    "city": "高知市",
-    "area_original": "高知",
-    "cuisineType_original": "和食",
-    "prefCode": 39
+    "city": "高知市"
   },
   {
     "name": "宮島鮨 まいもん",
-    "area": "広島県 広島",
+    "area": "広島",
     "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1271",
     "address": "広島県廿日市市宮島口1丁目8-14 レアルマーレ望厳荘1F",
@@ -6676,14 +5908,11 @@
     "googleRating": 4.6,
     "googleUserRatingCount": 221,
     "pref": "広島県",
-    "city": "廿日市",
-    "area_original": "広島",
-    "cuisineType_original": "寿司",
-    "prefCode": 34
+    "city": "廿日市"
   },
   {
     "name": "CITTOCO（チットコ）",
-    "area": "神奈川県 横浜",
+    "area": "横浜",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1272",
     "address": "神奈川県横浜市中区石川町1-4-4 コンコルドTKビル 1F",
@@ -6702,14 +5931,11 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 62,
     "pref": "神奈川県",
-    "city": "横浜市",
-    "area_original": "横浜",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 14
+    "city": "横浜市"
   },
   {
     "name": "RISTORANTE REGA（リストランテ レガ）",
-    "area": "神奈川県 横浜",
+    "area": "横浜",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1273",
     "address": "神奈川県横浜市中区石川町2-66-3  ル・フェニックス1F",
@@ -6728,15 +5954,12 @@
     "googleRating": 3.8,
     "googleUserRatingCount": 213,
     "pref": "神奈川県",
-    "city": "横浜市",
-    "area_original": "横浜",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 14
+    "city": "横浜市"
   },
   {
     "name": "清流庭園 山菜料理 玉貴（たまき）",
-    "area": "山形県 山形",
-    "cuisineType": "日本料理",
+    "area": "山形",
+    "cuisineType": "和食・山菜料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/1274",
     "address": "山形県西村山郡西川町大字間沢80-1",
     "googleMapPage": "https://maps.google.com/maps?q=38.430802000000,140.129180000000",
@@ -6754,15 +5977,12 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 231,
     "pref": "山形県",
-    "city": "西村山郡",
-    "area_original": "山形",
-    "cuisineType_original": "和食・山菜料理",
-    "prefCode": 6
+    "city": "西村山郡"
   },
   {
     "name": "味樹園（ミキエン） 栄店",
-    "area": "愛知県 栄・錦・矢場町・新栄周辺",
-    "cuisineType": "肉料理",
+    "area": "栄・錦・矢場町・新栄周辺",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10004",
     "address": "愛知県名古屋市中区栄3-19-3",
     "googleMapPage": "https://maps.google.com/maps?q=35.165671000000,136.903913000000",
@@ -6780,15 +6000,12 @@
     "googleRating": 3.8,
     "googleUserRatingCount": 164,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "栄・錦・矢場町・新栄周辺",
-    "cuisineType_original": "焼肉",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "鉄板焼 ステーキ ぼんて",
-    "area": "東京都 北千住・墨田周辺",
-    "cuisineType": "肉料理",
+    "area": "北千住・墨田周辺",
+    "cuisineType": "鉄板焼・ステーキ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10007",
     "address": "東京都台東区浅草橋1-29-1 ソリューション浅草橋 3F",
     "googleMapPage": "https://maps.google.com/maps?q=35.697904000000,139.785758000000",
@@ -6806,15 +6023,12 @@
     "googleRating": 4.8,
     "googleUserRatingCount": 27,
     "pref": "東京都",
-    "city": "台東区",
-    "area_original": "北千住・墨田周辺",
-    "cuisineType_original": "鉄板焼・ステーキ",
-    "prefCode": 13
+    "city": "台東区"
   },
   {
     "name": "MEAT & GRILL MARCO AKASAKA（ミート アンド グリル マルコ アカサカ）",
-    "area": "東京都 新橋・赤坂周辺",
-    "cuisineType": "肉料理",
+    "area": "新橋・赤坂周辺",
+    "cuisineType": "ステーキ・イタリアン・バー",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10013",
     "address": "東京都港区赤坂3-21-8 高和赤坂ビル2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.676465000000,139.736141000000",
@@ -6832,14 +6046,11 @@
     "googleRating": 4.7,
     "googleUserRatingCount": 131,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "新橋・赤坂周辺",
-    "cuisineType_original": "ステーキ・イタリアン・バー",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "Romiele da REGA（ロミエーレ ダ レガ）",
-    "area": "神奈川県 鎌倉",
+    "area": "鎌倉",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10017",
     "address": "神奈川県鎌倉市小町1-5-13 2F",
@@ -6858,14 +6069,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 27,
     "pref": "神奈川県",
-    "city": "鎌倉市",
-    "area_original": "鎌倉",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 14
+    "city": "鎌倉市"
   },
   {
     "name": "KAI（カイ）",
-    "area": "鹿児島県 鹿児島",
+    "area": "鹿児島",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10022",
     "address": "鹿児島県出水市昭和町50-19",
@@ -6884,15 +6092,12 @@
     "googleRating": 3.9,
     "googleUserRatingCount": 62,
     "pref": "鹿児島県",
-    "city": "出水市",
-    "area_original": "鹿児島",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 46
+    "city": "出水市"
   },
   {
     "name": "和食杜 侑（ゆき）",
-    "area": "東京都 六本木・麻布・広尾周辺",
-    "cuisineType": "日本料理",
+    "area": "六本木・麻布・広尾周辺",
+    "cuisineType": "和食・会席料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10023",
     "address": "東京都港区西麻布1-4-22 ヴェッセル西麻布 101",
     "googleMapPage": "https://maps.google.com/maps?q=35.661654000000,139.724071000000",
@@ -6910,14 +6115,11 @@
     "googleRating": 4.8,
     "googleUserRatingCount": 43,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "和食・会席料理",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "鮨 昇（すし しょう）",
-    "area": "広島県 広島",
+    "area": "広島",
     "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10025",
     "address": "広島県広島市中区流川町8-20 エイトビル 1F",
@@ -6936,15 +6138,12 @@
     "googleRating": 3.8,
     "googleUserRatingCount": 86,
     "pref": "広島県",
-    "city": "広島市",
-    "area_original": "広島",
-    "cuisineType_original": "寿司",
-    "prefCode": 34
+    "city": "広島市"
   },
   {
     "name": "焼肉牛王 倉吉店",
-    "area": "鳥取県 鳥取",
-    "cuisineType": "肉料理",
+    "area": "鳥取",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10027",
     "address": "鳥取県倉吉市上井195-10",
     "googleMapPage": "https://maps.google.com/maps?q=35.455180000000,133.848877000000",
@@ -6962,15 +6161,12 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 297,
     "pref": "鳥取県",
-    "city": "倉吉市",
-    "area_original": "鳥取",
-    "cuisineType_original": "焼肉",
-    "prefCode": 31
+    "city": "倉吉市"
   },
   {
     "name": "極上松阪牛 樹一（じゅいち）",
-    "area": "愛知県 栄・錦・矢場町・新栄周辺",
-    "cuisineType": "肉料理",
+    "area": "栄・錦・矢場町・新栄周辺",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10053",
     "address": "愛知県名古屋市中区錦3-19-24 サンステンドビル 7F",
     "googleMapPage": "https://maps.google.com/maps?q=35.169854000000,136.903470000000",
@@ -6988,14 +6184,11 @@
     "googleRating": 4.7,
     "googleUserRatingCount": 16,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "栄・錦・矢場町・新栄周辺",
-    "cuisineType_original": "焼肉",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "Aile Blanche（エル ブランシュ）",
-    "area": "東京都 六本木・麻布・広尾周辺",
+    "area": "六本木・麻布・広尾周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10058",
     "address": "東京都港区麻布十番2-8-10 パティオ麻布十番 5F",
@@ -7014,15 +6207,12 @@
     "googleRating": 4.1,
     "googleUserRatingCount": 64,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "しゃぶしゃぶ・和牛テールおでん 冨慈-北新地別邸",
-    "area": "大阪府 北新地",
-    "cuisineType": "日本料理",
+    "area": "北新地",
+    "cuisineType": "海鮮料理・鍋料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10060",
     "address": "大阪府大阪市北区堂島1-3-29 日宝新地レジャービル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=34.696840000000,135.497888000000",
@@ -7040,14 +6230,11 @@
     "googleRating": 4.4,
     "googleUserRatingCount": 14,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "北新地",
-    "cuisineType_original": "海鮮料理・鍋料理",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "REGA BOSCO（レガ ボスコ）",
-    "area": "神奈川県 鎌倉",
+    "area": "鎌倉",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10064",
     "address": "神奈川県鎌倉市小町2-7-2 二楽荘ビル 2F",
@@ -7066,14 +6253,11 @@
     "googleRating": 3.7,
     "googleUserRatingCount": 14,
     "pref": "神奈川県",
-    "city": "鎌倉市",
-    "area_original": "鎌倉",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 14
+    "city": "鎌倉市"
   },
   {
     "name": "シノワフジモリ",
-    "area": "大阪府 堂島",
+    "area": "堂島",
     "cuisineType": "中国料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10066",
     "address": "大阪府大阪市北区堂島1-5-5 エスパス北新地25 4FB号",
@@ -7092,14 +6276,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 50,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "堂島",
-    "cuisineType_original": "中国料理",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "il corazziere（イル コラッツィエーレ）",
-    "area": "愛知県 愛知県その他",
+    "area": "愛知県その他",
     "cuisineType": "イタリアン",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10068",
     "address": "愛知県名古屋市東区泉2-28-24 東和高岳ビル B1F",
@@ -7118,15 +6299,12 @@
     "googleRating": 4.2,
     "googleUserRatingCount": 54,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "愛知県その他",
-    "cuisineType_original": "イタリアン",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "活 かに市",
-    "area": "愛知県 栄・錦・矢場町・新栄周辺",
-    "cuisineType": "日本料理",
+    "area": "栄・錦・矢場町・新栄周辺",
+    "cuisineType": "かに・日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10069",
     "address": "愛知県名古屋市中区錦3-19-5 第八錦ビル別館 1F",
     "googleMapPage": "https://maps.google.com/maps?q=35.170334000000,136.903741000000",
@@ -7144,14 +6322,11 @@
     "googleRating": 4.7,
     "googleUserRatingCount": 38,
     "pref": "愛知県",
-    "city": "名古屋市",
-    "area_original": "栄・錦・矢場町・新栄周辺",
-    "cuisineType_original": "かに・日本料理",
-    "prefCode": 23
+    "city": "名古屋市"
   },
   {
     "name": "青山ブション・アミュゼ",
-    "area": "東京都 表参道・渋谷周辺",
+    "area": "表参道・渋谷周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10071",
     "address": "東京都港区南青山5-9-8 五番館ビル2Ｆ",
@@ -7170,14 +6345,11 @@
     "googleRating": 4,
     "googleUserRatingCount": 94,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "表参道・渋谷周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "～和流歳彩～日本料理 多を",
-    "area": "大阪府 本町",
+    "area": "本町",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10093",
     "address": "大阪府大阪市中央区南久宝寺町3-2-15 SANKYUBASHI GARDENSCAPE 1F",
@@ -7196,14 +6368,11 @@
     "googleRating": 4.6,
     "googleUserRatingCount": 18,
     "pref": "大阪府",
-    "city": "大阪市",
-    "area_original": "本町",
-    "cuisineType_original": "日本料理",
-    "prefCode": 27
+    "city": "大阪市"
   },
   {
     "name": "鮨楽座 八の樹（やのき）",
-    "area": "東京都 六本木・麻布・広尾周辺",
+    "area": "六本木・麻布・広尾周辺",
     "cuisineType": "寿司",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10098",
     "address": "東京都港区麻布十番1-5-6 Azabu Toriizaka Firstビル5F",
@@ -7222,15 +6391,12 @@
     "googleRating": 4.8,
     "googleUserRatingCount": 66,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "寿司",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "牛-GYU- CHIBA",
-    "area": "千葉県 千葉",
-    "cuisineType": "肉料理",
+    "area": "千葉",
+    "cuisineType": "焼肉",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10105",
     "address": "千葉県千葉市中央区富士見1-10-3 SC若松ビル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.612494000000,140.117520000000",
@@ -7248,14 +6414,11 @@
     "googleRating": 4.7,
     "googleUserRatingCount": 36,
     "pref": "千葉県",
-    "city": "千葉市",
-    "area_original": "千葉",
-    "cuisineType_original": "焼肉",
-    "prefCode": 12
+    "city": "千葉市"
   },
   {
     "name": "日本料理 玄海（ザ・ルイガンズ.内）",
-    "area": "福岡県 海の中道",
+    "area": "海の中道",
     "cuisineType": "日本料理",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10107",
     "address": "福岡県福岡市東区西戸崎18-25 THE LUIGANS Spa & Resort内",
@@ -7274,14 +6437,11 @@
     "googleRating": 4.3,
     "googleUserRatingCount": 18,
     "pref": "福岡県",
-    "city": "福岡市",
-    "area_original": "海の中道",
-    "cuisineType_original": "日本料理",
-    "prefCode": 40
+    "city": "福岡市"
   },
   {
     "name": "レストラン西洋銀座",
-    "area": "東京都 銀座・東京・日本橋周辺",
+    "area": "銀座・東京・日本橋周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10110",
     "address": "東京都中央区銀座6-8-3 銀座尾張町TOWER 9F",
@@ -7300,14 +6460,11 @@
     "googleRating": 4.9,
     "googleUserRatingCount": 24,
     "pref": "東京都",
-    "city": "中央区",
-    "area_original": "銀座・東京・日本橋周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "中央区"
   },
   {
     "name": "Chareir Rendez-vous（シャレル ランデヴー）",
-    "area": "新潟県 新潟",
+    "area": "新潟",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10125",
     "address": "新潟県新潟市中央区東大通1-4-1 マルタケビル 8F",
@@ -7326,15 +6483,12 @@
     "googleRating": 4.6,
     "googleUserRatingCount": 71,
     "pref": "新潟県",
-    "city": "新潟市",
-    "area_original": "新潟",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 15
+    "city": "新潟市"
   },
   {
     "name": "西麻布しるく屋",
-    "area": "東京都 六本木・麻布・広尾周辺",
-    "cuisineType": "肉料理",
+    "area": "六本木・麻布・広尾周辺",
+    "cuisineType": "鉄板焼",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10132",
     "address": "東京都港区西麻布2-13-15 大山ビル 2F",
     "googleMapPage": "https://maps.google.com/maps?q=35.660432000000,139.723089000000",
@@ -7352,14 +6506,11 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 92,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "鉄板焼",
-    "prefCode": 13
+    "city": "港区"
   },
   {
     "name": "LORE（ローレ）",
-    "area": "東京都 六本木・麻布・広尾周辺",
+    "area": "六本木・麻布・広尾周辺",
     "cuisineType": "フレンチ",
     "resPage": "https://syotaibiyori.com/restaurant/jp_ja/detail/10196",
     "address": "東京都港区六本木7-19-1",
@@ -7378,9 +6529,6 @@
     "googleRating": 4.5,
     "googleUserRatingCount": 114,
     "pref": "東京都",
-    "city": "港区",
-    "area_original": "六本木・麻布・広尾周辺",
-    "cuisineType_original": "フレンチ",
-    "prefCode": 13
+    "city": "港区"
   }
 ]

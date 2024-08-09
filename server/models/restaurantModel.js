@@ -38,6 +38,9 @@ const restaurantSchema = new mongoose.Schema({
   lunchDiscount: String,
   pref: String,
   city: String,
+  area_original: String,
+  cuisineType_original: String,
+  prefCode: Number,
 });
 
 // mongoose.model('Restaurant', restaurantSchema) implicitly sets the collection name to 'restaurants' (mongoose convert it to plural and lowercase)
