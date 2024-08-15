@@ -47,7 +47,10 @@ const MyAccount = () => {
     e.preventDefault();
     try {
       await axios.delete('http://localhost:3000/api/v1/users/deleteMe', { withCredentials: true });
-      setNotification({ type: 'success', message: 'Account deleted successfully' });
+      setNotification({
+        type: 'success',
+        message: 'Account deleted successfully. You will be redirected to homepage.',
+      });
       setUser(null);
       setTimeout(() => navigate('/'), 2500);
     } catch (err) {
@@ -96,7 +99,7 @@ const MyAccount = () => {
                 value={name}
                 className={styles.myAccountInput}
                 name="name"
-                placeholder={user.name}
+                placeholder={user ? user.name : ''}
                 onChange={(e) => setName(e.target.value)}
               ></input>
             </label>
@@ -107,7 +110,7 @@ const MyAccount = () => {
                 value={email}
                 className={styles.myAccountInput}
                 name="email"
-                placeholder={user.email}
+                placeholder={user ? user.email : ''}
                 onChange={(e) => setEmail(e.target.value)}
               ></input>
             </label>

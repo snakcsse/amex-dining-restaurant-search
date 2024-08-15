@@ -50,8 +50,31 @@ const AuthProvider = ({ children }) => {
     setUser(null);
   };
 
+  const forgotPassword = async (email) => {
+    await axios.post(
+      'http://localhost:3000/api/v1/users/forgotPassword',
+      {
+        email,
+      },
+      { withCredentials: true }
+    );
+  };
+
+  const resetPassword = async (token, password, passwordConfirm) => {
+    await axios.patch(
+      `http://localhost:3000/api/v1/users/resetPassword/${token}`,
+      {
+        password,
+        passwordConfirm,
+      },
+      { withCredentials: true }
+    );
+  };
+
   return (
-    <AuthContext.Provider value={{ user, setUser, login, signup, logout }}>
+    <AuthContext.Provider
+      value={{ user, setUser, login, signup, logout, forgotPassword, resetPassword }}
+    >
       {children}
     </AuthContext.Provider>
   );

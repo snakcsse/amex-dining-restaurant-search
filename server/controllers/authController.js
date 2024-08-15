@@ -45,7 +45,8 @@ exports.signup = catchAsync(async (req, res, next) => {
     return next(new AppError(err, 400));
   }
 
-  const url = `${req.protocol}://${req.get('host')}/me`;
+  // const url = `${req.protocol}://${req.get('host')}/`;
+  const url = `${req.protocol}://localhost:5173/`; //TODO: update the frontend url
   await new Email(newUser, url).sendWelcome();
 
   createSendToken(newUser, 201, res);
@@ -148,9 +149,10 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
 
   // 3) Send resetToken to user via email
   try {
-    const resetURL = `${req.protocol}://${req.get(
-      'host'
-    )}/api/v1/users/resetPassword/${resetToken}`;
+    const resetURL = `${req.protocol}://localhost:5173/resetPassword/${resetToken}`; //TODO: update to frontend url
+    // const resetURL = `${req.protocol}://${req.get(
+    //   'host'
+    // )}/api/v1/users/resetPassword/${resetToken}`;
     await new Email(user, resetURL).sendPasswordReset();
 
     res.status(200).json({

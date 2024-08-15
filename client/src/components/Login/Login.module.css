@@ -50,8 +50,21 @@
   border: 0.5px solid #d5a137;
 }
 
+.forgotPasswordlink {
+  font-size: var(--font-size-very-small);
+  color: rgb(99, 98, 98);
+  margin-top: 8px;
+  margin-left: 3px;
+}
+
+.forgotPasswordlink:hover {
+  color: rgb(58, 58, 241);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .loginBtn {
-  margin-top: 30px;
+  margin-top: 13px;
   width: 25%;
   background-color: #d5a137;
   color: white;

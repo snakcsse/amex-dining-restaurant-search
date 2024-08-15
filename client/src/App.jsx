@@ -15,6 +15,7 @@ import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
 import MyAccount from './components/MyAccount/MyAccount';
 import MyFavourites from './components/MyFavourites/MyFavourites';
+import ResetPassword from './components/ResetPassword/ResetPassword';
 
 const App = () => {
   const [restaurantLists, setRestaurantLists] = useState([]);
@@ -41,6 +42,7 @@ const App = () => {
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/myAccount" element={<MyAccount />} />
                 <Route path="/myFavourites" element={<MyFavourites />} />
+                <Route path="/resetPassword/:token" element={<ResetPassword />} />
               </Routes>
             </div>
           </SearchProvider>
