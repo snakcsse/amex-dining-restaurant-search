@@ -2,6 +2,8 @@ import React from 'react';
 import { useEffect, useState, useContext } from 'react';
 import styles from './ListMap.module.css';
 import L from 'leaflet';
+import gsap from 'gsap';
+import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 import 'leaflet/dist/leaflet.css';
 import ResCard from '../ResCard/ResCard';
 import { SearchContext } from '../../context/SearchContext';
@@ -36,10 +38,18 @@ const ListMap = () => {
     return <ResCard key={restaurant._id} restaurant={restaurant} />;
   });
 
+  gsap.registerPlugin(ScrollToPlugin);
   const scrollToRestaurant = (restaurantId) => {
     const selectedRestaurant = document.getElementById(`resCard-${restaurantId}`);
+    const scrollableContainer = document.getElementById('leftSide');
+
     if (selectedRestaurant) {
-      selectedRestaurant.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // selectedRestaurant.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      gsap.to(scrollableContainer, {
+        duration: 1, // scrolls the window, duration in seconds
+        scrollTo: { y: selectedRestaurant, offsetY: 0 }, // add a small offset from the top to give some space
+        ease: 'power2.out',
+      }); //creates a smooth scroll that decelerates as it reaches the destination
     }
   };
 
@@ -82,10 +92,21 @@ const ListMap = () => {
           }
         ).addTo(mapRef.current);
         marker.bindPopup(
-          `<b>${filteredRestaurants[i].name}</b><br>Google rating: ${filteredRestaurants[i].googleRating}`
+          `<div class="${styles.mapPopUpTitle}">${filteredRestaurants[i].name}</div> 
+          <div class="${styles.mapPopUpInfo}">Google rating: ${filteredRestaurants[i].googleRating}</div>
+          <div class="${styles.mapPopUpInfo}">Rating count: ${filteredRestaurants[i].googleUserRatingCount}</div>`, // need to use class instead of className coz here it is plain HTML
+          { autoPan: false } //prevent map moving when popup opens
         );
         marker.on('click', () => {
           scrollToRestaurant(filteredRestaurants[i]._id);
+        });
+
+        marker.on('mouseover', function (e) {
+          this.openPopup();
+        });
+
+        marker.on('mouseout', function (e) {
+          this.closePopup();
         });
       }
     }
@@ -108,16 +129,29 @@ const ListMap = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.leftSide}>
-        <div className={styles.dropdown}>
-          <label htmlFor="dropdown">Sort by</label>
-          <select id="dropdwon" value={sortOption} onChange={handleSortChange}>
-            <option value="" disabled>
-              Select ...
-            </option>
-            <option value="googleRating">Rating</option>
-            <option value="googleUserRatingCount">Rating Count</option>
-          </select>
+      <div id="leftSide" className={styles.leftSide}>
+        <div className={styles.dropDownContainer}>
+          <div className={styles.dropdown}>
+            <label className={styles.sortLabel} htmlFor="dropdown">
+              Sort by
+            </label>
+            <select
+              className={styles.dropDownOptions}
+              id="dropdwon"
+              value={sortOption}
+              onChange={handleSortChange}
+            >
+              <option value="" disabled>
+                Select
+              </option>
+              <option value="googleRating">Rating</option>
+              <option value="googleUserRatingCount">Rating Count</option>
+            </select>
+          </div>
+          <div className={styles.numberOfResults}>
+            <span className={styles.boldText}> {filteredRestaurants.length} </span>
+            restaurants
+          </div>
         </div>
         <section className={styles.resCardList}>{resCards}</section>
       </div>

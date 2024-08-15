@@ -85,66 +85,86 @@ const MyAccount = () => {
 
   return (
     <>
-      <div>
-        <p>YOUR ACCOUNT SETTINGS</p>
-        <form className={styles.userInfoSetting} onSubmit={handleUserInfoSubmit}>
-          <label htmlFor="name">
-            Name
-            <input
-              type="text"
-              value={name}
-              name="name"
-              onChange={(e) => setName(e.target.value)}
-            ></input>
-          </label>
-          <label htmlFor="email">
-            Email
-            <input
-              type="text"
-              value={email}
-              name="email"
-              onChange={(e) => setEmail(e.target.value)}
-            ></input>
-          </label>
-          <div className={styles.userInfoBtns}>
-            <button type="submit">Update</button>
-            <button type="button" onClick={deleteMe}>
+      <div className={styles.myAccountPageContainer}>
+        <form className={styles.formContainer} onSubmit={handleUserInfoSubmit}>
+          <div className={styles.firstText}>YOUR ACCOUNT SETTINGS</div>
+          <div className={styles.inputContainer}>
+            <label htmlFor="name" className={styles.labelText}>
+              Name
+              <input
+                type="text"
+                value={name}
+                className={styles.myAccountInput}
+                name="name"
+                placeholder={user.name}
+                onChange={(e) => setName(e.target.value)}
+              ></input>
+            </label>
+            <label htmlFor="email" className={styles.labelText}>
+              Email
+              <input
+                type="text"
+                value={email}
+                className={styles.myAccountInput}
+                name="email"
+                placeholder={user.email}
+                onChange={(e) => setEmail(e.target.value)}
+              ></input>
+            </label>
+          </div>
+          <div className={styles.userInfoBtnsContainer}>
+            <button type="submit" className={styles.userInfoBtns}>
+              Update
+            </button>
+            <button type="button" onClick={deleteMe} className={styles.deleteAccountBtns}>
               Delete Account
             </button>
           </div>
         </form>
+
         <br></br>
-        <p>PASSWORD CHANGE</p>
-        <form className={styles.userPasswordUpdate} onSubmit={handlePasswordUpdate}>
-          <label htmlFor="passwordCurrent">
-            passwordCurrent
-            <input
-              type="password"
-              value={passwordCurrent}
-              name="passwordCurrent"
-              onChange={(e) => setPasswordCurrent(e.target.value)}
-            ></input>
-          </label>
-          <label htmlFor="password">
-            Password
-            <input
-              type="password"
-              value={password}
-              name="password"
-              onChange={(e) => setPassword(e.target.value)}
-            ></input>
-          </label>
-          <label htmlFor="passwordConfirm">
-            PasswordConfirm
-            <input
-              type="password"
-              value={passwordConfirm}
-              name="passwordConfirm"
-              onChange={(e) => setPasswordConfirm(e.target.value)}
-            ></input>
-          </label>
-          <div className={styles.passwordUpdateBtn}>
-            <button type="submit">Update Password</button>
+
+        <form className={styles.formContainer} onSubmit={handlePasswordUpdate}>
+          <div className={styles.firstText}>PASSWORD CHANGE</div>
+          <div className={styles.inputContainer}>
+            <label htmlFor="passwordCurrent" className={styles.labelText}>
+              passwordCurrent
+              <input
+                type="password"
+                value={passwordCurrent}
+                className={styles.myAccountInput}
+                name="passwordCurrent"
+                placeholder="••••••••"
+                onChange={(e) => setPasswordCurrent(e.target.value)}
+              ></input>
+            </label>
+            <label htmlFor="password" className={styles.labelText}>
+              Password
+              <input
+                type="password"
+                value={password}
+                className={styles.myAccountInput}
+                name="password"
+                placeholder="••••••••"
+                onChange={(e) => setPassword(e.target.value)}
+              ></input>
+            </label>
+            <label htmlFor="passwordConfirm" className={styles.labelText}>
+              PasswordConfirm
+              <input
+                type="password"
+                value={passwordConfirm}
+                className={styles.myAccountInput}
+                name="passwordConfirm"
+                placeholder="••••••••"
+                onChange={(e) => setPasswordConfirm(e.target.value)}
+              ></input>
+            </label>
+            {/* <div className={styles.passwordUpdateBtn}> */}
+            <button type="submit" className={styles.passwordUpdateBtn}>
+              Update Password
+            </button>
+            {/* </div> */}
           </div>
         </form>
       </div>

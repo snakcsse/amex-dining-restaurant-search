@@ -11,9 +11,13 @@
   z-index: 1000;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 300px;
+  justify-content: center;
+  width: 30vw;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  text-align: center;
 }
 
 .success {

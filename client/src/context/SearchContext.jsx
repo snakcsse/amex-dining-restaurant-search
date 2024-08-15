@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, useState } from 'react';
+import { useLoadingBar } from './LoadingBarContext';
 
 export const SearchContext = createContext();
 
@@ -6,6 +7,8 @@ export const SearchProvider = ({ children, restaurantLists }) => {
   const [effectRun, setEffectRun] = useState(false);
   const [ratingRange, setRatingRange] = useState([0, 5]);
   const [ratingCountRange, setRatingCountRange] = useState([0, 2000]);
+
+  const loadingBarRef = useLoadingBar();
 
   const [filters, setFilters] = useState({
     area: [],
@@ -56,6 +59,8 @@ export const SearchProvider = ({ children, restaurantLists }) => {
   }, [restaurantLists, effectRun]);
 
   useEffect(() => {
+    loadingBarRef.current.continuousStart();
+
     const filtered = restaurantLists.filter((restaurant) => {
       return (
         (filters.area.length > 0 ? filters.area.includes(restaurant.area) : true) &&
@@ -71,6 +76,8 @@ export const SearchProvider = ({ children, restaurantLists }) => {
     });
     console.log('----', filtered);
     setFilteredRestaurants(filtered);
+
+    loadingBarRef.current.complete();
   }, [filters]);
 
   // // const [selectedArea, setSelectedArea] = useState([]);

@@ -1,12 +1,15 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import styles from './SelectInput.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const SelectInput = ({ label, fieldName, filteredRestaurants, filters, setFilters }) => {
   const [showOptions, setShowOptions] = useState(false);
   const [filterText, setFilterText] = useState('');
   const [optionsCheckStatus, setOptionsCheckStatus] = useState([]);
   const [effectRun, setEffectRun] = useState(false);
+
+  const dropDownRef = useRef(null); // to handle closing dropdown when clicking anywhere on the page; we use 'useRef' to access DOM element directly (similar to document.querySelector in vanilla JavaScript) (here we will assign this ref to parent <div> for showOptions), dropdownRef.current accesses the actual DOM element that the ref is pointing to
 
   // similar to SearchContext, using useEffect such that optionsCheckStatus is updated when selectedOptions(a prop) is updated
   // to ensure the below useEffect once run once after we fetch the restaurant data, we include the state effectRun. Otherwise, since when we check/uncheck checkboxes, selectedOptions will change, which will trigger the below again if we don't include effectRun
@@ -19,47 +22,32 @@ const SelectInput = ({ label, fieldName, filteredRestaurants, filters, setFilter
     }
   }, [filteredRestaurants, effectRun]);
 
-  // after selecting options, turn options in other SelectInput to unchecked based on filtered restuarnat results
-  // useEffect(() => {
-  //   if (effectRun && filteredRestaurants.length > 0) {
-  //     const optionsRemainedFromFilteredRes = filteredRestaurants.map(
-  //       (restaurant) => restaurant[fieldName]
-  //     );
-  //     const updatedOptions = optionsCheckStatus.map((option) => {
-  //       if (optionsRemainedFromFilteredRes.includes(option.label)) {
-  //         return { ...option, isSelected: true };
-  //       } else {
-  //         return { ...option, isSelected: false };
-  //       }
-  //     });
-  //     setOptionsCheckStatus(updatedOptions);
-  //   } else if (effectRun && filteredRestaurants.length === 0) {
-  //     // to cater the case when all options are unselected
-  //     setOptionsCheckStatus(optionsCheckStatus.map((option) => ({ ...option, isSelected: false })));
-  //   }
-  // }, [filteredRestaurants]);
-
-  const toggleOptions = () => {
-    setShowOptions(!showOptions);
+  const toggleOptions = (event) => {
+    setShowOptions((prevShowOptions) => !prevShowOptions);
   };
 
-  // const handleCheckboxChange = (optionLabel) => {
-  //   const updatedOptions = optionsCheckStatus.map((option) => {
-  //     if (option.label === optionLabel) {
-  //       return { ...option, isSelected: !option.isSelected };
-  //     }
-  //     return option;
-  //   });
-  //   setSelectedOptions(() => {
-  //     let result = [];
-  //     updatedOptions.forEach((option) => {
-  //       if (option.isSelected) {
-  //         result.push(option.label);
-  //       }
-  //     });
-  //     return result;
-  //   });
-  // };
+  // added to handle closing dropdown when clicking anywhere on the page
+  // add the eventListener to document (i.e. the entire webpage)
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      // dropdownRef.current accesses the actual DOM element that the ref is pointing to; .contains checks whether the click (event.target -> the element clicked) is inside dropDown.current (i.e. <div> with the ref={dropDown}), if not then set showOptions to false (i.e. when user clicks outside the filter box, will set showOptions to false)
+      if (dropDownRef.current && !dropDownRef.current.contains(event.target)) {
+        setShowOptions(false);
+      }
+    };
+
+    // adding the click event to document (i.e. the entire DOM, which is the entire web browser)
+    if (showOptions) {
+      document.addEventListener('click', handleClickOutside, true); // setting true: ensure the click event to be catched by handleClickOutside function before any other click event listeners that might be set on child elements
+    } else {
+      document.removeEventListener('click', handleClickOutside, true);
+    }
+
+    // Cleanup function to remove the event listener when the component unmounts
+    return () => {
+      document.removeEventListener('click', handleClickOutside, true);
+    };
+  }, [showOptions]);
 
   const handleCheckboxChange = (optionLabel) => {
     const updatedOptions = optionsCheckStatus.map((option) => {
@@ -104,14 +92,23 @@ const SelectInput = ({ label, fieldName, filteredRestaurants, filters, setFilter
         });
 
   return (
-    <div className={styles.dropdownFilter}>
+    <div className={styles.dropdownFilter} ref={dropDownRef}>
       <div className={styles.dropdownLabel} onClick={toggleOptions}>
-        <span>{label}</span>
-        <span className={styles.dropDownIndicator}>{showOptions ? '▲' : '▼'}</span>
+        <span className={styles.labelText}>{label}</span>
+        <span className={styles.dropDownIndicator}>
+          {' '}
+          Select{' '}
+          {showOptions ? (
+            <FontAwesomeIcon icon="fa-caret-up" />
+          ) : (
+            <FontAwesomeIcon icon="fa-caret-down" />
+          )}
+        </span>
       </div>
       {showOptions && (
+        // added below ref
         <div className={styles.dropDownOptions}>
-          <label>
+          <label className={styles.selectAllLabel}>
             <input
               type="checkbox"
               checked={optionsCheckStatus.every((option) => option.isSelected)}
@@ -119,11 +116,17 @@ const SelectInput = ({ label, fieldName, filteredRestaurants, filters, setFilter
             ></input>
             Select All
           </label>
-          <input type="text" placeholder="検索..." onChange={handleInputChange}></input>
+          <input
+            className={styles.textInputBox}
+            type="text"
+            placeholder="🖊 Search..."
+            onChange={handleInputChange}
+          ></input>
           {filterResult.map((option) => (
-            <div key={option.label}>
-              <label>
+            <div key={option.label} className={styles.selectOption}>
+              <label htmlFor={option.label} className={styles.selectOptionLabel}>
                 <input
+                  id={option.label}
                   type="checkbox"
                   checked={option.isSelected}
                   onChange={() => handleCheckboxChange(option.label)}

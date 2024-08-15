@@ -4,7 +4,6 @@ import ListMap from '../ListMap/ListMap';
 
 const HomePage = () => {
   return (
-    // TODO: need to add style={{height: '100%'}} maybe
     <div style={{ height: '100%' }}>
       <Searchbar />
       <ListMap />

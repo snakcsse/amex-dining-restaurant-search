@@ -23,34 +23,10 @@ const MyFavourites = () => {
   });
 
   return (
-    <div>
-      <p>My Favourites</p>
-      <span className={styles.smallText}>{`${restaurants.length} Restaurants`}</span>
-      <br></br>
-      <br></br>
-      {/* <div className={styles.card} id={`resCard-${restaurants._id}`}>
-        <img
-          src={`http://localhost:3000/${restaurants.googlePhoto}`}
-          className={styles.image}
-          alt={restaurants.name}
-        ></img>
-        <div className={styles.description}>
-          <h3>
-            <a href={restaurants.resPage} target="_blank">
-              {restaurants.name}{' '}
-              <span className={styles.smallText}>[{restaurants.cuisineType}]</span>
-            </a>
-          </h3>
-          <h6>{restaurants.access}</h6>
-          <br></br>
-          <h6>{restaurants.catchCopy}</h6>
-          <h6>Area: {restaurants.area}</h6>
-          <div>
-            Google review: {restaurants.googleRating} || 💬 {restaurants.googleUserRatingCount}人
-          </div>
-        </div>
-      </div> */}
-      {resCards}
+    <div className={styles.container}>
+      <div className={styles.title}>My Favourites</div>
+      <div className={styles.subInfo}>{`${restaurants.length} Restaurants`}</div>
+      <div className={styles.favouriteResContainer}>{resCards}</div>
     </div>
   );
 };

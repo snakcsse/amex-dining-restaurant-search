@@ -14,9 +14,9 @@ const Notification = ({ message, type, onClose }) => {
   return (
     <div className={`${styles.notification} ${styles[type]}`}>
       <span className={styles.message}>{message}</span>
-      <button className={styles.closeBtn} onClick={onClose}>
+      {/* <button className={styles.closeBtn} onClick={onClose}>
         x
-      </button>
+      </button> */}
     </div>
   );
 };

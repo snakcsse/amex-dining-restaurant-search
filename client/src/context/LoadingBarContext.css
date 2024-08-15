@@ -1,0 +1,24 @@
+.custom-loading-bar {
+  height: 5px;
+  box-shadow: 0 4px 6px #93a4b7; /* Shadow effect */
+  overflow: hidden;
+}
+
+.custom-loading-bar .loading-bar {
+  background: #065dc0;
+  height: 100%;
+  transition: none;
+}
+
+.custom-loading-bar .loading-bar.loading-bar-active {
+  animation: loading-bar 2s linear infinite;
+}
+
+@keyframes loading-bar {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

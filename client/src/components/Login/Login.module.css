@@ -1,25 +1,27 @@
-.myAccountPageContainer {
+.loginContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  padding: 3rem 5rem;
+  background-color: rgb(245, 241, 241);
+  padding: 5rem;
 }
 
 .formContainer {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  width: 40%;
-  padding: 2rem 3rem 2rem 3rem;
+  width: 35%;
+  padding: 2rem 3rem 3rem 3rem;
+  background-color: white;
   border: 1px solid rgb(217, 215, 215);
 }
 
 .firstText {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  margin-bottom: 0.2rem;
-  background: linear-gradient(to right, #deba73, #c39332);
+  margin-bottom: 0.8rem;
+  background: linear-gradient(to right, #deba73, #be933b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -34,34 +36,23 @@
   font-size: 0.8rem;
   font-weight: bold;
   color: rgb(99, 98, 98);
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
-.myAccountInput {
-  display: block;
+.loginInput {
   padding: 0.6rem;
-  width: 100%;
   background-color: rgb(245, 241, 241);
   border: none;
 }
 
-.myAccountInput:focus {
+.loginInput:focus {
   outline: none;
   border: 0.5px solid #d5a137;
 }
 
-.userInfoBtnsContainer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.userInfoBtns,
-.passwordUpdateBtn,
-.deleteAccountBtns {
-  margin-top: 20px;
-  width: 20%;
+.loginBtn {
+  margin-top: 30px;
+  width: 25%;
   background-color: #d5a137;
   color: white;
   padding: 0.5rem;
@@ -70,20 +61,6 @@
   cursor: pointer;
 }
 
-.passwordUpdateBtn {
-  width: 40%;
-}
-
-.deleteAccountBtns {
-  width: 35%;
-  background-color: rgb(219, 50, 50);
-}
-
-.userInfoBtns:hover,
-.passwordUpdateBtn:hover {
+.loginBtn:hover {
   background-color: #be933b;
-}
-
-.deleteAccountBtns:hover {
-  background-color: rgb(134, 3, 3);
 }
