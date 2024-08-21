@@ -74,7 +74,6 @@ export const SearchProvider = ({ children, restaurantLists }) => {
         restaurant.googleUserRatingCount <= filters.ratingCount[1]
       );
     });
-    console.log('----', filtered);
     setFilteredRestaurants(filtered);
 
     loadingBarRef.current.complete();
