@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  width: 35%;
+  width: 350px;
   padding: 2rem 3rem 2rem 3rem;
   background-color: white;
   border: 1px solid rgb(217, 215, 215);
@@ -58,7 +58,7 @@
 
 .signupBtn {
   margin-top: 15px;
-  width: 25%;
+  width: 100%;
   background-color: #d5a137;
   color: white;
   padding: 0.5rem;

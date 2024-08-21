@@ -6,8 +6,6 @@ import json
 import os
 import math
 
-#TODO remove ########remove###### and revive the code in the next line, check data, 
-
 BASE_URL = "https://syotaibiyori.com/restaurant/jp_ja/country/JP"
 HOST_URL = "https://syotaibiyori.com"
 HEADERS = {
@@ -82,13 +80,13 @@ def scrape_restaurants_details():
     print('Scraping restaurant basic info from each page link...')
     for page_link in page_links: #scrape restaruant basic info from each page
         scrape_restaurants_links_name_type_area(page_link) 
-        print(len(all_restaurants))        #TODO#################remove##############
+        # print(len(all_restaurants))       
         time.sleep(1) #to avoid overwhelming the server with requests - delay of 1 second between each page scrape
     print('Scraping detailed information of each restaurant from the restaurant page...')
-    # for restaurant in all_restaurants[0:1]: ##################remove#############
+    # for restaurant in all_restaurants[0:1]: 
     for restaurant in all_restaurants:  #scrape detailed restaurant inforamtion 
         time.sleep(1)
-        # print(restaurant['restaurant_detail_page'])  #TODO##############remove###############
+        # print(restaurant['restaurant_detail_page'])  
         soup = get_soup(restaurant['resPage'])
 
         attribute_mapping = {

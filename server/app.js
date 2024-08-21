@@ -5,6 +5,8 @@ const path = require('path');
 const rateLimit = require('express-rate-limit');
 const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
+const hpp = require('hpp');
+const compression = require('compression');
 const cookieParser = require('cookie-parser');
 const helmet = require('helmet');
 
@@ -15,11 +17,11 @@ const userRouter = require('./routes/userRoutes');
 
 const app = express();
 
-// app.enable('trust proxy') //TODO: update if needed
+app.enable('trust proxy');
 
 // --------- 1) GLOBAL MIDDLEWARES -----------
 const corsOptions = {
-  origin: 'http://localhost:5173', //TODO: after deploying frontend, include frontend url ['http://localhost:3000', 'xxx']
+  origin: process.env.PROD_FRONTEND_URL || 'http://localhost:5173', //TODO: after deploying frontend, include frontend url ['http://localhost:3000', 'xxx']
   credentials: true, // accept crendentials in CORS requests
 };
 app.use(cors(corsOptions));
@@ -28,8 +30,6 @@ app.use(cors(corsOptions));
 // });
 
 app.options('*', cors());
-// need express.static?
-// need to define view if using React?
 app.use(express.static(path.join(__dirname, 'dev-data/img')));
 
 app.use(helmet());
@@ -41,8 +41,8 @@ if (process.env.NODE_ENV === 'development') {
 
 // Limit #requests from a single IP address
 const limiter = rateLimit({
-  // max: 100, //TODO revert back to this
-  max: 10000,
+  max: 100, //TODO revert back to this (done)
+  // max: 10000,
   windowMs: 60 * 60 * 1000,
   message: 'Too many requests from this IP, please try again in an hour',
 });
@@ -66,7 +66,8 @@ app.use((req, res, next) => {
   next();
 });
 
-//TODO: add hpp, compression if needed
+app.use(hpp());
+app.use(compression());
 
 // ------------------ 2) API ROUTES ------------------
 app.use('/api/v1/restaurants', restaurantRouter);

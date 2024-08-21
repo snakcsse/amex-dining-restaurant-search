@@ -46,7 +46,12 @@ exports.signup = catchAsync(async (req, res, next) => {
   }
 
   // const url = `${req.protocol}://${req.get('host')}/`;
-  const url = `${req.protocol}://localhost:5173/`; //TODO: update the frontend url
+
+  const frontendUrl =
+    process.env.NODE_ENV === 'production'
+      ? process.env.PROD_FRONTEND_URL
+      : process.env.DEV_FRONTEND_URL;
+  const url = frontendUrl;
   await new Email(newUser, url).sendWelcome();
 
   createSendToken(newUser, 201, res);
@@ -107,7 +112,7 @@ exports.protect = catchAsync(async (req, res, next) => {
 
   // Grant access to protected route
   req.user = currentUser; //TODO: check where is this used
-  res.locals.user = currentUser; // TODO: not sure if this will be needed coz we are not using pug but React
+  // res.locals.user = currentUser; // TODO: not sure if this will be needed coz we are not using pug but React
   next();
 });
 
@@ -149,7 +154,13 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
 
   // 3) Send resetToken to user via email
   try {
-    const resetURL = `${req.protocol}://localhost:5173/resetPassword/${resetToken}`; //TODO: update to frontend url
+    const frontendUrl =
+      process.env.NODE_ENV === 'production'
+        ? process.env.PROD_FRONTEND_URL
+        : process.env.DEV_FRONTEND_URL;
+    const url = frontendUrl;
+
+    const resetURL = `${frontendUrl}/resetPassword/${resetToken}`;
     // const resetURL = `${req.protocol}://${req.get(
     //   'host'
     // )}/api/v1/users/resetPassword/${resetToken}`;

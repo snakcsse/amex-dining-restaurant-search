@@ -15,6 +15,8 @@ const MyAccount = () => {
   const { user, setUser } = useContext(AuthContext);
   const navigate = useNavigate();
 
+  const baseURL = import.meta.env.VITE_BACKEND_HOST_URL || 'http://localhost:3000';
+
   const handleUserInfoSubmit = async (e) => {
     e.preventDefault();
 
@@ -31,7 +33,7 @@ const MyAccount = () => {
     }
 
     try {
-      await axios.patch('http://localhost:3000/api/v1/users/updateMe', updateInfo, {
+      await axios.patch(`${baseURL}/api/v1/users/updateMe`, updateInfo, {
         withCredentials: true,
       });
       setNotification({ type: 'success', message: 'Account settings updated successfully' });
@@ -46,7 +48,7 @@ const MyAccount = () => {
   const deleteMe = async (e) => {
     e.preventDefault();
     try {
-      await axios.delete('http://localhost:3000/api/v1/users/deleteMe', { withCredentials: true });
+      await axios.delete(`${baseURL}/api/v1/users/deleteMe`, { withCredentials: true });
       setNotification({
         type: 'success',
         message: 'Account deleted successfully. You will be redirected to homepage.',
@@ -71,7 +73,7 @@ const MyAccount = () => {
 
     try {
       await axios.patch(
-        'http://localhost:3000/api/v1/users/updateMyPassword',
+        `${baseURL}/api/v1/users/updateMyPassword`,
         { passwordCurrent, password, passwordConfirm },
         {
           withCredentials: true,

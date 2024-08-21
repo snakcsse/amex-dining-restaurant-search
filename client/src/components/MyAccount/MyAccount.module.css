@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  width: 40%;
+  width: 350px;
   padding: 2rem 3rem 2rem 3rem;
   border: 1px solid rgb(217, 215, 215);
 }
@@ -61,7 +61,7 @@
 .passwordUpdateBtn,
 .deleteAccountBtns {
   margin-top: 20px;
-  width: 20%;
+  /* width: 20%; */
   background-color: #d5a137;
   color: white;
   padding: 0.5rem;
@@ -70,12 +70,16 @@
   cursor: pointer;
 }
 
+.userInfoBtns {
+  width: 80px;
+}
+
 .passwordUpdateBtn {
-  width: 40%;
+  width: 140px;
 }
 
 .deleteAccountBtns {
-  width: 35%;
+  width: 110px;
   background-color: rgb(219, 50, 50);
 }
 

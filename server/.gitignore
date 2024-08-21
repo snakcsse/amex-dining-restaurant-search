@@ -1,2 +1,8 @@
 node_modules/
 *.env
+dev-data/data/(no_need_deploy)_final_restaurants copy.json
+dev-data/data/(no_need_deploy)_google_platform_API_call copy.js
+dev-data/data/(no_need_deploy)_restaurants-with-google-results-copy.json
+dev-data/check-data/(no_need_deploy)_restaurants-with-google-results-copy.json
+dev-data/add_pref/read_pref_excel_cuisineType_grouping.js
+dev-data/add_pref/extract_cuisineType.js

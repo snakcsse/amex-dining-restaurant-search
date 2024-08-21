@@ -5,12 +5,13 @@ const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
+  const baseURL = import.meta.env.VITE_BACKEND_HOST_URL || 'http://localhost:3000';
 
   useEffect(() => {
     console.log('Checking authentication...');
     const checkAuth = async () => {
       try {
-        const res = await axios.get('http://localhost:3000/api/v1/users/me', {
+        const res = await axios.get(`${baseURL}/api/v1/users/me`, {
           withCredentials: true, // ensure cookies are included in requests sent to server (When making requests to a server, browsers by default do not include cookies or any other credentials in cross-origin requests)
         });
         setUser(res.data.data.user);
@@ -24,7 +25,7 @@ const AuthProvider = ({ children }) => {
 
   const login = async (email, password) => {
     const res = await axios.post(
-      'http://localhost:3000/api/v1/users/login',
+      `${baseURL}/api/v1/users/login`,
       { email, password },
       { withCredentials: true }
     );
@@ -33,7 +34,7 @@ const AuthProvider = ({ children }) => {
 
   const signup = async (name, email, password, passwordConfirm) => {
     const res = await axios.post(
-      'http://localhost:3000/api/v1/users/signup',
+      `${baseURL}/api/v1/users/signup`,
       {
         name,
         email,
@@ -46,13 +47,13 @@ const AuthProvider = ({ children }) => {
   };
 
   const logout = async () => {
-    await axios.get('http://localhost:3000/api/v1/users/logout', { withCredentials: true });
+    await axios.get(`${baseURL}/api/v1/users/logout`, { withCredentials: true });
     setUser(null);
   };
 
   const forgotPassword = async (email) => {
     await axios.post(
-      'http://localhost:3000/api/v1/users/forgotPassword',
+      `${baseURL}/api/v1/users/forgotPassword`,
       {
         email,
       },
@@ -62,7 +63,7 @@ const AuthProvider = ({ children }) => {
 
   const resetPassword = async (token, password, passwordConfirm) => {
     await axios.patch(
-      `http://localhost:3000/api/v1/users/resetPassword/${token}`,
+      `${baseURL}/api/v1/users/resetPassword/${token}`,
       {
         password,
         passwordConfirm,

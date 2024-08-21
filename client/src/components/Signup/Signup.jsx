@@ -32,7 +32,6 @@ const Signup = () => {
     };
 
     try {
-      console.log(email);
       await signup(name, email, password, passwordConfirm);
       setNotification({
         type: 'success',

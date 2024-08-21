@@ -59,17 +59,89 @@
   border-radius: 5px;
 }
 
+.mapPopUpContent {
+  text-decoration: none;
+}
+
 .mapPopUpTitle {
   font-size: var(--font-size-small);
   font-weight: bold;
+  color: black;
 }
 
 .mapPopUpInfo {
   font-size: var(--font-size-small);
+  color: black;
 }
 
 .resCardList {
   display: flex;
   flex-direction: column;
   row-gap: 0.5rem;
+}
+
+.mapListToggle {
+  display: none;
+  position: fixed;
+  bottom: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  background-color: white;
+  border: 1.5px solid black;
+  border-radius: 50px;
+  width: 100px;
+  padding: 5px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.mapListToggleContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 4px;
+}
+
+.mapListToggleText {
+  /* margin-left: 2px; */
+}
+
+.mapListToggleIcon {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 975px) {
+  .leftSide {
+    width: 100%;
+    padding: 1.5em;
+  }
+
+  .rightSide {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+  }
+
+  .show {
+    visibility: visible;
+  }
+
+  .mapListToggle {
+    display: block;
+  }
+
+  .mapPopUpTitle {
+    color: inherit;
+  }
 }

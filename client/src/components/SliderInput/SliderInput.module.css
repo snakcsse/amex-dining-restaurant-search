@@ -82,3 +82,60 @@
   margin-top: 10px;
   font-size: 0.7rem;
 }
+
+@media (max-width: 880px) {
+  .labelText {
+    font-size: 0.8rem;
+  }
+
+  .dropDownOptions {
+    width: calc(100% * 2);
+    left: -10%;
+  }
+
+  .dropDownIndicator {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 830px) {
+  .labelText {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    /* max-width: 70%; */
+  }
+}
+
+@media (max-width: 680px) {
+  .labelText {
+    display: block;
+    height: auto;
+  }
+
+  .dropDownOptions {
+    width: calc(100% * 1.3);
+    left: 50%;
+  }
+
+  .dropDownOptionText {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 485px) {
+  .labelText {
+    font-size: 0.7rem;
+    padding: 0px;
+    white-space: nowrap;
+  }
+
+  .dropDownOptions {
+    width: calc(100% * 1.5);
+    left: 50%;
+  }
+
+  .dropDownIndicator {
+    font-size: 0.7rem;
+  }
+}

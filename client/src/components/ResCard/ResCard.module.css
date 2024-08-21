@@ -136,7 +136,11 @@
 .access {
   font-size: var(--resCard-font-size-very-small);
   opacity: 0.9;
-  overflow: hidden; /* Hide overflow text */
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to start truncating */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .alert {
@@ -167,4 +171,28 @@
 
 .show {
   opacity: 1;
+}
+
+@media (max-width: 975px) {
+  .firstLine {
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .card {
+    flex-direction: column;
+    height: 300px;
+  }
+
+  .imageContainer {
+    height: 35%;
+    width: 100%;
+  }
+
+  .restaurantName {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }

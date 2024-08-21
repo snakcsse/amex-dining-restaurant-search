@@ -8,6 +8,8 @@ const ResCard = ({ restaurant }) => {
   const { user, setUser } = useContext(AuthContext);
   const [alertVisibility, setAlertVisibility] = useState(false);
 
+  const baseURL = import.meta.env.VITE_BACKEND_HOST_URL || 'http://localhost:3000';
+
   const handleVisibility = () => {
     setAlertVisibility(true);
     setTimeout(() => setAlertVisibility(false), 2000);
@@ -23,7 +25,7 @@ const ResCard = ({ restaurant }) => {
 
   const handleAddFavourite = async () => {
     await axios.patch(
-      'http://localhost:3000/api/v1/users/addFavourite',
+      `${baseURL}/api/v1/users/addFavourite`,
       { restaurantId: restaurant._id },
       {
         withCredentials: true,
@@ -35,7 +37,7 @@ const ResCard = ({ restaurant }) => {
 
   const handleRemoveFavourite = async () => {
     await axios.patch(
-      'http://localhost:3000/api/v1/users/removeFavourite',
+      `${baseURL}/api/v1/users/removeFavourite`,
       { restaurantId: restaurant._id },
       {
         withCredentials: true,
@@ -82,7 +84,7 @@ const ResCard = ({ restaurant }) => {
     <div className={styles.card} id={`resCard-${restaurant._id}`}>
       <div className={styles.imageContainer}>
         <img
-          src={`http://localhost:3000/${restaurant.googlePhoto}`}
+          src={`${baseURL}/${restaurant.googlePhoto}`}
           className={styles.image}
           alt={restaurant.name}
         ></img>

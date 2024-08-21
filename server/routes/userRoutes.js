@@ -24,6 +24,4 @@ router.patch('/addFavourite', userController.addFavourite);
 router.patch('/removeFavourite', userController.removeFavourite);
 router.get('/getFavourites', userController.getFavourites);
 
-//TODO update remaining admin related codes if needed
-
 module.exports = router;

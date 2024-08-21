@@ -1,5 +1,6 @@
-# Ignore the virtual environment directory
 venv/
-
-# Ignore environment configuration files
 .env
+data/restaurants-copy.json
+data/restaurants-simple copy.json
+data/restaurants-simple.json
+scripts/check_data

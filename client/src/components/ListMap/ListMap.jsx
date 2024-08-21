@@ -7,6 +7,7 @@ import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 import 'leaflet/dist/leaflet.css';
 import ResCard from '../ResCard/ResCard';
 import { SearchContext } from '../../context/SearchContext';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ListMap = () => {
   // including mapRef codes to avoid Uncaught Error: Map container is already initialized;  using a ref to store the map instance to ensure that the map is only initialized once and properly cleaned up if the component is unmounted
@@ -19,9 +20,14 @@ const ListMap = () => {
   const { filteredRestaurants } = useContext(SearchContext);
   const [sortOption, setSortOption] = useState('');
   const [sortedRestaurants, setSortedRestaurants] = useState(filteredRestaurants);
+  const [mapToggle, setMapToggle] = useState(false);
 
   const handleSortChange = (e) => {
     setSortOption(e.target.value);
+  };
+
+  const toggleMapView = () => {
+    setMapToggle((prevMapToggle) => !prevMapToggle);
   };
 
   useEffect(() => {
@@ -39,6 +45,7 @@ const ListMap = () => {
   });
 
   gsap.registerPlugin(ScrollToPlugin);
+
   const scrollToRestaurant = (restaurantId) => {
     const selectedRestaurant = document.getElementById(`resCard-${restaurantId}`);
     const scrollableContainer = document.getElementById('leftSide');
@@ -54,6 +61,7 @@ const ListMap = () => {
   };
 
   const mapRef = React.useRef(null);
+  let currentPopup = null;
 
   // convert googleUserRatingCount to scale of 2-20 for radius and googleRating to scale of 0.2 - 0.8 for fillOpacity
   function getScaledValue(value, range1, range2) {
@@ -92,22 +100,30 @@ const ListMap = () => {
           }
         ).addTo(mapRef.current);
         marker.bindPopup(
-          `<div class="${styles.mapPopUpTitle}">${filteredRestaurants[i].name}</div> 
+          `<a class="${styles.mapPopUpContent}" href=${filteredRestaurants[i].resPage} target="_blank"><div class="${styles.mapPopUpTitle}">${filteredRestaurants[i].name}</div> 
           <div class="${styles.mapPopUpInfo}">Google rating: ${filteredRestaurants[i].googleRating}</div>
-          <div class="${styles.mapPopUpInfo}">Rating count: ${filteredRestaurants[i].googleUserRatingCount}</div>`, // need to use class instead of className coz here it is plain HTML
+          <div class="${styles.mapPopUpInfo}">Rating count: ${filteredRestaurants[i].googleUserRatingCount}</div></a>`, // need to use class instead of className coz here it is plain HTML
           { autoPan: false } //prevent map moving when popup opens
         );
-        marker.on('click', () => {
+
+        marker.on('click', function () {
           scrollToRestaurant(filteredRestaurants[i]._id);
+
+          if (currentPopup && currentPopup !== this.getPopup()) {
+            currentPopup.close(); // close the previous popup
+          }
+
+          this.getPopup(); // open the current popup
+          currentPopup = this.getPopup();
         });
 
         marker.on('mouseover', function (e) {
           this.openPopup();
         });
 
-        marker.on('mouseout', function (e) {
-          this.closePopup();
-        });
+        // marker.on('mouseout', function (e) {
+        //   if (currentPopup !== this.getPopup()) this.closePopup();
+        // });
       }
     }
 
@@ -155,8 +171,23 @@ const ListMap = () => {
         </div>
         <section className={styles.resCardList}>{resCards}</section>
       </div>
-      <div className={styles.rightSide}>
+      <div className={`${styles.rightSide}  ${mapToggle ? styles.show : ''}`}>
         <div id="map" className={styles.map}></div>
+      </div>
+      <div className={styles.mapListToggle} onClick={toggleMapView}>
+        <div className={styles.mapListToggleContent}>
+          {mapToggle ? (
+            <>
+              <FontAwesomeIcon className={styles.mapListToggleIcon} icon="fa-solid fa-bars" />
+              <div className={styles.mapListToggleText}>List</div>
+            </>
+          ) : (
+            <>
+              <div className={styles.mapListToggleText}>Map</div>
+              <FontAwesomeIcon className={styles.mapListToggleIcon} icon="fa-regular fa-map" />
+            </>
+          )}
+        </div>
       </div>
     </div>
   );

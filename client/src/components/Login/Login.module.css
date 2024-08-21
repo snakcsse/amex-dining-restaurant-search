@@ -4,14 +4,14 @@
   align-items: center;
   min-height: 100vh;
   background-color: rgb(245, 241, 241);
-  padding: 5rem;
+  padding: 4rem;
 }
 
 .formContainer {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  width: 35%;
+  width: 370px;
   padding: 2rem 3rem 3rem 3rem;
   background-color: white;
   border: 1px solid rgb(217, 215, 215);
@@ -65,7 +65,7 @@
 
 .loginBtn {
   margin-top: 13px;
-  width: 25%;
+  width: 100%;
   background-color: #d5a137;
   color: white;
   padding: 0.5rem;

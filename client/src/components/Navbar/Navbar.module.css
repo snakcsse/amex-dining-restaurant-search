@@ -2,10 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 10vh;
   background-color: white;
-  padding: 30px 90px;
+  padding: 30px 60px;
   font-size: 1.2rem;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .logo {
-  max-width: 6%; /* Ensures the image fits within the container's width */
+  width: 40px; /* Ensures the image fits within the container's width */
   max-height: auto; /* Maintains the aspect ratio */
 }
 
@@ -39,9 +39,9 @@
 .navLinks {
   list-style: none;
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   font-size: var(--font-size-large);
-  width: 30%;
+  /* width: 30%; */
 }
 
 .navLinks a {
@@ -98,22 +98,20 @@
 .dropdown {
   position: absolute;
   top: 55px;
+  left: 50%;
+  height: calc(100% * 1.7);
+  width: 120px;
+  transform: translateX(-50%);
   border: 1px solid rgb(161, 161, 161);
   border-radius: 5px;
   box-shadow: 0 0 10px rgb(161, 161, 161);
   background-color: white;
   list-style: none;
   z-index: 3;
-  height: calc(100% * 1.4);
-  width: calc(100% * 4);
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  padding-left: 5px;
-  padding-right: 5px;
 }
 
 .dropDownListItem {
@@ -138,4 +136,61 @@
 
 .dropDownListItem:hover {
   background-color: rgb(245, 241, 241);
+}
+
+@media (max-width: 768px) {
+  .loginText {
+    display: none;
+  }
+  .navLinks {
+    gap: 1rem;
+  }
+
+  .navItemsBtn {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 580px) {
+  .navbar {
+    padding: 15px;
+  }
+
+  .logoContainer {
+    font-size: 1.1rem;
+  }
+
+  .navLinks {
+    gap: 0.3rem;
+  }
+
+  .dropdown {
+    left: -30px;
+    height: calc(100% * 1.7);
+    width: 120px;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .logoContainer {
+    gap: 0.2rem;
+    /* font-size: 0.9rem; */
+  }
+
+  .logo {
+    width: 28px;
+    max-height: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .logoContainer {
+    font-size: 0.9rem;
+  }
 }

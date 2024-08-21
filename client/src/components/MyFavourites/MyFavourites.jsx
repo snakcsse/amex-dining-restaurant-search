@@ -7,10 +7,11 @@ import axios from 'axios';
 const MyFavourites = () => {
   const { user } = useContext(AuthContext);
   const [restaurants, setRestaurants] = useState([]);
+  const baseURL = import.meta.env.VITE_BACKEND_HOST_URL || 'http://localhost:3000';
 
   useEffect(() => {
     const fetchFavourites = async () => {
-      const res = await axios.get('http://localhost:3000/api/v1/users/getFavourites', {
+      const res = await axios.get(`${baseURL}/api/v1/users/getFavourites`, {
         withCredentials: true,
       });
       setRestaurants(res.data.data.favourites);

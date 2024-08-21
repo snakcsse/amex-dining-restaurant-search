@@ -15,12 +15,14 @@ import {
   faWineGlassEmpty,
   faArrowRightToBracket,
   faUserPlus,
+  faBars,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faHeart as faHeartRegular,
   faStar as faStarRegular,
   faUser,
   faMessage,
+  faMap,
 } from '@fortawesome/free-regular-svg-icons';
 
 library.add(
@@ -37,7 +39,9 @@ library.add(
   faArrowRightToBracket,
   faUserPlus,
   faUser,
-  faMessage
+  faMessage,
+  faMap,
+  faBars
 );
 
 ReactDOM.createRoot(document.getElementById('root')).render(

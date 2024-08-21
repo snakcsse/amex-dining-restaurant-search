@@ -34,7 +34,8 @@ export default function Navbar() {
             <>
               <li className={styles.navItems}>
                 <Link to="/myFavourites">
-                  <span className={styles.navItemsHeart}>🤍</span> My favourites
+                  <span className={styles.navItemsHeart}>🤍</span>
+                  <span className={styles.loginText}> My favourites</span>
                 </Link>
               </li>
               <li className={styles.navItems}>
@@ -58,13 +59,13 @@ export default function Navbar() {
               <li className={styles.navItems}>
                 <Link to="/login">
                   <FontAwesomeIcon icon="fa-arrow-right-to-bracket" />
-                  Login
+                  <p className={styles.loginText}>Login</p>
                 </Link>
               </li>
               <li className={styles.navItems}>
                 <Link to="signup">
                   <FontAwesomeIcon icon="fa-regular fa-user" />
-                  Signup
+                  <p className={styles.loginText}>Signup</p>
                 </Link>
               </li>
             </>

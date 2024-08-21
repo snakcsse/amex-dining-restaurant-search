@@ -19,10 +19,11 @@ import ResetPassword from './components/ResetPassword/ResetPassword';
 
 const App = () => {
   const [restaurantLists, setRestaurantLists] = useState([]);
+  const baseURL = import.meta.env.VITE_BACKEND_HOST_URL || 'http://localhost:3000';
 
   useEffect(() => {
     axios
-      .get('http://localhost:3000/api/v1/restaurants')
+      .get(`${baseURL}/api/v1/restaurants`)
       .then((res) => {
         setRestaurantLists(res.data.data.restaurants);
       })
