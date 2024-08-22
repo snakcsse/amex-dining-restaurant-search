@@ -17,7 +17,12 @@ const userRouter = require('./routes/userRoutes');
 
 const app = express();
 
-app.enable('trust proxy');
+// app.enable('trust proxy');
+app.set('trust proxy', 1);
+app.get('/ip', (request, response) => response.send(request.ip));
+app.get('/x-forwarded-for', (request, response) =>
+  response.send(request.headers['x-forwarded-for'])
+);
 
 // --------- 1) GLOBAL MIDDLEWARES -----------
 const corsOptions = {
@@ -41,7 +46,7 @@ if (process.env.NODE_ENV === 'development') {
 
 // Limit #requests from a single IP address
 const limiter = rateLimit({
-  max: 100, //TODO revert back to this (done)
+  max: 100, //adjust max if needed
   // max: 10000,
   windowMs: 60 * 60 * 1000,
   message: 'Too many requests from this IP, please try again in an hour',
