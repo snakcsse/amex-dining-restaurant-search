@@ -10,6 +10,7 @@ process.on('uncaughtException', (err) => {
 });
 
 dotenv.config({ path: './config.env' });
+console.log('PROD_FRONTEND_URL:', process.env.PROD_FRONTEND_URL);
 
 //Connect to MongoDB using mongoose (need to run npm i mongoose)
 const DB = process.env.DATABASE.replace('<password>', process.env.DATABASE_PASSWORD);
