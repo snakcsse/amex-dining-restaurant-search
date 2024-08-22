@@ -18,15 +18,11 @@ const userRouter = require('./routes/userRoutes');
 const app = express();
 
 // app.enable('trust proxy');
-app.set('trust proxy', 1);
-app.get('/ip', (request, response) => response.send(request.ip));
-app.get('/x-forwarded-for', (request, response) =>
-  response.send(request.headers['x-forwarded-for'])
-);
+app.set('trust proxy', 3);
 
 // --------- 1) GLOBAL MIDDLEWARES -----------
 const corsOptions = {
-  origin: [process.env.PROD_FRONTEND_URL, 'http://localhost:5173', 'http://localhost:61473'], //TODO: after deploying frontend, include frontend url ['http://localhost:3000', 'xxx']
+  origin: [process.env.PROD_FRONTEND_URL, 'http://localhost:5173', 'http://localhost:61473'],
   credentials: true, // accept crendentials in CORS requests
 };
 app.use(cors(corsOptions));
