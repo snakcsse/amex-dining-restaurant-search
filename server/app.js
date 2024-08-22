@@ -21,7 +21,7 @@ app.enable('trust proxy');
 
 // --------- 1) GLOBAL MIDDLEWARES -----------
 const corsOptions = {
-  origin: process.env.PROD_FRONTEND_URL || 'http://localhost:5173', //TODO: after deploying frontend, include frontend url ['http://localhost:3000', 'xxx']
+  origin: [process.env.PROD_FRONTEND_URL, 'http://localhost:5173', 'http://localhost:61473'], //TODO: after deploying frontend, include frontend url ['http://localhost:3000', 'xxx']
   credentials: true, // accept crendentials in CORS requests
 };
 app.use(cors(corsOptions));

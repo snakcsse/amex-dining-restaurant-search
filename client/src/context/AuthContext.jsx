@@ -8,7 +8,6 @@ const AuthProvider = ({ children }) => {
   const baseURL = import.meta.env.VITE_BACKEND_HOST_URL || 'http://localhost:3000';
 
   useEffect(() => {
-    console.log('Checking authentication...');
     const checkAuth = async () => {
       try {
         const res = await axios.get(`${baseURL}/api/v1/users/me`, {
