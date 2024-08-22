@@ -22,7 +22,12 @@ app.set('trust proxy', 3);
 
 // --------- 1) GLOBAL MIDDLEWARES -----------
 const corsOptions = {
-  origin: [process.env.PROD_FRONTEND_URL, 'http://localhost:5173', 'http://localhost:61473'],
+  origin: [
+    process.env.PROD_FRONTEND_URL,
+    'https://amex-dining-restaurant-finder.netlify.app',
+    'http://localhost:5173',
+    'http://localhost:61473',
+  ],
   credentials: true, // accept crendentials in CORS requests
 };
 app.use(cors(corsOptions));
