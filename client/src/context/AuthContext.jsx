@@ -15,7 +15,7 @@ const AuthProvider = ({ children }) => {
         });
         setUser(res.data.data.user);
       } catch (err) {
-        console.log('User is not authenticateed', err);
+        console.log('User is not authenticated', err);
         setUser(null);
       }
     };
