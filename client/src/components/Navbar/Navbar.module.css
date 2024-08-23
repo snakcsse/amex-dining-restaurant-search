@@ -194,3 +194,14 @@
     font-size: 0.9rem;
   }
 }
+
+@media (max-width: 365px) {
+  .logoContainer {
+    font-size: 0.8rem;
+  }
+
+  .logo {
+    width: 26px;
+    max-height: auto;
+  }
+}
