@@ -36,7 +36,13 @@ app.use(cors(corsOptions));
 // });
 
 app.options('*', cors());
-app.use(express.static(path.join(__dirname, 'dev-data/img')));
+app.use(
+  express.static(path.join(__dirname, 'dev-data/optimized-img'), {
+    maxAge: '5d',
+    etag: true,
+    lastModified: true,
+  })
+);
 
 app.use(helmet());
 

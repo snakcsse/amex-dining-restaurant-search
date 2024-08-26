@@ -87,6 +87,7 @@ const ResCard = ({ restaurant }) => {
           src={`${baseURL}/${restaurant.googlePhoto}`}
           className={styles.image}
           alt={restaurant.name}
+          loading="lazy"
         ></img>
       </div>
       <div className={styles.description}>
