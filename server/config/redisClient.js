@@ -1,9 +1,10 @@
 require('dotenv').config({ path: '../config.env' }); // Load environment variables
 const redis = require('redis');
 
+let client = null;
 // Create a Redis client
 if (process.env.NODE_ENV === 'production') {
-  const client = redis.createClient({
+  client = redis.createClient({
     url: process.env.REDIS_URL, // internal Redis URL
   });
 
@@ -20,7 +21,5 @@ if (process.env.NODE_ENV === 'production') {
     }
   })();
 }
-
-const client = null;
 
 module.exports = client;
