@@ -2,10 +2,18 @@ require('dotenv').config({ path: '../config.env' }); // Load environment variabl
 const redis = require('redis');
 
 let client = null;
-// Create a Redis client
+
 if (process.env.NODE_ENV === 'production') {
+  const redisUrl = process.env.REDIS_URL;
+  console.log(redisUrl);
+
+  if (!redisUrl) {
+    console.error('REDIS_URL environment variable is not set.');
+    process.exit(1); // Exit if Redis URL is not set
+  }
+
   client = redis.createClient({
-    url: process.env.REDIS_URL, // internal Redis URL
+    url: redisUrl,
   });
 
   client.on('error', (err) => {
@@ -18,6 +26,8 @@ if (process.env.NODE_ENV === 'production') {
       console.log('Connected to Redis');
     } catch (err) {
       console.error('Failed to connect to Redis:', err);
+      // Optionally, you can exit the process to avoid continuous error logging
+      process.exit(1);
     }
   })();
 }
