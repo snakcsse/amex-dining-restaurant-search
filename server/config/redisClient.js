@@ -1,35 +1,37 @@
-// require('dotenv').config({ path: '../config.env' }); // Load environment variables
-// const redis = require('redis');
+const dotenv = require('dotenv');
+const redis = require('redis');
 
-// let client = null;
+dotenv.config({ path: './config.env' }); // Load environment variables
 
-// if (process.env.NODE_ENV === 'production') {
-//   const redisUrl = process.env.REDIS_URL;
-//   console.log(redisUrl);
+let client = null;
 
-//   if (!redisUrl) {
-//     console.error('REDIS_URL environment variable is not set.');
-//     process.exit(1); // Exit if Redis URL is not set
-//   }
+const redisUrl = process.env.REDIS_URL;
+if (process.env.NODE_ENV === 'production') {
+  console.log(redisUrl);
 
-//   client = redis.createClient({
-//     url: redisUrl,
-//   });
+  if (!redisUrl) {
+    console.error('REDIS_URL environment variable is not set.');
+    process.exit(1); // Exit if Redis URL is not set
+  }
 
-//   client.on('error', (err) => {
-//     console.error('Redis error:', err);
-//   });
+  client = redis.createClient({
+    url: redisUrl,
+  });
 
-//   (async () => {
-//     try {
-//       await client.connect(); // Connect to Redis
-//       console.log('Connected to Redis');
-//     } catch (err) {
-//       console.error('Failed to connect to Redis:', err);
-//       // Optionally, you can exit the process to avoid continuous error logging
-//       process.exit(1);
-//     }
-//   })();
-// }
+  client.on('error', (err) => {
+    console.error('Redis error:', err);
+  });
 
-// module.exports = client;
+  (async () => {
+    try {
+      await client.connect(); // Connect to Redis
+      console.log('Connected to Redis');
+    } catch (err) {
+      console.error('Failed to connect to Redis:', err);
+      // Optionally, you can exit the process to avoid continuous error logging
+      process.exit(1);
+    }
+  })();
+}
+
+module.exports = client;
