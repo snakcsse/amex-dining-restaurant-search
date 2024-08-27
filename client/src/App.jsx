@@ -31,6 +31,16 @@ const App = () => {
       })
       .catch((err) => console.log('Error ', err));
   }, []);
+  // useEffect(() => {
+  //   console.log('Running');
+  //   axios
+  //     .get(`${baseURL}/api/v1/restaurants`)
+  //     .then((res) => {
+  //       console.log('Done');
+  //       setRestaurantLists(res.data.data.restaurants);
+  //     })
+  //     .catch((err) => console.log('Error ', err));
+  // }, []);
 
   return (
     <AuthProvider>
