@@ -4,11 +4,9 @@ const redis = require('redis');
 dotenv.config({ path: './config.env' }); // Load environment variables
 
 let client = null;
-
 const redisUrl = process.env.REDIS_URL;
-if (process.env.NODE_ENV === 'production') {
-  console.log(redisUrl);
 
+if (process.env.NODE_ENV === 'production') {
   if (!redisUrl) {
     console.error('REDIS_URL environment variable is not set.');
     process.exit(1); // Exit if Redis URL is not set
