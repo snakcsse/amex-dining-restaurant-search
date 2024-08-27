@@ -12,7 +12,12 @@ if (process.env.NODE_ENV === 'production') {
   });
 
   (async () => {
-    await client.connect(); // Connect to Redis
+    try {
+      await client.connect(); // Connect to Redis
+      console.log('Connected to Redis');
+    } catch (err) {
+      console.error('Failed to connect to Redis:', err);
+    }
   })();
 }
 
