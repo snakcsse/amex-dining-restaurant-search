@@ -3,9 +3,9 @@ const redisClient = require('../config/redisClient');
 
 exports.getAllRestaurants = async (req, res, next) => {
   try {
-    if (process.env.NODE_ENV === 'production') {
-      const cacheKey = 'all_restaurants';
+    const cacheKey = 'all_restaurants';
 
+    if (process.env.NODE_ENV === 'production') {
       // check if data is in redis
       const cachedRestaurants = await redisClient.get(cacheKey);
 
@@ -23,10 +23,13 @@ exports.getAllRestaurants = async (req, res, next) => {
       '-address -googleMapPage -discountTimePeriod -discountExcludeDay -closeDay -lunchDiscount -area_original -__v'
     );
 
+    console.log('run');
+
     // Store data in cache
     if (process.env.NODE_ENV === 'production') {
-      await redisClient.setEx(cacheKey, 2592000, JSON.stringify(restaurants));
-    } // cache for 1 hour
+      await redisClient.set(cacheKey, JSON.stringify(restaurants), 'EX', 2592000);
+      console.log('Data cached');
+    } // cache for 1 month
 
     res.status(200).json({
       status: 'success',
