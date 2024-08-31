@@ -32,26 +32,29 @@ export const SearchProvider = ({ children, restaurantLists }) => {
     return [...new Set(options)]; // new Set(array) creates a Set object, [...] converts the Set back to an array
   };
 
+  const resetStates = () => {
+    // find the maximum rating and ratingCount (min is set to 0 which is visiually more comfortable)
+    const ratingMax = Math.max(...restaurantLists.map((res) => res.googleRating)); // Math.max doesn't accept a list and we need to use spread operator to convert the array into individual arguments
+    const ratingCountMax = Math.max(...restaurantLists.map((res) => res.googleUserRatingCount));
+    setRatingRange(ratingMax ? [0, ratingMax] : [0, 5]);
+    setRatingCountRange(ratingCountMax ? [0, ratingCountMax] : [0, 2000]);
+
+    // updating filters
+    setFilters(() => ({
+      area: extractAllOptions('area'),
+      cuisineType: extractAllOptions('cuisineType'),
+      name: extractAllOptions('name'),
+      rating: ratingMax ? [0, ratingMax] : [0, 5], // since state updates in React are asynchronous, latest RatingRange is not reflected so cannot directly use ratingRange[1]
+      ratingCount: ratingCountMax ? [0, ratingCountMax] : [0, 2000],
+    }));
+
+    setFilteredRestaurants(restaurantLists);
+  };
+
   // using useEffect here coz even in App.jsx file, the restaurantLists is updated after fetching API, the restaurantLists is paased as prop to SearchContext file. useState will not be run again for prop changes.
   useEffect(() => {
     if (!effectRun && restaurantLists.length > 0) {
-      // find the maximum rating and ratingCount (min is set to 0 which is visiually more comfortable)
-      const ratingMax = Math.max(...restaurantLists.map((res) => res.googleRating)); // Math.max doesn't accept a list and we need to use spread operator to convert the array into individual arguments
-      const ratingCountMax = Math.max(...restaurantLists.map((res) => res.googleUserRatingCount));
-      setRatingRange(ratingMax ? [0, ratingMax] : [0, 5]);
-      setRatingCountRange(ratingCountMax ? [0, ratingCountMax] : [0, 2000]);
-
-      // updating filters
-      setFilters((prevFilters) => ({
-        ...prevFilters,
-        area: extractAllOptions('area'),
-        cuisineType: extractAllOptions('cuisineType'),
-        name: extractAllOptions('name'),
-        rating: ratingMax ? [0, ratingMax] : [0, 5], // since state updates in React are asynchronous, latest RatingRange is not reflected so cannot directly use ratingRange[1]
-        ratingCount: ratingCountMax ? [0, ratingCountMax] : [0, 2000],
-      }));
-
-      setFilteredRestaurants(restaurantLists);
+      resetStates();
 
       // turn effect run to true such that these codes only run once
       setEffectRun(true);
@@ -171,6 +174,8 @@ export const SearchProvider = ({ children, restaurantLists }) => {
         setFilteredRestaurants,
         ratingRange,
         ratingCountRange,
+        restaurantLists,
+        resetStates,
       }}
     >
       {children}

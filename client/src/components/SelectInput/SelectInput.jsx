@@ -3,7 +3,14 @@ import { useState, useEffect, useRef } from 'react';
 import styles from './SelectInput.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const SelectInput = ({ label, fieldName, filteredRestaurants, filters, setFilters }) => {
+const SelectInput = ({
+  label,
+  fieldName,
+  filteredRestaurants,
+  filters,
+  setFilters,
+  restaurantLists,
+}) => {
   const [showOptions, setShowOptions] = useState(false);
   const [filterText, setFilterText] = useState('');
   const [optionsCheckStatus, setOptionsCheckStatus] = useState([]);
@@ -16,11 +23,16 @@ const SelectInput = ({ label, fieldName, filteredRestaurants, filters, setFilter
   useEffect(() => {
     if (!effectRun && filteredRestaurants.length > 0) {
       setOptionsCheckStatus(
-        filters[fieldName].map((option) => ({ label: option, isSelected: false }))
+        [...new Set(restaurantLists.map((obj) => obj[fieldName]))].map((option) => ({
+          label: option,
+          isSelected: false,
+        }))
+        // filters[fieldName].map((option) => ({ label: option, isSelected: false }))
       ); // after this has happen -> state changes -> leads to re-render of this SelectInput component
       setEffectRun(true);
     }
-  }, [filteredRestaurants, effectRun]);
+    // }, [filteredRestaurants, effectRun]);
+  }, [filters, effectRun]);
 
   const toggleOptions = (event) => {
     setShowOptions((prevShowOptions) => !prevShowOptions);

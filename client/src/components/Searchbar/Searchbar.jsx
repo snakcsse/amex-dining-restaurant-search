@@ -5,8 +5,14 @@ import SliderInput from '../SliderInput/SliderInput';
 import { SearchContext } from '../../context/SearchContext';
 
 const Searchbar = () => {
-  const { filters, setFilters, filteredRestaurants, ratingRange, ratingCountRange } =
-    useContext(SearchContext);
+  const {
+    filters,
+    setFilters,
+    filteredRestaurants,
+    ratingRange,
+    ratingCountRange,
+    restaurantLists,
+  } = useContext(SearchContext);
 
   return (
     <div className={styles.container}>
@@ -16,6 +22,7 @@ const Searchbar = () => {
         filteredRestaurants={filteredRestaurants}
         filters={filters}
         setFilters={setFilters}
+        restaurantLists={restaurantLists}
       />
       <SelectInput
         label="Cuisine"
@@ -23,6 +30,7 @@ const Searchbar = () => {
         filteredRestaurants={filteredRestaurants}
         filters={filters}
         setFilters={setFilters}
+        restaurantLists={restaurantLists}
       />
       <SelectInput
         label="Restaurant Name"
@@ -30,6 +38,7 @@ const Searchbar = () => {
         filteredRestaurants={filteredRestaurants}
         filters={filters}
         setFilters={setFilters}
+        restaurantLists={restaurantLists}
       />
       <SliderInput
         label="Rating"

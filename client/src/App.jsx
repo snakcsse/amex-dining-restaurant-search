@@ -22,11 +22,9 @@ const App = () => {
   const baseURL = import.meta.env.VITE_BACKEND_HOST_URL || 'http://localhost:3000';
 
   useEffect(() => {
-    console.log('Running');
     axios
       .get(`${baseURL}/api/v1/restaurants`)
       .then((res) => {
-        console.log('Done');
         setRestaurantLists(res.data.data.restaurants);
       })
       .catch((err) => console.log('Error ', err));

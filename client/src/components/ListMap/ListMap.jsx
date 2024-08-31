@@ -22,8 +22,6 @@ const ListMap = () => {
   const [sortedRestaurants, setSortedRestaurants] = useState(filteredRestaurants);
   const [mapToggle, setMapToggle] = useState(false);
 
-  console.log('LispMap', '---', filteredRestaurants);
-
   const handleSortChange = (e) => {
     setSortOption(e.target.value);
   };
