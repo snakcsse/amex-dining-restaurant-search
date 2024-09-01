@@ -1,6 +1,4 @@
 const mongoose = require('mongoose');
-const validator = require('validator');
-const slugify = require('slugify');
 
 const restaurantSchema = new mongoose.Schema({
   name: {
@@ -21,8 +19,8 @@ const restaurantSchema = new mongoose.Schema({
   location: {
     type: {
       type: String,
-      enum: ['Point'],
       required: true,
+      enum: ['Point'],
       default: 'Point',
     },
     coordinates: {
@@ -43,7 +41,6 @@ const restaurantSchema = new mongoose.Schema({
   prefCode: Number,
 });
 
-// mongoose.model('Restaurant', restaurantSchema) implicitly sets the collection name to 'restaurants' (mongoose convert it to plural and lowercase)
 const Restaurant = mongoose.model('Restaurant', restaurantSchema);
 
 module.exports = Restaurant;

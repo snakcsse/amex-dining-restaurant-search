@@ -11,14 +11,12 @@ process.on('uncaughtException', (err) => {
 
 dotenv.config({ path: './config.env' });
 
-//Connect to MongoDB using mongoose (need to run npm i mongoose)
+//Connect to MongoDB
 const DB = process.env.DATABASE.replace('<password>', process.env.DATABASE_PASSWORD);
 
 mongoose
   .connect(DB, {
     useNewUrlParser: true,
-    // useCreateIndex: true,
-    // useFindAndModify: false,
     useUnifiedTopology: true,
   })
   .then(() => console.log('Connected to MongoDB'))
@@ -30,7 +28,7 @@ const server = app.listen(port, () => {
   console.log(`App running on port ${port}...`);
 });
 
-// for handling all errors that occurs in asynchronous code
+// for handling all errors that occurs in asynchronous code when a promise is rejected
 process.on('unhandledRejection', (err) => {
   console.log('UNHANDLER REJECTION! 💥 Shutting down...');
   console.log(err.name, err.message);
@@ -39,6 +37,7 @@ process.on('unhandledRejection', (err) => {
   });
 });
 
+// Gracefully shut down server on SIGTERM signal
 process.on('SIGTERM', () => {
   console.log('👋 SIGTERM RECEIVED. Shutting down gracefully');
   server.close(() => {

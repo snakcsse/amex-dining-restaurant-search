@@ -1,16 +1,13 @@
 const fs = require('fs');
 
-// Reading data
+// Read data
 const api_fetched_data = JSON.parse(
   fs.readFileSync('../data/restaurants-with-google-results.json', 'utf-8')
 );
 let pref_list = JSON.parse(fs.readFileSync('./pref_list.json', 'utf-8'));
 pref_list = pref_list.map((el) => el.Pref);
 
-// console.log(api_fetched_data.length);
-// console.log(pref_list.length);
-
-// add prefectures to each res
+// Add prefectures to each res
 api_fetched_data.map((el) => {
   el.pref = '';
   for (let pref of pref_list) {
@@ -21,9 +18,7 @@ api_fetched_data.map((el) => {
   }
 });
 
-// console.log(api_fetched_data);
-
-// add city to each res
+// Add city to each res
 let city_added_data = [...api_fetched_data];
 
 city_added_data.map((el) => {
@@ -51,8 +46,6 @@ city_added_data.map((el) => {
     el.city = city.slice(0, index + 1);
   }
 });
-
-// console.log(city_added_data);
 
 fs.writeFile('../data/final_restaurants.json', JSON.stringify(city_added_data, null, 2), (err) => {
   (err) => {

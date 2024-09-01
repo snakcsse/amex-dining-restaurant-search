@@ -8,10 +8,10 @@ dotenv.config({ path: '../../config.env' });
 
 const API_KEY = process.env.GOOGLE_PLACES_API_KEY_DEV;
 const RATE_LIMIT = 5; // number of requests per batch
-const DELAY_BETWEEN_BATCHES = 2000; //delay in milliseconds
+const DELAY_BETWEEN_BATCHES = 2000; // delay in milliseconds
 
 const restaurantData = JSON.parse(
-  fs.readFileSync('../../../scraper/data/processed_restaurants.json', 'utf-8') //TODO: change file name if necessary
+  fs.readFileSync('../../../scraper/data/processed_restaurants.json', 'utf-8')
 );
 
 const getRestaurantsDetails = async (searchText, lat, lng, originalObj) => {
@@ -41,8 +41,8 @@ const getRestaurantsDetails = async (searchText, lat, lng, originalObj) => {
   };
 
   try {
-    const response = await axios.post(url, data, { headers }); // {headers} means {headers:headers}; axios.post accepts 3 args: url, data, an optional config object, for the config.obj, which contains various configuration options, one of which is headers
-    return { ...originalObj, ...response.data.places[0] }; //using spread operator to merge original restaruant data from python scraping with new data from googleAPI
+    const response = await axios.post(url, data, { headers }); // {headers} = {headers:headers}; axios.post's 3 arg is an optional config object where headers is passed
+    return { ...originalObj, ...response.data.places[0] }; // merge original restaruant data from python scraping with new data from googleAPI
   } catch (err) {
     console.log(err.message, 'Cannot find the restaurant');
     return originalObj;
@@ -62,9 +62,6 @@ const getFirstPhoto = async (photo_id, heightPx, widthPx, num) => {
       }
     });
     const imageName = `photo-${num}.jpg`;
-    // const blob = new Blob([response.data], { type: 'image/jpeg' });
-    // const imageUrl = URL.createObjectURL(blob);
-    // return imageUrl;
     return imageName;
   } catch (err) {
     console.log(err.message, 'Error finding the photo');
@@ -100,8 +97,7 @@ const processBatch = async () => {
     console.log('Done processing batch ' + i);
   }
   resDetails = resDetails.map((el) => {
-    const { photos, id, rating, userRatingCount, ...rest } = el; // just remeber this syntax: when ...rest is used in a destructuring, rest will be an object that excludes the keys listed in the { }, which are photos, id, rating, userRatingCount // here we exclude photos, id and rename rating and userRatingCount
-    // return rest;
+    const { photos, id, rating, userRatingCount, ...rest } = el; // here we exclude photos, id and rename rating and userRatingCount // when ...rest is used in a destructuring, rest will be an object that excludes the keys listed in the { }, which are photos, id, rating, userRatingCount
     return {
       ...rest,
       googleRating: rating,
@@ -120,7 +116,7 @@ let resDetailsResults;
     // console.log(resDetailsResults);
     fs.writeFile(
       path.join(__dirname, 'restaurants-with-google-results.json'),
-      JSON.stringify(resDetailsResults, null, 2), // 2nd params: specifies an array of properties to include in the JSON string or a function that alters the serialization process, null means to include all properties // 3rd param: number of spaces to use for indentation when formatting the JSON string
+      JSON.stringify(resDetailsResults, null, 2),
       (err) => {
         if (err) {
           console.error('Error writing to file', err);

@@ -47,6 +47,7 @@ const userSchema = new mongoose.Schema({
   },
 });
 
+// ------- Document middleware -------
 // hasing password before saving to db
 userSchema.pre('save', async function (next) {
   if (!this.isModified('password')) {
@@ -59,36 +60,37 @@ userSchema.pre('save', async function (next) {
 
 userSchema.pre('save', async function (next) {
   if (!this.isModified('password') || this.isNew) return next();
-  this.passwordChangedAt = Date.now() - 1000; //TODO: understand why here -1 (refer to course)
+  this.passwordChangedAt = Date.now() - 1000; // sometimes saving to the db is a bit slower than issuing the JWT which makes the user cannot log in using the new token, here we minus 1 second such THAT token is always created after the password has been changed
   next();
 });
 
-// only user accounts which are active can be found
+// ------- Query middleware -------
+// Only user accounts which are active can be found
 userSchema.pre(/find/, function (next) {
   this.find({ active: { $ne: false } });
   next();
 });
 
-//instance method - available for all docs of a collection
-// to compare a plain text password(candidatePassword) when hashed with match with the hashed password (userPassword)
+// ------- Instance method ------
+// To check if a plain text password(candidatePassword) when hashed will match with the user's hashed password
 userSchema.methods.correctPassword = async function (candidatePassword, userPassword) {
   return await bcrypt.compare(candidatePassword, userPassword);
 };
 
 userSchema.methods.changedPasswordAfter = function (JWTTimestamp) {
   if (this.passwordChangedAt) {
-    const changedTimestamp = parseInt(this.passwordChangedAt.getTime() / 1000, 10);
+    const changedTimestamp = parseInt(this.passwordChangedAt.getTime() / 1000, 10); // convert to milliseconds
     return JWTTimestamp < changedTimestamp;
   }
 
-  return false; //TODO: understand the code
+  return false; // return false showing JWT is not changed after the token is issued
 };
 
 userSchema.methods.createPasswordResetToken = function () {
-  const resetToken = crypto.randomBytes(32).toString('hex');
-  this.passwordResetToken = crypto.createHash('sha256').update(resetToken).digest('hex');
+  const resetToken = crypto.randomBytes(32).toString('hex'); // convert it to hexademical string
+  this.passwordResetToken = crypto.createHash('sha256').update(resetToken).digest('hex'); // encrypt the password
   this.passwordResetExpires = Date.now() + 10 * 60 * 1000; // can reset pw within 10 mins
-  return resetToken; //TODO: understand the code
+  return resetToken;
 };
 
 const User = mongoose.model('User', userSchema);

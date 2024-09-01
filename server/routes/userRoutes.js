@@ -5,13 +5,13 @@ const userController = require('../controllers/userController');
 const router = express.Router();
 
 //Routes
-
 router.post('/signup', authController.signup);
 router.post('/login', authController.login);
 router.get('/logout', authController.logout);
 router.post('/forgotPassword', authController.forgotPassword);
 router.patch('/resetPassword/:token', authController.resetPassword);
 
+// Run protect middleware to ensure all the subsequent routes are protected
 router.use(authController.protect);
 
 router.patch('/updateMyPassword', authController.updatePassword);

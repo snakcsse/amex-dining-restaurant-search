@@ -1,7 +1,7 @@
 const AppError = require('../utils/appError');
 
 const handleCastErrorDB = (err) => {
-  const message = `Invalid ${err.path}: ${err.value}`; // path: field in the mongoose schema; value: the invalid value
+  const message = `Invalid ${err.path}: ${err.value}`; // path: field in the mongoose schema
   return new AppError(message, 400);
 };
 
@@ -31,7 +31,6 @@ const sendErrorDev = (err, req, res) => {
       stack: err.stack,
     });
   }
-  //TODO: add error component in React (in the course using .render coz using pug)
 };
 
 const sendErrorProd = (err, req, res) => {
@@ -53,7 +52,6 @@ const sendErrorProd = (err, req, res) => {
     status: 'error',
     message: 'Something went wrong!',
   });
-  //TODO: add error component in React (the above sendErrorDev should cater for this )
 };
 
 module.exports = (err, req, res, next) => {

@@ -6,11 +6,9 @@ file_path = os.path.join('../../data/restaurants.json')
 with open(file_path, 'r', encoding='utf-8') as f: 
     data = json.load(f)
 
-# -------------- check unique #records --------------
+# -------------- Check unique #records --------------
 unique_records = set([res.get('name') for res in data])
 # print(len(unique_records))
-
-
 
 # -------------- check ambiguous unicode characeters --------------
 # since the .json doc says "This document contains many ambiguous unicode characters. Disable Ambiguous Highlight", check what are those ambiguous characters

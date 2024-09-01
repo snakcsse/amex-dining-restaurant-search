@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer');
-const { convert } = require('html-to-text');
 const path = require('path');
 const fs = require('fs');
+const { convert } = require('html-to-text');
 const mjml2html = require('mjml');
 
 module.exports = class Email {
@@ -12,6 +12,7 @@ module.exports = class Email {
     this.from = process.env.EMAIL_FROM;
   }
 
+  // Create a transporter
   newTransport() {
     if (process.env.NODE_ENV === 'production') {
       return nodemailer.createTransport({
@@ -24,7 +25,7 @@ module.exports = class Email {
       });
     }
 
-    // this part is from mailtrap
+    // this part is from mailtrap for development mode
     return nodemailer.createTransport({
       host: process.env.EMAIL_HOST,
       port: process.env.EMAIL_PORT,
@@ -51,6 +52,7 @@ module.exports = class Email {
     return htmlOutput;
   }
 
+  // Method for sending email using the created transporter
   async send(template, subject) {
     const html = this.generateHtml(template, {
       firstName: this.firstName,

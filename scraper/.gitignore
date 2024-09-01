@@ -1,5 +1,5 @@
 venv/
-.env
+*.env
 data/restaurants-copy.json
 data/restaurants-simple copy.json
 data/restaurants-simple.json

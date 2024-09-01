@@ -5,7 +5,7 @@ const path = require('path');
 // const data = JSON.parse(fs.readFileSync('../data/restaurants-with-google-results.json', 'utf8'));
 const data = JSON.parse(fs.readFileSync('../data/final_restaurants.json', 'utf8'));
 
-//Check data without photo
+// Check data without photo
 const res_without_photo = data.filter((res) => res.googlePhoto === '');
 const res_without_photo_index = [];
 data.forEach((res) => {
@@ -25,7 +25,7 @@ const res_without_rating_count = data.filter(
 console.log(res_without_rating);
 console.log(res_without_rating_count);
 
-// check any corrupt image file
+// Check any corrupt image file
 const directoryPath = '../img';
 fs.readdir(directoryPath, (err, files) => {
   if (err) {
@@ -48,8 +48,8 @@ fs.readdir(directoryPath, (err, files) => {
   });
 });
 
-// spot check google rating, rating count, photo, and do same check with scraped data
-console.log(data.length); //=284
+// Spot check google rating, rating count, photo
+console.log(data.length); // 284 records
 
 let i = 0;
 data.forEach((res) => {
@@ -61,4 +61,4 @@ data.forEach((res) => {
   });
 });
 
-console.log(i); //the 2 restaurants without googleMapPage. The one named 'NonTitle/NARITAYUTAKA is the name shown in the official page so did not adjust
+console.log(i); // The 2 restaurants without googleMapPage. The one named 'NonTitle/NARITAYUTAKA is the name shown in the official page so adjustment is not needed

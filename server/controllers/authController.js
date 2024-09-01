@@ -6,6 +6,7 @@ const Email = require('../utils/email');
 const AppError = require('../utils/appError');
 const { promisify } = require('util');
 
+// Create token - for signing up users after logging in
 const signToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET, {
     expiresIn: process.env.JWT_EXPIRES_IN,
@@ -18,7 +19,7 @@ const createSendToken = (user, statusCode, req, res) => {
   const cookieOptions = {
     expires: new Date(Date.now() + process.env.JWT_COOKIE_EXPIRES_IN * 24 * 60 * 60 * 1000),
     httpOnly: true,
-    sameSite: process.env.NODE_ENV === 'production' ? 'None' : 'Lax',
+    sameSite: process.env.NODE_ENV === 'production' ? 'None' : 'Lax', // allow cross-site sending of cookies
     secure:
       process.env.NODE_ENV === 'production'
         ? req.secure || req.headers['x-forwarded-proto'] === 'https'
@@ -80,6 +81,7 @@ exports.login = catchAsync(async (req, res, next) => {
 });
 
 exports.logout = (req, res) => {
+  // replacing token with the value 'loggedout' to automatically force users to logout
   res.cookie('jwt', 'loggedout', {
     expires: new Date(Date.now() + 10 * 1000),
     httpOnly: true,
@@ -120,34 +122,9 @@ exports.protect = catchAsync(async (req, res, next) => {
   }
 
   // Grant access to protected route
-  req.user = currentUser; //TODO: check where is this used
-  // res.locals.user = currentUser; // TODO: not sure if this will be needed coz we are not using pug but React
+  req.user = currentUser; // only routes after .potect middleware has access to req.user
   next();
 });
-
-exports.isLoggedIn = async (req, res, next) => {
-  if (req.cookies.jwt) {
-    try {
-      const decoded = await promisify(jwt.verify)(req.cookies.jwt, process.env.JWT_SECRET);
-
-      const currentUser = await User.findById(decoded.id);
-
-      if (!currentUser) {
-        return next();
-      }
-
-      if (currentUser.changedPasswordAfter(decoded.iat)) {
-        return next();
-      }
-
-      res.locals.user = currentUser;
-      return next();
-    } catch (err) {
-      return next(err);
-    }
-  }
-  return next();
-};
 
 exports.forgotPassword = catchAsync(async (req, res, next) => {
   // 1) Get user based on POSTed email
@@ -159,7 +136,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
 
   // 2) generate reset token
   const resetToken = user.createPasswordResetToken();
-  await user.save({ validateBeforeSave: false }); //since we are only updating passwordResetToken and passwordResetExpires but not password/passwordConfirm, while .save() will run validation for all fields, we need to turn it off
+  await user.save({ validateBeforeSave: false }); // since we are only updating passwordResetToken and passwordResetExpires but not password/passwordConfirm, while .save() will run validation for all fields, we need to turn it off
 
   // 3) Send resetToken to user via email
   try {
@@ -170,9 +147,6 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
     const url = frontendUrl;
 
     const resetURL = `${frontendUrl}/resetPassword/${resetToken}`;
-    // const resetURL = `${req.protocol}://${req.get(
-    //   'host'
-    // )}/api/v1/users/resetPassword/${resetToken}`;
     await new Email(user, resetURL).sendPasswordReset();
 
     res.status(200).json({
@@ -190,29 +164,22 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
 
 exports.resetPassword = catchAsync(async (req, res, next) => {
   // 1) Get user based on token
-  console.log('resetting');
   const hashedToken = crypto.createHash('sha256').update(req.params.token).digest('hex');
 
-  console.log(hashedToken);
   const user = await User.findOne({
     passwordResetToken: hashedToken,
     passwordResetExpires: { $gt: Date.now() },
   });
 
-  console.log(hashedToken);
-
+  // 2) If token has not expried, and there is user, set the new password
   if (!user) {
     return next(new AppError('Invalid token or token has expired', 400));
   }
-
   user.password = req.body.password;
   user.passwordConfirm = req.body.passwordConfirm;
   user.passwordResetToken = undefined;
   user.passwordResetExpires = undefined;
-
-  console.log('done');
   await user.save();
-  console.log('save user done');
 
   createSendToken(user, 200, req, res);
 });
@@ -224,6 +191,7 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
     next(new AppError('Password is incorrect. Please try again.', 400));
   }
 
+  // Check if password is correct
   if (!(await user.correctPassword(req.body.passwordCurrent, user.password))) {
     return next(new AppError('Current password is incorrect. Please try again.', 400));
   }

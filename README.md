@@ -47,7 +47,6 @@ To set up the project locally, follow these steps:
     EMAIL_PORT=your-sandbox-port
 
     DEV_FRONTEND_URL=http://localhost:5173
-    PORT=3000
    ```
 
    #### Client: `.env.environment` File
@@ -106,6 +105,7 @@ To set up the project locally, follow these steps:
 ## Technology Stack
 
 - React
+- Context API
 - Node.js
 - Express
 - MongoDB/Mongoose

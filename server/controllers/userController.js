@@ -55,7 +55,7 @@ exports.addFavourite = catchAsync(async (req, res, next) => {
   const user = await User.findByIdAndUpdate(
     req.user.id,
     {
-      $addToSet: { favourites: req.body.restaurantId }, //ensure restaurantId is only added if it doesn't already exists in the favourites field
+      $addToSet: { favourites: req.body.restaurantId }, // ensure restaurantId is only added if it doesn't already exists in the favourites field
     },
     { new: true, runValidators: true }
   );
