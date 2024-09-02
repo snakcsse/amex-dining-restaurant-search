@@ -10,7 +10,7 @@ Check out the live version of the app [here](https://amex-dining-restaurant-find
 
 ## Installation
 
-To set up the project locally, follow these steps:
+To set up the project locally, please follow these steps:
 
 1. **Clone the repo**
 
