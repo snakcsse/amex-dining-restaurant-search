@@ -1,10 +1,7 @@
 .container {
   display: flex;
-  justify-content: space-between; /* Distribute items evenly*/
-  /* max-width: 80%; */
+  justify-content: space-between;
   margin: 40px auto 40px auto;
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
   gap: 2rem;
   padding-inline: 2rem;
 }

@@ -1,4 +1,3 @@
-import React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import styles from './SelectInput.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -16,10 +15,9 @@ const SelectInput = ({
   const [optionsCheckStatus, setOptionsCheckStatus] = useState([]);
   const [effectRun, setEffectRun] = useState(false);
 
-  const dropDownRef = useRef(null); // to handle closing dropdown when clicking anywhere on the page; we use 'useRef' to access DOM element directly (similar to document.querySelector in vanilla JavaScript) (here we will assign this ref to parent <div> for showOptions), dropdownRef.current accesses the actual DOM element that the ref is pointing to
+  const dropDownRef = useRef(null); // To handle closing dropdown when clicking anywhere on the page; we use 'useRef' to access DOM element directly (similar to document.querySelector in vanilla JavaScript) (here we will assign this ref to parent <div> for showOptions), dropdownRef.current accesses the actual DOM element that the ref is pointing to
 
-  // similar to SearchContext, using useEffect such that optionsCheckStatus is updated when selectedOptions(a prop) is updated
-  // to ensure the below useEffect once run once after we fetch the restaurant data, we include the state effectRun. Otherwise, since when we check/uncheck checkboxes, selectedOptions will change, which will trigger the below again if we don't include effectRun
+  // Set filter options based on all restaurants
   useEffect(() => {
     if (!effectRun && filteredRestaurants.length > 0) {
       setOptionsCheckStatus(
@@ -27,19 +25,16 @@ const SelectInput = ({
           label: option,
           isSelected: false,
         }))
-        // filters[fieldName].map((option) => ({ label: option, isSelected: false }))
-      ); // after this has happen -> state changes -> leads to re-render of this SelectInput component
+      );
       setEffectRun(true);
     }
-    // }, [filteredRestaurants, effectRun]);
   }, [filters, effectRun]);
 
   const toggleOptions = (event) => {
     setShowOptions((prevShowOptions) => !prevShowOptions);
   };
 
-  // added to handle closing dropdown when clicking anywhere on the page
-  // add the eventListener to document (i.e. the entire webpage)
+  // To handle closing dropdown when clicking anywhere on the page
   useEffect(() => {
     const handleClickOutside = (event) => {
       // dropdownRef.current accesses the actual DOM element that the ref is pointing to; .contains checks whether the click (event.target -> the element clicked) is inside dropDown.current (i.e. <div> with the ref={dropDown}), if not then set showOptions to false (i.e. when user clicks outside the filter box, will set showOptions to false)
@@ -48,7 +43,7 @@ const SelectInput = ({
       }
     };
 
-    // adding the click event to document (i.e. the entire DOM, which is the entire web browser)
+    // Adding the click event to document (i.e. the entire DOM, which is the entire web browser)
     if (showOptions) {
       document.addEventListener('click', handleClickOutside, true); // setting true: ensure the click event to be catched by handleClickOutside function before any other click event listeners that might be set on child elements
     } else {
@@ -61,6 +56,7 @@ const SelectInput = ({
     };
   }, [showOptions]);
 
+  // Handle filter selection by the user
   const handleCheckboxChange = (optionLabel) => {
     const updatedOptions = optionsCheckStatus.map((option) => {
       if (option.label === optionLabel) {
@@ -79,6 +75,7 @@ const SelectInput = ({
     setFilters((prevFilters) => ({ ...prevFilters, [fieldName]: updatedFilters }));
   };
 
+  // Handle the case when Select All button is clicked
   const handleMasterCheckboxChange = () => {
     const allSelected = optionsCheckStatus.every((option) => option.isSelected);
     const updatedOptions = optionsCheckStatus.map((option) => {
@@ -91,6 +88,7 @@ const SelectInput = ({
     }));
   };
 
+  // Handle input changes in the filter's searchbox
   const handleInputChange = (e) => {
     const input = e.target.value;
     setFilterText(input);

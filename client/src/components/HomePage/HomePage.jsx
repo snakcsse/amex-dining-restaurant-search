@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 import Searchbar from '../Searchbar/Searchbar';
 import ListMap from '../ListMap/ListMap';
 import { SearchContext } from '../../context/SearchContext';

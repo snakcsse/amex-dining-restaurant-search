@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import styles from './Searchbar.module.css';
 import SelectInput from '../SelectInput/SelectInput';
 import SliderInput from '../SliderInput/SliderInput';

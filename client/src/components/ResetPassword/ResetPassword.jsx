@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import { useContext, useState } from 'react';
 import styles from './ResetPassword.module.css';
 import { useNavigate, useParams } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
@@ -18,7 +18,7 @@ const ResetPassword = () => {
       await resetPassword(token, password, passwordConfirm);
       setNotification({
         type: 'success',
-        message: 'Your password is uploaded! Your will be directed to login page.',
+        message: 'Your password is updated! Your will be directed to login page.',
       });
       setTimeout(() => {
         navigate('/login');

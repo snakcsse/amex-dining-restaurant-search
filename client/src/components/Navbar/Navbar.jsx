@@ -1,8 +1,8 @@
-import React, { useContext, useState } from 'react';
+import { useContext, useState } from 'react';
 import styles from './Navbar.module.css';
 import { Link } from 'react-router-dom';
-import { AuthContext } from '../../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
+import { AuthContext } from '../../context/AuthContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Navbar() {

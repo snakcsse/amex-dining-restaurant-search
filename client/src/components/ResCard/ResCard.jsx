@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import { useContext, useState } from 'react';
 import styles from './ResCard.module.css';
 import { AuthContext } from '../../context/AuthContext';
 import axios from 'axios';

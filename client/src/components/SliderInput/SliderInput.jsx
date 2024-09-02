@@ -1,4 +1,3 @@
-import React from 'react';
 import { useEffect, useState, useRef, useCallback } from 'react';
 import styles from './SliderInput.module.css';
 import ReactSlider from 'react-slider';
@@ -10,6 +9,7 @@ const SliderInput = ({ label, max, min, step, fieldName, filters, setFilters }) 
   const [sliderMinMax, setSliderMinMax] = useState([min, max]);
   const dropDown = useRef(null);
 
+  // Update the filter only after 0.5s to avoid updating the filter continuously when the user adjusts the slider
   const debouncedSetFilters = useCallback(
     debounce((newFilters) => {
       setFilters((prevFilters) => ({ ...prevFilters, ...newFilters }));
@@ -20,7 +20,6 @@ const SliderInput = ({ label, max, min, step, fieldName, filters, setFilters }) 
   const handleSliderChange = ([min, max]) => {
     setSliderMinMax([min, max]);
     debouncedSetFilters({ [fieldName]: [min, max] });
-    // setFilters((prevFilters) => ({ ...prevFilters, [fieldName]: [min, max] }));
   };
 
   // Cleanup function
@@ -34,11 +33,12 @@ const SliderInput = ({ label, max, min, step, fieldName, filters, setFilters }) 
     setShowSlider(!showSlider);
   };
 
-  // coz in the first render min max is 0,5 (rating) and 0,2000 (rating count), need to update from initial render
+  // In the first render min max is 0,5 (rating) and 0,2000 (rating count), here we update the max  from initial render based on the restaurant data
   useEffect(() => {
     setSliderMinMax([min, max]);
   }, [min, max]);
 
+  // Hide the slider when the user clicks anywhere of the browser
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (dropDown.current && !dropDown.current.contains(e.target)) {
@@ -88,8 +88,6 @@ const SliderInput = ({ label, max, min, step, fieldName, filters, setFilters }) 
           <div className={styles.rangeValues}>
             <span>{sliderMinMax[0]}</span>
             <span>{sliderMinMax[1].toLocaleString()}</span>
-            {/* <span>{filters[fieldName][0]}</span>
-            <span>{filters[fieldName][1].toLocaleString()}</span> */}
           </div>
         </div>
       )}

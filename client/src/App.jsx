@@ -1,15 +1,11 @@
-import React from 'react';
-import { useEffect, useState, useContext } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { SearchProvider, SearchContext } from './context/SearchContext';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { SearchProvider } from './context/SearchContext';
 import { AuthProvider } from './context/AuthContext';
-
 import { LoadingBarProvider } from './context/LoadingBarContext';
 
 import Navbar from './components/Navbar/Navbar';
-import Searchbar from './components/Searchbar/Searchbar';
-import ListMap from './components/ListMap/ListMap';
 import HomePage from './components/HomePage/HomePage';
 import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
@@ -29,16 +25,6 @@ const App = () => {
       })
       .catch((err) => console.log('Error ', err));
   }, []);
-  // useEffect(() => {
-  //   console.log('Running');
-  //   axios
-  //     .get(`${baseURL}/api/v1/restaurants`)
-  //     .then((res) => {
-  //       console.log('Done');
-  //       setRestaurantLists(res.data.data.restaurants);
-  //     })
-  //     .catch((err) => console.log('Error ', err));
-  // }, []);
 
   return (
     <AuthProvider>

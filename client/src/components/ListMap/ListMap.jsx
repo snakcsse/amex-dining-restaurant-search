@@ -10,13 +10,6 @@ import { SearchContext } from '../../context/SearchContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ListMap = () => {
-  // including mapRef codes to avoid Uncaught Error: Map container is already initialized;  using a ref to store the map instance to ensure that the map is only initialized once and properly cleaned up if the component is unmounted
-  // useEffect(() => {
-  //   if (filteredRestaurants.length > 0 && filteredRestaurants[0].location) {
-  //     console.log(filteredRestaurants[0].location);
-  //   }
-  // }, [filteredRestaurants]);
-
   const { filteredRestaurants } = useContext(SearchContext);
   const [sortOption, setSortOption] = useState('');
   const [sortedRestaurants, setSortedRestaurants] = useState(filteredRestaurants);
@@ -30,6 +23,7 @@ const ListMap = () => {
     setMapToggle((prevMapToggle) => !prevMapToggle);
   };
 
+  // Sort restaurants based on the sort option selected by the user
   useEffect(() => {
     if (sortOption !== '') {
       setSortedRestaurants(
@@ -44,26 +38,26 @@ const ListMap = () => {
     return <ResCard key={restaurant._id} restaurant={restaurant} />;
   });
 
+  // When the user selects a restaurant in the map, the corresponding restaurant will be scrolled to view with the below function
   gsap.registerPlugin(ScrollToPlugin);
-
   const scrollToRestaurant = (restaurantId) => {
     const selectedRestaurant = document.getElementById(`resCard-${restaurantId}`);
     const scrollableContainer = document.getElementById('leftSide');
 
     if (selectedRestaurant) {
-      // selectedRestaurant.scrollIntoView({ behavior: 'smooth', block: 'start' });
       gsap.to(scrollableContainer, {
         duration: 1, // scrolls the window, duration in seconds
         scrollTo: { y: selectedRestaurant, offsetY: 0 }, // add a small offset from the top to give some space
-        ease: 'power2.out',
-      }); //creates a smooth scroll that decelerates as it reaches the destination
+        ease: 'power2.out', //creates a smooth scroll that decelerates as it reaches the destination
+      });
     }
   };
 
+  // Include mapRef to avoid Uncaught Error: Map container is already initialized;  using a ref to store the map instance to ensure that the map is only initialized once and properly cleaned up if the component is unmounted
   const mapRef = React.useRef(null);
   let currentPopup = null;
 
-  // convert googleUserRatingCount to scale of 2-20 for radius and googleRating to scale of 0.2 - 0.8 for fillOpacity
+  // Convert googleUserRatingCount to scale of 2-20 for radius and googleRating to scale of 0.2 - 0.8 for fillOpacity
   function getScaledValue(value, range1, range2) {
     if (value === 0) {
       return 2;
@@ -74,9 +68,10 @@ const ListMap = () => {
     }
   }
 
+  // Create the map
   useEffect(() => {
     if (mapRef.current === null) {
-      mapRef.current = L.map('map').setView([35.6812, 139.7671], 6); // set default view location as Tokyo station
+      mapRef.current = L.map('map').setView([35.6812, 139.7671], 6); // Set default view location as Tokyo station
 
       L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
@@ -102,28 +97,24 @@ const ListMap = () => {
         marker.bindPopup(
           `<a class="${styles.mapPopUpContent}" href=${filteredRestaurants[i].resPage} target="_blank"><div class="${styles.mapPopUpTitle}">${filteredRestaurants[i].name}</div> 
           <div class="${styles.mapPopUpInfo}">Google rating: ${filteredRestaurants[i].googleRating}</div>
-          <div class="${styles.mapPopUpInfo}">Rating count: ${filteredRestaurants[i].googleUserRatingCount}</div></a>`, // need to use class instead of className coz here it is plain HTML
-          { autoPan: false } //prevent map moving when popup opens
+          <div class="${styles.mapPopUpInfo}">Rating count: ${filteredRestaurants[i].googleUserRatingCount}</div></a>`, // need to use class instead of className since here it is plain HTML
+          { autoPan: false } // Prevent map moving when popup opens
         );
 
         marker.on('click', function () {
           scrollToRestaurant(filteredRestaurants[i]._id);
 
           if (currentPopup && currentPopup !== this.getPopup()) {
-            currentPopup.close(); // close the previous popup
+            currentPopup.close(); // Close the previous popup
           }
 
-          this.getPopup(); // open the current popup
+          this.getPopup(); // Open the current popup
           currentPopup = this.getPopup();
         });
 
         marker.on('mouseover', function (e) {
           this.openPopup();
         });
-
-        // marker.on('mouseout', function (e) {
-        //   if (currentPopup !== this.getPopup()) this.closePopup();
-        // });
       }
     }
 
@@ -135,13 +126,6 @@ const ListMap = () => {
       }
     };
   }, [filteredRestaurants]);
-
-  // const resCard = Array.from({ length: 10 }).map((_, i) => {
-  //   return <ResCard key={i} />;
-  // });
-  // const resCard = filteredRestaurantsLists.map((restaurant, index) => {
-  //   return <ResCard key={index} restaurant={restaurant} />;
-  // });
 
   return (
     <div className={styles.container}>

@@ -21,7 +21,7 @@
 }
 
 .logo {
-  width: 40px; /* Ensures the image fits within the container's width */
+  width: 40px;
   max-height: auto; /* Maintains the aspect ratio */
 }
 
@@ -41,7 +41,6 @@
   display: flex;
   gap: 2rem;
   font-size: var(--font-size-large);
-  /* width: 30%; */
 }
 
 .navLinks a {
@@ -180,7 +179,6 @@
 
   .logoContainer {
     gap: 0.2rem;
-    /* font-size: 0.9rem; */
   }
 
   .logo {

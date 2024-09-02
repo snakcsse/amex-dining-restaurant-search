@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import { useContext, useState } from 'react';
 import styles from './Signup.module.css';
 import { AuthContext } from '../../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
@@ -42,7 +42,6 @@ const Signup = () => {
         localStorage.setItem('showUserNavItems', true);
       }, 2500);
     } catch (err) {
-      console.log(err);
       const errMsg = getFriendlyErrorMessage(err.response.data.message);
       setNotification({ type: 'error', message: `Signup failed: ${errMsg}` });
     }

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import styles from './Notification.module.css';
 
 const Notification = ({ message, type, onClose }) => {
@@ -14,9 +14,6 @@ const Notification = ({ message, type, onClose }) => {
   return (
     <div className={`${styles.notification} ${styles[type]}`}>
       <span className={styles.message}>{message}</span>
-      {/* <button className={styles.closeBtn} onClick={onClose}>
-        x
-      </button> */}
     </div>
   );
 };

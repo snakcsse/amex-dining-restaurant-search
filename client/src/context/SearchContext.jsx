@@ -1,4 +1,4 @@
-import React, { createContext, useEffect, useState } from 'react';
+import { createContext, useEffect, useState } from 'react';
 import { useLoadingBar } from './LoadingBarContext';
 
 export const SearchContext = createContext();
@@ -7,9 +7,7 @@ export const SearchProvider = ({ children, restaurantLists }) => {
   const [effectRun, setEffectRun] = useState(false);
   const [ratingRange, setRatingRange] = useState([0, 5]);
   const [ratingCountRange, setRatingCountRange] = useState([0, 2000]);
-
   const loadingBarRef = useLoadingBar();
-
   const [filters, setFilters] = useState({
     area: [],
     cuisineType: [],
@@ -17,9 +15,9 @@ export const SearchProvider = ({ children, restaurantLists }) => {
     rating: [0, ratingRange[1]],
     ratingCount: [0, ratingCountRange[1]],
   });
-
   const [filteredRestaurants, setFilteredRestaurants] = useState(restaurantLists);
 
+  // Function for extracting the options from all restaurants for each filter
   const extractAllOptions = (key) => {
     let options = [];
     const sortedRestaurantLists =
@@ -29,11 +27,12 @@ export const SearchProvider = ({ children, restaurantLists }) => {
     sortedRestaurantLists.forEach((restaurant) => {
       options.push(restaurant[key]);
     });
-    return [...new Set(options)]; // new Set(array) creates a Set object, [...] converts the Set back to an array
+    return [...new Set(options)];
   };
 
+  // Whenever the HomePage is visited, reset the filters and restaurants to the default
   const resetStates = () => {
-    // find the maximum rating and ratingCount (min is set to 0 which is visiually more comfortable)
+    // find the maximum rating and ratingCount
     const ratingMax = Math.max(...restaurantLists.map((res) => res.googleRating)); // Math.max doesn't accept a list and we need to use spread operator to convert the array into individual arguments
     const ratingCountMax = Math.max(...restaurantLists.map((res) => res.googleUserRatingCount));
     setRatingRange(ratingMax ? [0, ratingMax] : [0, 5]);
@@ -51,7 +50,8 @@ export const SearchProvider = ({ children, restaurantLists }) => {
     setFilteredRestaurants(restaurantLists);
   };
 
-  // using useEffect here coz even in App.jsx file, the restaurantLists is updated after fetching API, the restaurantLists is paased as prop to SearchContext file. useState will not be run again for prop changes.
+  // Updating filters based on all restaurants from fetched restaurantLists
+  // Using useEffect here because even when the restaurantLists is updated after fetching API in App.jsx file, the restaurantLists is paased as prop to SearchContext file. useState will not be run again for prop changes.
   useEffect(() => {
     if (!effectRun && restaurantLists.length > 0) {
       resetStates();
@@ -61,6 +61,7 @@ export const SearchProvider = ({ children, restaurantLists }) => {
     }
   }, [restaurantLists, effectRun]);
 
+  // Filtering restaurants based on the filter options selected by users
   useEffect(() => {
     loadingBarRef.current.continuousStart();
 
@@ -82,89 +83,6 @@ export const SearchProvider = ({ children, restaurantLists }) => {
     loadingBarRef.current.complete();
   }, [filters]);
 
-  // // const [selectedArea, setSelectedArea] = useState([]);
-  // //const [selectedCuisineType, setSelectedCuisineType] = useState([]);
-  // //const [selectedRestaurantName, setSelectedRestaurantName] = useState([]);
-  // //const [ratingRange, setRatingRange] = useState([0, 5]);
-  // //const [ratingCountRange, setRatingCountRange] = useState([0, 3000]);
-
-  // //using useEffect here coz even in App.jsx file, the restaurantLists is updated after fetching API, the restaurantLists is paased as prop to SearchContext file. useState will not be run again for prop changes.
-  // //useEffect(() => {
-  // // if (!effectRun && restaurantLists.length > 0) {
-  // //    setSelectedArea(extractAllOptions('area'));
-  // //    setSelectedCuisineType(extractAllOptions('cuisineType'));
-  // //    setSelectedRestaurantName(extractAllOptions('name'));
-  // //    // setFilteredRestaurants(restaurantLists);
-  // //    setEffectRun(true);
-  // //  }
-  // //}, [restaurantLists, effectRun]);
-
-  // function for SelectInput
-  // created a function such that we can apply useEffect for each dependency (i.e. separate selectedArea, selectedCuisineType etc. but not putting them all tgt in a single useEffect), otherwise selectedArea will alwasy be updated first
-  // changing checkbox status in each field will trigger this function
-  // const updateFilteredRes = (selectedOptions, label) => {
-  //   let filtered = restaurantLists;
-
-  //   // use [] instead of dot notation when referring to label
-  //   const applyFilter = (selectedOptions, label) => {
-  //     if (selectedOptions.length > 0) {
-  //       filtered = filtered.filter((restaurant) => selectedOptions.includes(restaurant[label]));
-  //       return filtered;
-  //     } else {
-  //       // to cater the case when all options are unselected
-  //       filtered = [];
-  //       return filtered;
-  //     }
-  //   };
-
-  //   applyFilter(selectedOptions, label);
-  //   setFilteredRestaurants(filtered);
-  // };
-
-  // // function for SliderInput
-  // const updateRangeFilter = ([min, max], label) => {
-  //   let filtered = restaurantLists;
-
-  //   // console.log('1SliderInput function run: ', filtered);
-  //   // console.log('SliderInput function run: ', typeof min);
-  //   const applyRangeFilter = ([min, max], label) => {
-  //     filtered = filtered.filter((restaurant) => {
-  //       return restaurant[label] >= min && restaurant[label] <= max;
-  //     });
-  //     // console.log('3SliderInput function run: ', filtered);
-  //     return filtered;
-  //   };
-
-  //   applyRangeFilter([min, max], label);
-  //   setFilteredRestaurants(filtered);
-  //   // console.log('4SliderInput function run: ', filteredRestaurants);
-  // };
-
-  // ---------- useEffect ------------
-  // useEffect(() => {
-  //   setFilteredRestaurants(restaurantLists);
-  // }, [restaurantLists]);
-
-  // useEffect(() => {
-  //   updateFilteredRes(selectedArea, 'area');
-  // }, [selectedArea]);
-
-  // useEffect(() => {
-  //   updateFilteredRes(selectedCuisineType, 'cuisineType');
-  // }, [selectedCuisineType]);
-
-  // useEffect(() => {
-  //   updateFilteredRes(selectedRestaurantName, 'name');
-  // }, [selectedRestaurantName]);
-
-  // useEffect(() => {
-  //   updateRangeFilter(ratingRange, 'googleRating');
-  // }, [ratingRange]);
-
-  // useEffect(() => {
-  //   updateRangeFilter(ratingCountRange, 'googleUserRatingCount');
-  // }, [ratingCountRange]);
-
   return (
     <SearchContext.Provider //.Provider is a component provided when we create a context using .createContext(). The value will be available to all nested components inside this .Provider component
       value={{
@@ -182,23 +100,3 @@ export const SearchProvider = ({ children, restaurantLists }) => {
     </SearchContext.Provider>
   );
 };
-
-// useEffect(() => {
-//   console.log(selectedArea);
-//   console.log(prevSelectedAreaRef.current);
-//   if (
-//     filteredRestaurants.length > 0 &&
-//     prevSelectedAreaRef.current === selectedArea &&
-//     prevSelectedCusineTypeRef.current === selectedCuisineType &&
-//     prevSelectedRestaurantNameRef.current === selectedRestaurantName
-//   ) {
-//     console.log('rangeFilter useEffect executed if statement');
-//     updateRangeFilter(ratingRange, 'googleRating');
-//   }
-
-//   console.log(prevSelectedAreaRef);
-//   console.log('rangeFilter useEffect skipped if statement');
-//   prevSelectedAreaRef.current = selectedArea;
-//   prevSelectedCusineTypeRef.current = selectedCuisineType;
-//   prevSelectedRestaurantNameRef.current = selectedRestaurantName;
-// }, [ratingRange, selectedArea, selectedCuisineType, selectedRestaurantName]);

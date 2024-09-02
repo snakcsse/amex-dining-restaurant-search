@@ -1,6 +1,6 @@
 .custom-loading-bar {
   height: 5px;
-  box-shadow: 0 4px 6px #93a4b7; /* Shadow effect */
+  box-shadow: 0 4px 6px #93a4b7;
   overflow: hidden;
 }
 

@@ -8,11 +8,6 @@
   width: 60%;
   padding: 1em;
   overflow: auto;
-  /* scrollbar-width: none; /* hide scrollbar for Firefox*/
-}
-
-.leftSide::-webkit-scrollbar {
-  /*display: none; /* hide scrollbar for browers supporting webkit, e.g. Chrome and Safari*/
 }
 
 .rightSide {
@@ -101,10 +96,6 @@
   align-items: center;
   justify-content: space-between;
   margin-inline: 4px;
-}
-
-.mapListToggleText {
-  /* margin-left: 2px; */
 }
 
 .mapListToggleIcon {

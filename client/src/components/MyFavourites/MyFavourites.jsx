@@ -1,4 +1,4 @@
-import React, { useEffect, useContext, useState } from 'react';
+import { useEffect, useContext, useState } from 'react';
 import { AuthContext } from '../../context/AuthContext';
 import ResCard from '../ResCard/ResCard';
 import styles from './MyFavourites.module.css';

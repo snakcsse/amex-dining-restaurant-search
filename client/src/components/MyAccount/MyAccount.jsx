@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import { useState, useContext } from 'react';
 import styles from './MyAccount.module.css';
 import Notification from '../Notification/Notification';
 import { AuthContext } from '../../context/AuthContext';
@@ -17,6 +17,7 @@ const MyAccount = () => {
 
   const baseURL = import.meta.env.VITE_BACKEND_HOST_URL || 'http://localhost:3000';
 
+  // Update the user's name or email
   const handleUserInfoSubmit = async (e) => {
     e.preventDefault();
 
@@ -45,6 +46,7 @@ const MyAccount = () => {
     }
   };
 
+  // Delete the user's account
   const deleteMe = async (e) => {
     e.preventDefault();
     try {
@@ -63,6 +65,7 @@ const MyAccount = () => {
     }
   };
 
+  // Update the user's password
   const handlePasswordUpdate = async (e) => {
     e.preventDefault();
 
@@ -165,11 +168,9 @@ const MyAccount = () => {
                 onChange={(e) => setPasswordConfirm(e.target.value)}
               ></input>
             </label>
-            {/* <div className={styles.passwordUpdateBtn}> */}
             <button type="submit" className={styles.passwordUpdateBtn}>
               Update Password
             </button>
-            {/* </div> */}
           </div>
         </form>
       </div>

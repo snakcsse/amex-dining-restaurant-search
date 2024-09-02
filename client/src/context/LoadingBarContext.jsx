@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useRef } from 'react';
+import { createContext, useContext, useRef } from 'react';
 import LoadingBar from 'react-top-loading-bar';
 import './LoadingBarContext.css';
 
