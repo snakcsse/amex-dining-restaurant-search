@@ -1,6 +1,6 @@
 # Amex dining restaurant finder
 
-Amex dining restaurant finder is a full-stack application that helps users find restaurants that offer 50% discounts for 2 people if they are amex gold or golden preferred credit card holders in Japan.
+Amex dining restaurant finder is a full-stack application that helps users find restaurants in Japan that offer a promotion where 1 person dines free for every 2 people dining, applicable to holders of AMEX gold or golden-card credit card holders.
 
 The restaurants are displayed with their google rating and rating count, which are fetched from Google Places API, and can be viewed in both list and map view. The restaurants can be filtered and sorted, and users can save their favourite restaurants by creating an account. Optimized for desktop and mobile.
 
