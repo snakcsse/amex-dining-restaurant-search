@@ -50,7 +50,7 @@ To set up the project locally, please follow these steps:
     DEV_FRONTEND_URL=http://localhost:5173
    ```
 
-   #### Client: `.env.environment` File
+   #### client: `.env.environment` File
 
    ```env
    VITE_BACKEND_HOST_URL=http://localhost:3000
@@ -58,7 +58,7 @@ To set up the project locally, please follow these steps:
 
 3. **Set up the backend**
 
-   - Navigate to 'server' folder and install dependencies:
+   - Navigate to server folder and install dependencies:
 
    ```
     cd backend
@@ -67,7 +67,7 @@ To set up the project locally, please follow these steps:
 
 4. **Set up the frontend**
 
-   - Navigate to 'client' folder and install dependencies:
+   - Navigate to client folder and install dependencies:
 
    ```
    cd ../client
