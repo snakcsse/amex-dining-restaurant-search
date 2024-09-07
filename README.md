@@ -21,9 +21,9 @@ To set up the project locally, please follow these steps:
 
 2. **Create environment variables**
 
-   - Create a 'config.env' file in the Server directory and '.env.development' file in the client directory with the following variables:
+   - Create a 'config.env' file in the server directory and '.env.development' file in the client directory with the following variables:
 
-   #### Server: `config.env` File
+   #### server: `config.env` File
 
    ```env
     DATABASE=your-mongodb-url
