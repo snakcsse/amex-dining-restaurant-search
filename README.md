@@ -1,6 +1,6 @@
-# Amex dining restaurant finder
+# Amex dining restaurant search
 
-Amex dining restaurant finder is a full-stack application that helps users find restaurants in Japan that offer a promotion where 1 person dines free for every 2 people dining, applicable to holders of AMEX gold credit cards.
+Amex dining restaurant search is a full-stack application that helps users find restaurants in Japan that offer a promotion where 1 person dines free for every 2 people dining, applicable to holders of AMEX gold credit cards.
 
 The restaurants are displayed with their google rating and rating count, which are extracted from Google Places API, and can be viewed in both list and map formats. The restaurants can be filtered and sorted, and users can create an account to save/delete/view their favourite restaurants.
 Optimized for desktop and mobile.
@@ -78,7 +78,7 @@ To set up the project locally, please follow these steps:
 
    ```
    cd ../server/dev-data/data
-   node impot-dev-data.js --import
+   node import-dev-data.js --import
    ```
 
 6. **Run the application**
@@ -107,8 +107,7 @@ To set up the project locally, please follow these steps:
 
 - React
 - Context API
-- Node.js
-- Express
+- Node.js/Express
 - MongoDB/Mongoose
 - Python
 - AWS Lambda
